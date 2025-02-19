@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3c6b8bc3-d793-478e-a69e-22171e9bcb1b")
+	(paper "A4")
+	(title_block
+		(title "ESPrinkler Retic Controller")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

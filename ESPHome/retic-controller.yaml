@@ -1,0 +1,2732 @@
+# ================================================================
+# ESPrinkler Reticulation Controller
+# ---------------------------------------------------------------
+# Project:       ESPHome-based Sprinkler Controller
+# Description:   Controls 8 irrigation zones + main valve
+#                - Configurable via Home Assistant
+#                - Independent operation in case of Wi-Fi loss
+#                - Adjustable sprinkler schedules for up to 3 separate programs
+# Author:        Alexander Maitland-Lauderdale
+# GitHub:        [Your Repository URL]
+# Version:       1.0.0
+# Date:          2024-02-10
+# ---------------------------------------------------------------
+# Hardware:
+# - ESP32 Development Board
+# - 8 Relay Outputs
+# - 5V power supply for the board
+# - Suitable power supply for your solenoids (usually 24VAC)
+#
+# Features:
+# - Home Assistant integration via ESPHome
+# - Independent operation (stores schedule locally)
+# - Adjustable watering days, durations, overlap time
+# - Up to 3 programs
+# - OTA firmware updates
+# - Manual override button to skip next watering
+#
+# Notes:
+#
+# ================================================================
+
+
+
+###################################
+# Substitutions used 
+###################################
+substitutions:
+
+  # Sensor update frequency
+  sensor_update_frequency: 1s # Set how often the more critical sensors update, sensors with an interval not defined default to 60s
+
+  # Interval for saving to flash
+  flash_save_interval: 1min # Set how often variables are saved to flash
+  
+  # Keys and passwords
+  api_key: "f6sITcuUXnhzZVGWQRA7+E5PJFqi68o6uh7ljf+FT7Q=" # API key
+  ota_password: "password"  # Over-the-air password
+  ap_password: "password"   # Wi-fi AP password
+  wifi_ssid: !secret wifi_ssid
+  wifi_password: !secret wifi_password
+
+  # Sprinkler Component variables
+  duration_entity_mode: SLIDER     # Changes the integration input mode, recommend BOX or SLIDER 
+  valve_overlap_setting: 5s     # Set the overlap between two valves, helps reduce banging
+  pump_start_delay_setting: 5s  # Set the delay from when a zone valve opens, and the main valve opens
+  pump_stop_delay_setting: 5s   # Set the delay from when the pump is turned off to when the last valve closes to reduce pressure in the line
+  repeat_cycle_initial: '0'     # Configure the initial setting for the repeat cycles
+  repeat_cycle_max: '5'         # Configure the max setting for the repeat cycles
+  repeat_cycle_min: '0'         # Configure the min setting for the repeat cycles
+
+  # Valve & Pump (Main Valve) GPIO's
+  # Enter the GPIO assignments for the pump and each zone below
+  pump_gpio: GPIO32
+  zone_1_gpio: GPIO12
+  zone_2_gpio: GPIO14
+  zone_3_gpio: GPIO27
+  zone_4_gpio: GPIO26
+  zone_5_gpio: GPIO25
+  zone_6_gpio: GPIO33
+  zone_7_gpio: GPIO9
+  zone_8_gpio: GPIO10
+
+  # True if your relay board is active low (GND trigger)
+  # False if your relay board is active high (VCC trigger)
+  relay_inversion: 'True'
+
+
+#########################################
+###### DO NOT CHANGE THE BELOW CODE #####
+#########################################
+
+
+  # Version info
+  esprinkler_sw_version: "V1.0.0"
+
+  # Names and name IDs
+  project_author: "Alexander Lauderdale"
+  name_of_device: esprinkler-retic-controller   # Name of the device
+  name_of_project: esprinkler                   # Name of the project
+  namespace_of_project: ${project_author}.${name_of_device}
+  friendly_name: "ESPrinkler Retic Controller"  # Friendly name
+  id_prefix: esprinkler # Prefix used for IDs
+
+###################################
+# Board setup
+###################################
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+    version: recommended
+
+###################################
+# ESPHome settings
+###################################
+esphome:
+  name: $name_of_device
+  friendly_name: $friendly_name
+  project: 
+    name: $namespace_of_project
+    version: $esprinkler_sw_version
+
+  # Runs when device boots
+  on_boot: 
+    priority: -100
+    then:
+      ###
+      # Code to run on boot goes here
+      ###
+
+###################################
+# ESP Preferences
+###################################
+preferences:
+  # Flash write interval
+  flash_write_interval: $flash_save_interval
+
+###################################
+# Enable logging
+###################################
+logger:
+  level: INFO
+###################################
+# Enable Home Assistant API
+###################################
+api:
+  encryption:
+    key: $api_key
+
+###################################
+# Over the air updates
+###################################
+ota:
+  platform: esphome
+  id: my_ota
+  password: $ota_password
+
+###################################
+# Wifi settings
+###################################
+wifi:
+  ssid: $wifi_ssid
+  password: $wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: $friendly_name
+    password: $ap_password
+
+###################################
+# The captive portal component in ESPHome is a fallback mechanism for when connecting to the configured WiFi fails.
+###################################
+captive_portal:
+
+#########################################
+# Sprinkler components – Three Programs
+#########################################
+sprinkler:
+
+  ###############
+  # Program 1
+  ###############
+
+  - id: ${id_prefix}_prog1
+    main_switch: "Program 1 Start/Stop"
+    auto_advance_switch: "Program 1 Auto Advance Switch"
+    valve_overlap: $valve_overlap_setting
+    pump_start_pump_delay: $pump_start_delay_setting
+    pump_stop_valve_delay: $pump_stop_delay_setting
+
+    repeat_number:
+      name: "Program 1 Repeat Cycles"
+      id: repeat_cycles_prog1
+      initial_value: $repeat_cycle_initial
+      min_value: $repeat_cycle_min
+      max_value: $repeat_cycle_max
+      restore_value: True
+
+    valves:
+      # Zone 1 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 1 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 1 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 1 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw1
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 2 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 2 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 2 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 2 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw2
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 3 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 3 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 3 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 3 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw3
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 4 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 4 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 4 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 4 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw4
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 5 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 5 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 5 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 5 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw5
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 6 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 6 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 6 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 6 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw6
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 7 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 7 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 7 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 7 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw7
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 8 for Program 1
+      - valve_switch:
+          name: "Program 1 Zone 8 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 1 Zone 8 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 1 Zone 8 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw8
+        pump_switch_id: ${id_prefix}_pump_sw
+
+  ###############
+  # Program 2
+  ###############
+
+  - id: ${id_prefix}_prog2
+    main_switch: "Program 2 Start/Stop"
+    auto_advance_switch: "Program 2 Auto Advance Switch"
+    valve_overlap: $valve_overlap_setting
+    pump_start_pump_delay: $pump_start_delay_setting
+    pump_stop_valve_delay: $pump_stop_delay_setting
+
+    repeat_number:
+      name: "Program 2 Repeat Cycles"
+      id: repeat_cycles_prog2
+      initial_value: $repeat_cycle_initial
+      min_value: $repeat_cycle_min
+      max_value: $repeat_cycle_max
+      restore_value: True
+
+    valves:
+      # Zone 1 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 1 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 1 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 1 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw1
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 2 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 2 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 2 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 2 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw2
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 3 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 3 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 3 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 3 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw3
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 4 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 4 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 4 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 4 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw4
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 5 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 5 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 5 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 5 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw5
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 6 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 6 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 6 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 6 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw6
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 7 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 7 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 7 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 7 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw7
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 8 for Program 2
+      - valve_switch:
+          name: "Program 2 Zone 8 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 2 Zone 8 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 2 Zone 8 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw8
+        pump_switch_id: ${id_prefix}_pump_sw
+
+
+  ###############
+  # Program 3
+  ###############
+
+  - id: ${id_prefix}_prog3
+    main_switch: "Program 3 Start/Stop"
+    auto_advance_switch: "Program 3 Auto Advance Switch"
+    valve_overlap: $valve_overlap_setting
+    pump_start_pump_delay: $pump_start_delay_setting
+    pump_stop_valve_delay: $pump_stop_delay_setting
+
+    repeat_number:
+      name: "Program 3 Repeat Cycles"
+      id: repeat_cycles_prog3
+      initial_value: $repeat_cycle_initial
+      min_value: $repeat_cycle_min
+      max_value: $repeat_cycle_max
+      restore_value: True
+
+    valves:
+      # Zone 1 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 1 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 1 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 1 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw1
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 2 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 2 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 2 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 2 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw2
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 3 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 3 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 3 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 3 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw3
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 4 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 4 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 4 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 4 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw4
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 5 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 5 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 5 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 5 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw5
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 6 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 6 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 6 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 6 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw6
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 7 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 7 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 7 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 7 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw7
+        pump_switch_id: ${id_prefix}_pump_sw
+
+      # Zone 8 for Program 3
+      - valve_switch:
+          name: "Program 3 Zone 8 Switch"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+        enable_switch:
+          name: "Program 3 Zone 8 Enable"
+          disabled_by_default: false
+          restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
+        run_duration_number:
+          name: "Program 3 Zone 8 Duration"
+          unit_of_measurement: min
+          mode: $duration_entity_mode
+          icon: mdi:timer-outline
+          initial_value: 1
+          min_value: 1
+          max_value: 120
+          step: 1
+          restore_value: True
+          entity_category: config
+        valve_switch_id: ${id_prefix}_valve_sw8
+        pump_switch_id: ${id_prefix}_pump_sw
+
+
+###################################
+# Switch component
+###################################
+switch:
+
+  # Switches below are used to configure the GPIOs of the zone solenoids and main system solenoid (aka pump)
+
+  # Main pump
+  - platform: gpio
+    id: ${id_prefix}_pump_sw
+    pin: $pump_gpio
+    restore_mode: RESTORE_DEFAULT_OFF
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+
+  # Zone 1
+  - platform: gpio
+    id: ${id_prefix}_valve_sw1
+    pin: $zone_1_gpio
+    restore_mode: RESTORE_DEFAULT_OFF 
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+  
+  # Zone 2
+  - platform: gpio
+    id: ${id_prefix}_valve_sw2
+    pin: $zone_2_gpio
+    restore_mode: RESTORE_DEFAULT_OFF 
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+  
+  # Zone 3
+  - platform: gpio
+    id: ${id_prefix}_valve_sw3
+    pin: $zone_3_gpio
+    restore_mode: RESTORE_DEFAULT_OFF 
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+  
+  # Zone 4
+  - platform: gpio
+    id: ${id_prefix}_valve_sw4
+    pin: $zone_4_gpio
+    restore_mode: RESTORE_DEFAULT_OFF 
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+  
+  # Zone 5
+  - platform: gpio
+    id: ${id_prefix}_valve_sw5
+    pin: $zone_5_gpio
+    restore_mode: RESTORE_DEFAULT_OFF
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+  
+  # Zone 6
+  - platform: gpio
+    id: ${id_prefix}_valve_sw6
+    pin: $zone_6_gpio
+    restore_mode: RESTORE_DEFAULT_OFF
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+
+  # Zone 7
+  - platform: gpio
+    id: ${id_prefix}_valve_sw7
+    pin: $zone_7_gpio
+    restore_mode: RESTORE_DEFAULT_OFF
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+
+  # Zone 8
+  - platform: gpio
+    id: ${id_prefix}_valve_sw8
+    pin: $zone_8_gpio
+    restore_mode: RESTORE_DEFAULT_OFF
+    inverted: $relay_inversion
+    internal: True # Hides the name of the entity in HA
+
+
+  # Switches to enable/disable programs
+  - platform: template
+    name: "Enable Program 1"
+    id: prog1_enable
+    restore_mode: RESTORE_DEFAULT_ON # Default program 1 is enabled
+    optimistic: True
+
+  - platform: template
+    name: "Enable Program 2"
+    id: prog2_enable
+    restore_mode: RESTORE_DEFAULT_OFF # Default program 2 is disabled
+    optimistic: True
+
+  - platform: template
+    name: "Enable Program 3"
+    id: prog3_enable
+    restore_mode: RESTORE_DEFAULT_OFF # Default program 3 is disabled
+    optimistic: True
+
+  # Switches to toggle watering days of the week
+
+  # Program 1
+  - platform: template
+    name: "Program 1 Water Monday"
+    id: prog1_water_monday
+    restore_mode: RESTORE_DEFAULT_OFF 
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Tuesday"
+    id: prog1_water_tuesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Wednesday"
+    id: prog1_water_wednesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Thursday"
+    id: prog1_water_thursday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Friday"
+    id: prog1_water_friday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Saturday"
+    id: prog1_water_saturday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Water Sunday"
+    id: prog1_water_sunday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Water Monday"
+    id: prog2_water_monday
+    restore_mode: RESTORE_DEFAULT_OFF 
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Tuesday"
+    id: prog2_water_tuesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Wednesday"
+    id: prog2_water_wednesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Thursday"
+    id: prog2_water_thursday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Friday"
+    id: prog2_water_friday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Saturday"
+    id: prog2_water_saturday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Water Sunday"
+    id: prog2_water_sunday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Water Monday"
+    id: prog3_water_monday
+    restore_mode: RESTORE_DEFAULT_OFF 
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Tuesday"
+    id: prog3_water_tuesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Wednesday"
+    id: prog3_water_wednesday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Thursday"
+    id: prog3_water_thursday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Friday"
+    id: prog3_water_friday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Saturday"
+    id: prog3_water_saturday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Water Sunday"
+    id: prog3_water_sunday
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+
+  # Switches to toggle the watering times
+
+  # Program 1
+  - platform: template
+    name: "Program 1 Enable Schedule Start Time 1"
+    id: prog1_enable_start_time_1
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config # Force entity to be in the config category
+    on_turn_on:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Enable Schedule Start Time 2"
+    id: prog1_enable_start_time_2
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config # Force entity to be in the config category
+    on_turn_on:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Enable Schedule Start Time 3"
+    id: prog1_enable_start_time_3
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config # Force entity to be in the config category
+    on_turn_on:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 1 Enable Schedule Start Time 4"
+    id: prog1_enable_start_time_4
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config # Force entity to be in the config category
+    on_turn_on:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+    on_turn_off:
+      then:
+        # Run script to update next watering schedule sensor
+        script.execute: prog1_update_next_watering_schedule
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Enable Schedule Start Time 1"
+    id: prog2_enable_start_time_1
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Enable Schedule Start Time 2"
+    id: prog2_enable_start_time_2
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Enable Schedule Start Time 3"
+    id: prog2_enable_start_time_3
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 2 Enable Schedule Start Time 4"
+    id: prog2_enable_start_time_4
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog2_update_next_watering_schedule
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Enable Schedule Start Time 1"
+    id: prog3_enable_start_time_1
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Enable Schedule Start Time 2"
+    id: prog3_enable_start_time_2
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Enable Schedule Start Time 3"
+    id: prog3_enable_start_time_3
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+  - platform: template
+    name: "Program 3 Enable Schedule Start Time 4"
+    id: prog3_enable_start_time_4
+    restore_mode: RESTORE_DEFAULT_OFF
+    optimistic: true
+    entity_category: config
+    on_turn_on:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+    on_turn_off:
+      then:
+        - script.execute: prog3_update_next_watering_schedule
+
+
+###################################
+# Binary sensor component
+###################################
+binary_sensor:
+  - platform: status
+    name: "Connection Status"
+
+###################################
+# Time component
+###################################
+time:
+
+  # Set up time using HA as the source
+  - platform: homeassistant
+    id: ha_time
+
+    # Trigger every minute
+    on_time: 
+      - seconds: 0
+        minutes: "*"
+        then:
+
+          # Update device time sensor.
+          - text_sensor.template.publish:
+              id: current_time
+              state: !lambda |-
+                char buf[16];
+                sprintf(buf, "%02d:%02d", id(ha_time).now().hour, id(ha_time).now().minute);
+                return std::string(buf);
+
+          # Here is where the scripts for the programs are executed
+
+          # Program 1
+          - script.execute: prog1_check_enabled
+
+          # Program 2
+          - script.execute: prog2_check_enabled
+
+          # Program 3
+          - script.execute: prog3_check_enabled
+          
+          # Update Next Watering Schedule sensor
+
+          # Program 1
+          - script.execute: prog1_update_next_watering_schedule
+
+          # Program 2
+          - script.execute: prog2_update_next_watering_schedule
+
+          # Program 3
+          - script.execute: prog3_update_next_watering_schedule
+
+
+
+
+###################################
+# Date/time component
+###################################
+datetime:
+
+  # Date/Time inputs to choose the program start times 1 - 4
+
+  # Program 1
+
+  - platform: template
+    id: prog1_start_time_1
+    type: time
+    name: "Program 1 Schedule Start Time 1"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog1_start_time_2
+    type: time
+    name: "Program 1 Schedule Start Time 2"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog1_start_time_3
+    type: time
+    name: "Program 1 Schedule Start Time 3"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog1_start_time_4
+    type: time
+    name: "Program 1 Schedule Start Time 4"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  # Program 2
+  
+  - platform: template
+    id: prog2_start_time_1
+    type: time
+    name: "Program 2 Schedule Start Time 1"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog2_start_time_2
+    type: time
+    name: "Program 2 Schedule Start Time 2"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog2_start_time_3
+    type: time
+    name: "Program 2 Schedule Start Time 3"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog2_start_time_4
+    type: time
+    name: "Program 2 Schedule Start Time 4"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  # Program 3
+  
+  - platform: template
+    id: prog3_start_time_1
+    type: time
+    name: "Program 3 Schedule Start Time 1"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog3_start_time_2
+    type: time
+    name: "Program 3 Schedule Start Time 2"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog3_start_time_3
+    type: time
+    name: "Program 3 Schedule Start Time 3"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+  - platform: template
+    id: prog3_start_time_4
+    type: time
+    name: "Program 3 Schedule Start Time 4"
+    optimistic: true
+    restore_value: true
+    initial_value: "00:00"
+    entity_category: config # Force entity to be in the config category
+
+###################################
+# Numbers component
+###################################
+number:
+
+###################################
+# Sensor component
+###################################
+sensor:
+
+  # Wifi signal strength in dB
+  - platform: wifi_signal # Reports the WiFi signal strength/RSSI in dB
+    name: "WiFi Signal dB"
+    id: wifi_signal_db
+    entity_category: "diagnostic"
+  
+  # Wifi signal in %
+  - platform: copy # Reports the WiFi signal strength in %
+    name: "WiFi Signal Percent"
+    source_id: wifi_signal_db
+    filters:
+      - lambda: return min(max(2 * (x + 100.0), 0.0), 100.0);
+    unit_of_measurement: "%"
+    entity_category: "diagnostic"
+  
+  # Device uptime
+  - platform: uptime
+    name: Uptime
+    entity_category: "diagnostic"
+
+  # Calculates and exposes the total watering duration a of current cycle
+
+  # Program 1 
+  - platform: template
+    name: "Program 1 Total Watering Duration"
+    id: prog1_total_watering_duration
+    icon: "mdi:timer-outline"
+    unit_of_measurement: "min"
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      auto sprinkler = id(${id_prefix}_prog1);
+
+      if (sprinkler->time_remaining_current_operation().has_value()) {
+
+        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
+
+        return val;
+      } else {
+        return 0; // No active cycle
+      }
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Total Watering Duration"
+    id: prog2_total_watering_duration
+    icon: "mdi:timer-outline"
+    unit_of_measurement: "min"
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      auto sprinkler = id(${id_prefix}_prog2);
+
+      if (sprinkler->time_remaining_current_operation().has_value()) {
+
+        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
+
+        return val;
+      } else {
+        return 0; // No active cycle
+      }
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Total Watering Duration"
+    id: prog3_total_watering_duration
+    icon: "mdi:timer-outline"
+    unit_of_measurement: "min"
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      auto sprinkler = id(${id_prefix}_prog3);
+
+      if (sprinkler->time_remaining_current_operation().has_value()) {
+
+        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
+
+        return val;
+      } else {
+        return 0; // No active cycle
+      }
+
+###################################
+# Text sensor component
+###################################
+text_sensor:
+
+  # Expose ESPHome version
+  - platform: version
+    name: "ESPHome Firmware Version"
+    id: firmware_version
+
+  # Expose current time set on the device
+  - platform: template
+    name: "Current Time"
+    id: current_time
+    update_interval: never
+
+  # Expose currently running zone
+  - platform: template
+    name: "Currently Running Zone"
+    id: currently_running_zone
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // Check each zone in order. 
+      // If the switch for a zone is ON, return its name.
+      if (id(${id_prefix}_valve_sw1).state) {
+        return std::string("Zone 1");
+      } else if (id(${id_prefix}_valve_sw2).state) {
+        return std::string("Zone 2");
+      } else if (id(${id_prefix}_valve_sw3).state) {
+        return std::string("Zone 3");
+      } else if (id(${id_prefix}_valve_sw4).state) {
+        return std::string("Zone 4");
+      } else if (id(${id_prefix}_valve_sw5).state) {
+        return std::string("Zone 5");
+      } else if (id(${id_prefix}_valve_sw6).state) {
+        return std::string("Zone 6");
+      } else if (id(${id_prefix}_valve_sw7).state) {
+        return std::string("Zone 7");
+      } else if (id(${id_prefix}_valve_sw8).state) {
+        return std::string("Zone 8");
+      }
+      return std::string("None");
+
+  # Expose the sprinklers states as a text sensor
+
+  # Program 1
+  - platform: template
+    name: "Program 1 Sprinkler State"
+    id: prog1_sprinkler_state
+    update_interval: $sensor_update_frequency
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog1);
+
+      switch (sprinkler->controller_state()) {
+        case esphome::sprinkler::SprinklerState::IDLE:
+          return {"Idle"};
+        case esphome::sprinkler::SprinklerState::STARTING:
+          return {"Starting"};
+        case esphome::sprinkler::SprinklerState::ACTIVE:
+          return {"Active"};
+        case esphome::sprinkler::SprinklerState::STOPPING:
+          return {"Stopping"};
+        case esphome::sprinkler::SprinklerState::BYPASS:
+          return {"Bypass"};
+        default:
+          return {"Unknown"};
+      }
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Sprinkler State"
+    id: prog2_sprinkler_state
+    update_interval: $sensor_update_frequency
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog2);
+
+      switch (sprinkler->controller_state()) {
+        case esphome::sprinkler::SprinklerState::IDLE:
+          return {"Idle"};
+        case esphome::sprinkler::SprinklerState::STARTING:
+          return {"Starting"};
+        case esphome::sprinkler::SprinklerState::ACTIVE:
+          return {"Active"};
+        case esphome::sprinkler::SprinklerState::STOPPING:
+          return {"Stopping"};
+        case esphome::sprinkler::SprinklerState::BYPASS:
+          return {"Bypass"};
+        default:
+          return {"Unknown"};
+      }
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Sprinkler State"
+    id: prog3_sprinkler_state
+    update_interval: $sensor_update_frequency
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog3);
+
+      switch (sprinkler->controller_state()) {
+        case esphome::sprinkler::SprinklerState::IDLE:
+          return {"Idle"};
+        case esphome::sprinkler::SprinklerState::STARTING:
+          return {"Starting"};
+        case esphome::sprinkler::SprinklerState::ACTIVE:
+          return {"Active"};
+        case esphome::sprinkler::SprinklerState::STOPPING:
+          return {"Stopping"};
+        case esphome::sprinkler::SprinklerState::BYPASS:
+          return {"Bypass"};
+        default:
+          return {"Unknown"};
+      }
+  
+  # Expose Time Remaining for each program as a sensor.
+
+  # Program 1
+  - platform: template
+    name: "Program 1 Current Zone Remaining Time"
+    id: prog1_time_remaining
+    update_interval: $sensor_update_frequency
+    icon: "mdi:timer-sand"
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog1);
+
+      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
+      int days = seconds / (24 * 3600);
+      seconds = seconds % (24 * 3600);
+      int hours = seconds / 3600;
+      seconds = seconds % 3600;
+      int minutes = seconds /  60;
+      seconds = seconds % 60;
+        return {
+          ((days ? String(days) + "d " : "") + 
+          (hours ? String(hours) + "h " : "") +
+          (minutes ? String(minutes) + "m " : "") +
+          (String(seconds) + "s")).c_str()};
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Current Zone Remaining Time"
+    id: prog2_time_remaining
+    update_interval: $sensor_update_frequency
+    icon: "mdi:timer-sand"
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog2);
+
+      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
+      int days = seconds / (24 * 3600);
+      seconds = seconds % (24 * 3600);
+      int hours = seconds / 3600;
+      seconds = seconds % 3600;
+      int minutes = seconds /  60;
+      seconds = seconds % 60;
+        return {
+          ((days ? String(days) + "d " : "") + 
+          (hours ? String(hours) + "h " : "") +
+          (minutes ? String(minutes) + "m " : "") +
+          (String(seconds) + "s")).c_str()};
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Current Zone Remaining Time"
+    id: prog3_time_remaining
+    update_interval: $sensor_update_frequency
+    icon: "mdi:timer-sand"
+    lambda: |-
+
+      auto sprinkler = id(${id_prefix}_prog3);
+
+      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
+      int days = seconds / (24 * 3600);
+      seconds = seconds % (24 * 3600);
+      int hours = seconds / 3600;
+      seconds = seconds % 3600;
+      int minutes = seconds /  60;
+      seconds = seconds % 60;
+        return {
+          ((days ? String(days) + "d " : "") + 
+          (hours ? String(hours) + "h " : "") +
+          (minutes ? String(minutes) + "m " : "") +
+          (String(seconds) + "s")).c_str()};
+
+  # Expose the next water schedule for each program as a sensor, this ones complicated (see scripts for updating this sensor)
+
+  # Program 1
+  - platform: template
+    name: "Program 1 Next Watering Schedule"
+    id: prog1_next_watering_schedule
+    update_interval: never
+
+  # Program 2
+  - platform: template
+    name: "Program 2 Next Watering Schedule"
+    id: prog2_next_watering_schedule
+    update_interval: never
+
+  # Program 3
+  - platform: template
+    name: "Program 3 Next Watering Schedule"
+    id: prog3_next_watering_schedule
+    update_interval: never
+
+
+###################################
+# Button component
+###################################
+button:
+
+  # Button used to restart the device
+  - platform: restart
+    name: "Restart Device"
+    id: restart_button
+    icon: "mdi:restart"
+
+  # Swiches to control the start/stop/pause of a program
+
+  # Program 1
+  - platform: template
+    name: "Start Program 1"
+    id: prog1_start_sprinkler_button
+    icon: "mdi:play"
+    on_press:
+      - sprinkler.start_full_cycle: ${id_prefix}_prog1  # Start the sprinkler cycle
+
+  - platform: template
+    name: "Pause Program 1"
+    id: prog1_pause_sprinkler_button
+    icon: "mdi:pause"
+    on_press:
+      - sprinkler.pause: ${id_prefix}_prog1  # Pause the sprinkler cycle
+
+  - platform: template
+    name: "Stop Program 1"
+    id: prog1_stop_sprinkler_button
+    icon: "mdi:stop"
+    on_press:
+      - sprinkler.shutdown: ${id_prefix}_prog1  # Stop the sprinkler cycle
+
+  # Program 2
+  - platform: template
+    name: "Start Program 2"
+    id: prog2_start_sprinkler_button
+    icon: "mdi:play"
+    on_press:
+      - sprinkler.start_full_cycle: ${id_prefix}_prog2  # Start the sprinkler cycle
+
+  - platform: template
+    name: "Pause Program 2"
+    id: prog2_pause_sprinkler_button
+    icon: "mdi:pause"
+    on_press:
+      - sprinkler.pause: ${id_prefix}_prog2  # Pause the sprinkler cycle
+
+  - platform: template
+    name: "Stop Program 2"
+    id: prog2_stop_sprinkler_button
+    icon: "mdi:stop"
+    on_press:
+      - sprinkler.shutdown: ${id_prefix}_prog2  # Stop the sprinkler cycle
+
+  # Program 3
+  - platform: template
+    name: "Start Program 3"
+    id: prog3_start_sprinkler_button
+    icon: "mdi:play"
+    on_press:
+      - sprinkler.start_full_cycle: ${id_prefix}_prog3  # Start the sprinkler cycle
+
+  - platform: template
+    name: "Pause Program 3"
+    id: prog3_pause_sprinkler_button
+    icon: "mdi:pause"
+    on_press:
+      - sprinkler.pause: ${id_prefix}_prog3  # Pause the sprinkler cycle
+
+  - platform: template
+    name: "Stop Program 3"
+    id: prog3_stop_sprinkler_button
+    icon: "mdi:stop"
+    on_press:
+      - sprinkler.shutdown: ${id_prefix}_prog3  # Stop the sprinkler cycle
+
+###################################
+# Select component 
+###################################
+select:
+
+###################################
+# Interval component
+###################################
+interval:
+
+  # Interval every 10 seconds
+  - interval: 10s
+    then:
+      logger.log:
+        tag: "interval"
+        format: "Heartbeat"
+        level: INFO
+
+  # Interval every 1 hour
+  - interval: 1h
+    then:
+      - logger.log:
+          tag: "interval"
+          format: "Updating ESP32 time using HA time"
+          level: INFO
+
+      # Re-sync time with home assistant
+      - component.update: ha_time # Update ESP32 time from HA
+
+###################################
+# Script Component
+###################################
+
+script:
+
+  ###############
+  # Program 1
+  ###############
+
+  # Update next scheduled cycle sensor
+  - id: prog1_update_next_watering_schedule
+    then:
+      - lambda: |-
+          // This lambda calculates the next scheduled watering day and time.
+          // It iterates over the next 7 days, checking if watering is enabled for that day (using your day switches),
+          // and then examines each enabled scheduled time.
+          // For today (i = 0), only scheduled times that haven't yet passed are considered.
+          // It returns a string like "Saturday at 04:30" for the next upcoming watering event.
+
+          // Calculate the next watering event over the next 7 days.
+          auto now = id(ha_time).now();
+          int now_minutes = now.hour * 60 + now.minute;
+          
+          // Convert current time to a struct tm for the weekday.
+          struct tm t;
+          t.tm_year = now.year - 1900;
+          t.tm_mon  = now.month - 1;
+          t.tm_mday = now.day_of_month;
+          t.tm_hour = now.hour;
+          t.tm_min  = now.minute;
+          t.tm_sec  = now.second;
+          t.tm_isdst = -1;
+          mktime(&t);
+          int current_wday = t.tm_wday;
+          
+          // Variables to keep track of the best candidate event.
+          int best_diff = 100000; // large initial value
+          int best_candidate_day = -1;
+          int best_candidate_sched = -1;
+          bool found = false;
+          
+          // Helper lambda to check a candidate scheduled time for a given day offset.
+          auto check_sched = [&](int day_offset, int scheduled_minutes) {
+              // For today, only consider scheduled times that haven't passed.
+              if(day_offset == 0 && scheduled_minutes < now_minutes)
+                  return;
+              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
+              if(diff < best_diff) {
+                  best_diff = diff;
+                  best_candidate_sched = scheduled_minutes;
+                  best_candidate_day = (current_wday + day_offset) % 7;
+                  found = true;
+              }
+          };
+          
+          // Iterate over the next 7 days.
+          for (int i = 0; i < 7; i++) {
+              int day_index = (current_wday + i) % 7;
+              bool day_enabled = false;
+              
+              if(day_index == 0) { day_enabled = id(prog1_water_sunday).state; }
+              else if(day_index == 1) { day_enabled = id(prog1_water_monday).state; }
+              else if(day_index == 2) { day_enabled = id(prog1_water_tuesday).state; }
+              else if(day_index == 3) { day_enabled = id(prog1_water_wednesday).state; }
+              else if(day_index == 4) { day_enabled = id(prog1_water_thursday).state; }
+              else if(day_index == 5) { day_enabled = id(prog1_water_friday).state; }
+              else if(day_index == 6) { day_enabled = id(prog1_water_saturday).state; }
+              
+              if(!day_enabled)
+                  continue;  // Skip days when watering is not enabled.
+              
+              // For each enabled scheduled time, calculate its candidate time.
+              if (id(prog1_enable_start_time_1).state) {
+                  auto t = id(prog1_start_time_1).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog1_enable_start_time_2).state) {
+                  auto t = id(prog1_start_time_2).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog1_enable_start_time_3).state) {
+                  auto t = id(prog1_start_time_3).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog1_enable_start_time_4).state) {
+                  auto t = id(prog1_start_time_4).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+          }
+          
+          if (!found) {
+              id(prog1_next_watering_schedule).publish_state("None");
+              return;
+          }
+          
+          // Array mapping weekday indexes to names.
+          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+          
+          int hh = best_candidate_sched / 60;
+          int mm = best_candidate_sched % 60;
+          char buf[32];
+          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
+          id(prog1_next_watering_schedule).publish_state(std::string(buf));
+
+
+  # Check if program 1 is enabled
+  - id: prog1_check_enabled
+    then:
+      - if:
+          condition:
+            - switch.is_on: prog1_enable  
+          then:
+            - logger.log:
+                tag: "script"
+                format: "Program 1 is enabled, checking schedule..."
+                level: INFO
+            - script.execute: prog1_check_scheduled_day
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Program 1 is not enabled."
+                level: INFO
+
+
+  # Check scheduled watering day switches
+  - id: prog1_check_scheduled_day
+    then:
+      - lambda: |-
+          // First things first, check if the program is even activated.
+          if(id(prog1_enable).state){
+            ESP_LOGI("script", "Program 1 is active, checking program:");
+          }
+          else{
+            ESP_LOGI("script", "Program 1 is not active.");
+          }
+          
+          // Get the current time from the time component.
+          auto now_time = id(ha_time).now();
+          
+          // Convert now_time to a struct tm to get the weekday information.
+          struct tm t;
+          t.tm_year = now_time.year - 1900;
+          t.tm_mon  = now_time.month - 1;
+          t.tm_mday = now_time.day_of_month;
+          t.tm_hour = now_time.hour;
+          t.tm_min  = now_time.minute;
+          t.tm_sec  = now_time.second;
+          t.tm_isdst = -1;
+          mktime(&t);  // Populates t.tm_wday (0 = Sunday, 1 = Monday, etc.)
+          
+          // Boolean flag to indicate a match.
+          bool day_match = false;
+          
+          // Check each day-of-week against the corresponding watering switch.
+          if (t.tm_wday == 1 && id(prog1_water_monday).state) {
+            ESP_LOGI("script", "It's Monday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 2 && id(prog1_water_tuesday).state) {
+            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 3 && id(prog1_water_wednesday).state) {
+            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 4 && id(prog1_water_thursday).state) {
+            ESP_LOGI("script", "It's Thursday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 5 && id(prog1_water_friday).state) {
+            ESP_LOGI("script", "It's Friday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 6 && id(prog1_water_saturday).state) {
+            ESP_LOGI("script", "It's Saturday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 0 && id(prog1_water_sunday).state) {
+            ESP_LOGI("script", "It's Sunday and watering is enabled.");
+            day_match = true;
+          } else {
+            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
+          }
+          
+          // If the current day is enabled for watering, execute the scheduled time check.
+          if (day_match) {
+            ESP_LOGI("script", "Execute script to check scheduled time");
+            id(prog1_check_scheduled_time).execute();
+          }
+
+
+  # Checks the scheduled times
+  - id: prog1_check_scheduled_time
+    then:
+      - lambda: |-
+          // Declare a flag that indicates if any schedule matches.
+          bool time_match = false;
+          
+          // Get the current time from the time component.
+          auto now_time = id(ha_time).now();
+          
+          // Retrieve the scheduled times from the datetime components.
+          auto scheduled_time_1 = id(prog1_start_time_1).state_as_esptime();
+          auto scheduled_time_2 = id(prog1_start_time_2).state_as_esptime();
+          auto scheduled_time_3 = id(prog1_start_time_3).state_as_esptime();
+          auto scheduled_time_4 = id(prog1_start_time_4).state_as_esptime();
+          
+          // ----- Check scheduled time 1 -----
+          if (id(prog1_enable_start_time_1).state) {
+            ESP_LOGI("script", "Scheduled start time 1 is enabled");
+            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 1 is disabled");
+          }
+          
+          // ----- Check scheduled time 2 -----
+          if (id(prog1_enable_start_time_2).state) {
+            ESP_LOGI("script", "Scheduled start time 2 is enabled");
+            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 2 is disabled");
+          }
+          
+          // ----- Check scheduled time 3 -----
+          if (id(prog1_enable_start_time_3).state) {
+            ESP_LOGI("script", "Scheduled start time 3 is enabled");
+            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 3 is disabled");
+          }
+          
+          // ----- Check scheduled time 4 -----
+          if (id(prog1_enable_start_time_4).state) {
+            ESP_LOGI("script", "Scheduled start time 4 is enabled");
+            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 4 is disabled");
+          }
+          
+          // ----- Execute the sprinkler cycle script if any match is found -----
+          if (time_match) {
+            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
+            id(prog1_run_sprinkler_cycle).execute();
+          }
+
+
+  # Attempt to run program cycle 1
+  - id: prog1_run_sprinkler_cycle
+    then:
+      - logger.log:
+          tag: "script"
+          format: "Attempting to start irrigation program."
+          level: INFO
+      - if:
+          condition:
+            lambda: |-
+              // Check if no valve is active.
+              return !id(${id_prefix}_prog1).active_valve().has_value();
+          then:
+            - logger.log:
+                tag: "script"
+                format: "No active cycle detected, starting full cycle."
+                level: INFO
+            - sprinkler.start_full_cycle: ${id_prefix}_prog1
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Cycle already running; skipping new start"
+                level: INFO
+
+  ###############
+  # Program 2
+  ###############
+
+  # Update next scheduled cycle sensor
+  - id: prog2_update_next_watering_schedule
+    then:
+      - lambda: |-
+          // This lambda calculates the next scheduled watering day and time for Program 2.
+          auto now = id(ha_time).now();
+          int now_minutes = now.hour * 60 + now.minute;
+          
+          // Convert current time to a struct tm for the weekday.
+          struct tm t;
+          t.tm_year = now.year - 1900;
+          t.tm_mon  = now.month - 1;
+          t.tm_mday = now.day_of_month;
+          t.tm_hour = now.hour;
+          t.tm_min  = now.minute;
+          t.tm_sec  = now.second;
+          t.tm_isdst = -1;
+          mktime(&t);
+          int current_wday = t.tm_wday;
+          
+          // Variables to keep track of the best candidate event.
+          int best_diff = 100000;
+          int best_candidate_day = -1;
+          int best_candidate_sched = -1;
+          bool found = false;
+          
+          // Helper lambda to check a candidate scheduled time for a given day offset.
+          auto check_sched = [&](int day_offset, int scheduled_minutes) {
+              if(day_offset == 0 && scheduled_minutes < now_minutes)
+                  return;
+              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
+              if(diff < best_diff) {
+                  best_diff = diff;
+                  best_candidate_sched = scheduled_minutes;
+                  best_candidate_day = (current_wday + day_offset) % 7;
+                  found = true;
+              }
+          };
+          
+          // Iterate over the next 7 days.
+          for (int i = 0; i < 7; i++) {
+              int day_index = (current_wday + i) % 7;
+              bool day_enabled = false;
+              
+              if(day_index == 0) { day_enabled = id(prog2_water_sunday).state; }
+              else if(day_index == 1) { day_enabled = id(prog2_water_monday).state; }
+              else if(day_index == 2) { day_enabled = id(prog2_water_tuesday).state; }
+              else if(day_index == 3) { day_enabled = id(prog2_water_wednesday).state; }
+              else if(day_index == 4) { day_enabled = id(prog2_water_thursday).state; }
+              else if(day_index == 5) { day_enabled = id(prog2_water_friday).state; }
+              else if(day_index == 6) { day_enabled = id(prog2_water_saturday).state; }
+              
+              if(!day_enabled)
+                  continue;
+              
+              if (id(prog2_enable_start_time_1).state) {
+                  auto t = id(prog2_start_time_1).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog2_enable_start_time_2).state) {
+                  auto t = id(prog2_start_time_2).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog2_enable_start_time_3).state) {
+                  auto t = id(prog2_start_time_3).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog2_enable_start_time_4).state) {
+                  auto t = id(prog2_start_time_4).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+          }
+          
+          if (!found) {
+              id(prog2_next_watering_schedule).publish_state("None");
+              return;
+          }
+          
+          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+          int hh = best_candidate_sched / 60;
+          int mm = best_candidate_sched % 60;
+          char buf[32];
+          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
+          id(prog2_next_watering_schedule).publish_state(std::string(buf));
+
+
+  # Check if program 2 is enabled
+  - id: prog2_check_enabled
+    then:
+      - if:
+          condition:
+            - switch.is_on: prog2_enable  
+          then:
+            - logger.log:
+                tag: "script"
+                format: "Program 2 is enabled, checking schedule..."
+                level: INFO
+            - script.execute: prog2_check_scheduled_day
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Program 2 is not enabled."
+                level: INFO
+
+
+  # Check scheduled watering day switches for Program 2
+  - id: prog2_check_scheduled_day
+    then:
+      - lambda: |-
+          if(id(prog2_enable).state){
+            ESP_LOGI("script", "Program 2 is active, checking program:");
+          }
+          else{
+            ESP_LOGI("script", "Program 2 is not active.");
+          }
+          auto now_time = id(ha_time).now();
+          struct tm t;
+          t.tm_year = now_time.year - 1900;
+          t.tm_mon  = now_time.month - 1;
+          t.tm_mday = now_time.day_of_month;
+          t.tm_hour = now_time.hour;
+          t.tm_min  = now_time.minute;
+          t.tm_sec  = now_time.second;
+          t.tm_isdst = -1;
+          mktime(&t);
+          bool day_match = false;
+          if (t.tm_wday == 1 && id(prog2_water_monday).state) {
+            ESP_LOGI("script", "It's Monday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 2 && id(prog2_water_tuesday).state) {
+            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 3 && id(prog2_water_wednesday).state) {
+            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 4 && id(prog2_water_thursday).state) {
+            ESP_LOGI("script", "It's Thursday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 5 && id(prog2_water_friday).state) {
+            ESP_LOGI("script", "It's Friday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 6 && id(prog2_water_saturday).state) {
+            ESP_LOGI("script", "It's Saturday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 0 && id(prog2_water_sunday).state) {
+            ESP_LOGI("script", "It's Sunday and watering is enabled.");
+            day_match = true;
+          } else {
+            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
+          }
+          if (day_match) {
+            ESP_LOGI("script", "Execute script to check scheduled time");
+            id(prog2_check_scheduled_time).execute();
+          }
+
+
+  # Checks the scheduled times for Program 2
+  - id: prog2_check_scheduled_time
+    then:
+      - lambda: |-
+          bool time_match = false;
+          auto now_time = id(ha_time).now();
+          auto scheduled_time_1 = id(prog2_start_time_1).state_as_esptime();
+          auto scheduled_time_2 = id(prog2_start_time_2).state_as_esptime();
+          auto scheduled_time_3 = id(prog2_start_time_3).state_as_esptime();
+          auto scheduled_time_4 = id(prog2_start_time_4).state_as_esptime();
+          if (id(prog2_enable_start_time_1).state) {
+            ESP_LOGI("script", "Scheduled start time 1 is enabled");
+            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 1 is disabled");
+          }
+          if (id(prog2_enable_start_time_2).state) {
+            ESP_LOGI("script", "Scheduled start time 2 is enabled");
+            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 2 is disabled");
+          }
+          if (id(prog2_enable_start_time_3).state) {
+            ESP_LOGI("script", "Scheduled start time 3 is enabled");
+            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 3 is disabled");
+          }
+          if (id(prog2_enable_start_time_4).state) {
+            ESP_LOGI("script", "Scheduled start time 4 is enabled");
+            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 4 is disabled");
+          }
+          if (time_match) {
+            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
+            id(prog2_run_sprinkler_cycle).execute();
+          }
+
+
+  # Attempt to run program cycle 2
+  - id: prog2_run_sprinkler_cycle
+    then:
+      - logger.log:
+          tag: "script"
+          format: "Attempting to start irrigation program."
+          level: INFO
+      - if:
+          condition:
+            lambda: |-
+              return !id(${id_prefix}_prog2).active_valve().has_value();
+          then:
+            - logger.log:
+                tag: "script"
+                format: "No active cycle detected, starting full cycle."
+                level: INFO
+            - sprinkler.start_full_cycle: ${id_prefix}_prog2
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Cycle already running; skipping new start"
+                level: INFO
+
+  ###############
+  # Program 3
+  ###############
+
+  # Update next scheduled cycle sensor
+  - id: prog3_update_next_watering_schedule
+    then:
+      - lambda: |-
+          // This lambda calculates the next scheduled watering day and time for Program 3.
+          auto now = id(ha_time).now();
+          int now_minutes = now.hour * 60 + now.minute;
+          
+          // Convert current time to a struct tm for the weekday.
+          struct tm t;
+          t.tm_year = now.year - 1900;
+          t.tm_mon  = now.month - 1;
+          t.tm_mday = now.day_of_month;
+          t.tm_hour = now.hour;
+          t.tm_min  = now.minute;
+          t.tm_sec  = now.second;
+          t.tm_isdst = -1;
+          mktime(&t);
+          int current_wday = t.tm_wday;
+          
+          // Variables to keep track of the best candidate event.
+          int best_diff = 100000;
+          int best_candidate_day = -1;
+          int best_candidate_sched = -1;
+          bool found = false;
+          
+          // Helper lambda to check a candidate scheduled time for a given day offset.
+          auto check_sched = [&](int day_offset, int scheduled_minutes) {
+              if(day_offset == 0 && scheduled_minutes < now_minutes)
+                  return;
+              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
+              if(diff < best_diff) {
+                  best_diff = diff;
+                  best_candidate_sched = scheduled_minutes;
+                  best_candidate_day = (current_wday + day_offset) % 7;
+                  found = true;
+              }
+          };
+          
+          // Iterate over the next 7 days.
+          for (int i = 0; i < 7; i++) {
+              int day_index = (current_wday + i) % 7;
+              bool day_enabled = false;
+              
+              if(day_index == 0) { day_enabled = id(prog3_water_sunday).state; }
+              else if(day_index == 1) { day_enabled = id(prog3_water_monday).state; }
+              else if(day_index == 2) { day_enabled = id(prog3_water_tuesday).state; }
+              else if(day_index == 3) { day_enabled = id(prog3_water_wednesday).state; }
+              else if(day_index == 4) { day_enabled = id(prog3_water_thursday).state; }
+              else if(day_index == 5) { day_enabled = id(prog3_water_friday).state; }
+              else if(day_index == 6) { day_enabled = id(prog3_water_saturday).state; }
+              
+              if(!day_enabled)
+                  continue;
+              
+              if (id(prog3_enable_start_time_1).state) {
+                  auto t = id(prog3_start_time_1).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog3_enable_start_time_2).state) {
+                  auto t = id(prog3_start_time_2).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog3_enable_start_time_3).state) {
+                  auto t = id(prog3_start_time_3).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+              if (id(prog3_enable_start_time_4).state) {
+                  auto t = id(prog3_start_time_4).state_as_esptime();
+                  int sched_minutes = t.hour * 60 + t.minute;
+                  check_sched(i, sched_minutes);
+              }
+          }
+          
+          if (!found) {
+              id(prog3_next_watering_schedule).publish_state("None");
+              return;
+          }
+          
+          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+          int hh = best_candidate_sched / 60;
+          int mm = best_candidate_sched % 60;
+          char buf[32];
+          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
+          id(prog3_next_watering_schedule).publish_state(std::string(buf));
+
+
+  # Check if program 3 is enabled
+  - id: prog3_check_enabled
+    then:
+      - if:
+          condition:
+            - switch.is_on: prog3_enable  
+          then:
+            - logger.log:
+                tag: "script"
+                format: "Program 3 is enabled, checking schedule..."
+                level: INFO
+            - script.execute: prog3_check_scheduled_day
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Program 3 is not enabled."
+                level: INFO
+
+
+  # Check scheduled watering day switches for Program 3
+  - id: prog3_check_scheduled_day
+    then:
+      - lambda: |-
+          if(id(prog3_enable).state){
+            ESP_LOGI("script", "Program 3 is active, checking program:");
+          }
+          else{
+            ESP_LOGI("script", "Program 3 is not active.");
+          }
+          auto now_time = id(ha_time).now();
+          struct tm t;
+          t.tm_year = now_time.year - 1900;
+          t.tm_mon  = now_time.month - 1;
+          t.tm_mday = now_time.day_of_month;
+          t.tm_hour = now_time.hour;
+          t.tm_min  = now_time.minute;
+          t.tm_sec  = now_time.second;
+          t.tm_isdst = -1;
+          mktime(&t);
+          bool day_match = false;
+          if (t.tm_wday == 1 && id(prog3_water_monday).state) {
+            ESP_LOGI("script", "It's Monday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 2 && id(prog3_water_tuesday).state) {
+            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 3 && id(prog3_water_wednesday).state) {
+            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 4 && id(prog3_water_thursday).state) {
+            ESP_LOGI("script", "It's Thursday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 5 && id(prog3_water_friday).state) {
+            ESP_LOGI("script", "It's Friday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 6 && id(prog3_water_saturday).state) {
+            ESP_LOGI("script", "It's Saturday and watering is enabled.");
+            day_match = true;
+          } else if (t.tm_wday == 0 && id(prog3_water_sunday).state) {
+            ESP_LOGI("script", "It's Sunday and watering is enabled.");
+            day_match = true;
+          } else {
+            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
+          }
+          if (day_match) {
+            ESP_LOGI("script", "Execute script to check scheduled time");
+            id(prog3_check_scheduled_time).execute();
+          }
+
+
+  # Checks the scheduled times for Program 3
+  - id: prog3_check_scheduled_time
+    then:
+      - lambda: |-
+          bool time_match = false;
+          auto now_time = id(ha_time).now();
+          auto scheduled_time_1 = id(prog3_start_time_1).state_as_esptime();
+          auto scheduled_time_2 = id(prog3_start_time_2).state_as_esptime();
+          auto scheduled_time_3 = id(prog3_start_time_3).state_as_esptime();
+          auto scheduled_time_4 = id(prog3_start_time_4).state_as_esptime();
+          if (id(prog3_enable_start_time_1).state) {
+            ESP_LOGI("script", "Scheduled start time 1 is enabled");
+            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 1 is disabled");
+          }
+          if (id(prog3_enable_start_time_2).state) {
+            ESP_LOGI("script", "Scheduled start time 2 is enabled");
+            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 2 is disabled");
+          }
+          if (id(prog3_enable_start_time_3).state) {
+            ESP_LOGI("script", "Scheduled start time 3 is enabled");
+            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 3 is disabled");
+          }
+          if (id(prog3_enable_start_time_4).state) {
+            ESP_LOGI("script", "Scheduled start time 4 is enabled");
+            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
+              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
+              time_match = true;
+            } else {
+              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
+                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
+            }
+          } else {
+            ESP_LOGI("script", "Scheduled start time 4 is disabled");
+          }
+          if (time_match) {
+            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
+            id(prog3_run_sprinkler_cycle).execute();
+          }
+
+
+  # Attempt to run program cycle 3
+  - id: prog3_run_sprinkler_cycle
+    then:
+      - logger.log:
+          tag: "script"
+          format: "Attempting to start irrigation program."
+          level: INFO
+      - if:
+          condition:
+            lambda: |-
+              return !id(${id_prefix}_prog3).active_valve().has_value();
+          then:
+            - logger.log:
+                tag: "script"
+                format: "No active cycle detected, starting full cycle."
+                level: INFO
+            - sprinkler.start_full_cycle: ${id_prefix}_prog3
+          else:
+            - logger.log:
+                tag: "script"
+                format: "Cycle already running; skipping new start"
+                level: INFO
