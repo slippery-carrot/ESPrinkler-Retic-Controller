@@ -4166,15 +4166,15 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 74.93 45.72 0)
+		(property "Value" "KBP210"
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411211950_MDD-Microdiode-Semiconductor-KBP210_C3081.pdf"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -4201,28 +4201,31 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 71.12 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "KBP210"
 			(at 71.12 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C3081"
 			(at 71.12 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4308,6 +4311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer Part Number" "MOC3063S-TA1"
@@ -4316,6 +4320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C77950"
@@ -4324,6 +4329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4710,7 +4716,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "96d939a4-11ea-4496-891e-3d04a1343362")
+			(uuid "96d939a4-11ea-4496-891e-3d04a1343363")
 		)
 		(instances
 			(project ""
@@ -5317,7 +5323,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "408cb263-6813-4114-879e-471a017c51e7")
+			(uuid "408cb263-6813-4114-879e-471a017c51e8")
 		)
 		(instances
 			(project ""
@@ -5763,10 +5769,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5efeaf57-5b23-40b7-9437-56c14d024922")
+			(uuid "5efeaf57-5b23-40b7-9437-56c14d024923")
 		)
 		(pin "1"
-			(uuid "9b3e5f0b-f649-45ee-a17b-723f71acd7b5")
+			(uuid "9b3e5f0b-f649-45ee-a17b-723f71acd7b6")
 		)
 		(instances
 			(project ""
@@ -6171,6 +6177,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer Part Number" ""
@@ -6179,6 +6186,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" ""
@@ -6187,6 +6195,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6223,7 +6232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "JK60-090"
 			(at 48.26 38.0999 0)
 			(effects
 				(font
@@ -6232,7 +6241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT500"
 			(at 46.99 41.91 0)
 			(effects
 				(font
@@ -6242,7 +6251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jinrui-Electronic-Materials-Co--JK60-090_C369087.pdf"
 			(at 45.72 36.83 0)
 			(effects
 				(font
@@ -6260,28 +6269,31 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Jinrui Electronic Materials Co."
 			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "JK60-090"
 			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C369087"
 			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
