@@ -3097,15 +3097,28 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "https://www.st.com/resource/en/application_note/an5114-controlling-a-triac-with-a-phototriac-stmicroelectronics.pdf"
+	(text "https://www.st.com/resource/en/application_note/an5114-controlling-a-triac-with-a-phototriac-stmicroelectronics.pdf\nhttps://www.st.com/resource/en/application_note/an437-rc-snubber-circuit-design-for-triacs-stmicroelectronics.pdf"
 		(exclude_from_sim no)
-		(at 78.105 275.59 0)
+		(at 12.7 282.575 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "32e0f4ec-367e-4b7b-b663-c478c539cc39")
+	)
+	(text "Resources:"
+		(exclude_from_sim no)
+		(at 17.78 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f322e27d-1e68-4055-877e-86e55690eda5")
 	)
 	(junction
 		(at 39.37 238.76)
@@ -3963,7 +3976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 87.3252 40.64 0)
 			(effects
 				(font
@@ -3990,7 +4003,23 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106668"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AISHI(Aihua Group)"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERS1HM681W20OT"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -4745,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "1.2k"
 			(at 52.07 236.22 90)
 			(effects
 				(font
@@ -5193,7 +5222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "12pF"
 			(at 62.23 243.8462 0)
 			(effects
 				(font
@@ -5802,7 +5831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "220uF"
 			(at 171.45 35.9409 0)
 			(effects
 				(font
@@ -5811,7 +5840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 168.6052 39.37 0)
 			(effects
 				(font
@@ -5838,7 +5867,23 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106643"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AISHI(Aihua Group)"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ERS1CM221E11OT"
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -6404,7 +6449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 101.2952 40.64 0)
 			(effects
 				(font
@@ -6429,6 +6474,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5449000"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CCTC"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TCC1206X7R106K500HT"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
