@@ -326,20 +326,26 @@
         },
         {
           "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier P/N",
+          "name": "Supplier P/N",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": true
-        },
-        {
           "group_by": false,
-          "label": "LCSC Part Number",
-          "name": "LCSC Part Number",
+          "label": "Manufacturer P/N",
+          "name": "Manufacturer P/N",
           "show": true
         },
         {
@@ -383,8 +389,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Supplier"
     },
     "connection_grid_size": 50.0,
     "drawing": {
