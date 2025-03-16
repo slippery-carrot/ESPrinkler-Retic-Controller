@@ -438,16 +438,8 @@
       "Root"
     ],
     [
-      "0874ab60-a42e-4af8-965e-ee10bb403ddb",
-      "Power"
-    ],
-    [
-      "4e3ce1d8-a48f-46f5-96fc-d7000517ab38",
-      "Control Outputs"
-    ],
-    [
-      "9aa74d92-a5d9-4cf0-97e7-26686df77fb2",
-      "ESP32"
+      "03d104c2-b3b9-43f2-8dd0-3f6a8e52da43",
+      "Power & IO"
     ]
   ],
   "text_variables": {}

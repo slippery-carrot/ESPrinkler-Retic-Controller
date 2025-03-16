@@ -893,7 +893,7 @@
 		(uuid "3192ff42-2ecc-4126-ac70-b84473b8cd17")
 	)
 	(junction
-		(at 163.83 77.47)
+		(at 154.94 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80e5f78f-ab3c-4d73-95af-713f33450c0b")
@@ -928,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 113.03) (xy 163.83 77.47)
+			(xy 154.94 113.03) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 62.23) (xy 180.34 62.23)
+			(xy 154.94 62.23) (xy 180.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 180.34 77.47)
+			(xy 154.94 77.47) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 163.83 62.23)
+			(xy 154.94 77.47) (xy 154.94 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1445,6 +1445,248 @@
 			(justify right bottom)
 		)
 		(uuid "fe1df1cd-cdc2-4323-b525-13cd85f1b5bb")
+	)
+	(global_label "Zone 1"
+		(shape output)
+		(at 171.45 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a446828-da61-49e7-a1be-07e448bd4e76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Status LED"
+		(shape output)
+		(at 121.92 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32471e27-0d7c-46f7-9b3d-6090de5e1f02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.3069 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 6"
+		(shape output)
+		(at 171.45 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fe35e05-eabb-481c-9659-10a01abceccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WIFI LED"
+		(shape output)
+		(at 121.92 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53d2d0ac-7ef6-4d80-b931-ccdea33ed2eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0695 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 7"
+		(shape output)
+		(at 171.45 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55a5574d-1030-4f02-a7cd-242d2aabd08c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 8"
+		(shape output)
+		(at 171.45 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "636be444-07f7-44bb-90d8-33f5cdd980c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 2"
+		(shape output)
+		(at 171.45 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7abbdf62-fd8a-49a2-9f81-7feb6ce492eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 4"
+		(shape output)
+		(at 171.45 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8729e9a3-997e-43bc-8a5e-4a260ce4f171")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 3"
+		(shape output)
+		(at 171.45 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5b2b821-b965-4124-9e3e-030133ac1ff6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zone 5"
+		(shape output)
+		(at 171.45 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd237724-db49-4fec-98c2-6e39c6820d7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6916 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pump"
+		(shape output)
+		(at 171.45 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb34bb5c-1eae-48a6-8b41-1d0c1c6ec20d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.2035 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "Zone 1 CTRL"
 		(shape output)
@@ -1948,7 +2190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 113.03 0)
+		(at 154.94 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1957,7 +2199,7 @@
 		(fields_autoplaced yes)
 		(uuid "c50d28e1-5ff7-4d2b-bfca-38bc37340e4d")
 		(property "Reference" "#PWR019"
-			(at 163.83 119.38 0)
+			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 118.11 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 113.03 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 113.03 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 113.03 0)
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
