@@ -1868,7 +1868,7 @@
 		)
 		(instances
 			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/9aa74d92-a5d9-4cf0-97e7-26686df77fb2"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -2025,7 +2025,7 @@
 		)
 		(instances
 			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/9aa74d92-a5d9-4cf0-97e7-26686df77fb2"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
 					(reference "J4")
 					(unit 1)
 				)
@@ -2181,7 +2181,7 @@
 		)
 		(instances
 			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/9aa74d92-a5d9-4cf0-97e7-26686df77fb2"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
 					(reference "J3")
 					(unit 1)
 				)
@@ -2247,7 +2247,7 @@
 		)
 		(instances
 			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/9aa74d92-a5d9-4cf0-97e7-26686df77fb2"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -2313,7 +2313,7 @@
 		)
 		(instances
 			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/9aa74d92-a5d9-4cf0-97e7-26686df77fb2"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
 					(reference "#PWR016")
 					(unit 1)
 				)

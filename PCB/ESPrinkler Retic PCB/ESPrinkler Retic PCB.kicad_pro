@@ -440,6 +440,14 @@
     [
       "03d104c2-b3b9-43f2-8dd0-3f6a8e52da43",
       "Power & IO"
+    ],
+    [
+      "052ed708-5486-46d3-a3dd-20a636eb3278",
+      "Control Outputs"
+    ],
+    [
+      "d67bcfb8-08ed-4cad-86f9-861082825312",
+      "ESP32"
     ]
   ],
   "text_variables": {}

@@ -34,8 +34,8 @@
 		(uuid "f322e27d-1e68-4055-877e-86e55690eda5")
 	)
 	(sheet
-		(at 76.2 50.8)
-		(size 21.844 22.352)
+		(at 54.61 95.25)
+		(size 38.1 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -46,11 +46,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "03d104c2-b3b9-43f2-8dd0-3f6a8e52da43")
 		(property "Sheetname" "Power & IO"
-			(at 76.2 50.0884 0)
+			(at 54.61 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			)
 		)
 		(property "Sheetfile" "Power IO.kicad_sch"
-			(at 76.2 73.7366 0)
+			(at 54.61 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,6 +71,200 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 33.02)
+		(size 38.1 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "052ed708-5486-46d3-a3dd-20a636eb3278")
+		(property "Sheetname" "Control Outputs"
+			(at 147.32 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control Outputs.kicad_sch"
+			(at 147.32 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESPrinkler Retic PCB"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 93.98)
+		(size 38.1 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d67bcfb8-08ed-4cad-86f9-861082825312")
+		(property "Sheetname" "ESP32"
+			(at 154.94 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 154.94 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Pump CTRL" output
+			(at 154.94 96.52 180)
+			(uuid "2615c3d2-5b4c-44a8-a4f5-01f72e71a658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Status LED CTRL" output
+			(at 154.94 129.54 180)
+			(uuid "9d12d8f1-ccd4-4ea7-a97b-08f286c295ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIFI LED CTRL" output
+			(at 154.94 132.08 180)
+			(uuid "668b47a1-99b7-4d63-9b5e-d7280120f5fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 1 CTRL" output
+			(at 154.94 102.87 180)
+			(uuid "bc1d9b2e-0d81-4911-bbe1-bda8873ea167")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 2 CTRL" output
+			(at 154.94 105.41 180)
+			(uuid "26167cf0-6637-4ab9-b7e7-f7964ce84bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 3 CTRL" output
+			(at 154.94 107.95 180)
+			(uuid "6caa6a88-1c23-4847-a529-734511ee4614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 4 CTRL" output
+			(at 154.94 110.49 180)
+			(uuid "6f5ac799-5227-4d0d-b0ee-6d892dace521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 5 CTRL" output
+			(at 154.94 113.03 180)
+			(uuid "ec16c905-63c9-41ad-bfdf-861ef3392186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 6 CTRL" output
+			(at 154.94 115.57 180)
+			(uuid "7df875c8-ee94-4bf3-b7ed-88f731481a75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 7 CTRL" output
+			(at 154.94 118.11 180)
+			(uuid "31a21999-8c7f-49ab-b303-83c830aa86d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Zone 8 CTRL" output
+			(at 154.94 120.65 180)
+			(uuid "2c9af9b9-d89b-40af-b1ab-e399401980a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESPrinkler Retic PCB"
+				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b"
+					(page "4")
 				)
 			)
 		)
