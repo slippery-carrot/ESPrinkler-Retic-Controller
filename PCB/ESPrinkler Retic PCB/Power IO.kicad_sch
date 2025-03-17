@@ -4614,7 +4614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 		(dnp no)
 		(uuid "3cb6086c-fa70-4327-8480-004a5b67b98d")
 		(property "Reference" "R9"
-			(at 52.07 154.94 90)
+			(at 51.308 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.34 155.702 90)
 			(effects
 				(font
@@ -4726,7 +4726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -4744,7 +4744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -4753,7 +4753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 146.05 60.96 0)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.758 163.83 90)
 			(effects
 				(font
@@ -5093,7 +5093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -5120,7 +5120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 34.29 154.94 0)
 			(effects
 				(font
@@ -5645,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 157.48 0)
 			(effects
 				(font
@@ -5661,6 +5661,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -5972,7 +6004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 81.28 154.94 0)
 			(effects
 				(font
@@ -5981,7 +6013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 157.48 0)
 			(effects
 				(font
@@ -5997,6 +6029,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -6451,7 +6515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 86.36 0)
 			(effects
 				(font
@@ -6518,7 +6582,7 @@
 		(dnp no)
 		(uuid "adcff281-157c-4152-a2e6-1aa273662923")
 		(property "Reference" "R13"
-			(at 99.06 154.94 90)
+			(at 98.044 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 155.702 90)
 			(effects
 				(font
@@ -6542,7 +6606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6560,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6569,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6578,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6587,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 100.33 157.48 0)
 			(effects
 				(font
@@ -6959,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.768 163.83 90)
 			(effects
 				(font
@@ -6968,7 +7032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 46.99 163.83 0)
 			(effects
 				(font
@@ -6986,7 +7050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 46.99 163.83 0)
 			(effects
 				(font
@@ -6995,7 +7059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 46.99 163.83 0)
 			(effects
 				(font
@@ -7004,7 +7068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 46.99 163.83 0)
 			(effects
 				(font
@@ -7013,7 +7077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 46.99 163.83 0)
 			(effects
 				(font

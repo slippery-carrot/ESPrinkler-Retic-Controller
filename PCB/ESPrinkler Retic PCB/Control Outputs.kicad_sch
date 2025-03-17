@@ -145,156 +145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2548,16 +2398,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 163.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d86cbf-22cf-4832-9bc5-62db6837b31f")
-	)
-	(wire
-		(pts
 			(xy 58.42 193.04) (xy 52.07 193.04)
 		)
 		(stroke
@@ -2698,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 140.97) (xy 46.99 134.62)
+			(xy 46.99 132.08) (xy 46.99 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 68.58) (xy 46.99 62.23)
+			(xy 46.99 59.69) (xy 46.99 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2855,16 +2695,6 @@
 			(type default)
 		)
 		(uuid "1616a45f-1938-43c4-8536-c82cbb92095e")
-	)
-	(wire
-		(pts
-			(xy 163.83 59.69) (xy 163.83 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16746b6b-52d7-459e-9613-3a3992a785d4")
 	)
 	(wire
 		(pts
@@ -2925,16 +2755,6 @@
 			(type default)
 		)
 		(uuid "18155113-8b2e-4dda-9b8d-73ef3a3cff6e")
-	)
-	(wire
-		(pts
-			(xy 165.1 62.23) (xy 163.83 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18903fed-0160-436f-b91d-7ea734f19a2e")
 	)
 	(wire
 		(pts
@@ -3038,16 +2858,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 96.52) (xy 36.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21adb16c-69f0-49d4-81ac-cf34d8decbe2")
-	)
-	(wire
-		(pts
 			(xy 227.33 140.97) (xy 227.33 146.05)
 		)
 		(stroke
@@ -3055,6 +2865,16 @@
 			(type default)
 		)
 		(uuid "21f20ee0-083f-4344-a5e0-faa106c84d41")
+	)
+	(wire
+		(pts
+			(xy 173.99 132.08) (xy 173.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22548772-6bed-40f0-8316-a71a3ff3e7a6")
 	)
 	(wire
 		(pts
@@ -3298,16 +3118,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 171.45) (xy 36.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7bac31-bf84-4cab-8473-22294b947cc5")
-	)
-	(wire
-		(pts
 			(xy 245.11 100.33) (xy 245.11 101.6)
 		)
 		(stroke
@@ -3375,16 +3185,6 @@
 			(type default)
 		)
 		(uuid "32d5db75-f5c8-4efd-b006-e6de13986312")
-	)
-	(wire
-		(pts
-			(xy 172.72 99.06) (xy 173.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330692e0-ae0f-4c46-97a8-296cfefa2cad")
 	)
 	(wire
 		(pts
@@ -3458,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 173.99 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8b77fc-a876-4065-bdf3-3b9705981d7e")
-	)
-	(wire
-		(pts
 			(xy 110.49 135.89) (xy 118.11 135.89)
 		)
 		(stroke
@@ -3528,26 +3318,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45872328-6ce2-461b-88cf-9397f779b627")
-	)
-	(wire
-		(pts
-			(xy 36.83 59.69) (xy 36.83 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4587af1c-c3b1-443c-8253-e4a46a0853b5")
-	)
-	(wire
-		(pts
 			(xy 179.07 140.97) (xy 184.15 140.97)
 		)
 		(stroke
@@ -3578,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 34.29) (xy 173.99 27.94)
+			(xy 173.99 25.4) (xy 173.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4018,16 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 134.62) (xy 46.99 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66064926-1811-48eb-9e71-c2519e22904e")
-	)
-	(wire
-		(pts
 			(xy 34.29 83.82) (xy 52.07 83.82)
 		)
 		(stroke
@@ -4035,16 +3795,6 @@
 			(type default)
 		)
 		(uuid "660c95b4-804d-4500-8f37-9a570ef35f8f")
-	)
-	(wire
-		(pts
-			(xy 36.83 168.91) (xy 36.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66766e20-430f-4532-8673-36251b3e242f")
 	)
 	(wire
 		(pts
@@ -4138,16 +3888,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 173.99 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c20ea1b-be54-4591-9aeb-e6839428d2d9")
-	)
-	(wire
-		(pts
 			(xy 67.31 35.56) (xy 67.31 34.29)
 		)
 		(stroke
@@ -4175,16 +3915,6 @@
 			(type default)
 		)
 		(uuid "6e366785-cd1b-45cd-8d44-1dd2e0445d12")
-	)
-	(wire
-		(pts
-			(xy 172.72 27.94) (xy 173.99 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e6f92b4-03cd-419f-b5ec-ef8874f28deb")
 	)
 	(wire
 		(pts
@@ -4268,16 +3998,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 105.41) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a08318-4eab-45e0-93ae-2ed37b3d3ec5")
-	)
-	(wire
-		(pts
 			(xy 100.33 22.86) (xy 100.33 26.67)
 		)
 		(stroke
@@ -4348,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 34.29) (xy 46.99 27.94)
+			(xy 46.99 25.4) (xy 46.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4478,16 +4198,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 46.99 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82fd93c8-9df8-457e-96e1-5f476456485e")
-	)
-	(wire
-		(pts
 			(xy 58.42 148.59) (xy 78.74 148.59)
 		)
 		(stroke
@@ -4508,16 +4218,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 25.4) (xy 163.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8510e325-e7f0-4e77-a6f4-8b8a3651e192")
-	)
-	(wire
-		(pts
 			(xy 100.33 105.41) (xy 100.33 110.49)
 		)
 		(stroke
@@ -4525,16 +4225,6 @@
 			(type default)
 		)
 		(uuid "85fd138b-3013-4697-b976-64c19d34f1b2")
-	)
-	(wire
-		(pts
-			(xy 36.83 132.08) (xy 36.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863dac1a-441a-4fbc-a213-1d9f0456d5b1")
 	)
 	(wire
 		(pts
@@ -4578,16 +4268,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 177.8) (xy 46.99 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a95a504-7535-4869-952d-bedb4cfe786d")
-	)
-	(wire
-		(pts
 			(xy 242.57 110.49) (xy 245.11 110.49)
 		)
 		(stroke
@@ -4615,16 +4295,6 @@
 			(type default)
 		)
 		(uuid "8cf32172-cb3b-4c48-8a2b-f9b77302716e")
-	)
-	(wire
-		(pts
-			(xy 165.1 134.62) (xy 163.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d06cf99-0f36-45b6-a521-2e917e0358ff")
 	)
 	(wire
 		(pts
@@ -4738,16 +4408,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 171.45) (xy 46.99 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99fe450c-b2cf-4f92-8189-3a7c158b2af5")
-	)
-	(wire
-		(pts
 			(xy 52.07 177.8) (xy 57.15 177.8)
 		)
 		(stroke
@@ -4765,16 +4425,6 @@
 			(type default)
 		)
 		(uuid "9ad4b153-47d9-4ea3-910f-219b2ab5ce67")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 163.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8fb6f0-fd59-400e-8700-9b8c28a1771a")
 	)
 	(wire
 		(pts
@@ -4848,16 +4498,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 36.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ec3387-0729-49f4-ac84-cbd507ac81ee")
-	)
-	(wire
-		(pts
 			(xy 67.31 179.07) (xy 67.31 177.8)
 		)
 		(stroke
@@ -4918,6 +4558,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 96.52) (xy 46.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84b0306-ff35-4d33-8e0f-76957bc27b5c")
+	)
+	(wire
+		(pts
 			(xy 77.47 177.8) (xy 80.01 177.8)
 		)
 		(stroke
@@ -4925,16 +4575,6 @@
 			(type default)
 		)
 		(uuid "a87a4b8a-ef81-4ec5-8b8e-876b48799f5f")
-	)
-	(wire
-		(pts
-			(xy 45.72 99.06) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d9b7eb-41f3-4a85-8845-9f89bf7c85b5")
 	)
 	(wire
 		(pts
@@ -4998,16 +4638,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ef24e1-804a-4f40-8c68-5f44a42e93f5")
-	)
-	(wire
-		(pts
 			(xy 96.52 27.94) (xy 96.52 34.29)
 		)
 		(stroke
@@ -5028,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 173.99 99.06)
+			(xy 173.99 96.52) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5358,16 +4988,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 173.99 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8155e70-a739-45a3-9a61-d60b7a595420")
-	)
-	(wire
-		(pts
 			(xy 227.33 93.98) (xy 227.33 97.79)
 		)
 		(stroke
@@ -5488,16 +5108,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 62.23) (xy 36.83 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0937c81-ef61-4174-8f37-e5ae2646a86c")
-	)
-	(wire
-		(pts
 			(xy 245.11 29.21) (xy 247.65 29.21)
 		)
 		(stroke
@@ -5548,16 +5158,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 36.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57e2957-445e-486f-b279-28e402c9dde0")
-	)
-	(wire
-		(pts
 			(xy 118.11 182.88) (xy 118.11 185.42)
 		)
 		(stroke
@@ -5595,6 +5195,16 @@
 			(type default)
 		)
 		(uuid "d72c1914-9a8d-43bb-ba57-0a28d7a37153")
+	)
+	(wire
+		(pts
+			(xy 46.99 168.91) (xy 46.99 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d748f568-d663-41d4-a3e2-75a7bc656992")
 	)
 	(wire
 		(pts
@@ -5735,16 +5345,6 @@
 			(type default)
 		)
 		(uuid "e0d6e298-bb96-49fd-8e04-5d8373afbd94")
-	)
-	(wire
-		(pts
-			(xy 163.83 96.52) (xy 163.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0da42d5-ad5d-4d50-8627-6d3ac3ec910d")
 	)
 	(wire
 		(pts
@@ -5895,16 +5495,6 @@
 			(type default)
 		)
 		(uuid "e8fa684a-77a1-4384-84ce-48a5f9f41d29")
-	)
-	(wire
-		(pts
-			(xy 45.72 62.23) (xy 46.99 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9418a2d-6d48-4fe5-a009-2cf33fe2cf1b")
 	)
 	(wire
 		(pts
@@ -6078,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 68.58) (xy 173.99 62.23)
+			(xy 173.99 59.69) (xy 173.99 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6105,16 +5695,6 @@
 			(type default)
 		)
 		(uuid "f7201fd0-6913-4a56-93e8-014d69b82026")
-	)
-	(wire
-		(pts
-			(xy 165.1 27.94) (xy 163.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f849e3ec-3f88-43b4-aefd-424c01440919")
 	)
 	(wire
 		(pts
@@ -6648,7 +6228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 105.41 0)
 			(effects
 				(font
@@ -6691,6 +6271,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f7c3510c-a0bc-4775-88c5-3b94d17446c7")
 		)
@@ -6701,75 +6297,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 41.91 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "025331a5-c6eb-40ab-9781-8cb9e40634fe")
-		(property "Reference" "D16"
-			(at 38.735 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 42.545 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3216928-ab0b-4278-a9ee-16a8e6bf61b9")
-		)
-		(pin "2"
-			(uuid "95abc4f8-c727-47ea-96ae-76b25272fa9c")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6869,7 +6396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 144.78 0)
 			(effects
 				(font
@@ -6894,6 +6421,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 194.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6921,7 +6480,7 @@
 		(dnp no)
 		(uuid "0d84b873-e5fa-42c8-9f43-55da6822a807")
 		(property "Reference" "R42"
-			(at 123.19 133.35 90)
+			(at 122.174 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 134.112 90)
 			(effects
 				(font
@@ -6945,7 +6504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -6963,7 +6522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -6972,7 +6531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -6981,7 +6540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -6990,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -7122,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 27.94 0)
 			(effects
 				(font
@@ -7189,7 +6748,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 163.83 132.08 0)
+		(at 173.99 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7197,7 +6756,7 @@
 		(dnp no)
 		(uuid "1538a126-95c4-4703-806c-c05c30418b15")
 		(property "Reference" "#PWR040"
-			(at 163.83 135.89 0)
+			(at 173.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +6765,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 163.83 128.27 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +6773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 132.08 0)
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +6782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 132.08 0)
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +6791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 163.83 132.08 0)
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +6845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 129.54 0)
 			(effects
 				(font
@@ -7353,7 +6912,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 36.83 132.08 0)
+		(at 46.99 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7361,7 +6920,7 @@
 		(dnp no)
 		(uuid "166ad9b7-1183-4f74-ba7e-43aa2c3d241c")
 		(property "Reference" "#PWR035"
-			(at 36.83 135.89 0)
+			(at 46.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +6929,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 36.83 128.27 0)
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +6937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +6946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +6955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 36.83 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +6985,7 @@
 		(dnp no)
 		(uuid "187f2fae-6c45-4697-a667-a7cc374f4729")
 		(property "Reference" "R63"
-			(at 250.19 133.35 90)
+			(at 249.936 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,14 +6993,14 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 253.365 133.35 90)
+			(at 254 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 134.112 90)
 			(effects
 				(font
@@ -7450,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -7468,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -7477,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -7486,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -7495,7 +7054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -7794,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8025,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 99.06 0)
 			(effects
 				(font
@@ -8243,7 +7802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 171.45 0)
 			(effects
 				(font
@@ -8461,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 57.15 0)
 			(effects
 				(font
@@ -8552,7 +8111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -8595,6 +8154,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0e8b7fb9-ec47-4b35-87b0-f7de88da5925")
 		)
@@ -8620,7 +8195,7 @@
 		(dnp no)
 		(uuid "2cbe12b4-9a11-46cd-a19a-1b85f618cce0")
 		(property "Reference" "R4"
-			(at 85.725 25.4 90)
+			(at 85.598 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8203,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 89.535 25.4 90)
+			(at 90.17 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 27.94 0)
 			(effects
 				(font
@@ -8710,75 +8285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 168.91 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dbf90de-ed1a-4884-bb5e-5f7bc8beb801")
-		(property "Reference" "D19"
-			(at 165.735 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 169.545 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 168.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a526a156-cf4a-44b9-86eb-98a91968ab9b")
-		)
-		(pin "2"
-			(uuid "8052bf3b-e5aa-4f95-aaaf-3f545c823ef3")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 58.42 80.01 180)
 		(unit 1)
@@ -8815,7 +8321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 80.01 0)
 			(effects
 				(font
@@ -9133,7 +8639,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 36.83 168.91 0)
+		(at 46.99 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9141,7 +8647,7 @@
 		(dnp no)
 		(uuid "41ce4771-c031-4fe6-9ebb-485775e4d25f")
 		(property "Reference" "#PWR050"
-			(at 36.83 172.72 0)
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +8656,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 36.83 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +8664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 168.91 0)
+			(at 46.99 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +8673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 168.91 0)
+			(at 46.99 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +8682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 36.83 168.91 0)
+			(at 46.99 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,75 +8697,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 168.91 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41eee2f4-92c1-4fcb-94e8-3ad55999553f")
-		(property "Reference" "D20"
-			(at 165.735 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 169.545 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "655c4fe4-9d5b-4da5-99d9-9a8c0531f8c6")
-		)
-		(pin "2"
-			(uuid "e359841e-3fb7-4a9e-9580-e8b0dc215ead")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -9293,7 +8730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 109.22 0)
 			(effects
 				(font
@@ -9318,6 +8755,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9363,7 +8832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 234.95 41.91 0)
 			(effects
 				(font
@@ -9372,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 237.49 36.83 0)
 			(effects
 				(font
@@ -9388,6 +8857,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -9499,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 68.58 90)
 			(effects
 				(font
@@ -9508,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -9526,7 +9027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -9535,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -9544,7 +9045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -9553,7 +9054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -9603,7 +9104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 34.29 0)
 			(effects
 				(font
@@ -9639,6 +9140,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 186.69 34.29 0)
 			(effects
 				(font
@@ -9687,7 +9204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 140.97 0)
 			(effects
 				(font
@@ -9723,6 +9240,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 201.93 140.97 0)
 			(effects
 				(font
@@ -9913,7 +9446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 234.95 148.59 0)
 			(effects
 				(font
@@ -9922,7 +9455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 237.49 143.51 0)
 			(effects
 				(font
@@ -9938,6 +9471,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -9984,7 +9549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -10027,6 +9592,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 59.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
+			(at 59.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b9c1fe21-7fc9-43cd-8828-31668efe2e20")
 		)
@@ -10052,7 +9633,7 @@
 		(dnp no)
 		(uuid "54953db7-d9be-4e05-9c0d-1298e9e59dbf")
 		(property "Reference" "R35"
-			(at 123.19 97.79 90)
+			(at 122.174 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 98.552 90)
 			(effects
 				(font
@@ -10076,7 +9657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -10094,7 +9675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -10103,7 +9684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -10112,7 +9693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -10121,7 +9702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -10237,7 +9818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 34.29 0)
 			(effects
 				(font
@@ -10273,6 +9854,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 59.69 34.29 0)
 			(effects
 				(font
@@ -10386,7 +9983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 105.41 90)
 			(effects
 				(font
@@ -10395,7 +9992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -10413,7 +10010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -10422,7 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -10431,7 +10028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -10440,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -10490,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -10533,6 +10130,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a5df762-ab49-484d-805f-6e4fa94c069f")
 		)
@@ -10558,7 +10171,7 @@
 		(dnp no)
 		(uuid "68d262c9-3cab-4f2b-b5b0-26aa910611e1")
 		(property "Reference" "R21"
-			(at 250.19 26.67 90)
+			(at 249.682 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,14 +10179,14 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 253.365 26.67 90)
+			(at 254 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 27.432 90)
 			(effects
 				(font
@@ -10582,7 +10195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -10600,7 +10213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -10609,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -10618,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -10627,7 +10240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 251.46 29.21 0)
 			(effects
 				(font
@@ -10661,7 +10274,7 @@
 		(dnp no)
 		(uuid "6b04b7c1-f5e7-41d1-b159-9dd5c24877f5")
 		(property "Reference" "R70"
-			(at 123.19 170.18 90)
+			(at 122.174 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 170.942 90)
 			(effects
 				(font
@@ -10685,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -10703,7 +10316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -10712,7 +10325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -10721,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -10730,7 +10343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -11063,7 +10676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -11153,7 +10766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 27.432 90)
 			(effects
 				(font
@@ -11162,7 +10775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -11180,7 +10793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -11189,7 +10802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -11198,7 +10811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -11207,7 +10820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -11265,7 +10878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 62.23 0)
 			(effects
 				(font
@@ -11355,7 +10968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 177.8 90)
 			(effects
 				(font
@@ -11364,7 +10977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -11382,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -11391,7 +11004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -11400,7 +11013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -11409,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -11428,75 +11041,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 168.91 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "744aa922-50d5-4b4b-9d21-738cd554ba10")
-		(property "Reference" "D7"
-			(at 165.735 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 169.545 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2387b2a0-adc2-4248-a4ff-a8014a8fa237")
-		)
-		(pin "2"
-			(uuid "eaeb5888-aed8-4989-bbd5-8a1705a1d0fe")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11530,7 +11074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 234.95 76.2 0)
 			(effects
 				(font
@@ -11539,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 237.49 71.12 0)
 			(effects
 				(font
@@ -11555,6 +11099,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -11612,7 +11188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 227.33 137.16 0)
 			(effects
 				(font
@@ -11727,7 +11303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 227.33 101.6 0)
 			(effects
 				(font
@@ -11842,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -11938,14 +11514,14 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 126.365 60.96 90)
+			(at 127.254 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 61.722 90)
 			(effects
 				(font
@@ -11954,7 +11530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -11972,7 +11548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -11981,7 +11557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -11990,7 +11566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -11999,7 +11575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -12060,7 +11636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 227.33 64.77 0)
 			(effects
 				(font
@@ -12172,7 +11748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 134.62 0)
 			(effects
 				(font
@@ -12265,7 +11841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -12290,6 +11866,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12344,7 +11952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -12577,7 +12185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 38.1 0)
 			(effects
 				(font
@@ -12602,6 +12210,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12653,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -12728,7 +12368,7 @@
 		(dnp no)
 		(uuid "865dab5c-a49b-4572-bc78-3beaf9d7ecec")
 		(property "Reference" "R61"
-			(at 250.19 60.96 90)
+			(at 249.682 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,14 +12376,14 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 253.365 60.96 90)
+			(at 254 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 61.722 90)
 			(effects
 				(font
@@ -12752,7 +12392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -12770,7 +12410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -12779,7 +12419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -12788,7 +12428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -12797,7 +12437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -12849,7 +12489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 107.95 41.91 0)
 			(effects
 				(font
@@ -12858,7 +12498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -12874,6 +12514,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -12895,75 +12567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 41.91 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c6ea0cc-b15b-41f4-b418-86bbc7764ecb")
-		(property "Reference" "D28"
-			(at 38.735 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 42.545 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c57270e1-29b3-4f02-b7c2-b5f28b1cfcb3")
-		)
-		(pin "2"
-			(uuid "efbc75d6-f196-4cd7-acc7-5f719a7b0c94")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 251.46 100.33 270)
 		(unit 1)
@@ -12973,7 +12576,7 @@
 		(dnp no)
 		(uuid "8e060d31-b62e-4fe5-807a-b64fbca74fc1")
 		(property "Reference" "R62"
-			(at 250.19 97.79 90)
+			(at 249.936 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,14 +12584,14 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 253.365 97.79 90)
+			(at 254 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 251.46 98.552 90)
 			(effects
 				(font
@@ -12997,7 +12600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -13015,7 +12618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -13024,7 +12627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1001T5E"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -13033,7 +12636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -13042,7 +12645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17513"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -13100,7 +12703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 99.06 0)
 			(effects
 				(font
@@ -13166,75 +12769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 41.91 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ef44462-4431-4e69-9a0c-420c44103a0d")
-		(property "Reference" "D10"
-			(at 38.735 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 42.545 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95941f5d-1cae-4e8c-86be-88ad19809a31")
-		)
-		(pin "2"
-			(uuid "b81269a5-2997-49f2-b6ad-28ba173eed57")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 59.69 105.41 90)
 		(unit 1)
@@ -13260,7 +12794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -13296,6 +12830,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -13344,7 +12894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -13380,6 +12930,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -13493,7 +13059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 34.29 90)
 			(effects
 				(font
@@ -13502,7 +13068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -13520,7 +13086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -13529,7 +13095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -13538,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -13547,7 +13113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -13573,7 +13139,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 163.83 59.69 0)
+		(at 173.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13581,7 +13147,7 @@
 		(dnp no)
 		(uuid "9970ca60-2d1a-4d2c-b350-25427a5973c3")
 		(property "Reference" "#PWR038"
-			(at 163.83 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +13156,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 163.83 55.88 0)
+			(at 173.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 59.69 0)
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 59.69 0)
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 163.83 59.69 0)
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -13772,7 +13338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -13839,7 +13405,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 163.83 96.52 0)
+		(at 173.99 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13847,7 +13413,7 @@
 		(dnp no)
 		(uuid "a0c01655-c3b4-4504-8970-6aefeaa83e83")
 		(property "Reference" "#PWR039"
-			(at 163.83 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,7 +13422,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 163.83 92.71 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,7 +13430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +13439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,7 +13448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 163.83 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13904,7 +13470,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 36.83 25.4 0)
+		(at 46.99 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13912,7 +13478,7 @@
 		(dnp no)
 		(uuid "a22cbf0f-c45f-436f-91ff-308e876f0d23")
 		(property "Reference" "#PWR02"
-			(at 36.83 29.21 0)
+			(at 46.99 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13921,7 +13487,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 36.83 21.59 0)
+			(at 46.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +13495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 25.4 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +13504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 25.4 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +13513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 36.83 25.4 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +13558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 246.888 140.97 90)
 			(effects
 				(font
@@ -14001,7 +13567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -14019,7 +13585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -14028,7 +13594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -14037,7 +13603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -14046,7 +13612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -14107,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 227.33 30.48 0)
 			(effects
 				(font
@@ -14211,7 +13777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -14247,6 +13813,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -14303,7 +13885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 166.37 0)
 			(effects
 				(font
@@ -14402,7 +13984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 22.86 0)
 			(effects
 				(font
@@ -14558,7 +14140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 140.97 90)
 			(effects
 				(font
@@ -14567,7 +14149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.11 140.97 0)
 			(effects
 				(font
@@ -14585,7 +14167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 140.97 0)
 			(effects
 				(font
@@ -14594,7 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 118.11 140.97 0)
 			(effects
 				(font
@@ -14603,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 118.11 140.97 0)
 			(effects
 				(font
@@ -14612,7 +14194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 118.11 140.97 0)
 			(effects
 				(font
@@ -14670,7 +14252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 134.62 0)
 			(effects
 				(font
@@ -14763,7 +14345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 107.95 76.2 0)
 			(effects
 				(font
@@ -14772,7 +14354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 71.12 0)
 			(effects
 				(font
@@ -14788,6 +14370,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -14876,7 +14490,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 163.83 25.4 0)
+		(at 173.99 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14884,7 +14498,7 @@
 		(dnp no)
 		(uuid "b43f966b-221e-464a-8fda-4066be80f359")
 		(property "Reference" "#PWR026"
-			(at 163.83 29.21 0)
+			(at 173.99 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +14507,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 163.83 21.59 0)
+			(at 173.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,7 +14515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 25.4 0)
+			(at 173.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,7 +14524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 25.4 0)
+			(at 173.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14919,7 +14533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 163.83 25.4 0)
+			(at 173.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,7 +14579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 34.29 0)
 			(effects
 				(font
@@ -15001,6 +14615,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 201.93 34.29 0)
 			(effects
 				(font
@@ -15049,7 +14679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 177.8 0)
 			(effects
 				(font
@@ -15085,6 +14715,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 59.69 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 59.69 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 59.69 177.8 0)
 			(effects
 				(font
@@ -15133,7 +14779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 140.97 0)
 			(effects
 				(font
@@ -15169,6 +14815,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 74.93 140.97 0)
 			(effects
 				(font
@@ -15225,7 +14887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -15327,7 +14989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 137.16 0)
 			(effects
 				(font
@@ -15508,7 +15170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 173.99 0)
 			(effects
 				(font
@@ -15611,7 +15273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 246.888 68.58 90)
 			(effects
 				(font
@@ -15620,7 +15282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -15638,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -15647,7 +15309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -15656,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -15665,7 +15327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -15715,7 +15377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -15751,6 +15413,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -15994,7 +15672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 181.61 0)
 			(effects
 				(font
@@ -16021,6 +15699,38 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35945134-3976-4681-86a3-98434600b23f")
 		)
@@ -16031,75 +15741,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 41.91 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd391e33-ec21-4090-84b1-f85a2fe5673f")
-		(property "Reference" "D2"
-			(at 38.735 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 42.545 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "841e114f-cd73-4765-a446-710a4be4f184")
-		)
-		(pin "2"
-			(uuid "ca54b60f-147c-4b83-9b3a-13eca6d40425")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16207,7 +15848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 234.95 113.03 0)
 			(effects
 				(font
@@ -16216,7 +15857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 237.49 107.95 0)
 			(effects
 				(font
@@ -16232,6 +15873,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -16280,7 +15953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 107.95 148.59 0)
 			(effects
 				(font
@@ -16289,7 +15962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 143.51 0)
 			(effects
 				(font
@@ -16305,6 +15978,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 110.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -16353,7 +16058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 38.1 0)
 			(effects
 				(font
@@ -16378,6 +16083,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16421,7 +16158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 140.97 0)
 			(effects
 				(font
@@ -16457,6 +16194,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17379"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 186.69 140.97 0)
 			(effects
 				(font
@@ -16505,7 +16258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 140.97 0)
 			(effects
 				(font
@@ -16548,6 +16301,22 @@
 				)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F1201T5E"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "994b2414-9132-4f0c-9616-f6ab2ceb54eb")
 		)
@@ -16558,75 +16327,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 168.91 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d242271a-4d88-4b69-8f57-a4f8b8d49c86")
-		(property "Reference" "D21"
-			(at 165.735 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 169.545 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff8c1a22-f210-4abd-b68b-43910ee55555")
-		)
-		(pin "2"
-			(uuid "503e0450-5358-49cc-98f4-be2e493db619")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -16666,7 +16366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 129.54 0)
 			(effects
 				(font
@@ -16757,7 +16457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -16793,6 +16493,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -16841,7 +16557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 177.8 0)
 			(effects
 				(font
@@ -16877,6 +16593,22 @@
 			)
 		)
 		(property "Supplier P/N" "C17802"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "0805W8F680JT5E"
 			(at 74.93 177.8 0)
 			(effects
 				(font
@@ -17046,7 +16778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -17071,6 +16803,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17244,7 +17008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 30.48 0)
 			(effects
 				(font
@@ -17350,7 +17114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -17359,7 +17123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 107.95 0)
 			(effects
 				(font
@@ -17375,6 +17139,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -17432,7 +17228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -17661,7 +17457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 246.888 105.41 90)
 			(effects
 				(font
@@ -17670,7 +17466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -17688,7 +17484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -17697,7 +17493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -17706,7 +17502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -17715,7 +17511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -17741,7 +17537,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 36.83 96.52 0)
+		(at 46.99 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17749,7 +17545,7 @@
 		(dnp no)
 		(uuid "e026b267-756e-4f00-ba8a-59f15131e056")
 		(property "Reference" "#PWR032"
-			(at 36.83 100.33 0)
+			(at 46.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17758,7 +17554,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 36.83 92.71 0)
+			(at 46.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17766,7 +17562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 96.52 0)
+			(at 46.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17775,7 +17571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 96.52 0)
+			(at 46.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17784,7 +17580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 36.83 96.52 0)
+			(at 46.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17841,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 100.33 64.77 0)
 			(effects
 				(font
@@ -17947,7 +17743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 144.78 0)
 			(effects
 				(font
@@ -17974,6 +17770,38 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a0070b6-a4cb-4875-912e-440a4dd5494d")
 		)
@@ -17984,75 +17812,6 @@
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 41.91 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4c13dcb-0d39-4e98-8433-33814287e7d9")
-		(property "Reference" "D13"
-			(at 38.735 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 42.545 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 41.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbb45451-27f1-4567-8823-86b21a73aa18")
-		)
-		(pin "2"
-			(uuid "7d97c55c-96e8-4496-ae78-51ba22083e7e")
-		)
-		(instances
-			(project "ESPrinkler Retic PCB"
-				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/052ed708-5486-46d3-a3dd-20a636eb3278"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -18157,7 +17916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 246.888 34.29 90)
 			(effects
 				(font
@@ -18166,7 +17925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -18184,7 +17943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -18193,7 +17952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "0805W8F1002T5E"
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -18202,7 +17961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -18211,7 +17970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C17414"
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -18272,7 +18031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -18371,7 +18130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 62.23 0)
 			(effects
 				(font
@@ -18473,7 +18232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 185.42 116.84 0)
 			(effects
 				(font
@@ -18646,7 +18405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 57.15 0)
 			(effects
 				(font
@@ -18713,7 +18472,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 36.83 59.69 0)
+		(at 46.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18721,7 +18480,7 @@
 		(dnp no)
 		(uuid "fc1e42b9-bb2b-4ef3-a8b7-430b1e5c3ddb")
 		(property "Reference" "#PWR029"
-			(at 36.83 63.5 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18730,7 +18489,7 @@
 			)
 		)
 		(property "Value" "LIVE"
-			(at 36.83 55.88 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18738,7 +18497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 59.69 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18747,7 +18506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 59.69 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18756,7 +18515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 36.83 59.69 0)
+			(at 46.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18804,7 +18563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -18829,6 +18588,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C38523"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18874,7 +18665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 107.95 185.42 0)
 			(effects
 				(font
@@ -18883,7 +18674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 180.34 0)
 			(effects
 				(font
@@ -18899,6 +18690,38 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "AO3400A"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C20917"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "D"
@@ -19075,7 +18898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 189.23 0)
 			(effects
 				(font
