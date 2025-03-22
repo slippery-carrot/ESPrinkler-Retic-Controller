@@ -903,12 +903,36 @@
 		(uuid "0cd172a4-d088-4b8b-a954-eee7ac13f1de")
 	)
 	(no_connect
+		(at 180.34 90.17)
+		(uuid "13658e3a-d527-4b19-8b8d-d73f6916d664")
+	)
+	(no_connect
 		(at 109.22 105.41)
 		(uuid "19ca0480-fdbf-466a-9a9c-f73b5e81d2d5")
 	)
 	(no_connect
+		(at 109.22 80.01)
+		(uuid "29bbfa25-6a66-4d63-8743-39e2bb7b4b22")
+	)
+	(no_connect
 		(at 180.34 107.95)
 		(uuid "3010f3e3-ca79-4d6c-9bf2-63ab436e8038")
+	)
+	(no_connect
+		(at 180.34 92.71)
+		(uuid "4588211a-6683-4c02-adf3-a30a449455bc")
+	)
+	(no_connect
+		(at 109.22 62.23)
+		(uuid "5c0e466e-ce73-4a97-9e06-1abbf09826a4")
+	)
+	(no_connect
+		(at 180.34 95.25)
+		(uuid "61e6bcba-08fd-4a7c-86c6-3454637c9213")
+	)
+	(no_connect
+		(at 109.22 85.09)
+		(uuid "6f41d671-3a23-458b-b660-642dd3b10f15")
 	)
 	(no_connect
 		(at 180.34 105.41)
@@ -919,12 +943,52 @@
 		(uuid "819ae81a-5340-4dcd-b7ce-7d9db1927730")
 	)
 	(no_connect
+		(at 109.22 69.85)
+		(uuid "a5420cdc-8105-4c92-af84-133762f835da")
+	)
+	(no_connect
+		(at 180.34 100.33)
+		(uuid "a6cb0958-0d67-40ad-9115-a3008014ad18")
+	)
+	(no_connect
+		(at 180.34 97.79)
+		(uuid "ab81d5cf-974a-4498-9b9d-e74833bdaa8e")
+	)
+	(no_connect
+		(at 109.22 77.47)
+		(uuid "af05e257-2083-4878-888c-c0906490edbb")
+	)
+	(no_connect
+		(at 109.22 64.77)
+		(uuid "afee39bc-422a-4bc4-8d4f-02a4674c2536")
+	)
+	(no_connect
 		(at 109.22 100.33)
 		(uuid "ba657e8b-0fa8-4100-b3c7-ff5477319380")
 	)
 	(no_connect
+		(at 109.22 72.39)
+		(uuid "bf95c627-1b75-4bd6-9e5a-44d52335976d")
+	)
+	(no_connect
+		(at 109.22 74.93)
+		(uuid "c42f14e9-0852-40ab-ad21-eff5f19c8ccd")
+	)
+	(no_connect
+		(at 109.22 67.31)
+		(uuid "d4c24ee0-bce1-413f-9124-0741aaa4a4c0")
+	)
+	(no_connect
 		(at 109.22 97.79)
 		(uuid "deb26be3-000c-4e6e-a3b2-971b80e959de")
+	)
+	(no_connect
+		(at 109.22 82.55)
+		(uuid "ef706402-ff40-40fc-8e68-0aa353119a8e")
+	)
+	(no_connect
+		(at 109.22 92.71)
+		(uuid "f43995da-5147-41a1-bbc5-9d5a6d236e67")
 	)
 	(wire
 		(pts
@@ -958,16 +1022,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 193.04) (xy 175.26 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2e9517-7a6e-4958-b92f-e708409f064f")
-	)
-	(wire
-		(pts
 			(xy 109.22 90.17) (xy 121.92 90.17)
 		)
 		(stroke
@@ -978,16 +1032,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 187.96) (xy 175.26 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333f175f-1f48-4615-9a73-13ee1f9c4363")
-	)
-	(wire
-		(pts
 			(xy 171.45 72.39) (xy 180.34 72.39)
 		)
 		(stroke
@@ -995,46 +1039,6 @@
 			(type default)
 		)
 		(uuid "349b6dfb-5f8e-48f4-8447-11bdf94c0ca3")
-	)
-	(wire
-		(pts
-			(xy 163.83 180.34) (xy 175.26 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b906580-80f1-4bd3-b585-afbcada0dd4a")
-	)
-	(wire
-		(pts
-			(xy 163.83 170.18) (xy 175.26 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c288966-7d9c-4d31-968a-e1c90c60a3b8")
-	)
-	(wire
-		(pts
-			(xy 163.83 172.72) (xy 175.26 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcd1c4b-cff5-47b4-a1fc-9bf52140701b")
-	)
-	(wire
-		(pts
-			(xy 163.83 182.88) (xy 175.26 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e84e1d4-72c0-45d6-abf4-b5f99702a72f")
 	)
 	(wire
 		(pts
@@ -1098,16 +1102,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 185.42) (xy 175.26 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c29bcf-38a9-43c4-981a-bbb977dc86f9")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 180.34 85.09)
 		)
 		(stroke
@@ -1115,16 +1109,6 @@
 			(type default)
 		)
 		(uuid "a521d26b-9424-4160-85c0-0509201c3f55")
-	)
-	(wire
-		(pts
-			(xy 163.83 195.58) (xy 175.26 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5793909-5d38-4ed9-b31d-a42dda1c7331")
 	)
 	(wire
 		(pts
@@ -1188,26 +1172,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 177.8) (xy 175.26 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed02195b-9eb1-4d32-81b5-cbf7a16a1e78")
-	)
-	(wire
-		(pts
-			(xy 163.83 175.26) (xy 175.26 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efaf3eed-e9f0-49df-b9af-43c37e06cfcc")
-	)
-	(wire
-		(pts
 			(xy 109.22 95.25) (xy 116.84 95.25)
 		)
 		(stroke
@@ -1215,16 +1179,6 @@
 			(type default)
 		)
 		(uuid "f5252e0f-838d-45da-b0da-778886ca18d3")
-	)
-	(wire
-		(pts
-			(xy 163.83 190.5) (xy 175.26 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8237049-49b7-4d2e-b850-847eb4286a4f")
 	)
 	(label "Pump"
 		(at 171.45 64.77 0)
@@ -1235,26 +1189,6 @@
 			(justify left bottom)
 		)
 		(uuid "05749984-5cda-4c62-a4fc-5598724c0094")
-	)
-	(label "Zone 1"
-		(at 175.26 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "123c05e2-a389-444c-b6c9-bef705ee84c0")
-	)
-	(label "Zone 7"
-		(at 175.26 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a987c17-8996-4596-9dfe-f289410b2ddc")
 	)
 	(label "Zone 1"
 		(at 171.45 67.31 0)
@@ -1316,66 +1250,6 @@
 		)
 		(uuid "552c4b80-c026-4b4a-bccf-081b6d6a4bee")
 	)
-	(label "Zone 8"
-		(at 175.26 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a1d228c-1dc6-4ff4-aa1a-75d5640e4cc8")
-	)
-	(label "Zone 2"
-		(at 175.26 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b4e7175-e383-4583-ae7f-098f097338c6")
-	)
-	(label "Zone 4"
-		(at 175.26 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "634bcafb-f8dd-4f99-b479-7ff0409b9ab2")
-	)
-	(label "WIFI LED"
-		(at 175.26 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66488256-4089-4c14-93de-275ba0f556c4")
-	)
-	(label "Pump"
-		(at 175.26 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e9c5181-041c-4856-88f2-f5b5bf2afcab")
-	)
-	(label "Zone 5"
-		(at 175.26 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e3cdb42-c780-4be2-bba3-4817df23a887")
-	)
 	(label "Zone 7"
 		(at 171.45 85.09 0)
 		(effects
@@ -1385,16 +1259,6 @@
 			(justify left bottom)
 		)
 		(uuid "9515646d-91dd-405f-8d03-485d48eb5bde")
-	)
-	(label "Zone 3"
-		(at 175.26 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7ed293e-b263-4b35-99c7-7b4b84fdce1e")
 	)
 	(label "Zone 3"
 		(at 171.45 72.39 0)
@@ -1417,16 +1281,6 @@
 		(uuid "f5eb6b92-47d9-4af7-a063-0301d907a390")
 	)
 	(label "Status LED"
-		(at 175.26 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f959ecd0-583d-4910-be97-afd0c38ffc4c")
-	)
-	(label "Status LED"
 		(at 121.92 90.17 180)
 		(effects
 			(font
@@ -1436,261 +1290,9 @@
 		)
 		(uuid "fde275f6-badc-4058-8f20-e3f5b91da895")
 	)
-	(label "Zone 6"
-		(at 175.26 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe1df1cd-cdc2-4323-b525-13cd85f1b5bb")
-	)
-	(global_label "Zone 1"
-		(shape output)
-		(at 171.45 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a446828-da61-49e7-a1be-07e448bd4e76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Status LED"
-		(shape output)
-		(at 121.92 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32471e27-0d7c-46f7-9b3d-6090de5e1f02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3069 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 6"
-		(shape output)
-		(at 171.45 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fe35e05-eabb-481c-9659-10a01abceccf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WIFI LED"
-		(shape output)
-		(at 121.92 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53d2d0ac-7ef6-4d80-b931-ccdea33ed2eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0695 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 7"
-		(shape output)
-		(at 171.45 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55a5574d-1030-4f02-a7cd-242d2aabd08c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 8"
-		(shape output)
-		(at 171.45 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "636be444-07f7-44bb-90d8-33f5cdd980c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 2"
-		(shape output)
-		(at 171.45 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7abbdf62-fd8a-49a2-9f81-7feb6ce492eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 4"
-		(shape output)
-		(at 171.45 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8729e9a3-997e-43bc-8a5e-4a260ce4f171")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 3"
-		(shape output)
-		(at 171.45 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5b2b821-b965-4124-9e3e-030133ac1ff6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Zone 5"
-		(shape output)
-		(at 171.45 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd237724-db49-4fec-98c2-6e39c6820d7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6916 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Pump"
-		(shape output)
-		(at 171.45 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb34bb5c-1eae-48a6-8b41-1d0c1c6ec20d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2035 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "Zone 1 CTRL"
 		(shape output)
-		(at 163.83 172.72 180)
+		(at 171.45 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1701,7 +1303,7 @@
 	)
 	(hierarchical_label "Zone 4 CTRL"
 		(shape output)
-		(at 163.83 180.34 180)
+		(at 171.45 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1712,7 +1314,7 @@
 	)
 	(hierarchical_label "Zone 2 CTRL"
 		(shape output)
-		(at 163.83 175.26 180)
+		(at 171.45 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1325,7 @@
 	)
 	(hierarchical_label "Zone 3 CTRL"
 		(shape output)
-		(at 163.83 177.8 180)
+		(at 171.45 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,18 +1336,18 @@
 	)
 	(hierarchical_label "Status LED CTRL"
 		(shape output)
-		(at 163.83 195.58 180)
+		(at 121.92 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "712dd6c9-6759-46af-be5a-167e48413ec4")
 	)
 	(hierarchical_label "Zone 6 CTRL"
 		(shape output)
-		(at 163.83 185.42 180)
+		(at 171.45 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,18 +1358,18 @@
 	)
 	(hierarchical_label "WIFI LED CTRL"
 		(shape output)
-		(at 163.83 193.04 180)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "abab8b59-f5fd-47c1-b7aa-b32ad696a32c")
 	)
 	(hierarchical_label "Zone 5 CTRL"
 		(shape output)
-		(at 163.83 182.88 180)
+		(at 171.45 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1778,7 +1380,7 @@
 	)
 	(hierarchical_label "Pump CTRL"
 		(shape output)
-		(at 163.83 170.18 180)
+		(at 171.45 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1789,7 +1391,7 @@
 	)
 	(hierarchical_label "Zone 8 CTRL"
 		(shape output)
-		(at 163.83 190.5 180)
+		(at 171.45 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1402,7 @@
 	)
 	(hierarchical_label "Zone 7 CTRL"
 		(shape output)
-		(at 163.83 187.96 180)
+		(at 171.45 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,7 +1421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18811229-fb77-4e4b-9ea4-b3ac889347de")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR047"
 			(at 113.03 106.68 0)
 			(effects
 				(font
@@ -1869,7 +1471,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "#PWR018")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1884,7 +1486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c737c0-c88b-40b4-b8e5-22b69d5c6aff")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 183.515 59.055 0)
 			(effects
 				(font
@@ -1903,7 +1505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -1921,7 +1523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2.54mm Single Row 3A 19P -40℃~+105℃ Direct Insert 1x19P 8.5mm Top Square Hole Plugin,P=2.54mm  Female Headers ROHS"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -1930,7 +1532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Shenzhen Kinghelm Elec"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -1939,7 +1541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "KH-2.54FH-1X19P-H8.5"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -1948,7 +1550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -1957,7 +1559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C2932678"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -2026,7 +1628,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2042,7 +1644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97aa3126-bebc-4350-8ba5-9a6d875f0c10")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 104.14 59.055 0)
 			(effects
 				(font
@@ -2059,7 +1661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2077,7 +1679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2.54mm Single Row 3A 19P -40℃~+105℃ Direct Insert 1x19P 8.5mm Top Square Hole Plugin,P=2.54mm  Female Headers ROHS"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2086,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Shenzhen Kinghelm Elec"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2095,7 +1697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "KH-2.54FH-1X19P-H8.5"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2104,7 +1706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2113,7 +1715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C2932678"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -2182,7 +1784,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2198,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50d28e1-5ff7-4d2b-bfca-38bc37340e4d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR049"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -2248,7 +1850,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "#PWR019")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2264,7 +1866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f759321f-1793-4c39-a295-27881ab3f976")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR048"
 			(at 116.84 116.84 0)
 			(effects
 				(font
@@ -2314,7 +1916,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "#PWR016")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
