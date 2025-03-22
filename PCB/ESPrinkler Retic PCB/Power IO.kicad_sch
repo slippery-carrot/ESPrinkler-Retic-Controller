@@ -9566,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:HB9500M-9.5-12P"
 			(at 20.32 62.23 0)
 			(effects
 				(font

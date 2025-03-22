@@ -1,4 +1,4 @@
-24934575204754781
+24962988341682894
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2548,9 +2548,86 @@ Projects Unlimited AI-4228-TWT-R
 2
 2
 Buzzer_Beeper
+MagneticBuzzer_StarMicronics_HGP
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_HMB
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
 MagneticBuzzer_StarMicronics_HMB-06_HMB-12
 Buzzer, Elektromagnetic Beeper, Summer,
 Star Micronics HMB-06 HMB-12
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_QMB
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_QMB-105
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_QMB-108
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_QMB-111
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_QMX
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_RMX
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_TMB
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_TMX-F
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
+0
+2
+2
+Buzzer_Beeper
+MagneticBuzzer_StarMicronics_TMX-H
+http://datasheet.octopart.com/HMB06-Star-Micronics-datasheet-514145.pdf
+buzzer round tht
 0
 2
 2
@@ -8765,504 +8842,504 @@ Coaxial Connector 50 ohms Female
 2
 Connector_DIN
 DIN41612_B2_2x8_Female_Vertical_THT
-DIN41612 connector, type B/2, Vertical, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/2, Vertical, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/2
 0
 16
 16
 Connector_DIN
 DIN41612_B2_2x8_Male_Horizontal_THT
-DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/2
 0
 16
 16
 Connector_DIN
 DIN41612_B2_2x16_Female_Vertical_THT
-DIN41612 connector, type B/2, Vertical, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/2, Vertical, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/2
 0
 32
 32
 Connector_DIN
 DIN41612_B2_2x16_Male_Horizontal_THT
-DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/2, Horizontal, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/2
 0
 32
 32
 Connector_DIN
 DIN41612_B3_2x5_Female_Vertical_THT
-DIN41612 connector, type B/3, Vertical, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/3, Vertical, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/3
 0
 10
 10
 Connector_DIN
 DIN41612_B3_2x5_Male_Horizontal_THT
-DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/3
 0
 10
 10
 Connector_DIN
 DIN41612_B3_2x10_Female_Vertical_THT
-DIN41612 connector, type B/3, Vertical, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/3, Vertical, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/3
 0
 20
 20
 Connector_DIN
 DIN41612_B3_2x10_Male_Horizontal_THT
-DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B/3, Horizontal, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B/3
 0
 20
 20
 Connector_DIN
 DIN41612_B_1x32_Female_Vertical_THT
-DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 32
 32
 Connector_DIN
 DIN41612_B_1x32_Male_Horizontal_THT
-DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 32
 32
 Connector_DIN
 DIN41612_B_2x16_Female_Vertical_THT
-DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 32
 32
 Connector_DIN
 DIN41612_B_2x16_Male_Horizontal_THT
-DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 32
 32
 Connector_DIN
 DIN41612_B_2x32_Female_Vertical_THT
-DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Vertical, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 64
 64
 Connector_DIN
 DIN41612_B_2x32_Male_Horizontal_THT
-DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type B, Horizontal, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 B
 0
 64
 64
 Connector_DIN
 DIN41612_C2_2x16_Female_Vertical_THT
-DIN41612 connector, type C/2, Vertical, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/2, Vertical, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/2
 0
 32
 32
 Connector_DIN
 DIN41612_C2_2x16_Male_Horizontal_THT
-DIN41612 connector, type C/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/2, Horizontal, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/2
 0
 32
 32
 Connector_DIN
 DIN41612_C2_3x16_Female_Vertical_THT
-DIN41612 connector, type C/2, Vertical, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/2, Vertical, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/2
 0
 48
 48
 Connector_DIN
 DIN41612_C2_3x16_Male_Horizontal_THT
-DIN41612 connector, type C/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/2, Horizontal, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/2
 0
 48
 48
 Connector_DIN
 DIN41612_C3_2x10_Female_Vertical_THT
-DIN41612 connector, type C/3, Vertical, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/3, Vertical, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/3
 0
 20
 20
 Connector_DIN
 DIN41612_C3_2x10_Male_Horizontal_THT
-DIN41612 connector, type C/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/3, Horizontal, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/3
 0
 20
 20
 Connector_DIN
 DIN41612_C3_3x10_Female_Vertical_THT
-DIN41612 connector, type C/3, Vertical, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/3, Vertical, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/3
 0
 30
 30
 Connector_DIN
 DIN41612_C3_3x10_Male_Horizontal_THT
-DIN41612 connector, type C/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C/3, Horizontal, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C/3
 0
 30
 30
 Connector_DIN
 DIN41612_C_1x32_Female_Vertical_THT
-DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 32
 32
 Connector_DIN
 DIN41612_C_1x32_Male_Horizontal_THT
-DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 32
 32
 Connector_DIN
 DIN41612_C_2x16_Female_Vertical_THT
-DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 32
 32
 Connector_DIN
 DIN41612_C_2x16_Male_Horizontal_THT
-DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 32
 32
 Connector_DIN
 DIN41612_C_2x32_Female_Vertical_THT
-DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 64
 64
 Connector_DIN
 DIN41612_C_2x32_Male_Horizontal_THT
-DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 64
 64
 Connector_DIN
 DIN41612_C_3x16_Female_Vertical_THT
-DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 48
 48
 Connector_DIN
 DIN41612_C_3x16_Male_Horizontal_THT
-DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 48
 48
 Connector_DIN
 DIN41612_C_3x32_Female_Vertical_THT
-DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 96
 96
 Connector_DIN
 DIN41612_C_3x32_Male_Horizontal_THT
-DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type C, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 C
 0
 96
 96
 Connector_DIN
 DIN41612_D_2x8_Female_Vertical_THT
-DIN41612 connector, type D, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type D, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 D
 0
 16
 16
 Connector_DIN
 DIN41612_D_2x8_Male_Horizontal_THT
-DIN41612 connector, type D, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type D, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 D
 0
 16
 16
 Connector_DIN
 DIN41612_D_2x16_Female_Vertical_THT
-DIN41612 connector, type D, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type D, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 D
 0
 32
 32
 Connector_DIN
 DIN41612_D_2x16_Male_Horizontal_THT
-DIN41612 connector, type D, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type D, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 D
 0
 32
 32
 Connector_DIN
 DIN41612_E_2x16_Female_Vertical_THT
-DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 32
 32
 Connector_DIN
 DIN41612_E_2x16_Male_Horizontal_THT
-DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 32
 32
 Connector_DIN
 DIN41612_E_2x16_RowsAC_Female_Vertical_THT
-DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 32
 32
 Connector_DIN
 DIN41612_E_2x16_RowsAC_Male_Horizontal_THT
-DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 32
 32
 Connector_DIN
 DIN41612_E_3x16_Female_Vertical_THT
-DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Vertical, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 48
 48
 Connector_DIN
 DIN41612_E_3x16_Male_Horizontal_THT
-DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type E, Horizontal, 5 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 E
 0
 48
 48
 Connector_DIN
 DIN41612_F_2x16_Female_Vertical_THT
-DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 32
 32
 Connector_DIN
 DIN41612_F_2x16_Male_Horizontal_THT
-DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 32
 32
 Connector_DIN
 DIN41612_F_2x16_RowsZD_Female_Vertical_THT
-DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 32
 32
 Connector_DIN
 DIN41612_F_2x16_RowsZD_Male_Horizontal_THT
-DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 32
 32
 Connector_DIN
 DIN41612_F_3x16_Female_Vertical_THT
-DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 48
 48
 Connector_DIN
 DIN41612_F_3x16_Male_Horizontal_THT
-DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type F, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 F
 0
 48
 48
 Connector_DIN
 DIN41612_Q2_2x16_Female_Horizontal_THT
-DIN41612 connector, type Q/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q/2, Horizontal, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q/2
 0
 32
 32
 Connector_DIN
 DIN41612_Q2_2x16_Male_Vertical_THT
-DIN41612 connector, type Q/2, Vertical, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q/2, Vertical, 2 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q/2
 0
 32
 32
 Connector_DIN
 DIN41612_Q3_2x10_Female_Horizontal_THT
-DIN41612 connector, type Q/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q/3, Horizontal, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q/3
 0
 20
 20
 Connector_DIN
 DIN41612_Q3_2x10_Male_Vertical_THT
-DIN41612 connector, type Q/3, Vertical, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q/3, Vertical, 2 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q/3
 0
 20
 20
 Connector_DIN
 DIN41612_Q_2x32_Female_Horizontal_THT
-DIN41612 connector, type Q, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q, Horizontal, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q
 0
 64
 64
 Connector_DIN
 DIN41612_Q_2x32_Male_Vertical_THT
-DIN41612 connector, type Q, Vertical, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type Q, Vertical, 2 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 Q
 0
 64
 64
 Connector_DIN
 DIN41612_R2_2x16_Female_Horizontal_THT
-DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/2
 0
 32
 32
 Connector_DIN
 DIN41612_R2_2x16_Male_Vertical_THT
-DIN41612 connector, type R/2, Vertical, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/2, Vertical, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/2
 0
 32
 32
 Connector_DIN
 DIN41612_R2_3x16_Female_Horizontal_THT
-DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/2
 0
 48
 48
 Connector_DIN
 DIN41612_R2_3x16_Male_Vertical_THT
-DIN41612 connector, type R/2, Vertical, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/2, Vertical, 3 rows 16 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/2
 0
 48
 48
 Connector_DIN
 DIN41612_R3_2x10_Female_Horizontal_THT
-DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/3
 0
 20
 20
 Connector_DIN
 DIN41612_R3_2x10_Male_Vertical_THT
-DIN41612 connector, type R/3, Vertical, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/3, Vertical, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/3
 0
 20
 20
 Connector_DIN
 DIN41612_R3_3x10_Female_Horizontal_THT
-DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/3
 0
 30
 30
 Connector_DIN
 DIN41612_R3_3x10_Male_Vertical_THT
-DIN41612 connector, type R/3, Vertical, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R/3, Vertical, 3 rows 10 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R/3
 0
 30
 30
 Connector_DIN
 DIN41612_R_1x32_Female_Horizontal_THT
-DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 32
 32
 Connector_DIN
 DIN41612_R_1x32_Male_Vertical_THT
-DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 32
 32
 Connector_DIN
 DIN41612_R_2x16_Female_Horizontal_THT
-DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 32
 32
 Connector_DIN
 DIN41612_R_2x16_Male_Vertical_THT
-DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 32
 32
 Connector_DIN
 DIN41612_R_2x32_Female_Horizontal_THT
-DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 64
 64
 Connector_DIN
 DIN41612_R_2x32_Male_Vertical_THT
-DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 64
 64
 Connector_DIN
 DIN41612_R_3x16_Female_Horizontal_THT
-DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 48
 48
 Connector_DIN
 DIN41612_R_3x16_Male_Vertical_THT
-DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 48
 48
 Connector_DIN
 DIN41612_R_3x32_Female_Horizontal_THT
-DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 96
 96
 Connector_DIN
 DIN41612_R_3x32_Male_Vertical_THT
-DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://b2b.harting.com/files/livebooks/en/PRD0200000100063/downloads/livebook.pdf
 DIN 41612 IEC 60603 R
 0
 96
@@ -53949,6 +54026,20 @@ DCDC-Converter TRACO TRI10 THT DIP-24
 5
 5
 Converter_DCDC
+Converter_DCDC_TRACO_TRN3-xx1x_Single_THT
+DCDC-Converter, TRACO, TRN3-xx1x, 3W, Rev. February 3. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/trn3.pdf)
+DCDC-Converter TRACO TRN3 THT SIP-5 3W
+0
+4
+4
+Converter_DCDC
+Converter_DCDC_TRACO_TRN3-xx2x_Dual_THT
+DCDC-Converter, TRACO, TRN3-xx2x, 3W, Rev. February 3. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/trn3.pdf)
+DCDC-Converter TRACO TRN3 THT SIP-5 3W
+0
+5
+5
+Converter_DCDC
 Converter_DCDC_TRACO_TSR-1_THT
 DCDC-Converter, TRACO, TSR 1-xxxx
 DCDC-Converter TRACO TSR-1
@@ -57609,6 +57700,13 @@ emi filter
 0
 5
 5
+Footprints
+HB9500M-9.5-12P
+
+
+0
+12
+12
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -70036,49 +70134,49 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
-Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
+Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
 BGA 36 0.75 36-ball FBGA
 0
 36
 36
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
-Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
+Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
 BGA 54 0.8
 0
 54
 54
 Package_BGA
 Analog_BGA-28_4x6.25mm_Layout4x7_P0.8mm
-Analog BGA-28, 0.4mm pad, 4.0x6.25mm, 28 Ball, 4x7 Layout, 0.8mm Pitch, https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
+Analog BGA-28, 0.4mm pad, 4.0x6.25mm, 28 Ball, 4x7 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
 BGA 28 0.8
 0
 28
 28
 Package_BGA
 Analog_BGA-49_6.25x6.25mm_Layout7x7_P0.8mm
-Analog BGA-49, 6.25x6.25mm, 49 Ball, 7x7 Layout, 0.8mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081600_0_bga49.pdf https://www.analog.com/media/en/technical-documentation/product-information/assembly-considerations-for-umodule-bga-lga-package.pdf
+Analog BGA-49, 6.25x6.25mm, 49 Ball, 7x7 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081600_0_bga49.pdf https://www.analog.com/media/en/technical-documentation/product-information/assembly-considerations-for-umodule-bga-lga-package.pdf
 BGA 49 0.8
 0
 49
 49
 Package_BGA
 Analog_BGA-77_9x15mm_Layout7x11_P1.27mm
-Analog Devices BGA-77, 0.63mm pad, 9x15mm, 77 Ball, 7x11 Layout, 1.27mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081964_B_bga77.pdf
+Analog Devices BGA-77, 0.63mm pad, 9x15mm, 77 Ball, 7x11 Layout, 1.27mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081964_B_bga77.pdf
 BGA 77 1.27 LTC Dwg 05-08-1964 Rev. B
 0
 77
 77
 Package_BGA
 Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm
-Analog BGA-165 (Reference LTC DWG#05-08-1605 Rev B), 11.9x16.0mm, 165 Ball, 11x15 Layout, 1.0mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081605_b_bga165.pdf
+Analog BGA-165 (Reference LTC DWG#05-08-1605 Rev B), 11.9x16.0mm, 165 Ball, 11x15 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081605_b_bga165.pdf
 BGA 165 1.0
 0
 165
 165
 Package_BGA
 Analog_BGA-209_9.5x16mm_Layout11x19_P0.8mm
-Analog BGA-209 (Reference LTC DWG#05-08-1561 Rev B), 9.5x16.0mm, 209 Ball, 11x19 Layout, 0.8mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081561_bga209.pdf
+Analog BGA-209 (Reference LTC DWG#05-08-1561 Rev B), 9.5x16.0mm, 209 Ball, 11x19 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-bga/05081561_bga209.pdf
 BGA 209 0.8
 0
 209
@@ -70218,14 +70316,14 @@ Altera UBGA U169 BGA-169
 169
 Package_BGA
 BGA-196_15x15mm_Layout14x14_P1.0mm
-BGA-196, 15.0x15.0mm, 196 Ball, 14x14 Layout, 1.0mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10502.pdf#page=99
+BGA-196, 15.0x15.0mm, 196 Ball, 14x14 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10502.pdf#page=99
 BGA 196 1.0
 0
 196
 196
 Package_BGA
 BGA-200_10x14.5mm_Layout12x22_P0.8x0.65mm
-BGA-200, 10.0x14.5mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf
+BGA-200, 10.0x14.5mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf
 BGA 200 0.8x0.65
 0
 200
@@ -70260,7 +70358,7 @@ Altera UBGA U324 BGA-324
 324
 Package_BGA
 BGA-324_15x15mm_Layout18x18_P0.8mm
-BGA-324, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf#page=92
+BGA-324, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf#page=92
 BGA 324 0.8 GateMate FPGA
 0
 324
@@ -70295,14 +70393,14 @@ BGA-484
 484
 Package_BGA
 BGA-529_19x19mm_Layout23x23_P0.8mm
-BGA-529, NSMD, 19.0x19.0mm, 529 Ball, 23x23 Layout, 0.8mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+BGA-529, NSMD, 19.0x19.0mm, 529 Ball, 23x23 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 529 0.8 529-ball FBGA
 0
 529
 529
 Package_BGA
 BGA-624_21x21mm_Layout25x25_P0.8mm
-BGA-624, 21.0x21.0mm, 624 Ball, 25x25 Layout, 0.8mm Pitch, https://www.nxp.com/docs/en/package-information/SOT1529-1.pdf
+BGA-624, 21.0x21.0mm, 624 Ball, 25x25 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1529-1.pdf
 BGA 624 0.8
 0
 624
@@ -70379,105 +70477,105 @@ BGA 8 0.4
 8
 Package_BGA
 Infineon_LFBGA-292_17x17mm_Layout20x20_P0.8mm
-Infineon LFBGA-292, 0.35mm pad, 17.0x17.0mm, 292 Ball, 20x20 Layout, 0.8mm Pitch, https://www.infineon.com/cms/en/product/packages/PG-LFBGA/PG-LFBGA-292-11/
+Infineon LFBGA-292, 0.35mm pad, 17.0x17.0mm, 292 Ball, 20x20 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.infineon.com/cms/en/product/packages/PG-LFBGA/PG-LFBGA-292-11/
 BGA 292 0.8
 0
 292
 292
 Package_BGA
 Infineon_TFBGA-48_6x10mm_Layout6x8_P0.75mm
-Cypress / Infineon TFBGA-48, NSMD, 6.0x10.0mm, 48 Ball, 6x8 Layout, 0.75mm Pitch, https://www.infineon.com/dgdl/Infineon-CY14U256LA_256-Kbit_(32_K_8)_nvSRAM-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec0a9c33546
+Cypress / Infineon TFBGA-48, NSMD, 6.0x10.0mm, 48 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.infineon.com/dgdl/Infineon-CY14U256LA_256-Kbit_(32_K_8)_nvSRAM-DataSheet-v03_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec0a9c33546
 BGA 48 0.75 48-ball FBGA
 0
 48
 48
 Package_BGA
 LFBGA-100_10x10mm_Layout10x10_P0.8mm
-LFBGA-100, 10.0x10.0mm, 100 Ball, 10x10 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=87
+LFBGA-100, 10.0x10.0mm, 100 Ball, 10x10 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=87
 BGA 100 0.8
 0
 100
 100
 Package_BGA
 LFBGA-144_10x10mm_Layout12x12_P0.8mm
-LFBGA-144, 10.0x10.0mm, 144 Ball, 12x12 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f103ze.pdf#page=114
+LFBGA-144, 10.0x10.0mm, 144 Ball, 12x12 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f103ze.pdf#page=114
 BGA 144 0.8
 0
 144
 144
 Package_BGA
 LFBGA-153_11.5x13mm_Layout14x14_P0.5mm
-JEDEC eMMC AN BGA-153, 11.5x13.0mm, 153 Ball, 14x14 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
+JEDEC eMMC AN BGA-153, 11.5x13.0mm, 153 Ball, 14x14 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
 BGA 153 0.5
 0
 153
 153
 Package_BGA
 LFBGA-169_12x16mm_Layout14x28_P0.5mm
-JEDEC eMMC AA BGA-169, 12.0x16.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
+JEDEC eMMC AA BGA-169, 12.0x16.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
 BGA 169 0.5
 0
 169
 169
 Package_BGA
 LFBGA-169_12x18mm_Layout14x28_P0.5mm
-JEDEC eMMC AB BGA-169, 12.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
+JEDEC eMMC AB BGA-169, 12.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
 BGA 169 0.5
 0
 169
 169
 Package_BGA
 LFBGA-169_14x18mm_Layout14x28_P0.5mm
-JEDEC eMMC AC BGA-169, 14.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
+JEDEC eMMC AC BGA-169, 14.0x18.0mm, 169 Ball, 14x28 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf
 BGA 169 0.5
 0
 169
 169
 Package_BGA
 LFBGA-289_14x14mm_Layout17x17_P0.8mm
-LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
+LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
 BGA 289 0.8
 0
 289
 289
 Package_BGA
 LFBGA-400_16x16mm_Layout20x20_P0.8mm
-LFBGA-400, NSMD, 16.0x16.0mm, 400 Ball, 20x20 Layout, 0.8mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+LFBGA-400, NSMD, 16.0x16.0mm, 400 Ball, 20x20 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 400 0.8 400-ball FBGA
 0
 400
 400
 Package_BGA
 LFBGA-484_18x18mm_Layout22x22_P0.8mm
-LFBGA-484, NSMD, 18.0x18.0mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+LFBGA-484, NSMD, 18.0x18.0mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 484 0.8 484-ball LFBGA
 0
 484
 484
 Package_BGA
 Lattice_caBGA-381_17x17mm_Layout20x20_P0.8mm
-Lattice caBGA-381, ECP5 FPGAs, 17.0x17.0mm, 381 Ball, 20x20 Layout, 0.8mm Pitch, http://www.latticesemi.com/view_document?document_id=213
+Lattice caBGA-381, ECP5 FPGAs, 17.0x17.0mm, 381 Ball, 20x20 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.latticesemi.com/view_document?document_id=213
 BGA 381 0.8
 0
 381
 381
 Package_BGA
 Lattice_caBGA-381_17x17mm_Layout20x20_P0.8mm_SMD
-Lattice caBGA-381, ECP5 FPGAs, 17.0x17.0mm, 381 Ball, 20x20 Layout, 0.8mm Pitch, http://www.latticesemi.com/view_document?document_id=213
+Lattice caBGA-381, ECP5 FPGAs, 17.0x17.0mm, 381 Ball, 20x20 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.latticesemi.com/view_document?document_id=213
 BGA 381 0.8
 0
 381
 381
 Package_BGA
 Lattice_caBGA-756_27x27mm_Layout32x32_P0.8mm
-Lattice caBGA-756, ECP5 FPGAs, 27.0x27.0mm, 756 Ball, 32x32 Layout, 0.8mm Pitch, http://www.latticesemi.com/view_document?document_id=213
+Lattice caBGA-756, ECP5 FPGAs, 27.0x27.0mm, 756 Ball, 32x32 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.latticesemi.com/view_document?document_id=213
 BGA 756 0.8
 0
 756
 756
 Package_BGA
 Lattice_iCE40_csBGA-132_8x8mm_Layout14x14_P0.5mm
-Lattice csBGA-132, Option 2, iCE40 FPGAs, 8.0x8.0mm, 132 Ball, 14x14 Layout, 0.5mm Pitch, http://www.latticesemi.com/view_document?document_id=213
+Lattice csBGA-132, Option 2, iCE40 FPGAs, 8.0x8.0mm, 132 Ball, 14x14 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.latticesemi.com/view_document?document_id=213
 BGA 132 0.5
 0
 132
@@ -70491,14 +70589,14 @@ Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www
 134
 Package_BGA
 MAPBGA-272_9x9mm_Layout17x17_P0.5mm
-MAPBGA 9x9x1.11 PKG, 9.0x9.0mm, 272 Ball, 17x17 Layout, 0.5mm Pitch, https://www.nxp.com/docs/en/package-information/98ASA00869D.pdf#page=1
+MAPBGA 9x9x1.11 PKG, 9.0x9.0mm, 272 Ball, 17x17 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/98ASA00869D.pdf#page=1
 BGA 272 0.5
 0
 272
 272
 Package_BGA
 MAPBGA-289_14x14mm_Layout17x17_P0.8mm
-MAPBGA 14x14x1.18 PKG, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, https://www.nxp.com/docs/en/package-information/98ASA00855D.pdf#page=1
+MAPBGA 14x14x1.18 PKG, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/98ASA00855D.pdf#page=1
 BGA 289 0.8
 0
 289
@@ -70519,196 +70617,196 @@ Maxim_WLP-12
 12
 Package_BGA
 Maxim_WLP-12_2.008x1.608mm_Layout4x3_P0.4mm
-Maxim WLP-12, W121H2+1, 2.008x1.608mm, 12 Ball, 4x3 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF
+Maxim WLP-12, W121H2+1, 2.008x1.608mm, 12 Ball, 4x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF, https://pdfserv.maximintegrated.com/package_dwgs/21-100302.PDF
 BGA 12 0.4
 0
 12
 12
 Package_BGA
 Microchip_TFBGA-196_11x11mm_Layout14x14_P0.75mm_SMD
-TFBGA-196, 11.0x11.0mm, 196 Ball, 14x14 Layout, 0.75mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956
+TFBGA-196, 11.0x11.0mm, 196 Ball, 14x14 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956
 BGA 196 0.75
 0
 196
 196
 Package_BGA
 Micron_FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm
-FBGA-78, 7.5x10.6mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=24
+FBGA-78, 7.5x10.6mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=24
 BGA 78 0.8
 0
 78
 78
 Package_BGA
 Micron_FBGA-78_8x10.5mm_Layout9x13_P0.8mm
-FBGA-78, 8.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=25
+FBGA-78, 8.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=25
 BGA 78 0.8
 0
 78
 78
 Package_BGA
 Micron_FBGA-78_9x10.5mm_Layout9x13_P0.8mm
-FBGA-78, 9.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=23
+FBGA-78, 9.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=23
 BGA 78 0.8
 0
 78
 78
 Package_BGA
 Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm
-FBGA-96, 7.5x13.5mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=27
+FBGA-96, 7.5x13.5mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=27
 BGA 96 0.8
 0
 96
 96
 Package_BGA
 Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm
-FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
+FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
 BGA 96 0.8
 0
 96
 96
 Package_BGA
 Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm
-FBGA-96, 9.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26
+FBGA-96, 9.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26
 BGA 96 0.8
 0
 96
 96
 Package_BGA
 NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm
-NXP VFBGA-42, 2.6x3.0mm, 42 Ball, 6x7 Layout, 0.4mm Pitch, https://www.nxp.com/docs/en/package-information/SOT1963-1.pdf
+NXP VFBGA-42, 2.6x3.0mm, 42 Ball, 6x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1963-1.pdf
 BGA 42 0.4
 0
 42
 42
 Package_BGA
 ST_LFBGA-354_16x16mm_Layout19x19_P0.8mm
-ST LFBGA-354, 16.0x16.0mm, 354 Ball, 19x19 Layout, 0.8mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
+ST LFBGA-354, 16.0x16.0mm, 354 Ball, 19x19 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
 BGA 354 0.8
 0
 354
 354
 Package_BGA
 ST_LFBGA-448_18x18mm_Layout22x22_P0.8mm
-ST LFBGA-448, 18.0x18.0mm, 448 Ball, 22x22 Layout, 0.8mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
+ST LFBGA-448, 18.0x18.0mm, 448 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
 BGA 448 0.8
 0
 448
 448
 Package_BGA
 ST_TFBGA-169_7x7mm_Layout13x13_P0.5mm
-ST TFBGA-169, 7.0x7.0mm, 169 Ball, 13x13 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32u595aj.pdf
+ST TFBGA-169, 7.0x7.0mm, 169 Ball, 13x13 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u595aj.pdf
 BGA 169 0.5
 0
 169
 169
 Package_BGA
 ST_TFBGA-225_13x13mm_Layout15x15_P0.8mm
-ST TFBGA-225, 13.0x13.0mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, https://www.st.com/resource/en/datasheet/stm32h7b3ri.pdf
+ST TFBGA-225, 13.0x13.0mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h7b3ri.pdf
 BGA 225 0.8
 0
 225
 225
 Package_BGA
 ST_TFBGA-257_10x10mm_Layout19x19_P0.5mmP0.65mm
-ST TFBGA-257, 10.0x10.0mm, 257 Ball, 19x19 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
+ST TFBGA-257, 10.0x10.0mm, 257 Ball, 19x19 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
 BGA 257 0.5
 0
 257
 257
 Package_BGA
 ST_TFBGA-320_11x11mm_Layout21x21_P0.5mm
-ST TFBGA-320, 11.0x11.0mm, 320 Ball, 21x21 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
+ST TFBGA-320, 11.0x11.0mm, 320 Ball, 21x21 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
 BGA 320 0.5
 0
 320
 320
 Package_BGA
 ST_TFBGA-361_12x12mm_Layout23x23_P0.5mmP0.65mm
-ST TFBGA-361, 12.0x12.0mm, 361 Ball, 23x23 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
+ST TFBGA-361, 12.0x12.0mm, 361 Ball, 23x23 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf
 BGA 361 0.5
 0
 361
 361
 Package_BGA
 ST_UFBGA-59_5x5mm_Layout8x8_P0.5mm
-ST UFBGA-59, 5.0x5.0mm, 59 Ball, 8x8 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32wba55ug.pdf
+ST UFBGA-59, 5.0x5.0mm, 59 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wba55ug.pdf
 BGA 59 0.5
 0
 59
 59
 Package_BGA
 ST_UFBGA-73_5x5mm_Layout9x9_P0.5mm
-ST UFBGA-73, 5.0x5.0mm, 73 Ball, 9x9 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32wl54jc.pdf
+ST UFBGA-73, 5.0x5.0mm, 73 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wl54jc.pdf
 BGA 73 0.5
 0
 73
 73
 Package_BGA
 ST_UFBGA-81_5x5mm_Layout9x9_P0.5mm
-ST UFBGA-81, 5.0x5.0mm, 81 Ball, 9x9 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32u073mb.pdf
+ST UFBGA-81, 5.0x5.0mm, 81 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u073mb.pdf
 BGA 81 0.5
 0
 81
 81
 Package_BGA
 ST_UFBGA-121_6x6mm_Layout11x11_P0.5mm
-ST UFBGA-121, 6.0x6.0mm, 121 Ball, 11x11 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32g473pb.pdf
+ST UFBGA-121, 6.0x6.0mm, 121 Ball, 11x11 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g473pb.pdf
 BGA 121 0.5
 0
 121
 121
 Package_BGA
 ST_UFBGA-129_7x7mm_Layout13x13_P0.5mm
-ST UFBGA-129, 7.0x7.0mm, 129 Ball, 13x13 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32wb55vc.pdf
+ST UFBGA-129, 7.0x7.0mm, 129 Ball, 13x13 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb55vc.pdf
 BGA 129 0.5
 0
 129
 129
 Package_BGA
 ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm
-ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
+ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
 BGA 36 0.5
 0
 36
 36
 Package_BGA
 TFBGA-48_6x10mm_Layout6x8_P0.75mm
-TFBGA-48, NSMD, 6.0x10.0mm, 48 Ball, 6x8 Layout, 0.75mm Pitch, https://www.jedec.org/system/files/docs/MO-207N.pdf
+TFBGA-48, NSMD, 6.0x10.0mm, 48 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-207N.pdf
 BGA 48 0.75 48-ball FBGA
 0
 48
 48
 Package_BGA
 TFBGA-49_3x3mm_Layout7x7_P0.4mm
-TFBGA-49, NSMD, 3.0x3.0mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-49, NSMD, 3.0x3.0mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 49 0.4 49-ball FBGA
 0
 49
 49
 Package_BGA
 TFBGA-64_5x5mm_Layout8x8_P0.5mm
-TFBGA-64, 5.0x5.0mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f100v8.pdf#page=83
+TFBGA-64, 5.0x5.0mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f100v8.pdf#page=83
 BGA 64 0.5
 0
 64
 64
 Package_BGA
 TFBGA-81_5x5mm_Layout9x9_P0.5mm
-TFBGA-81, NSMD, 5.0x5.0mm, 81 Ball, 9x9 Layout, 0.5mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-81, NSMD, 5.0x5.0mm, 81 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 81 0.5 81-ball FBGA
 0
 81
 81
 Package_BGA
 TFBGA-100_5.5x5.5mm_Layout10x10_P0.5mm
-TFBGA-100, NSMD, 5.5x5.5mm, 100 Ball, 10x10 Layout, 0.5mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+TFBGA-100, NSMD, 5.5x5.5mm, 100 Ball, 10x10 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 100 0.5 100-ball FBGA
 0
 100
 100
 Package_BGA
 TFBGA-100_8x8mm_Layout10x10_P0.8mm
-TFBGA-100, 8.0x8.0mm, 100 Ball, 10x10 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=199
+TFBGA-100, 8.0x8.0mm, 100 Ball, 10x10 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=199
 BGA 100 0.8
 0
 100
@@ -70722,84 +70820,84 @@ TFBGA-100
 100
 Package_BGA
 TFBGA-121_10x10mm_Layout11x11_P0.8mm
-TFBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#p495
+TFBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#p495
 BGA 121 0.8
 0
 121
 121
 Package_BGA
 TFBGA-169_9x9mm_Layout13x13_P0.65mm
-TFBGA-169, NSMD, 9.0x9.0mm, 169 Ball, 13x13 Layout, 0.65mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-169, NSMD, 9.0x9.0mm, 169 Ball, 13x13 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 169 0.65 169-ball FBGA
 0
 169
 169
 Package_BGA
 TFBGA-216_13x13mm_Layout15x15_P0.8mm
-TFBGA-216, 13.0x13.0mm, 216 Ball, 15x15 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=219
+TFBGA-216, 13.0x13.0mm, 216 Ball, 15x15 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=219
 BGA 216 0.8
 0
 216
 216
 Package_BGA
 TFBGA-225_10x10mm_Layout15x15_P0.65mm
-TFBGA-225, NSMD, 10.0x10.0mm, 225 Ball, 15x15 Layout, 0.65mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+TFBGA-225, NSMD, 10.0x10.0mm, 225 Ball, 15x15 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 225 0.65 225-ball FBGA
 0
 225
 225
 Package_BGA
 TFBGA-256_13x13mm_Layout16x16_P0.8mm
-TFBGA-256, NSMD, 13.0x13.0mm, 256 Ball, 16x16 Layout, 0.8mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-256, NSMD, 13.0x13.0mm, 256 Ball, 16x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 256 0.8 256-ball FBGA
 0
 256
 256
 Package_BGA
 TFBGA-265_14x14mm_Layout17x17_P0.8mm
-TFBGA-265, 14.0x14.0mm, 265 Ball, 17x17 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/DM00387108.pdf#page=223
+TFBGA-265, 14.0x14.0mm, 265 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00387108.pdf#page=223
 BGA 265 0.8
 0
 265
 265
 Package_BGA
 TFBGA-289_9x9mm_Layout17x17_P0.5mm
-TFBGA-289, 9.0x9.0mm, 289 Ball, 17x17 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
+TFBGA-289, 9.0x9.0mm, 289 Ball, 17x17 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
 BGA 289 0.5
 0
 289
 289
 Package_BGA
 TFBGA-324_12x12mm_Layout18x18_P0.65mm
-TFBGA-324, NSMD, 12.0x12.0mm, 324 Ball, 18x18 Layout, 0.65mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-324, NSMD, 12.0x12.0mm, 324 Ball, 18x18 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 324 0.65 324-ball FBGA
 0
 324
 324
 Package_BGA
 TFBGA-361_13x13mm_Layout19x19_P0.65mm
-TFBGA-361, NSMD, 13.0x13.0mm, 361 Ball, 19x19 Layout, 0.65mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+TFBGA-361, NSMD, 13.0x13.0mm, 361 Ball, 19x19 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 BGA 361 0.65 361-ball FBGA
 0
 361
 361
 Package_BGA
 TFBGA-576_16x16mm_Layout24x24_P0.65mm
-TFBGA-576, NSMD, 16.0x16.0mm, 576 Ball, 24x24 Layout, 0.65mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+TFBGA-576, NSMD, 16.0x16.0mm, 576 Ball, 24x24 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 BGA 576 0.65 576-ball FBGA
 0
 576
 576
 Package_BGA
 TFBGA-644_19x19mm_Layout28x28_P0.65mm
-TFBGA-636, 19.0x19.0mm, 644 Ball, 28x28 Layout, 0.65mm Pitch, https://opensource.rock-chips.com/images/b/b6/Rockchip_RK3568_Datasheet_V1.3-20220929P.PDF
+TFBGA-636, 19.0x19.0mm, 644 Ball, 28x28 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://opensource.rock-chips.com/images/b/b6/Rockchip_RK3568_Datasheet_V1.3-20220929P.PDF
 BGA 644 0.65 636-ball FBGA Rockchip RK3568 RK3288 Realtek RTD1296 Allwinner A80 A80T
 0
 644
 644
 Package_BGA
 Texas_BGA-289_15x15mm_Layout17x17_P0.8mm
-Texas Instruments BGA-289, 0.4mm pad, 15x15mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, https://www.ti.com/lit/ml/mpbg777/mpbg777.pdf
+Texas Instruments BGA-289, 0.4mm pad, 15x15mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ml/mpbg777/mpbg777.pdf
 BGA 289 0.8 ZAV S-PBGA-N289
 0
 289
@@ -70813,7 +70911,7 @@ Texas Instruments DSBGA BGA YFF S-XBGA-N5
 5
 Package_BGA
 Texas_DSBGA-5_0.8875x1.3875mm_Layout2x3_P0.5mm
-Texas Instruments, DSBGA, area grid, NSMD, YZP0005 pad definition, 0.8875x1.3875mm, 5 Ball, 2x3 Layout, 0.5mm Pitch, https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf#page=42, https://www.ti.com/lit/ml/mxbg018l/mxbg018l.pdf
+Texas Instruments, DSBGA, area grid, NSMD, YZP0005 pad definition, 0.8875x1.3875mm, 5 Ball, 2x3 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf#page=42, https://www.ti.com/lit/ml/mxbg018l/mxbg018l.pdf
 BGA 5 0.5 YZP
 0
 5
@@ -70834,21 +70932,21 @@ Texas Instruments DSBGA BGA YZP R-XBGA-N6
 6
 Package_BGA
 Texas_DSBGA-6_0.95x1.488mm_Layout2x3_P0.4mm
-Texas Instruments, DSBGA, area grid, YBG pad definition, 0.95x1.488mm, 6 Ball, 2x3 Layout, 0.4mm Pitch, https://www.ti.com/lit/ml/mxbg419/mxbg419.pdf, https://www.ti.com/lit/ds/symlink/tmp117.pdf
+Texas Instruments, DSBGA, area grid, YBG pad definition, 0.95x1.488mm, 6 Ball, 2x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ml/mxbg419/mxbg419.pdf, https://www.ti.com/lit/ds/symlink/tmp117.pdf
 BGA 6 0.4
 0
 6
 6
 Package_BGA
 Texas_DSBGA-6_0.704x1.054mm_Layout2x3_P0.35mm
-Texas Instruments, DSBGA-6, 0.704x1.054mm, NSMD, YKA0006-C01 pad definition, 0.704x1.054mm, 6 Ball, 2x3 Layout, 0.35mm Pitch, https://www.ti.com/lit/ds/symlink/tps62800.pdf
+Texas Instruments, DSBGA-6, 0.704x1.054mm, NSMD, YKA0006-C01 pad definition, 0.704x1.054mm, 6 Ball, 2x3 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/tps62800.pdf
 BGA 6 0.35
 0
 6
 6
 Package_BGA
 Texas_DSBGA-6_0.757x1.01mm_Layout2x3_P0.35mm
-Texas Instruments, DSBGA-6, 0.757x1.01mm, SMD, YKA0006 pad definition, 0.757x1.01mm, 6 Ball, 2x3 Layout, 0.35mm Pitch, https://www.ti.com/lit/ds/symlink/tps62843.pdf
+Texas Instruments, DSBGA-6, 0.757x1.01mm, SMD, YKA0006 pad definition, 0.757x1.01mm, 6 Ball, 2x3 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/tps62843.pdf
 BGA 6 0.35 TI 0.787x1.04mm (max)
 0
 12
@@ -70876,7 +70974,7 @@ Texas Instruments DSBGA BGA YZP R-XBGA-N8
 8
 Package_BGA
 Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm
-Texas Instruments, DSBGA, area grid, NSMD, YBJ0008 pad definition, 0.705x1.468mm, 8 Ball, 2x4 Layout, 0.4mm Pitch, https://www.ti.com/lit/gpn/ina234
+Texas Instruments, DSBGA, area grid, NSMD, YBJ0008 pad definition, 0.705x1.468mm, 8 Ball, 2x4 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/gpn/ina234
 BGA 8 0.4
 0
 8
@@ -70890,14 +70988,14 @@ Texas Instruments DSBGA BGA YZP R-XBGA-N8
 8
 Package_BGA
 Texas_DSBGA-8_1.5195x1.5195mm_Layout3x3_P0.5mm
-Texas Instruments, DSBGA, area grid, YZR pad definition, 1.5195x1.5195mm, 8 Ball, 3x3 Layout, 0.5mm Pitch, http://www.ti.com/lit/ml/mxbg270/mxbg270.pdf
+Texas Instruments, DSBGA, area grid, YZR pad definition, 1.5195x1.5195mm, 8 Ball, 3x3 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.ti.com/lit/ml/mxbg270/mxbg270.pdf
 BGA 8 0.5
 0
 8
 8
 Package_BGA
 Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm
-Texas Instruments, DSBGA, 1.62mmx1.58mm, area grid, NSMD, YZF0009 pad definition, 1.62x1.58mm, 9 Ball, 3x3 Layout, 0.5mm Pitch, https://www.ti.com/lit/ml/mxbg027n/mxbg027n.pdf
+Texas Instruments, DSBGA, 1.62mmx1.58mm, area grid, NSMD, YZF0009 pad definition, 1.62x1.58mm, 9 Ball, 3x3 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ml/mxbg027n/mxbg027n.pdf
 BGA 9 0.5
 0
 9
@@ -70932,21 +71030,21 @@ BGA 16 0.5
 16
 Package_BGA
 Texas_DSBGA-28_1.9x3mm_Layout4x7_P0.4mm
-Texas Instruments, DSBGA, area grid, 1.9x3.0mm, 28 Ball, 4x7 Layout, 0.4mm Pitch, http://www.ti.com/lit/ds/symlink/bq51050b.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
+Texas Instruments, DSBGA, area grid, 1.9x3.0mm, 28 Ball, 4x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.ti.com/lit/ds/symlink/bq51050b.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
 BGA 28 0.4 TI 28-ball YFP R-XBGA-N28
 0
 28
 28
 Package_BGA
 Texas_DSBGA-49_3.33x3.488mm_Layout7x7_P0.4mm
-Texas Instruments, DSBGA, area grid, 3.33x3.488mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.ti.com/lit/ds/symlink/msp430f2234.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
+Texas Instruments, DSBGA, area grid, 3.33x3.488mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.ti.com/lit/ds/symlink/msp430f2234.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
 BGA 49 0.4
 0
 49
 49
 Package_BGA
 Texas_DSBGA-64_3.415x3.535mm_Layout8x8_P0.4mm
-Texas Instruments, DSBGA, area grid, 3.415x3.535mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.ti.com/lit/ds/slas718g/slas718g.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
+Texas Instruments, DSBGA, area grid, 3.415x3.535mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.ti.com/lit/ds/slas718g/slas718g.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf
 BGA 64 0.4
 0
 64
@@ -70967,42 +71065,42 @@ Texas_Junior_BGA-80
 80
 Package_BGA
 Texas_MicroStar_Junior_BGA-113_7x7mm_Layout12x12_P0.5mm
-Texas Instruments, BGA Microstar Junior, NSMD, 7x7mm, 113 Ball, 12x12 Layout, 0.5mm Pitch, http://www.ti.com/lit/ml/mpbg674/mpbg674.pdf, http://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf
+Texas Instruments, BGA Microstar Junior, NSMD, 7x7mm, 113 Ball, 12x12 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.ti.com/lit/ml/mpbg674/mpbg674.pdf, http://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf
 BGA 113 0.5
 0
 113
 113
 Package_BGA
 Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm
-Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf
+Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/tmp114.pdf
 BGA 4 0.4 PicoStar
 0
 4
 4
 Package_BGA
 Texas_YFP0020_DSBGA-20_1.588x1.988mm_Layout4x5_P0.4mm
-Texas Instruments, YFP0020, DSBGA-20, area grid, 1.588x1.988mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/txs0206.pdf
+Texas Instruments, YFP0020, DSBGA-20, area grid, 1.588x1.988mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/txs0206.pdf
 BGA 20 0.4
 0
 20
 20
 Package_BGA
 UCBGA-36_2.5x2.5mm_Layout6x6_P0.4mm
-UCBGA-36, 2.5x2.5mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, https://www.latticesemi.com/view_document?document_id=213
+UCBGA-36, 2.5x2.5mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.latticesemi.com/view_document?document_id=213
 BGA 36 0.4
 0
 36
 36
 Package_BGA
 UCBGA-49_3x3mm_Layout7x7_P0.4mm
-UCBGA-49, 3x3mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, https://www.latticesemi.com/view_document?document_id=213
+UCBGA-49, 3x3mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.latticesemi.com/view_document?document_id=213
 BGA 49 0.4
 0
 49
 49
 Package_BGA
 UCBGA-81_4x4mm_Layout9x9_P0.4mm
-UCBGA-81, 4x4mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, https://www.latticesemi.com/view_document?document_id=213
+UCBGA-81, 4x4mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.latticesemi.com/view_document?document_id=213
 BGA 81 0.4
 0
 81
@@ -71023,21 +71121,21 @@ UFBGA-32
 32
 Package_BGA
 UFBGA-64_5x5mm_Layout8x8_P0.5mm
-UFBGA-64, 5.0x5.0mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f051t8.pdf#page=91
+UFBGA-64, 5.0x5.0mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f051t8.pdf#page=91
 BGA 64 0.5
 0
 64
 64
 Package_BGA
 UFBGA-100_7x7mm_Layout12x12_P0.5mm
-UFBGA-100, 7.0x7.0mm, 100 Ball, 12x12 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=93
+UFBGA-100, 7.0x7.0mm, 100 Ball, 12x12 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f103tb.pdf#page=93
 BGA 100 0.5
 0
 100
 100
 Package_BGA
 UFBGA-132_7x7mm_Layout12x12_P0.5mm
-UFBGA-132, 7.0x7.0mm, 132 Ball, 12x12 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=123
+UFBGA-132, 7.0x7.0mm, 132 Ball, 12x12 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=123
 BGA 132 0.5
 0
 132
@@ -71051,28 +71149,28 @@ ufbga bga small-pitch
 132
 Package_BGA
 UFBGA-144_7x7mm_Layout12x12_P0.5mm
-UFBGA-144, 7.0x7.0mm, 144 Ball, 12x12 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=186
+UFBGA-144, 7.0x7.0mm, 144 Ball, 12x12 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=186
 BGA 144 0.5
 0
 144
 144
 Package_BGA
 UFBGA-144_10x10mm_Layout12x12_P0.8mm
-UFBGA-144, 10.0x10.0mm, 144 Ball, 12x12 Layout, 0.8mm Pitch, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=189
+UFBGA-144, 10.0x10.0mm, 144 Ball, 12x12 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=189
 BGA 144 0.8
 0
 144
 144
 Package_BGA
 UFBGA-169_7x7mm_Layout13x13_P0.5mm
-UFBGA-169, 7.0x7.0mm, 169 Ball, 13x13 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f429ng.pdf#page=218
+UFBGA-169, 7.0x7.0mm, 169 Ball, 13x13 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f429ng.pdf#page=218
 BGA 169 0.5
 0
 169
 169
 Package_BGA
 UFBGA-201_10x10mm_Layout15x15_P0.65mm
-UFBGA-201, 10.0x10.0mm, 201 Ball, 15x15 Layout, 0.65mm Pitch, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166
+UFBGA-201, 10.0x10.0mm, 201 Ball, 15x15 Layout, 0.65mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=166
 BGA 201 0.65
 0
 201
@@ -71086,7 +71184,7 @@ VFBGA-49
 49
 Package_BGA
 VFBGA-86_6x6mm_Layout10x10_P0.55mm
-VFBGA-86, 6.0x6.0mm, 86 Ball, 10x10 Layout, 0.55mm Pitch, https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf#page=740
+VFBGA-86, 6.0x6.0mm, 86 Ball, 10x10 Layout, 0.55mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf#page=740
 BGA 86 0.55
 0
 86
@@ -71114,21 +71212,21 @@ WLP-4
 4
 Package_BGA
 WLP-4_0.728x0.728mm_Layout2x2_P0.35mm
-WLP-4, 0.728x0.728mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
+WLP-4, 0.728x0.728mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
 BGA 4 0.35
 0
 4
 4
 Package_BGA
 WLP-9_1.468x1.448mm_Layout3x3_P0.4mm
-WLP-9, 1.468x1.448mm, 9 Ball, 3x3 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100168.PDF
+WLP-9, 1.468x1.448mm, 9 Ball, 3x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://pdfserv.maximintegrated.com/package_dwgs/21-100168.PDF
 BGA 9 0.4
 0
 9
 9
 Package_BGA
 XBGA-121_10x10mm_Layout11x11_P0.8mm
-XBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf
+XBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf
 BGA 121 0.8
 0
 121
@@ -71156,280 +71254,280 @@ XFBGA-121
 121
 Package_BGA
 Xilinx_CLG225
-Zynq-7000 BGA, NSMD pad definition Appendix A, 13x13mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=77
+Zynq-7000 BGA, NSMD pad definition Appendix A, 13x13mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=77
 BGA 225 0.8 C L G 2 2 5
 0
 225
 225
 Package_BGA
 Xilinx_CLG400
-Zynq-7000 BGA, NSMD pad definition Appendix A, 17x17mm, 400 Ball, 20x20 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=78
+Zynq-7000 BGA, NSMD pad definition Appendix A, 17x17mm, 400 Ball, 20x20 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=78
 BGA 400 0.8 C L G 4 0 0   C L 4 0 0
 0
 400
 400
 Package_BGA
 Xilinx_CLG484_CLG485
-Zynq-7000 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=79
+Zynq-7000 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=79
 BGA 484 0.8 C L G 4 8 4   C L 4 8 4   C L G 4 8 5   C L 4 8 5
 0
 484
 484
 Package_BGA
 Xilinx_CPG236
-Artix-7 BGA, NSMD pad definition Appendix A, 10x10mm, 238 Ball, 19x19 Layout, 0.5mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=266
+Artix-7 BGA, NSMD pad definition Appendix A, 10x10mm, 238 Ball, 19x19 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=266
 BGA 238 0.5 C P 2 3 6   C P G 2 3 6
 0
 238
 238
 Package_BGA
 Xilinx_CPG238
-Artix-7 BGA, NSMD pad definition Appendix A, 10x10mm, 238 Ball, 19x19 Layout, 0.5mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=267
+Artix-7 BGA, NSMD pad definition Appendix A, 10x10mm, 238 Ball, 19x19 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=267
 BGA 238 0.5 C P G 2 3 8
 0
 238
 238
 Package_BGA
 Xilinx_CPGA196
-Spartan-7 BGA, NSMD pad definition Appendix A, 8x8mm, 196 Ball, 14x14 Layout, 0.5mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=260
+Spartan-7 BGA, NSMD pad definition Appendix A, 8x8mm, 196 Ball, 14x14 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=260
 BGA 196 0.5 C P G A 1 9 6
 0
 196
 196
 Package_BGA
 Xilinx_CSG324
-Artix-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=268
+Artix-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=268
 BGA 324 0.8 C S 3 2 4   C S G 3 2 4
 0
 324
 324
 Package_BGA
 Xilinx_CSG325
-Artix-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=268
+Artix-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=268
 BGA 324 0.8 C S 3 2 5   C S G 2 3 5
 0
 324
 324
 Package_BGA
 Xilinx_CSGA225
-Spartan-7 BGA, NSMD pad definition Appendix A, 13x13mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=262
+Spartan-7 BGA, NSMD pad definition Appendix A, 13x13mm, 225 Ball, 15x15 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=262
 BGA 225 0.8 C S G A 2 2 5
 0
 225
 225
 Package_BGA
 Xilinx_CSGA324
-Spartan-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=263
+Spartan-7 BGA, NSMD pad definition Appendix A, 15x15mm, 324 Ball, 18x18 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=263
 BGA 324 0.8 C S G A 3 2 4
 0
 324
 324
 Package_BGA
 Xilinx_FBG484
-Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=271, ttps://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=281, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=82
+Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=271, ttps://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=281, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=82
 BGA 484 1 F B 4 8 4   F B G 4 8 4   F B V 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_FBG676
-Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=273, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=284, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=84
+Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=273, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=284, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=84
 BGA 676 1 F B 6 7 6   F B G 6 7 6   F B V 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_FBG900
-Kintex-7 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=289
+Kintex-7 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=289
 BGA 900 1 F B 9 0 0   F B G 9 0 0   F B V 9 0 0
 0
 900
 900
 Package_BGA
 Xilinx_FFG676
-Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=292, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=88
+Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=292, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=88
 BGA 676 1 F F 6 7 6   F F G 6 7 6   F F V 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_FFG900_FFG901
-Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=294, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=90
+Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=294, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=90
 BGA 900 1 F F 9 0 0   F F G 9 0 0   F F V 9 0 0   F F 9 0 1   F F G 9 0 1   F F V 9 0 1
 0
 900
 900
 Package_BGA
 Xilinx_FFG1156
-Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=277, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=296, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=91
+Artix-7, Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=277, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=296, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=91
 BGA 1156 1 F F 1 1 5 6   F F G 1 1 5 6   F F V 1 1 5 6
 0
 1156
 1156
 Package_BGA
 Xilinx_FFG1157_FFG1158
-Virtex-7 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=299
+Virtex-7 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=299
 BGA 1156 1 F F 1 1 5 7   F F G 1 1 5 7   F F V 1 1 5 7   F F 1 1 5 8   F F G 1 1 5 8   F F V 1 1 5 8
 0
 1156
 1156
 Package_BGA
 Xilinx_FFG1761
-Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=300
+Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=300
 BGA 1760 1 F F 1 7 6 1   F F G 1 7 6 1
 0
 1760
 1760
 Package_BGA
 Xilinx_FFG1926_FFG1927_FFG1928_FFG1930
-Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=303
+Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=303
 BGA 1924 1 F F 1 9 2 6   F F G 1 9 2 6   F F 1 9 2 7   F F G 1 9 2 7   F F V 1 9 2 7   F F 1 9 2 8   F F G 1 9 2 8   F F 1 9 3 0   F F G 1 9 3 0
 0
 1924
 1924
 Package_BGA
 Xilinx_FFV1761
-Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=301
+Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=301
 BGA 1760 1 F F V 1 7 6 1
 0
 1760
 1760
 Package_BGA
 Xilinx_FGG484
-Artix-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275
+Artix-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275
 BGA 484 1 F G 4 8 4   F G G 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_FGG676
-Artix-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=276
+Artix-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=276
 BGA 676 1 F G 6 7 6   F G G 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_FGGA484
-Spartan-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=264
+Spartan-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=264
 BGA 484 1 F G G A 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_FGGA676
-Spartan-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=265
+Spartan-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=265
 BGA 676 1 F G G A 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_FHG1761
-Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1760 Ball, 42x42 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=302
+Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1760 Ball, 42x42 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=302
 BGA 1760 1 F H 1 7 6 1   F H G 1 7 6 1
 0
 1760
 1760
 Package_BGA
 Xilinx_FLG1925_FLG1926_FLG1928_FLG1930
-Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=304
+Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=304
 BGA 1924 1 F L 1 9 2 5   F L G 1 9 2 5   F L 1 9 2 6   F L G 1 9 2 6   F L 1 9 2 8   F L G 1 9 2 8   F L 1 9 3 0   F L G 1 9 3 0
 0
 1924
 1924
 Package_BGA
 Xilinx_FTG256
-Artix-7 BGA, NSMD pad definition Appendix A, 17x17mm, 256 Ball, 16x16 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=269
+Artix-7 BGA, NSMD pad definition Appendix A, 17x17mm, 256 Ball, 16x16 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=269
 BGA 256 1 F T 2 5 6   F T G 2 5 6
 0
 256
 256
 Package_BGA
 Xilinx_FTGB196
-Spartan-7 BGA, NSMD pad definition Appendix A, 15x15mm, 196 Ball, 14x14 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=261
+Spartan-7 BGA, NSMD pad definition Appendix A, 15x15mm, 196 Ball, 14x14 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=261
 BGA 196 1 F T G B 1 9 6
 0
 196
 196
 Package_BGA
 Xilinx_RB484
-Artix-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=278, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=92
+Artix-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=278, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=92
 BGA 484 1 R B 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_RB676
-Artix-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=280
+Artix-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=280
 BGA 676 1 R B 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_RF676
-Kintex-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=297
+Kintex-7 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=297
 BGA 676 1 R F 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_RF900
-Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=298, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=94
+Kintex-7 and Zynq-7000 BGA, NSMD pad definition Appendix A, 31x31mm, 900 Ball, 30x30 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=298, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=94
 BGA 900 1 R F 9 0 0
 0
 900
 900
 Package_BGA
 Xilinx_RF1156
-Zynq-7000 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=95
+Zynq-7000 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=95
 BGA 1156 1 R F 1 1 5 6
 0
 1156
 1156
 Package_BGA
 Xilinx_RF1157_RF1158
-Virtex-7 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=305
+Virtex-7 BGA, NSMD pad definition Appendix A, 35x35mm, 1156 Ball, 34x34 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=305
 BGA 1156 1 R F 1 1 5 7   R F 1 1 5 8
 0
 1156
 1156
 Package_BGA
 Xilinx_RF1761
-Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=306
+Virtex-7 BGA, NSMD pad definition Appendix A, 42.5x42.5mm, 1760 Ball, 42x42 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=306
 BGA 1760 1 R F 1 7 6 1
 0
 1760
 1760
 Package_BGA
 Xilinx_RF1930
-Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=307
+Virtex-7 BGA, NSMD pad definition Appendix A, 45x45mm, 1924 Ball, 44x44 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=307
 BGA 1924 1 R F 1 9 3 0
 0
 1924
 1924
 Package_BGA
 Xilinx_RFG676
-Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=93
+Zynq-7000 BGA, NSMD pad definition Appendix A, 27x27mm, 676 Ball, 26x26 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=93
 BGA 676 1 R F 6 7 6   R F G 6 7 6
 0
 676
 676
 Package_BGA
 Xilinx_RS484
-Artix-7 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=279
+Artix-7 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=279
 BGA 484 0.8 R S 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_SBG484
-Artix-7 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=270
+Artix-7 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=270
 BGA 484 0.8 S B 4 8 4   S B G 4 8 4   S B V 4 8 4
 0
 484
 484
 Package_BGA
 Xilinx_SBG485
-Zynq-7000 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=80
+Zynq-7000 BGA, NSMD pad definition Appendix A, 19x19mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=80
 BGA 484 0.8 S B G 4 8 5   S B V 4 8 5
 0
 484
@@ -71478,35 +71576,35 @@ Analog LFCSP-UQ NoLead
 10
 Package_CSP
 Anpec_WLCSP-20_1.76x2.03mm_Layout4x5_P0.4mm
-WLCSP-20, 1.76x2.03mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.lcsc.com/datasheet/lcsc_datasheet_2007032014_Anpec-Elec-APW7261HAI-TRG_C691404.pdf
+WLCSP-20, 1.76x2.03mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.lcsc.com/datasheet/lcsc_datasheet_2007032014_Anpec-Elec-APW7261HAI-TRG_C691404.pdf
 CSP 20 0.4
 0
 20
 20
 Package_CSP
 Dialog_WLCSP-34_4.54x1.66mm_Layout17x4_P0.25x0.34mm
-Dialog Semiconductor (Renesas) WLCSP-34, staggered array, 4.54x1.66mm, 34 Ball, 17x4 Layout, 0.25x0.34mm Pitch, https://www.renesas.com/us/en/document/dst/da7212-datasheet
+Dialog Semiconductor (Renesas) WLCSP-34, staggered array, 4.54x1.66mm, 34 Ball, 17x4 Layout, 0.25x0.34mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.renesas.com/us/en/document/dst/da7212-datasheet
 CSP 34 0.25x0.34 34-ball
 0
 34
 34
 Package_CSP
 DiodesInc_GEA20_WLCSP-20_1.7x2.1mm_Layout4x5_P0.4mm
-Diodes Incorporated WLCSP-20, GEA20, 1.7x2.1mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.diodes.com/assets/Package-Files/GEA20.pdf
+Diodes Incorporated WLCSP-20, GEA20, 1.7x2.1mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.diodes.com/assets/Package-Files/GEA20.pdf
 CSP 20 0.4
 0
 20
 20
 Package_CSP
 Efinix_WLCSP-64_3.5353x3.3753mm_Layout8x8_P0.4mm
-Efinix WLCSP, NSMD pad definition Page 60, 3.5353x3.3753mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+Efinix WLCSP, NSMD pad definition Page 60, 3.5353x3.3753mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 CSP 64 0.4 64-ball WLCSP
 0
 64
 64
 Package_CSP
 Efinix_WLCSP-80_4.4567x3.5569mm_Layout10x8_P0.4mm
-WLCSP-80, NSMD pad definition Page 54, 4.4567x3.5569mm, 80 Ball, 10x8 Layout, 0.4mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
+WLCSP-80, NSMD pad definition Page 54, 4.4567x3.5569mm, 80 Ball, 10x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf
 CSP 80 0.4 80-ball WLCSP
 0
 80
@@ -71947,553 +72045,553 @@ LFCSP-WD NoLead
 11
 Package_CSP
 Macronix_WLCSP-12_2.02x2.09mm_Layout4x4_P0.5mm
-WLCSP-12, 2.02x2.09mm, 12 Ball, 4x4 Layout, 0.5mm Pitch, https://www.macronix.com/Lists/Datasheet/Attachments/8909/MX25U3232F,%201.8V,%2032Mb,%20v1.2.pdf#page=93
+WLCSP-12, 2.02x2.09mm, 12 Ball, 4x4 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.macronix.com/Lists/Datasheet/Attachments/8909/MX25U3232F,%201.8V,%2032Mb,%20v1.2.pdf#page=93
 CSP 12 0.5
 0
 12
 12
 Package_CSP
 Maxim_WLCSP-35_2.998x2.168mm_Layout7x5_P0.4mm
-WLCSP-35, 2.998x2.168mm, 35 Ball, 7x5 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100489.PDF
+WLCSP-35, 2.998x2.168mm, 35 Ball, 7x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://pdfserv.maximintegrated.com/package_dwgs/21-100489.PDF
 CSP 35 0.4
 0
 35
 35
 Package_CSP
 Nexperia_WLCSP-15_2.37x1.17mm_Layout6x3_P0.4mmP0.8mm
-Nexperia wafer level chip-size package; 15 bumps (6-3-6), 2.37x1.17mm, 15 Ball, 6x3 Layout, 0.4mm Pitch, https://assets.nexperia.com/documents/data-sheet/PCMFXUSB3S_SER.pdf
+Nexperia wafer level chip-size package; 15 bumps (6-3-6), 2.37x1.17mm, 15 Ball, 6x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://assets.nexperia.com/documents/data-sheet/PCMFXUSB3S_SER.pdf
 CSP 15 0.4
 0
 15
 15
 Package_CSP
 OnSemi_ODCSP8_BGA-8_3.16x3.16mm_Layout3x3_P1.26mm
-OnSemi ODCSP8 (Case 570CS), 0.27mm pad, 3.16x3.16mm, 8 Ball, 3x3 Layout, 1.26mm Pitch, https://www.onsemi.com/pub/Collateral/570CS.PDF
+OnSemi ODCSP8 (Case 570CS), 0.27mm pad, 3.16x3.16mm, 8 Ball, 3x3 Layout, 1.26mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pub/Collateral/570CS.PDF
 CSP 8 1.26
 0
 8
 8
 Package_CSP
 OnSemi_ODCSP8_BGA-8_3.16x3.16mm_Layout3x3_P1.26mm_ManualAssembly
-OnSemi ODCSP8 (Case 570CS), 0.46mm pad, manual assembly variant (larger pads), 3.16x3.16mm, 8 Ball, 3x3 Layout, 1.26mm Pitch, https://www.onsemi.com/pub/Collateral/570CS.PDF
+OnSemi ODCSP8 (Case 570CS), 0.46mm pad, manual assembly variant (larger pads), 3.16x3.16mm, 8 Ball, 3x3 Layout, 1.26mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pub/Collateral/570CS.PDF
 CSP 8 1.26
 0
 8
 8
 Package_CSP
 OnSemi_ODCSP36_BGA-36_6.13x6.13mm_Layout6x6_P1.0mm
-OnSemi ODCSP36 (Case 570CP), 0.27mm pad, 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, https://www.onsemi.com/pub/Collateral/570CP.PDF
+OnSemi ODCSP36 (Case 570CP), 0.27mm pad, 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pub/Collateral/570CP.PDF
 CSP 36 1.0
 0
 36
 36
 Package_CSP
 OnSemi_ODCSP36_BGA-36_6.13x6.13mm_Layout6x6_P1.0mm_ManualAssembly
-OnSemi ODCSP36 (Case 570CP), 0.47mm pad, manual assembly variant (larger pads), 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, https://www.onsemi.com/pub/Collateral/570CP.PDF
+OnSemi ODCSP36 (Case 570CP), 0.47mm pad, manual assembly variant (larger pads), 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pub/Collateral/570CP.PDF
 CSP 36 1.0
 0
 36
 36
 Package_CSP
 ST_WLCSP-12_1.7x1.42mm_Layout4x6_P0.35mm_Stagger
-ST WLCSP-12, ST Die ID 443, 1.7x1.42mm, 12 Ball, Y-staggered 4x6 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32c011d6.pdf
+ST WLCSP-12, ST Die ID 443, 1.7x1.42mm, 12 Ball, Y-staggered 4x6 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32c011d6.pdf
 CSP 12 0.35
 0
 12
 12
 Package_CSP
 ST_WLCSP-18_1.86x2.14mm_Layout7x5_P0.4mm_Stagger
-ST WLCSP-18, ST Die ID 466, 1.86x2.14mm, 18 Ball, X-staggered 7x5 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g031y8.pdf
+ST WLCSP-18, ST Die ID 466, 1.86x2.14mm, 18 Ball, X-staggered 7x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g031y8.pdf
 CSP 18 0.4
 0
 18
 18
 Package_CSP
 ST_WLCSP-20_1.94x2.4mm_Layout4x5_P0.4mm
-ST WLCSP-20, ST die ID 456, 1.94x2.4mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g051f8.pdf#page=102
+ST WLCSP-20, ST die ID 456, 1.94x2.4mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g051f8.pdf#page=102
 CSP 20 0.4
 0
 20
 20
 Package_CSP
 ST_WLCSP-25_2.3x2.48mm_Layout5x5_P0.4mm
-ST WLCSP-25, ST die ID 460, 2.3x2.48mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g071eb.pdf
+ST WLCSP-25, ST die ID 460, 2.3x2.48mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g071eb.pdf
 CSP 25 0.4
 0
 25
 25
 Package_CSP
 ST_WLCSP-25_2.33x2.24mm_Layout5x5_P0.4mm
-ST WLCSP-25, ST Die ID 474, 2.33x2.24mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32h503eb.pdf
+ST WLCSP-25, ST Die ID 474, 2.33x2.24mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h503eb.pdf
 CSP 25 0.4
 0
 25
 25
 Package_CSP
 ST_WLCSP-25_Die425
-WLCSP-25, 2.097x2.493mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l031f6.pdf#page=112
+WLCSP-25, 2.097x2.493mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l031f6.pdf#page=112
 CSP 25 0.4
 0
 25
 25
 Package_CSP
 ST_WLCSP-25_Die444
-WLCSP-25, 2.423x2.325mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f031k6.pdf#page=93
+WLCSP-25, 2.423x2.325mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f031k6.pdf#page=93
 CSP 25 0.4
 0
 25
 25
 Package_CSP
 ST_WLCSP-25_Die457
-WLCSP-25, 2.133x2.07mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l011k3.pdf#page=100
+WLCSP-25, 2.133x2.07mm, 25 Ball, 5x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l011k3.pdf#page=100
 CSP 25 0.4
 0
 25
 25
 Package_CSP
 ST_WLCSP-27_2.34x2.55mm_Layout9x6_P0.4mm_Stagger
-ST WLCSP-27, ST Die ID 459, 2.34x2.55mm, 27 Ball, X-staggered 9x6 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32u031g6.pdf
+ST WLCSP-27, ST Die ID 459, 2.34x2.55mm, 27 Ball, X-staggered 9x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u031g6.pdf
 CSP 27 0.4
 0
 27
 27
 Package_CSP
 ST_WLCSP-36_2.58x3.07mm_Layout6x6_P0.4mm
-ST WLCSP-36, ST die ID 464, 2.58x3.07mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32l412t8.pdf
+ST WLCSP-36, ST die ID 464, 2.58x3.07mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32l412t8.pdf
 CSP 36 0.4
 0
 36
 36
 Package_CSP
 ST_WLCSP-36_Die417
-WLCSP-36, 2.61x2.88mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l052t8.pdf#page=123
+WLCSP-36, 2.61x2.88mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l052t8.pdf#page=123
 CSP 36 0.4
 0
 36
 36
 Package_CSP
 ST_WLCSP-36_Die440
-WLCSP-36, 2.605x2.703mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f051t8.pdf#page=103
+WLCSP-36, 2.605x2.703mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f051t8.pdf#page=103
 CSP 36 0.4
 0
 36
 36
 Package_CSP
 ST_WLCSP-36_Die445
-WLCSP-36, 2.605x2.703mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=96
+WLCSP-36, 2.605x2.703mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=96
 CSP 36 0.4
 0
 36
 36
 Package_CSP
 ST_WLCSP-36_Die458
-WLCSP-36, 2.553x2.579mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f410t8.pdf#page=119
+WLCSP-36, 2.553x2.579mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f410t8.pdf#page=119
 CSP 36 0.4
 0
 36
 36
 Package_CSP
 ST_WLCSP-41_2.98x2.76mm_Layout13x7_P0.4mm_Stagger
-ST WLCSP-41, 2.98x2.76mm, 41 Ball, X-staggered 13x7 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32wba55hg.pdf#page=140
+ST WLCSP-41, 2.98x2.76mm, 41 Ball, X-staggered 13x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wba55hg.pdf#page=140
 CSP 41 0.4
 0
 41
 41
 Package_CSP
 ST_WLCSP-42_2.93x2.82mm_Layout12x7_P0.4mm_Stagger
-ST WLCSP-42, ST Die ID 489, 2.93x2.82mm, 42 Ball, X-staggered 12x7 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32u073rc.pdf
+ST WLCSP-42, ST Die ID 489, 2.93x2.82mm, 42 Ball, X-staggered 12x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u073rc.pdf
 CSP 42 0.4
 0
 42
 42
 Package_CSP
 ST_WLCSP-49_3.3x3.38mm_Layout7x7_P0.4mm_Offcenter
-ST WLCSP-49, off-center ball grid, ST die ID 494, 3.3x3.38mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf#page=119
+ST WLCSP-49, off-center ball grid, ST die ID 494, 3.3x3.38mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf#page=119
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_3.15x3.13mm_Layout7x7_P0.4mm
-ST WLCSP-49, ST die ID 468, 3.15x3.13mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
+ST WLCSP-49, ST die ID 468, 3.15x3.13mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die423
-WLCSP-49, 2.965x2.965mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f401vc.pdf#page=115
+WLCSP-49, 2.965x2.965mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f401vc.pdf#page=115
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die431
-WLCSP-49, 2.999x3.185mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f411vc.pdf#page=124
+WLCSP-49, 2.999x3.185mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f411vc.pdf#page=124
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die433
-WLCSP-49, 3.029x3.029mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f401ce.pdf#page=116
+WLCSP-49, 3.029x3.029mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f401ce.pdf#page=116
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die435
-WLCSP-49, 3.141x3.127mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00257211.pdf#page=191
+WLCSP-49, 3.141x3.127mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00257211.pdf#page=191
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die438
-WLCSP-49, 3.89x3.74mm, 49 Ball, 7x7 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f303r8.pdf#page=112
+WLCSP-49, 3.89x3.74mm, 49 Ball, 7x7 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f303r8.pdf#page=112
 CSP 49 0.5
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die439
-WLCSP-49, 3.417x3.151mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f301r8.pdf#page=117
+WLCSP-49, 3.417x3.151mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f301r8.pdf#page=117
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die447
-WLCSP-49, 3.294x3.258mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l072kz.pdf#page=134
+WLCSP-49, 3.294x3.258mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l072kz.pdf#page=134
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-49_Die448
-WLCSP-49, 3.277x3.109mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f071v8.pdf#page=106
+WLCSP-49, 3.277x3.109mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f071v8.pdf#page=106
 CSP 49 0.4
 0
 49
 49
 Package_CSP
 ST_WLCSP-52_3.09x3.15mm_Layout13x8_P0.4mm_Stagger
-ST WLCSP-52, ST die ID 467, 3.09x3.15mm, 52 Ball, X-staggered 13x8 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g0b1ne.pdf#page=136
+ST WLCSP-52, ST die ID 467, 3.09x3.15mm, 52 Ball, X-staggered 13x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g0b1ne.pdf#page=136
 CSP 52 0.4
 0
 52
 52
 Package_CSP
 ST_WLCSP-56_3.38x3.38mm_Layout14x8_P0.4mm_Stagger
-ST WLCSP-56, ST die ID 455, 3.38x3.38mm, 56 Ball, X-staggered 14x8 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32u535je.pdf
+ST WLCSP-56, ST die ID 455, 3.38x3.38mm, 56 Ball, X-staggered 14x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u535je.pdf
 CSP 56 0.4
 0
 56
 56
 Package_CSP
 ST_WLCSP-63_Die427
-WLCSP-63, 3.228x4.164mm, 63 Ball, 7x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l151cc.pdf#page=125
+WLCSP-63, 3.228x4.164mm, 63 Ball, 7x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l151cc.pdf#page=125
 CSP 63 0.4
 0
 63
 63
 Package_CSP
 ST_WLCSP-64_3.56x3.52mm_Layout8x8_P0.4mm
-ST WLCSP-64, ST die ID 479, 3.56x3.52mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g491re.pdf
+ST WLCSP-64, ST die ID 479, 3.56x3.52mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g491re.pdf
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die414
-WLCSP-64, 4.466x4.395mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, http://www.st.com/resource/en/datasheet/stm32f103ze.pdf#page=120
+WLCSP-64, 4.466x4.395mm, 64 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f103ze.pdf#page=120
 CSP 64 0.5
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die427
-WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=126
+WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l152zc.pdf#page=126
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die435
-WLCSP-64, 3.141x3.127mm, 64 Ball, 8x8 Layout, 0.35mm Pitch, http://www.st.com/resource/en/datasheet/DM00257211.pdf#page=188
+WLCSP-64, 3.141x3.127mm, 64 Ball, 8x8 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00257211.pdf#page=188
 CSP 64 0.35
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die436
-WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l152zd.pdf#page=143
+WLCSP-64, 4.539x4.911mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l152zd.pdf#page=143
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die441
-WLCSP-64, 3.623x3.651mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00213872.pdf#page=167
+WLCSP-64, 3.623x3.651mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00213872.pdf#page=167
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die442
-WLCSP-64, 3.347x3.585mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f091vb.pdf#page=109
+WLCSP-64, 3.347x3.585mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f091vb.pdf#page=109
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-64_Die462
-WLCSP-64, 3.357x3.657mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00340475.pdf#page=189
+WLCSP-64, 3.357x3.657mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00340475.pdf#page=189
 CSP 64 0.4
 0
 64
 64
 Package_CSP
 ST_WLCSP-66_Die411
-WLCSP-66, 3.639x3.971mm, 66 Ball, 9x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=154
+WLCSP-66, 3.639x3.971mm, 66 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f207vg.pdf#page=154
 CSP 66 0.4
 0
 66
 66
 Package_CSP
 ST_WLCSP-66_Die432
-WLCSP-66, 3.767x4.229mm, 66 Ball, 8x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f378vc.pdf#page=114
+WLCSP-66, 3.767x4.229mm, 66 Ball, 8x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f378vc.pdf#page=114
 CSP 66 0.4
 0
 66
 66
 Package_CSP
 ST_WLCSP-72_3.38x3.38mm_Layout16x9_P0.35mm_Stagger
-ST WLCSP-72, ST die ID 455, 3.38x3.38mm, 72 Ball, X-staggered 16x9 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32u535je.pdf
+ST WLCSP-72, ST die ID 455, 3.38x3.38mm, 72 Ball, X-staggered 16x9 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u535je.pdf
 CSP 72 0.35
 0
 72
 72
 Package_CSP
 ST_WLCSP-72_Die415
-WLCSP-72, 4.4084x3.7594mm, 72 Ball, 9x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l476me.pdf#page=255
+WLCSP-72, 4.4084x3.7594mm, 72 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l476me.pdf#page=255
 CSP 72 0.4
 0
 72
 72
 Package_CSP
 ST_WLCSP-80_3.5x3.27mm_Layout10x16_P0.35mm_Stagger_Offcenter
-ST WLCSP-80, ST die ID 484, 3.5x3.27mm, 80 Ball, Y-staggered 10x16 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32h563mi.pdf
+ST WLCSP-80, ST die ID 484, 3.5x3.27mm, 80 Ball, Y-staggered 10x16 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h563mi.pdf
 CSP 80 0.35
 0
 80
 80
 Package_CSP
 ST_WLCSP-81_4.02x4.27mm_Layout9x9_P0.4mm
-ST WLCSP-81, ST die ID 469, 4.02x4.27mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32g483me.pdf
+ST WLCSP-81, ST die ID 469, 4.02x4.27mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g483me.pdf
 CSP 81 0.4
 0
 81
 81
 Package_CSP
 ST_WLCSP-81_4.36x4.07mm_Layout9x9_P0.4mm
-ST WLCSP-81, ST die ID 472, 4.36x4.07mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32l562ce.pdf
+ST WLCSP-81, ST die ID 472, 4.36x4.07mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32l562ce.pdf
 CSP 81 0.4
 0
 81
 81
 Package_CSP
 ST_WLCSP-81_Die415
-WLCSP-81, 4.4084x3.7594mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l476me.pdf#page=252
+WLCSP-81, 4.4084x3.7594mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l476me.pdf#page=252
 CSP 81 0.4
 0
 81
 81
 Package_CSP
 ST_WLCSP-81_Die421
-WLCSP-81, 3.693x3.815mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=192
+WLCSP-81, 3.693x3.815mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f446ze.pdf#page=192
 CSP 81 0.4
 0
 81
 81
 Package_CSP
 ST_WLCSP-81_Die463
-WLCSP-81, 4.039x3.951mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00282249.pdf#page=175
+WLCSP-81, 4.039x3.951mm, 81 Ball, 9x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00282249.pdf#page=175
 CSP 81 0.4
 0
 81
 81
 Package_CSP
 ST_WLCSP-90_4.2x3.95mm_Layout18x10_P0.4mm_Stagger
-ST WLCSP-90, ST die ID 482, 4.2x3.95mm, 90 Ball, X-staggered 18x10 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32u575og.pdf#page=306
+ST WLCSP-90, ST die ID 482, 4.2x3.95mm, 90 Ball, X-staggered 18x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u575og.pdf#page=306
 CSP 90 0.4
 0
 90
 90
 Package_CSP
 ST_WLCSP-90_Die413
-WLCSP-90, 4.223x3.969mm, 90 Ball, 10x9 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f405og.pdf#page=164
+WLCSP-90, 4.223x3.969mm, 90 Ball, 10x9 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f405og.pdf#page=164
 CSP 90 0.4
 0
 90
 90
 Package_CSP
 ST_WLCSP-99_4.42x3.77mm_Layout11x9_P0.35mm
-ST WLCSP-99, ST die ID 415, 4.42x3.77mm, 99 Ball, 11x9 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32l476vg.pdf
+ST WLCSP-99, ST die ID 415, 4.42x3.77mm, 99 Ball, 11x9 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32l476vg.pdf
 CSP 99 0.35
 0
 99
 99
 Package_CSP
 ST_WLCSP-100_4.4x4.38mm_Layout10x10_P0.4mm_Offcenter
-ST WLCSP-100, off-center ball grid, ST die ID 495, 4.4x4.38mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32wb55vc.pdf
+ST WLCSP-100, off-center ball grid, ST die ID 495, 4.4x4.38mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb55vc.pdf
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-100_4.437x4.456mm_Layout10x10_P0.4mm
-ST WLCSP-100, ST die ID 471, 4.437x4.456mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32l4p5ve.pdf
+ST WLCSP-100, ST die ID 471, 4.437x4.456mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32l4p5ve.pdf
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-100_Die422
-WLCSP-100, 4.201x4.663mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f302vc.pdf#page=133
+WLCSP-100, 4.201x4.663mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f302vc.pdf#page=133
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-100_Die446
-WLCSP-100, 4.775x5.041mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f303zd.pdf#page=162
+WLCSP-100, 4.775x5.041mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f303zd.pdf#page=162
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-100_Die452
-WLCSP-100, 4.201x4.663mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00330506.pdf#page=218
+WLCSP-100, 4.201x4.663mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00330506.pdf#page=218
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-100_Die461
-WLCSP-100, 4.618x4.142mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00284211.pdf#page=259
+WLCSP-100, 4.618x4.142mm, 100 Ball, 10x10 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00284211.pdf#page=259
 CSP 100 0.4
 0
 100
 100
 Package_CSP
 ST_WLCSP-101_3.86x3.79mm_Layout11x19_P0.35mm_Stagger
-ST WLCSP-101, ST Die ID 485, 3.86x3.79mm, 101 Ball, Y-staggered 11x19 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32h7r3v8.pdf
+ST WLCSP-101, ST Die ID 485, 3.86x3.79mm, 101 Ball, Y-staggered 11x19 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h7r3v8.pdf
 CSP 101 0.35
 0
 101
 101
 Package_CSP
 ST_WLCSP-104_Die437
-WLCSP-104, 4.095x5.094mm, 104 Ball, 9x12 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32l152ze.pdf#page=127
+WLCSP-104, 4.095x5.094mm, 104 Ball, 9x12 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l152ze.pdf#page=127
 CSP 104 0.4
 0
 104
 104
 Package_CSP
 ST_WLCSP-115_3.73x4.15mm_Layout11x21_P0.35mm_Stagger
-ST WLCSP-115, ST die ID 483, 3.73x4.15mm, 115 Ball, Y-staggered 11x21 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32h725vg.pdf
+ST WLCSP-115, ST die ID 483, 3.73x4.15mm, 115 Ball, Y-staggered 11x21 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h725vg.pdf
 CSP 115 0.35
 0
 115
 115
 Package_CSP
 ST_WLCSP-115_4.63x4.15mm_Layout21x11_P0.4mm_Stagger
-ST WLCSP-115, ST die ID 461, 4.63x4.15mm, 115 Ball, X-staggered 21x11 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32l496wg.pdf
+ST WLCSP-115, ST die ID 461, 4.63x4.15mm, 115 Ball, X-staggered 21x11 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32l496wg.pdf
 CSP 115 0.4
 0
 115
 115
 Package_CSP
 ST_WLCSP-132_4.57x4.37mm_Layout12x11_P0.35mm
-ST WLCSP-132, ST die ID 480, 4.57x4.37mm, 132 Ball, 12x11 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32h7a3ai.pdf
+ST WLCSP-132, ST die ID 480, 4.57x4.37mm, 132 Ball, 12x11 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h7a3ai.pdf
 CSP 132 0.35
 0
 132
 132
 Package_CSP
 ST_WLCSP-143_Die419
-WLCSP-143, 4.521x5.547mm, 143 Ball, 11x13 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f429ng.pdf#page=203
+WLCSP-143, 4.521x5.547mm, 143 Ball, 11x13 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f429ng.pdf#page=203
 CSP 143 0.4
 0
 143
 143
 Package_CSP
 ST_WLCSP-143_Die449
-WLCSP-143, 4.539x5.849mm, 143 Ball, 11x13 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=202
+WLCSP-143, 4.539x5.849mm, 143 Ball, 11x13 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f746zg.pdf#page=202
 CSP 143 0.4
 0
 143
 143
 Package_CSP
 ST_WLCSP-144_Die470
-WLCSP-144, 5.24x5.24mm, 144 Ball, 12x12 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00366448.pdf#page=295
+WLCSP-144, 5.24x5.24mm, 144 Ball, 12x12 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00366448.pdf#page=295
 CSP 144 0.4
 0
 144
 144
 Package_CSP
 ST_WLCSP-150_5.38x5.47mm_Layout13x23_P0.4mm_Stagger
-ST WLCSP-150, ST die ID 481, 5.38x5.47mm, 150 Ball, Y-staggered 13x23 Layout, 0.4mm Pitch, https://www.st.com/resource/en/datasheet/stm32u595zj.pdf
+ST WLCSP-150, ST die ID 481, 5.38x5.47mm, 150 Ball, Y-staggered 13x23 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u595zj.pdf
 CSP 150 0.4
 0
 150
 150
 Package_CSP
 ST_WLCSP-156_4.96x4.64mm_Layout13x12_P0.35mm
-ST WLCSP-156, ST die ID 450, 4.96x4.64mm, 156 Ball, 13x12 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32h747xi.pdf
+ST WLCSP-156, ST die ID 450, 4.96x4.64mm, 156 Ball, 13x12 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h747xi.pdf
 CSP 156 0.35
 0
 156
 156
 Package_CSP
 ST_WLCSP-168_Die434
-WLCSP-168, 4.891x5.692mm, 168 Ball, 12x14 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/stm32f469ni.pdf#page=198
+WLCSP-168, 4.891x5.692mm, 168 Ball, 12x14 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32f469ni.pdf#page=198
 CSP 168 0.4
 0
 168
 168
 Package_CSP
 ST_WLCSP-180_Die451
-WLCSP-180, 5.537x6.095mm, 180 Ball, 13x14 Layout, 0.4mm Pitch, http://www.st.com/resource/en/datasheet/DM00273119.pdf#page=240
+WLCSP-180, 5.537x6.095mm, 180 Ball, 13x14 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/DM00273119.pdf#page=240
 CSP 180 0.4
 0
 180
 180
 Package_CSP
 ST_WLCSP-208_5.8x5.6mm_Layout26x16_P0.35mm_Stagger
-ST WLCSP-208, ST die ID 476, 5.8x5.6mm, 208 Ball, X-staggered 26x16 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32u5f9bj.pdf
+ST WLCSP-208, ST die ID 476, 5.8x5.6mm, 208 Ball, X-staggered 26x16 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u5f9bj.pdf
 CSP 208 0.35
 0
 208
 208
 Package_CSP
 ST_WLCSP-208_5.38x5.47mm_Layout26x16_P0.35mm_Stagger
-ST WLCSP-208, ST die ID 481, 5.38x5.47mm, 208 Ball, X-staggered 26x16 Layout, 0.35mm Pitch, https://www.st.com/resource/en/datasheet/stm32u5a5aj.pdf
+ST WLCSP-208, ST die ID 481, 5.38x5.47mm, 208 Ball, X-staggered 26x16 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32u5a5aj.pdf
 CSP 208 0.35
 0
 208
 208
 Package_CSP
 WLCSP-4_0.64x0.64mm_Layout2x2_P0.35mm
-WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23
+WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23
 CSP 4 0.35
 0
 4
 4
 Package_CSP
 WLCSP-4_0.89x0.89mm_Layout2x2_P0.5mm
-X1-WLB0909-4, 0.89x0.89mm, 4 Ball, 2x2 Layout, 0.5mm Pitch, https://www.diodes.com/assets/Datasheets/AP22913.pdf
+X1-WLB0909-4, 0.89x0.89mm, 4 Ball, 2x2 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.diodes.com/assets/Datasheets/AP22913.pdf
 CSP 4 0.5
 0
 4
@@ -72514,14 +72612,14 @@ WLCSP WLCSP-8 XFBGA XFBGA-8  CSP BGA Chip-Scale Glass-Top
 8
 Package_CSP
 WLCSP-8_1.551x2.284mm_Layout2x4_P0.5mm
-WLCSP-8, 1.551x2.284mm, 8 Ball, 2x4 Layout, 0.5mm Pitch, https://www.adestotech.com/wp-content/uploads/AT25SL321_112.pdf#page=75
+WLCSP-8, 1.551x2.284mm, 8 Ball, 2x4 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.adestotech.com/wp-content/uploads/AT25SL321_112.pdf#page=75
 CSP 8 0.5
 0
 8
 8
 Package_CSP
 WLCSP-9_1.21x1.22mm_Layout3x3_P0.4mm
-WLCSP-9, 1.21x1.22mm, 9 Ball, 3x3 Layout, 0.4mm Pitch, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/wlcspcb/cb_9_3.pdf
+WLCSP-9, 1.21x1.22mm, 9 Ball, 3x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/wlcspcb/cb_9_3.pdf
 CSP 9 0.4
 0
 9
@@ -72535,21 +72633,21 @@ BMM150 WLCSP
 12
 Package_CSP
 WLCSP-12_1.403x1.555mm_Layout6x4_P0.4mm_Stagger
-WLCSP-12, staggered array, 1.403x1.555mm, 12 Ball, X-staggered 6x4 Layout, 0.4mm Pitch, http://ww1.microchip.com/downloads/en/devicedoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=208
+WLCSP-12, staggered array, 1.403x1.555mm, 12 Ball, X-staggered 6x4 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/devicedoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=208
 CSP 12 0.4
 0
 12
 12
 Package_CSP
 WLCSP-16_1.409x1.409mm_Layout4x4_P0.35mm
-WLCSP-16, 1.409x1.409mm, 16 Ball, 4x4 Layout, 0.35mm Pitch, http://www.latticesemi.com/view_document?document_id=213
+WLCSP-16, 1.409x1.409mm, 16 Ball, 4x4 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.latticesemi.com/view_document?document_id=213
 CSP 16 0.35
 0
 16
 16
 Package_CSP
 WLCSP-16_2.225x2.17mm_Layout4x4_P0.5mm
-WLCSP-16 2.225x2.17mm, 2.225x2.17mm, 16 Ball, 4x4 Layout, 0.5mm Pitch, https://ww1.microchip.com/downloads/en/DeviceDoc/16B_WLCSP_CS_C04-06036c.pdf
+WLCSP-16 2.225x2.17mm, 2.225x2.17mm, 16 Ball, 4x4 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://ww1.microchip.com/downloads/en/DeviceDoc/16B_WLCSP_CS_C04-06036c.pdf
 CSP 16 0.5
 0
 16
@@ -81023,6 +81121,20 @@ HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-shee
 HTSSOP SO
 0
 27
+17
+Package_SO
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm
+HTSSOP, 16 Pin (http://www.ti.com/lit/ds/symlink/tps2660.pdf#page=48), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO TI-PWP0016H
+0
+20
+17
+Package_SO
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias
+HTSSOP, 16 Pin (http://www.ti.com/lit/ds/symlink/tps2660.pdf#page=48), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO TI-PWP0016H
+0
+33
 17
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3mm_ThermalVias
