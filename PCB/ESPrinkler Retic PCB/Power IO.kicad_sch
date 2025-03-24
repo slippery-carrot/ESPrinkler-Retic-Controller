@@ -9566,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:HB9500M-9.5-12P"
+		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_1.5_12-H-3.5_1x12_P3.5mm_Horizontal"
 			(at 20.32 62.23 0)
 			(effects
 				(font

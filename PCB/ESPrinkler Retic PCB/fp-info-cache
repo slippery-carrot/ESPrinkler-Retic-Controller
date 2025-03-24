@@ -1,4 +1,4 @@
-24962988341682894
+24989596138479676
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70134,7 +70134,7 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
-Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
+Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
 BGA 36 0.75 36-ball FBGA
 0
 36
@@ -70195,6 +70195,13 @@ BGA-16
 0
 16
 16
+Package_BGA
+BGA-24_6x8mm_Layout5x5_P1.0mm
+BGA-24, 6x8mm, 24 Ball, 5x5 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.issi.com/WW/pdf/66-67WVO32M8DALL-BLL.pdf#page=32
+BGA 24 1.0
+0
+24
+24
 Package_BGA
 BGA-25_6.35x6.35mm_Layout5x5_P1.27mm
 BGA-25, https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4624.pdf
@@ -70462,12 +70469,89 @@ FB-BGA-484
 484
 484
 Package_BGA
+FBGA-78_7.5x10.5mm_Layout9x13_P0.8mm
+FBGA-78, 7.5x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/785#page=88
+BGA 78 0.8 DDR3 DDR3L DDR4
+0
+78
+78
+Package_BGA
+FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm
+FBGA-78, 7.5x10.6mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1912#page=87
+BGA 78 0.8 DDR3 DDR3L DDR4
+0
+78
+78
+Package_BGA
 FBGA-78_7.5x11mm_Layout2x3x13_P0.8mm
 FBGA-78, https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
 FBGA-78
 0
 78
 78
+Package_BGA
+FBGA-78_8x10.5mm_Layout9x13_P0.8mm
+FBGA-78, 8.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1978#page=86
+BGA 78 0.8 DDR3 DDR3L DDR4
+0
+78
+78
+Package_BGA
+FBGA-78_9x10.5mm_Layout9x13_P0.8mm
+FBGA-78, 9.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.issi.com/WW/pdf/43-46TR16256A-85120AL.pdf#page=86
+BGA 78 0.8 DDR3 DDR3L DDR4
+0
+78
+78
+Package_BGA
+FBGA-78_9x10.6mm_Layout9x13_P0.8mm
+FBGA-78, 9.0x10.6mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1900#page=87
+BGA 78 0.8 DDR3 DDR3L DDR4
+0
+78
+78
+Package_BGA
+FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm
+FBGA-96, 7.5x13.5mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1896#page=87
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+Package_BGA
+FBGA-96_7.5x13mm_Layout9x16_P0.8mm
+FBGA-96, 7.5x13mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/746#page=96
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+Package_BGA
+FBGA-96_8x13mm_Layout9x16_P0.8mm
+FBGA-96, 8.0x13.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1594#page=98
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+Package_BGA
+FBGA-96_8x14mm_Layout9x16_P0.8mm
+FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, generalized from https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+Package_BGA
+FBGA-96_9x13mm_Layout9x16_P0.8mm
+FBGA-96, 9.0x13.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://insignis-tech.com/download/1884#page=87
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+Package_BGA
+FBGA-96_9x14mm_Layout9x16_P0.8mm
+FBGA-96, 9.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, generalized from https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
 Package_BGA
 Fujitsu_WLP-15_2.28x3.092mm_Layout3x5_P0.4mm
 WLP-15, 3x5 raster, 2.28x3.092mm package, pitch 0.4mm; http://www.fujitsu.com/global/documents/products/devices/semiconductor/fram/lineup/MB85RS1MT-DS501-00022-7v0-E.pdf
@@ -70632,42 +70716,42 @@ BGA 196 0.75
 Package_BGA
 Micron_FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm
 FBGA-78, 7.5x10.6mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=24
-BGA 78 0.8
+BGA 78 0.8 DDR3 DDR3L DDR4
 0
 78
 78
 Package_BGA
 Micron_FBGA-78_8x10.5mm_Layout9x13_P0.8mm
 FBGA-78, 8.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=25
-BGA 78 0.8
+BGA 78 0.8 DDR3 DDR3L DDR4
 0
 78
 78
 Package_BGA
 Micron_FBGA-78_9x10.5mm_Layout9x13_P0.8mm
 FBGA-78, 9.0x10.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=23
-BGA 78 0.8
+BGA 78 0.8 DDR3 DDR3L DDR4
 0
 78
 78
 Package_BGA
 Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm
 FBGA-96, 7.5x13.5mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=27
-BGA 96 0.8
+BGA 96 0.8 DDR3 DDR3L DDR4
 0
 96
 96
 Package_BGA
 Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm
 FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
-BGA 96 0.8
+BGA 96 0.8 DDR3 DDR3L DDR4
 0
 96
 96
 Package_BGA
 Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm
 FBGA-96, 9.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26
-BGA 96 0.8
+BGA 96 0.8 DDR3 DDR3L DDR4
 0
 96
 96
@@ -71597,7 +71681,7 @@ CSP 20 0.4
 20
 Package_CSP
 Efinix_WLCSP-64_3.5353x3.3753mm_Layout8x8_P0.4mm
-Efinix WLCSP, NSMD pad definition Page 60, 3.5353x3.3753mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
+Efinix WLCSP, NSMD pad definition Page 60, 3.5353x3.3753mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf#page=9
 CSP 64 0.4 64-ball WLCSP
 0
 64
@@ -71955,14 +72039,14 @@ LFCSP NoLead
 Package_CSP
 LFCSP-56-1EP_8x8mm_P0.5mm_EP6.6x6.6mm
 LFCSP, 56 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-56/CP_56_9.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead Analog-LFCSP_WQ-CP-56-9
+LFCSP NoLead Analog-LFCSP_WQ-CP-56-9 JEDEC-MO-220-WLLD-5-Modified-EP-size
 0
 66
 57
 Package_CSP
 LFCSP-56-1EP_8x8mm_P0.5mm_EP6.6x6.6mm_ThermalVias
 LFCSP, 56 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-56/CP_56_9.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead Analog-LFCSP_WQ-CP-56-9
+LFCSP NoLead Analog-LFCSP_WQ-CP-56-9 JEDEC-MO-220-WLLD-5-Modified-EP-size
 0
 76
 57
@@ -72057,6 +72141,13 @@ CSP 35 0.4
 0
 35
 35
+Package_CSP
+NXP_SOT1450-2_WLCSP-100_5.07x5.07mm_Layout10x10_P0.5mm
+NXP WLCSP100 (Case SOT1450-2), 0.28mm pad, 5.07x5.07mm, 100 Ball, 10x10 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1450-2.pdf
+CSP 100 0.5
+0
+100
+100
 Package_CSP
 Nexperia_WLCSP-15_2.37x1.17mm_Layout6x3_P0.4mmP0.8mm
 Nexperia wafer level chip-size package; 15 bumps (6-3-6), 2.37x1.17mm, 15 Ball, 6x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://assets.nexperia.com/documents/data-sheet/PCMFXUSB3S_SER.pdf
@@ -80143,6 +80234,20 @@ ST HLGA NoLead
 10
 10
 Package_LGA
+Texas_SIL0008C_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm
+Texas SIL0008C MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82085.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
+0
+11
+9
+Package_LGA
+Texas_SIL0008C_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias
+Texas SIL0008C MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82085.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
+0
+15
+9
+Package_LGA
 Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm
 Texas SIL0008D MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas MicroSiP NoLead
@@ -87200,29 +87305,29 @@ Potentiometer horizontal Bourns 3269X
 3
 Potentiometer_SMD
 Potentiometer_Bourns_3314G_Vertical
-Potentiometer, vertical, top-adjust, Bourns 3314G, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
+Potentiometer, vertical, Bourns 3314G, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
 Potentiometer vertical Bourns 3314G
 0
 3
 3
 Potentiometer_SMD
 Potentiometer_Bourns_3314J_Vertical
-Potentiometer, vertical, top-adjust, Bourns 3314J, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
+Potentiometer, vertical, Bourns 3314J, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
 Potentiometer vertical Bourns 3314J
 0
 3
 3
 Potentiometer_SMD
 Potentiometer_Bourns_3314R-1_Vertical_Hole
-Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
+Potentiometer, vertical, shaft hole, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
 Potentiometer vertical hole Bourns 3314R-1
 0
 3
 3
 Potentiometer_SMD
-Potentiometer_Bourns_3314R-GM5_Vertical
-Potentiometer, vertical, cross-slot, extended leadframe, Bourns 3314R-GM5, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
-Potentiometer vertical Bourns 3314R-GM5
+Potentiometer_Bourns_3314R-GM5_Vertical_Hole
+Potentiometer, vertical, shaft hole, extended leadframe, Bourns 3314R-GM5, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
+Potentiometer vertical hole extended leadframe Bourns 3314R-GM5
 0
 3
 3
@@ -87721,15 +87826,15 @@ Potentiometer_Bourns_PTV09A-1_Single_Vertical
 Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
 Potentiometer vertical Bourns PTV09A-1 Single
 0
-3
-3
+5
+4
 Potentiometer_THT
 Potentiometer_Bourns_PTV09A-2_Single_Horizontal
 Potentiometer, horizontal, Bourns PTV09A-2 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
 Potentiometer horizontal Bourns PTV09A-2 Single
 0
 5
-3
+4
 Potentiometer_THT
 Potentiometer_Bourns_PTV112-4_Dual_Vertical
 2 Gang dual Through Hole, Snap In potentiometer, https://www.bourns.com/docs/Product-Datasheets/PTVPTT.pdf
@@ -87967,14 +88072,14 @@ Potentiometer, horizontal, Vishay 148E-149E Dual, http://www.vishay.com/docs/570
 Potentiometer horizontal Vishay 148E-149E Dual
 0
 10
-6
+7
 Potentiometer_THT
 Potentiometer_Vishay_148E-149E_Single_Horizontal
 Potentiometer, horizontal, Vishay 148E-149E Single, http://www.vishay.com/docs/57040/148149.pdf
 Potentiometer horizontal Vishay 148E-149E Single
 0
 7
-3
+4
 Potentiometer_THT
 Potentiometer_Vishay_248BH-249BH_Single_Horizontal
 Potentiometer, horizontal, Vishay 248BH-249BH Single, http://www.vishay.com/docs/57054/248249.pdf
