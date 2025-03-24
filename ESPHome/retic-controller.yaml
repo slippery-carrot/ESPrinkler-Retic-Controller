@@ -138,9 +138,9 @@ logger:
 ###################################
 # Enable Home Assistant API
 ###################################
-#api:
-#  encryption:
-#    key: $api_key
+api:
+  encryption:
+    key: $api_key
 
 ###################################
 # Over the air updates
