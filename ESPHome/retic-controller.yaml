@@ -65,19 +65,19 @@ substitutions:
 
   # Valve & Pump (Main Valve) GPIO's
   # Enter the GPIO assignments for the pump and each zone below
-  pump_gpio: GPIO32
-  zone_1_gpio: GPIO12
-  zone_2_gpio: GPIO14
-  zone_3_gpio: GPIO27
-  zone_4_gpio: GPIO26
-  zone_5_gpio: GPIO25
-  zone_6_gpio: GPIO33
-  zone_7_gpio: GPIO9
-  zone_8_gpio: GPIO10
+  pump_gpio: GPIO23
+  zone_1_gpio: GPIO22
+  zone_2_gpio: GPIO1
+  zone_3_gpio: GPIO3
+  zone_4_gpio: GPIO21
+  zone_5_gpio: GPIO19
+  zone_6_gpio: GPIO18
+  zone_7_gpio: GPIO5
+  zone_8_gpio: GPIO17
 
   # True if your relay board is active low (GND trigger)
   # False if your relay board is active high (VCC trigger)
-  relay_inversion: 'True'
+  relay_inversion: 'False'
 
 
 #########################################
@@ -138,9 +138,9 @@ logger:
 ###################################
 # Enable Home Assistant API
 ###################################
-api:
-  encryption:
-    key: $api_key
+#api:
+#  encryption:
+#    key: $api_key
 
 ###################################
 # Over the air updates
