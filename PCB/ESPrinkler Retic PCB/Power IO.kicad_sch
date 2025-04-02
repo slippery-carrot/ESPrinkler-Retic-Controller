@@ -9566,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_1.5_12-H-3.5_1x12_P3.5mm_Horizontal"
+		(property "Footprint" "Footprints:DBT30C-7.62-12P-BK-P"
 			(at 20.32 62.23 0)
 			(effects
 				(font
@@ -9584,7 +9584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x12P Corner With Cover Plate 12 1 9.5mm -40℃~+105℃ 32A 750V Black 12~22 Straight Needle 4 Plugin,P=9.5mm Barrier Terminal Blocks ROHS"
+		(property "Description" "1x12P Mid Leg Double-sided 12 1 7.62mm 17.5A -40℃~+105℃ 450V Black 14~22 Straight Needle 1.5 Plugin,P=7.62mm Barrier Terminal Blocks ROHS"
 			(at 20.32 62.23 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Ningbo Kangnex Elec"
+		(property "Manufacturer" "DORABO"
 			(at 20.32 62.23 0)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "HB9500M-9.5-12P"
+		(property "Manufacturer P/N" "DBT30C-7.62-12P-BK-P"
 			(at 20.32 62.23 0)
 			(effects
 				(font
@@ -9620,7 +9620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C601245"
+		(property "Supplier P/N" "C395945"
 			(at 20.32 62.23 0)
 			(effects
 				(font
