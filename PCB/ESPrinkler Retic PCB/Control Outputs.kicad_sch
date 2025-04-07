@@ -435,296 +435,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1374,6 +1084,293 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7353,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -7575,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -8138,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -8360,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 88.9 113.03 0)
 			(effects
 				(font
@@ -9167,7 +9164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 88.9 41.91 0)
 			(effects
 				(font
@@ -9601,7 +9598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 242.57 36.83 90)
 		(mirror x)
 		(unit 1)
@@ -9619,7 +9616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 245.872 44.958 90)
 			(effects
 				(font
@@ -9691,13 +9688,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "2f3de670-1e90-484e-b37f-76032849721d")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "6f217677-eb1f-4e7a-bbc0-586b73aa9ce3")
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "693a67ab-10ac-407a-a0ad-08330f565c83")
 		)
 		(instances
@@ -10469,7 +10466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 242.57 143.51 90)
 		(mirror x)
 		(unit 1)
@@ -10487,7 +10484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 245.872 151.638 90)
 			(effects
 				(font
@@ -10559,13 +10556,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "67c0c5eb-3c12-46b8-8814-fdd9c76207ab")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "2aa6482a-22bd-4e4d-a5af-a6e7d17ff585")
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "6619314b-4e73-4a33-b6bf-cded949a556c")
 		)
 		(instances
@@ -12260,7 +12257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 242.57 71.12 90)
 		(mirror x)
 		(unit 1)
@@ -12278,7 +12275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 245.872 79.248 90)
 			(effects
 				(font
@@ -12350,13 +12347,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "2"
 			(uuid "40f0bc22-4f0b-4b2e-b9c0-2753ce28b168")
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "4408c98e-31db-44f3-bca9-a04e786cf4b3")
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "539b50ec-3cf2-4531-8846-5420f5186fac")
 		)
 		(instances
@@ -13941,7 +13938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 36.83 90)
 		(mirror x)
 		(unit 1)
@@ -13959,7 +13956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 109.982 44.958 90)
 			(effects
 				(font
@@ -14031,13 +14028,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "bf21692d-8ff6-47ff-bc0e-b3fe60a2352f")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "5189f98e-3b22-4e27-9ce2-83f08485e107")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "95c5dabe-97dd-4600-9e30-1e70af70fbba")
 		)
 		(instances
@@ -16249,7 +16246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 71.12 90)
 		(mirror x)
 		(unit 1)
@@ -16267,7 +16264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 109.982 79.248 90)
 			(effects
 				(font
@@ -16339,13 +16336,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "2"
 			(uuid "98ae761d-54d8-48be-a6bd-870e4c97ba5c")
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "1f038731-a2c8-4761-8b1a-918023b02dfa")
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "7a867b8c-23a2-4e83-9b2e-d53474c3995f")
 		)
 		(instances
@@ -17638,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -18058,7 +18055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 242.57 107.95 90)
 		(mirror x)
 		(unit 1)
@@ -18076,7 +18073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 245.872 116.078 90)
 			(effects
 				(font
@@ -18148,13 +18145,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "6499d434-f93a-490b-a0c7-ffb77cb7b8bc")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "548c3c4f-f420-4e92-a4d0-8dae1a609bec")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "c27f756d-1a8d-40f9-bf0d-9b6ed4530162")
 		)
 		(instances
@@ -18167,7 +18164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 143.51 90)
 		(mirror x)
 		(unit 1)
@@ -18185,7 +18182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 109.982 151.638 90)
 			(effects
 				(font
@@ -18257,13 +18254,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "3cc3ac6d-cbd9-42b3-93d5-a9171766bff7")
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "c689bb3c-d02f-4785-89e0-daf358b76c2c")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "1752af52-0a19-44f2-96a7-fa47b700ae70")
 		)
 		(instances
@@ -19029,7 +19026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 224.79 41.91 0)
 			(effects
 				(font
@@ -19254,7 +19251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -19463,7 +19460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 107.95 90)
 		(mirror x)
 		(unit 1)
@@ -19481,7 +19478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 109.982 116.078 90)
 			(effects
 				(font
@@ -19553,13 +19550,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "f220c08d-ebb1-40bf-968a-6d9ed2488da8")
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "d5113f87-e704-406b-ba4f-4a7a198f803f")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "4ac2bc74-7ac3-404a-a023-69f07f6fc535")
 		)
 		(instances
@@ -21257,7 +21254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 180.34 90)
 		(mirror x)
 		(unit 1)
@@ -21275,7 +21272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "AO3400A"
 			(at 109.982 188.468 90)
 			(effects
 				(font
@@ -21347,13 +21344,13 @@
 				(hide yes)
 			)
 		)
-		(pin "D"
+		(pin "2"
 			(uuid "39565757-2310-499b-8e3b-911c426bd84e")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "322c23c3-7cc4-477e-989f-e60da40970fd")
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "eaab4143-6b33-40c5-94d0-54c2d44d760a")
 		)
 		(instances
@@ -21391,7 +21388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
+		(property "Footprint" "Footprints:MOC306XS_LTO-M"
 			(at 224.79 148.59 0)
 			(effects
 				(font
