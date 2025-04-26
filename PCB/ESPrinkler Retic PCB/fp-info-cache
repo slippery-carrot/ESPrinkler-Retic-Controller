@@ -1,4 +1,4 @@
-25496018404237717
+25523470971437720
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6558,6 +6558,13 @@ capacitor tantalum
 0
 2
 2
+Connector
+BJB_Pico_46.110.1001_Receptacle_Horizontal
+BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
+socket
+0
+5
+1
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -54958,22 +54965,22 @@ ACDC-Converter TRACO TPP
 5
 Converter_ACDC
 Converter_ACDC_Vigortronix_VTX-214-010-1xx_THT
-Vigortronix VTX-214-010-1xx serie of ACDC converter, https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-010-1-Series-D0034-1.pdf
-Vigortronix VTX-214-010-1xx serie of ACDC converter
+ACDC converter, Vigortronix, VTX-214-010-1xx, 10W, input 90-265VAC, output 3.3-48V, body size 36x56x25.5mm (Script generated with StandardBox.py) (https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-010-1-Series-D0034-1.pdf)
+switching regulator filter
 0
 4
 4
 Converter_ACDC
 Converter_ACDC_Vigortronix_VTX-214-010-2xx_THT
-Vigortronix VTX-214-010-2xx serie of ACDC converter, https://www.vigortronix.com/wp-content/uploads/2024/03/VTX-214-010-2xx-10W-Mini-AC-DC-Converter-Range-D0066.pdf
-Vigortronix VTX-214-010-2xx serie of ACDC converter
+Miniature ACDC converter, Vigortronix, VTX-214-010-2xx, 10W, input 90-265VAC, output 3.3-48V, body size 30x45.5x24mm (Script generated with StandardBox.py) (https://www.vigortronix.com/wp-content/uploads/2024/03/VTX-214-010-2xx-10W-Mini-AC-DC-Converter-Range-D0066.pdf)
+switching regulator filter
 0
 4
 4
 Converter_ACDC
 Converter_ACDC_Vigortronix_VTX-214-015-1xx_THT
-Vigortronix VTX-214-015-1xx series of ACDC converter, https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-015-1-Series-D0035.pdf
-Vigortronix
+Miniature ACDC converter, Vigortronix, VTX-214-015-1xx, 15W, output 3.3-48V, body size 45x55x21mm (Script generated with StandardBox.py) (https://www.vigortronix.com/wp-content/uploads/2022/01/VTX-214-015-1-Series-D0035.pdf)
+switching regulator filter
 0
 5
 5
@@ -65920,8 +65927,8 @@ L_Toroid Horizontal series Radial pin pitch 14.70mm  diameter 16.8mm height 8.2m
 2
 Inductor_THT
 L_Toroid_Horizontal_D16.8mm_P14.70mm_Vishay_TJ3_BigPads
-L_Toroid, Horizontal series, Radial, pin pitch=14.70mm, diameter=16.8mm, height=8.2mm, Vishay, TJ3, BigPads, http://www.vishay.com/docs/34079/tj.pdf
-L_Toroid Horizontal series Radial pin pitch 14.70mm  diameter 16.8mm height 8.2mm Vishay TJ3 BigPads
+L_Toroid, Horizontal series, Radial, pin pitch=14.70mm, diameter=16.8mm, height=8.2mm, Vishay, TJ3, http://www.vishay.com/docs/34079/tj.pdf
+L_Toroid Horizontal series Radial pin pitch 14.70mm  diameter 16.8mm height 8.2mm Vishay TJ3
 0
 2
 2
@@ -65976,8 +65983,8 @@ L_Toroid Horizontal series Radial pin pitch 22.90mm  diameter 25.4mm height 11.4
 2
 Inductor_THT
 L_Toroid_Horizontal_D25.4mm_P22.90mm_Vishay_TJ5_BigPads
-L_Toroid, Horizontal series, Radial, pin pitch=22.90mm, diameter=25.4mm, height=11.4mm, Vishay, TJ5, BigPads, http://www.vishay.com/docs/34079/tj.pdf
-L_Toroid Horizontal series Radial pin pitch 22.90mm  diameter 25.4mm height 11.4mm Vishay TJ5 BigPads
+L_Toroid, Horizontal series, Radial, pin pitch=22.90mm, diameter=25.4mm, height=11.4mm, Vishay, TJ5, http://www.vishay.com/docs/34079/tj.pdf
+L_Toroid Horizontal series Radial pin pitch 22.90mm  diameter 25.4mm height 11.4mm Vishay TJ5
 0
 2
 2
@@ -66123,8 +66130,8 @@ L_Toroid Vertical series Radial pin pitch 7.10mm  length 16.8mm width 9.2mm Vish
 2
 Inductor_THT
 L_Toroid_Vertical_L16.8mm_W9.2mm_P7.10mm_Vishay_TJ3_BigPads
-L_Toroid, Vertical series, Radial, pin pitch=7.10mm, length*width=16.8*9.2mm^2, Vishay, TJ3, BigPads, http://www.vishay.com/docs/34079/tj.pdf
-L_Toroid Vertical series Radial pin pitch 7.10mm  length 16.8mm width 9.2mm Vishay TJ3 BigPads
+L_Toroid, Vertical series, Radial, pin pitch=7.10mm, length*width=16.8*9.2mm^2, Vishay, TJ3, http://www.vishay.com/docs/34079/tj.pdf
+L_Toroid Vertical series Radial pin pitch 7.10mm  length 16.8mm width 9.2mm Vishay TJ3
 0
 2
 2
@@ -66200,8 +66207,8 @@ L_Toroid Vertical series Radial pin pitch 12.20mm  length 25.4mm width 14.7mm Vi
 2
 Inductor_THT
 L_Toroid_Vertical_L25.4mm_W14.7mm_P12.20mm_Vishay_TJ5_BigPads
-L_Toroid, Vertical series, Radial, pin pitch=12.20mm, length*width=25.4*14.7mm^2, Vishay, TJ5, BigPads, http://www.vishay.com/docs/34079/tj.pdf
-L_Toroid Vertical series Radial pin pitch 12.20mm  length 25.4mm width 14.7mm Vishay TJ5 BigPads
+L_Toroid, Vertical series, Radial, pin pitch=12.20mm, length*width=25.4*14.7mm^2, Vishay, TJ5, http://www.vishay.com/docs/34079/tj.pdf
+L_Toroid Vertical series Radial pin pitch 12.20mm  length 25.4mm width 14.7mm Vishay TJ5
 0
 2
 2
@@ -66358,6 +66365,13 @@ Shielded High Current Inductor, body 41x36mm, https://www.we-online.com/catalog/
 THT
 0
 4
+2
+Jumper
+Jumper_Harwin_S1621_P10.9mm
+Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
+SMD jumper link
+0
+2
 2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
@@ -68111,8 +68125,8 @@ DIN rail adapter universal three M3 clearance holes
 0
 MountingHole
 MountingHole_2.1mm
-Mounting Hole 2.1mm, no annular
-mounting hole 2.1mm no annular
+Mounting Hole 2.1mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
@@ -68125,659 +68139,659 @@ mounting hole 2.1mm no annular
 0
 MountingHole
 MountingHole_2.2mm_M2
-Mounting Hole 2.2mm, no annular, M2
-mounting hole 2.2mm no annular m2
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
 0
 0
 0
 MountingHole
 MountingHole_2.2mm_M2_DIN965
-Mounting Hole 2.2mm, no annular, M2, DIN965
-mounting hole 2.2mm no annular m2 din965
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
 0
 0
 0
 MountingHole
 MountingHole_2.2mm_M2_DIN965_Pad
-Mounting Hole 2.2mm, M2, DIN965
-mounting hole 2.2mm m2 din965
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
 0
 1
 1
 MountingHole
 MountingHole_2.2mm_M2_DIN965_Pad_TopBottom
-Mounting Hole 2.2mm, M2, DIN965
-mounting hole 2.2mm m2 din965
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
 0
 3
 1
 MountingHole
 MountingHole_2.2mm_M2_DIN965_Pad_TopOnly
-Mounting Hole 2.2mm, M2, DIN965
-mounting hole 2.2mm m2 din965
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
 0
 2
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO7380
-Mounting Hole 2.2mm, no annular, M2, ISO7380
-mounting hole 2.2mm no annular m2 iso7380
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_2.2mm_M2_ISO7380_Pad
-Mounting Hole 2.2mm, M2, ISO7380
-mounting hole 2.2mm m2 iso7380
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom
-Mounting Hole 2.2mm, M2, ISO7380
-mounting hole 2.2mm m2 iso7380
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO7380_Pad_TopOnly
-Mounting Hole 2.2mm, M2, ISO7380
-mounting hole 2.2mm m2 iso7380
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO14580
-Mounting Hole 2.2mm, no annular, M2, ISO14580
-mounting hole 2.2mm no annular m2 iso14580
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_2.2mm_M2_ISO14580_Pad
-Mounting Hole 2.2mm, M2, ISO14580
-mounting hole 2.2mm m2 iso14580
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom
-Mounting Hole 2.2mm, M2, ISO14580
-mounting hole 2.2mm m2 iso14580
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_2.2mm_M2_ISO14580_Pad_TopOnly
-Mounting Hole 2.2mm, M2, ISO14580
-mounting hole 2.2mm m2 iso14580
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_2.2mm_M2_Pad
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
 0
 1
 1
 MountingHole
 MountingHole_2.2mm_M2_Pad_TopBottom
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
 0
 3
 1
 MountingHole
 MountingHole_2.2mm_M2_Pad_TopOnly
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
 0
 2
 1
 MountingHole
 MountingHole_2.2mm_M2_Pad_Via
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
 0
 9
 1
 MountingHole
 MountingHole_2.5mm
-Mounting Hole 2.5mm, no annular
-mounting hole 2.5mm no annular
+Mounting Hole 2.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_2.5mm_Pad
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_2.5mm_Pad_TopBottom
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_2.5mm_Pad_TopOnly
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_2.5mm_Pad_Via
-Mounting Hole 2.5mm
-mounting hole 2.5mm
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_2.7mm
-Mounting Hole 2.7mm, no annular
-mounting hole 2.7mm no annular
+Mounting Hole 2.7mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_2.7mm_M2.5
-Mounting Hole 2.7mm, no annular, M2.5
-mounting hole 2.7mm no annular m2.5
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
 0
 0
 0
 MountingHole
 MountingHole_2.7mm_M2.5_DIN965
-Mounting Hole 2.7mm, no annular, M2.5, DIN965
-mounting hole 2.7mm no annular m2.5 din965
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
 0
 0
 0
 MountingHole
 MountingHole_2.7mm_M2.5_DIN965_Pad
-Mounting Hole 2.7mm, M2.5, DIN965
-mounting hole 2.7mm m2.5 din965
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
 0
 1
 1
 MountingHole
 MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom
-Mounting Hole 2.7mm, M2.5, DIN965
-mounting hole 2.7mm m2.5 din965
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
 0
 3
 1
 MountingHole
 MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly
-Mounting Hole 2.7mm, M2.5, DIN965
-mounting hole 2.7mm m2.5 din965
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
 0
 2
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO7380
-Mounting Hole 2.7mm, no annular, M2.5, ISO7380
-mounting hole 2.7mm no annular m2.5 iso7380
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_2.7mm_M2.5_ISO7380_Pad
-Mounting Hole 2.7mm, M2.5, ISO7380
-mounting hole 2.7mm m2.5 iso7380
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom
-Mounting Hole 2.7mm, M2.5, ISO7380
-mounting hole 2.7mm m2.5 iso7380
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO7380_Pad_TopOnly
-Mounting Hole 2.7mm, M2.5, ISO7380
-mounting hole 2.7mm m2.5 iso7380
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO14580
-Mounting Hole 2.7mm, no annular, M2.5, ISO14580
-mounting hole 2.7mm no annular m2.5 iso14580
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_2.7mm_M2.5_ISO14580_Pad
-Mounting Hole 2.7mm, M2.5, ISO14580
-mounting hole 2.7mm m2.5 iso14580
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom
-Mounting Hole 2.7mm, M2.5, ISO14580
-mounting hole 2.7mm m2.5 iso14580
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_2.7mm_M2.5_ISO14580_Pad_TopOnly
-Mounting Hole 2.7mm, M2.5, ISO14580
-mounting hole 2.7mm m2.5 iso14580
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_2.7mm_M2.5_Pad
-Mounting Hole 2.7mm, M2.5
-mounting hole 2.7mm m2.5
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
 0
 1
 1
 MountingHole
 MountingHole_2.7mm_M2.5_Pad_TopBottom
-Mounting Hole 2.7mm, M2.5
-mounting hole 2.7mm m2.5
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
 0
 3
 1
 MountingHole
 MountingHole_2.7mm_M2.5_Pad_TopOnly
-Mounting Hole 2.7mm, M2.5
-mounting hole 2.7mm m2.5
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
 0
 2
 1
 MountingHole
 MountingHole_2.7mm_M2.5_Pad_Via
-Mounting Hole 2.7mm
-mounting hole 2.7mm
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
 0
 9
 1
 MountingHole
 MountingHole_2.7mm_Pad
-Mounting Hole 2.7mm
-mounting hole 2.7mm
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_2.7mm_Pad_TopBottom
-Mounting Hole 2.7mm
-mounting hole 2.7mm
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_2.7mm_Pad_TopOnly
-Mounting Hole 2.7mm
-mounting hole 2.7mm
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_2.7mm_Pad_Via
-Mounting Hole 2.7mm
-mounting hole 2.7mm
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_2mm
-Mounting Hole 2mm, no annular
-mounting hole 2mm no annular
+Mounting Hole 2mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
 0
 0
 0
 MountingHole
 MountingHole_3.2mm_M3_DIN965
-Mounting Hole 3.2mm, no annular, M3, DIN965
-mounting hole 3.2mm no annular m3 din965
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
 0
 0
 0
 MountingHole
 MountingHole_3.2mm_M3_DIN965_Pad
-Mounting Hole 3.2mm, M3, DIN965
-mounting hole 3.2mm m3 din965
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
 0
 1
 1
 MountingHole
 MountingHole_3.2mm_M3_DIN965_Pad_TopBottom
-Mounting Hole 3.2mm, M3, DIN965
-mounting hole 3.2mm m3 din965
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
 0
 3
 1
 MountingHole
 MountingHole_3.2mm_M3_DIN965_Pad_TopOnly
-Mounting Hole 3.2mm, M3, DIN965
-mounting hole 3.2mm m3 din965
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
 0
 2
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO7380
-Mounting Hole 3.2mm, no annular, M3, ISO7380
-mounting hole 3.2mm no annular m3 iso7380
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_3.2mm_M3_ISO7380_Pad
-Mounting Hole 3.2mm, M3, ISO7380
-mounting hole 3.2mm m3 iso7380
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom
-Mounting Hole 3.2mm, M3, ISO7380
-mounting hole 3.2mm m3 iso7380
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO7380_Pad_TopOnly
-Mounting Hole 3.2mm, M3, ISO7380
-mounting hole 3.2mm m3 iso7380
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO14580
-Mounting Hole 3.2mm, no annular, M3, ISO14580
-mounting hole 3.2mm no annular m3 iso14580
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_3.2mm_M3_ISO14580_Pad
-Mounting Hole 3.2mm, M3, ISO14580
-mounting hole 3.2mm m3 iso14580
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom
-Mounting Hole 3.2mm, M3, ISO14580
-mounting hole 3.2mm m3 iso14580
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly
-Mounting Hole 3.2mm, M3, ISO14580
-mounting hole 3.2mm m3 iso14580
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_3.2mm_M3_Pad
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
 0
 1
 1
 MountingHole
 MountingHole_3.2mm_M3_Pad_TopBottom
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
 0
 3
 1
 MountingHole
 MountingHole_3.2mm_M3_Pad_TopOnly
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
 0
 2
 1
 MountingHole
 MountingHole_3.2mm_M3_Pad_Via
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
 0
 9
 1
 MountingHole
 MountingHole_3.5mm
-Mounting Hole 3.5mm, no annular
-mounting hole 3.5mm no annular
+Mounting Hole 3.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_3.5mm_Pad
-Mounting Hole 3.5mm
-mounting hole 3.5mm
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_3.5mm_Pad_TopBottom
-Mounting Hole 3.5mm
-mounting hole 3.5mm
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_3.5mm_Pad_TopOnly
-Mounting Hole 3.5mm
-mounting hole 3.5mm
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_3.5mm_Pad_Via
-Mounting Hole 3.5mm
-mounting hole 3.5mm
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_3.7mm
-Mounting Hole 3.7mm, no annular
-mounting hole 3.7mm no annular
+Mounting Hole 3.7mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_3.7mm_Pad
-Mounting Hole 3.7mm
-mounting hole 3.7mm
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_3.7mm_Pad_TopBottom
-Mounting Hole 3.7mm
-mounting hole 3.7mm
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_3.7mm_Pad_TopOnly
-Mounting Hole 3.7mm
-mounting hole 3.7mm
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_3.7mm_Pad_Via
-Mounting Hole 3.7mm
-mounting hole 3.7mm
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_3mm
-Mounting Hole 3mm, no annular
-mounting hole 3mm no annular
+Mounting Hole 3mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_3mm_Pad
-Mounting Hole 3mm
-mounting hole 3mm
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_3mm_Pad_TopBottom
-Mounting Hole 3mm
-mounting hole 3mm
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_3mm_Pad_TopOnly
-Mounting Hole 3mm
-mounting hole 3mm
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_3mm_Pad_Via
-Mounting Hole 3mm
-mounting hole 3mm
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_4.3mm_M4
-Mounting Hole 4.3mm, no annular, M4
-mounting hole 4.3mm no annular m4
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
 0
 0
 0
 MountingHole
 MountingHole_4.3mm_M4_DIN965
-Mounting Hole 4.3mm, no annular, M4, DIN965
-mounting hole 4.3mm no annular m4 din965
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
 0
 0
 0
 MountingHole
 MountingHole_4.3mm_M4_DIN965_Pad
-Mounting Hole 4.3mm, M4, DIN965
-mounting hole 4.3mm m4 din965
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
 0
 1
 1
 MountingHole
 MountingHole_4.3mm_M4_DIN965_Pad_TopBottom
-Mounting Hole 4.3mm, M4, DIN965
-mounting hole 4.3mm m4 din965
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
 0
 3
 1
 MountingHole
 MountingHole_4.3mm_M4_DIN965_Pad_TopOnly
-Mounting Hole 4.3mm, M4, DIN965
-mounting hole 4.3mm m4 din965
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
 0
 2
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO7380
-Mounting Hole 4.3mm, no annular, M4, ISO7380
-mounting hole 4.3mm no annular m4 iso7380
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_4.3mm_M4_ISO7380_Pad
-Mounting Hole 4.3mm, M4, ISO7380
-mounting hole 4.3mm m4 iso7380
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom
-Mounting Hole 4.3mm, M4, ISO7380
-mounting hole 4.3mm m4 iso7380
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly
-Mounting Hole 4.3mm, M4, ISO7380
-mounting hole 4.3mm m4 iso7380
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO14580
-Mounting Hole 4.3mm, no annular, M4, ISO14580
-mounting hole 4.3mm no annular m4 iso14580
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_4.3mm_M4_ISO14580_Pad
-Mounting Hole 4.3mm, M4, ISO14580
-mounting hole 4.3mm m4 iso14580
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO14580_Pad_TopBottom
-Mounting Hole 4.3mm, M4, ISO14580
-mounting hole 4.3mm m4 iso14580
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_4.3mm_M4_ISO14580_Pad_TopOnly
-Mounting Hole 4.3mm, M4, ISO14580
-mounting hole 4.3mm m4 iso14580
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_4.3mm_M4_Pad
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
 0
 1
 1
 MountingHole
 MountingHole_4.3mm_M4_Pad_TopBottom
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
 0
 3
 1
 MountingHole
 MountingHole_4.3mm_M4_Pad_TopOnly
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
 0
 2
 1
 MountingHole
 MountingHole_4.3mm_M4_Pad_Via
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
 0
 9
 1
@@ -68797,484 +68811,484 @@ mounting hole 4.3x6.2mm m4
 1
 MountingHole
 MountingHole_4.5mm
-Mounting Hole 4.5mm, no annular
-mounting hole 4.5mm no annular
+Mounting Hole 4.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_4.5mm_Pad
-Mounting Hole 4.5mm
-mounting hole 4.5mm
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_4.5mm_Pad_TopBottom
-Mounting Hole 4.5mm
-mounting hole 4.5mm
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_4.5mm_Pad_TopOnly
-Mounting Hole 4.5mm
-mounting hole 4.5mm
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_4.5mm_Pad_Via
-Mounting Hole 4.5mm
-mounting hole 4.5mm
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_4mm
-Mounting Hole 4mm, no annular
-mounting hole 4mm no annular
+Mounting Hole 4mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_4mm_Pad
-Mounting Hole 4mm
-mounting hole 4mm
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_4mm_Pad_TopBottom
-Mounting Hole 4mm
-mounting hole 4mm
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_4mm_Pad_TopOnly
-Mounting Hole 4mm
-mounting hole 4mm
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_4mm_Pad_Via
-Mounting Hole 4mm
-mounting hole 4mm
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_5.3mm_M5
-Mounting Hole 5.3mm, no annular, M5
-mounting hole 5.3mm no annular m5
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
 0
 0
 0
 MountingHole
 MountingHole_5.3mm_M5_DIN965
-Mounting Hole 5.3mm, no annular, M5, DIN965
-mounting hole 5.3mm no annular m5 din965
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
 0
 0
 0
 MountingHole
 MountingHole_5.3mm_M5_DIN965_Pad
-Mounting Hole 5.3mm, M5, DIN965
-mounting hole 5.3mm m5 din965
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
 0
 1
 1
 MountingHole
 MountingHole_5.3mm_M5_DIN965_Pad_TopBottom
-Mounting Hole 5.3mm, M5, DIN965
-mounting hole 5.3mm m5 din965
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
 0
 3
 1
 MountingHole
 MountingHole_5.3mm_M5_DIN965_Pad_TopOnly
-Mounting Hole 5.3mm, M5, DIN965
-mounting hole 5.3mm m5 din965
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
 0
 2
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO7380
-Mounting Hole 5.3mm, no annular, M5, ISO7380
-mounting hole 5.3mm no annular m5 iso7380
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_5.3mm_M5_ISO7380_Pad
-Mounting Hole 5.3mm, M5, ISO7380
-mounting hole 5.3mm m5 iso7380
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO7380_Pad_TopBottom
-Mounting Hole 5.3mm, M5, ISO7380
-mounting hole 5.3mm m5 iso7380
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO7380_Pad_TopOnly
-Mounting Hole 5.3mm, M5, ISO7380
-mounting hole 5.3mm m5 iso7380
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO14580
-Mounting Hole 5.3mm, no annular, M5, ISO14580
-mounting hole 5.3mm no annular m5 iso14580
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_5.3mm_M5_ISO14580_Pad
-Mounting Hole 5.3mm, M5, ISO14580
-mounting hole 5.3mm m5 iso14580
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO14580_Pad_TopBottom
-Mounting Hole 5.3mm, M5, ISO14580
-mounting hole 5.3mm m5 iso14580
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_5.3mm_M5_ISO14580_Pad_TopOnly
-Mounting Hole 5.3mm, M5, ISO14580
-mounting hole 5.3mm m5 iso14580
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_5.3mm_M5_Pad
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
 0
 1
 1
 MountingHole
 MountingHole_5.3mm_M5_Pad_TopBottom
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
 0
 3
 1
 MountingHole
 MountingHole_5.3mm_M5_Pad_TopOnly
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
 0
 2
 1
 MountingHole
 MountingHole_5.3mm_M5_Pad_Via
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
 0
 9
 1
 MountingHole
 MountingHole_5.5mm
-Mounting Hole 5.5mm, no annular
-mounting hole 5.5mm no annular
+Mounting Hole 5.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_5.5mm_Pad
-Mounting Hole 5.5mm
-mounting hole 5.5mm
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_5.5mm_Pad_TopBottom
-Mounting Hole 5.5mm
-mounting hole 5.5mm
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_5.5mm_Pad_TopOnly
-Mounting Hole 5.5mm
-mounting hole 5.5mm
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_5.5mm_Pad_Via
-Mounting Hole 5.5mm
-mounting hole 5.5mm
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_5mm
-Mounting Hole 5mm, no annular
-mounting hole 5mm no annular
+Mounting Hole 5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_5mm_Pad
-Mounting Hole 5mm
-mounting hole 5mm
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_5mm_Pad_TopBottom
-Mounting Hole 5mm
-mounting hole 5mm
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_5mm_Pad_TopOnly
-Mounting Hole 5mm
-mounting hole 5mm
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_5mm_Pad_Via
-Mounting Hole 5mm
-mounting hole 5mm
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_6.4mm_M6
-Mounting Hole 6.4mm, no annular, M6
-mounting hole 6.4mm no annular m6
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
 0
 0
 0
 MountingHole
 MountingHole_6.4mm_M6_DIN965
-Mounting Hole 6.4mm, no annular, M6, DIN965
-mounting hole 6.4mm no annular m6 din965
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
 0
 0
 0
 MountingHole
 MountingHole_6.4mm_M6_DIN965_Pad
-Mounting Hole 6.4mm, M6, DIN965
-mounting hole 6.4mm m6 din965
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
 0
 1
 1
 MountingHole
 MountingHole_6.4mm_M6_DIN965_Pad_TopBottom
-Mounting Hole 6.4mm, M6, DIN965
-mounting hole 6.4mm m6 din965
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
 0
 3
 1
 MountingHole
 MountingHole_6.4mm_M6_DIN965_Pad_TopOnly
-Mounting Hole 6.4mm, M6, DIN965
-mounting hole 6.4mm m6 din965
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
 0
 2
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO7380
-Mounting Hole 6.4mm, no annular, M6, ISO7380
-mounting hole 6.4mm no annular m6 iso7380
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
 0
 0
 0
 MountingHole
 MountingHole_6.4mm_M6_ISO7380_Pad
-Mounting Hole 6.4mm, M6, ISO7380
-mounting hole 6.4mm m6 iso7380
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
 0
 1
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO7380_Pad_TopBottom
-Mounting Hole 6.4mm, M6, ISO7380
-mounting hole 6.4mm m6 iso7380
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
 0
 3
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO7380_Pad_TopOnly
-Mounting Hole 6.4mm, M6, ISO7380
-mounting hole 6.4mm m6 iso7380
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
 0
 2
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO14580
-Mounting Hole 6.4mm, no annular, M6, ISO14580
-mounting hole 6.4mm no annular m6 iso14580
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
 0
 0
 0
 MountingHole
 MountingHole_6.4mm_M6_ISO14580_Pad
-Mounting Hole 6.4mm, M6, ISO14580
-mounting hole 6.4mm m6 iso14580
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
 0
 1
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO14580_Pad_TopBottom
-Mounting Hole 6.4mm, M6, ISO14580
-mounting hole 6.4mm m6 iso14580
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
 0
 3
 1
 MountingHole
 MountingHole_6.4mm_M6_ISO14580_Pad_TopOnly
-Mounting Hole 6.4mm, M6, ISO14580
-mounting hole 6.4mm m6 iso14580
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
 0
 2
 1
 MountingHole
 MountingHole_6.4mm_M6_Pad
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
 0
 1
 1
 MountingHole
 MountingHole_6.4mm_M6_Pad_TopBottom
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
 0
 3
 1
 MountingHole
 MountingHole_6.4mm_M6_Pad_TopOnly
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
 0
 2
 1
 MountingHole
 MountingHole_6.4mm_M6_Pad_Via
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
 0
 9
 1
 MountingHole
 MountingHole_6.5mm
-Mounting Hole 6.5mm, no annular
-mounting hole 6.5mm no annular
+Mounting Hole 6.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_6.5mm_Pad
-Mounting Hole 6.5mm
-mounting hole 6.5mm
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_6.5mm_Pad_TopBottom
-Mounting Hole 6.5mm
-mounting hole 6.5mm
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_6.5mm_Pad_TopOnly
-Mounting Hole 6.5mm
-mounting hole 6.5mm
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_6.5mm_Pad_Via
-Mounting Hole 6.5mm
-mounting hole 6.5mm
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_6mm
-Mounting Hole 6mm, no annular
-mounting hole 6mm no annular
+Mounting Hole 6mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 0
 0
 MountingHole
 MountingHole_6mm_Pad
-Mounting Hole 6mm
-mounting hole 6mm
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 1
 1
 MountingHole
 MountingHole_6mm_Pad_TopBottom
-Mounting Hole 6mm
-mounting hole 6mm
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 3
 1
 MountingHole
 MountingHole_6mm_Pad_TopOnly
-Mounting Hole 6mm
-mounting hole 6mm
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 2
 1
 MountingHole
 MountingHole_6mm_Pad_Via
-Mounting Hole 6mm
-mounting hole 6mm
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
 0
 9
 1
 MountingHole
 MountingHole_8.4mm_M8
-Mounting Hole 8.4mm, no annular, M8
-mounting hole 8.4mm no annular m8
+Mounting Hole 8.4mm, M8, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
 0
 0
 0
 MountingHole
 MountingHole_8.4mm_M8_Pad
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
 0
 1
 1
 MountingHole
 MountingHole_8.4mm_M8_Pad_TopBottom
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
 0
 3
 1
 MountingHole
 MountingHole_8.4mm_M8_Pad_TopOnly
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
 0
 2
 1
 MountingHole
 MountingHole_8.4mm_M8_Pad_Via
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
 0
 9
 1
@@ -72805,6 +72819,13 @@ Texas Instruments, DSBGA, 0.9x1.4mm, 6 bump 2x3 (perimeter) array, NSMD pad defi
 Texas Instruments DSBGA BGA YZP R-XBGA-N6
 0
 12
+6
+Package_BGA
+Texas_DSBGA-6_0.76x1.16mm_Layout2x3_P0.4mm
+Texas Instruments YFP0006, DSBGA-6, 0.76x1.16mm, 6 Ball, 2x3 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.ti.com/lit/ds/symlink/ts5a12301e.pdf#page=23
+BGA 6 0.4
+0
+6
 6
 Package_BGA
 Texas_DSBGA-6_0.95x1.488mm_Layout2x3_P0.4mm
@@ -77945,6 +77966,20 @@ Texas instruments QFN
 34
 15
 Package_DFN_QFN
+Texas_DLH0010A_WSON-10-1EP_2.2x2mm_P0.4mm_EP0.9x1.5mm
+Texas DLH0010A WSON, 10 Pin (https://www.ti.com/lit/gpn/BQ25185), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WSON NoLead
+0
+12
+11
+Package_DFN_QFN
+Texas_DLH0010A_WSON-10-1EP_2.2x2mm_P0.4mm_EP0.9x1.5mm_ThermalVias
+Texas DLH0010A WSON, 10 Pin (https://www.ti.com/lit/gpn/BQ25185), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WSON NoLead
+0
+15
+11
+Package_DFN_QFN
 Texas_DRB0008A
 DFN-8, 3x3x1mm, http://www.ti.com/lit/ds/symlink/ucc24610.pdf
 DRB0008A
@@ -78294,6 +78329,20 @@ Texas WQFN NoLead
 0
 31
 25
+Package_DFN_QFN
+Texas_RNH0030A_WQFN-30-1EP_2.5x4.5mm_P0.4mm_EP1.2x3.2mm
+Texas RNH0030A WQFN, 30 Pin (https://www.ti.com/lit/ds/symlink/hd3ss3220.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+33
+31
+Package_DFN_QFN
+Texas_RNH0030A_WQFN-30-1EP_2.5x4.5mm_P0.4mm_EP1.2x3.2mm_ThermalVias
+Texas RNH0030A WQFN, 30 Pin (https://www.ti.com/lit/ds/symlink/hd3ss3220.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+40
+31
 Package_DFN_QFN
 Texas_RNN0018A
 Texas Instruments, VQFN-HR RNN0018A (http://www.ti.com/lit/ds/symlink/tps568215.pdf)
@@ -79133,6 +79182,20 @@ VQFN, 40 Pin (JEDEC MO-220-K.01, variation VHHE-1, https://www.jedec.org/system/
 VQFN NoLead
 0
 62
+41
+Package_DFN_QFN
+VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm
+VQFN, 40 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-40/cp-40-29.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead Analog_CP-40-29
+0
+50
+41
+Package_DFN_QFN
+VQFN-40-1EP_6x6mm_P0.5mm_EP3.5x3.5mm_ThermalVias
+VQFN, 40 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-40/cp-40-29.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead Analog_CP-40-29
+0
+67
 41
 Package_DFN_QFN
 VQFN-46-1EP_5x6mm_P0.4mm_EP2.8x3.8mm
@@ -81732,6 +81795,13 @@ lcc smt
 8
 8
 Package_LCC
+MO047AD_PLCC-52_19.1x19.1mm_P1.27mm
+MO047AD PLCC, 52 Pin (JEDEC MO-047 variation AD, https://www.jedec.org/document_search?search_api_views_fulltext=MO-047, https://archive.org/details/bitsavers_signeticsdcsMicroprocessor_53987793/page/n775/mode/1up?view=theater), generated with kicad-footprint-generator ipc_plcc_jLead_generator.py
+PLCC LCC
+0
+52
+52
+Package_LCC
 PLCC-20
 PLCC, 20 pins, surface mount
 plcc smt
@@ -82432,6 +82502,20 @@ LQFP QFP
 160
 160
 Package_QFP
+LQFP-176-1EP_24x24mm_P0.5mm_EP6.6x6.6mm
+LQFP, 176 Pin (https://www.infineon.com/cms/en/product/packages/PG-TQFP/PG-TQFP-176-801/), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP Infineon-PG-TQFP-176-801
+0
+202
+177
+Package_QFP
+LQFP-176-1EP_24x24mm_P0.5mm_EP6.6x6.6mm_ThermalVias
+LQFP, 176 Pin (https://www.infineon.com/cms/en/product/packages/PG-TQFP/PG-TQFP-176-801/), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP Infineon-PG-TQFP-176-801
+0
+239
+177
+Package_QFP
 LQFP-176_20x20mm_P0.4mm
 LQFP, 176 Pin (https://www.onsemi.com/pub/Collateral/566DB.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
@@ -82459,6 +82543,13 @@ LQFP QFP
 0
 216
 216
+Package_QFP
+MO112AC1_PQFP-52_10x10mm_P0.65mm
+MO112AC1 PQFP, 52 Pin (JEDEC MO-112 variation AC-1, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://www.analog.com/media/en/package-pcb-resources/package/32717196300961s_52_2.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP MQFP S-52-2 high-standoff
+0
+52
+52
 Package_QFP
 Microchip_PQFP-44_10x10mm_P0.8mm
 Microchip  PQFP, 44 Pin (JEDEC MO-112 variation AA-2, Microchip and Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005418B.pdf#page=10, https://www.analog.com/media/en/technical-documentation/data-sheets/ad7722.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -82587,10 +82678,17 @@ TQFP QFP
 44
 Package_QFP
 TQFP-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm
-48-Lead Thin Quad Flatpack (PT) - 7x7x1.0 mm Body [TQFP] With Exposed Pad (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.5
+TQFP, 48 Pin (JEDEC MS-026 variation ABC, 1.00mm body thickness, custom Exposed Pad from Microchip and Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=664, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_48_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP SV-48-4
 0
 53
+49
+Package_QFP
+TQFP-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm_ThermalVias
+TQFP, 48 Pin (JEDEC MS-026 variation ABC, 1.00mm body thickness, custom Exposed Pad from Microchip and Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=664, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_48_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP SV-48-4
+0
+63
 49
 Package_QFP
 TQFP-48-1EP_7x7mm_P0.5mm_EP4.11x4.11mm
@@ -82713,8 +82811,8 @@ TQFP QFP
 101
 Package_QFP
 TQFP-100_12x12mm_P0.4mm
-100-Lead Plastic Thin Quad Flatpack (PT) - 12x12x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.4
+TQFP, 100 Pin (JEDEC MS-026 variation ADE, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=685), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP S100GK-40-9EV-1 pkg_8212 PTQP0100LD-A
 0
 100
 100
@@ -82781,13 +82879,6 @@ VQFP QFP
 0
 80
 80
-Package_QFP
-VQFP-100_14x14mm_P0.5mm
-VQFP, 100 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VQFP QFP
-0
-100
-100
 Package_QFP
 VQFP-128_14x14mm_P0.4mm
 VQFP, 128 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
