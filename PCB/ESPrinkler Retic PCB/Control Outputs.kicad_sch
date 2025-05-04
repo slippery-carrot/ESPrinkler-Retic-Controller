@@ -6804,7 +6804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 182.245 73.025 90)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -8135,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 88.9 113.03 0)
 			(effects
 				(font
@@ -9164,7 +9164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 88.9 41.91 0)
 			(effects
 				(font
@@ -10384,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 182.245 109.855 90)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 46.355 109.855 90)
 			(effects
 				(font
@@ -13544,7 +13544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 46.355 73.025 90)
 			(effects
 				(font
@@ -17635,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -17757,7 +17757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 46.355 38.735 90)
 			(effects
 				(font
@@ -17973,7 +17973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 46.355 145.415 90)
 			(effects
 				(font
@@ -19026,7 +19026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 224.79 41.91 0)
 			(effects
 				(font
@@ -19251,7 +19251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -19703,7 +19703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 46.355 182.245 90)
 			(effects
 				(font
@@ -20370,7 +20370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 182.245 145.415 90)
 			(effects
 				(font
@@ -20898,7 +20898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
 			(at 182.245 38.735 90)
 			(effects
 				(font
@@ -21388,7 +21388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MOC306XS_LTO-M"
+		(property "Footprint" "Footprints:MOC306XS_LTO"
 			(at 224.79 148.59 0)
 			(effects
 				(font

@@ -1181,7 +1181,7 @@
 		(uuid "f5252e0f-838d-45da-b0da-778886ca18d3")
 	)
 	(label "Pump"
-		(at 171.45 64.77 0)
+		(at 171.45 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 		(uuid "05749984-5cda-4c62-a4fc-5598724c0094")
 	)
 	(label "Zone 1"
-		(at 171.45 67.31 0)
+		(at 171.45 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 		(uuid "353824d2-d76e-4a1b-a03a-9b4c2fac82f2")
 	)
 	(label "Zone 6"
-		(at 171.45 82.55 0)
+		(at 171.45 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +1221,7 @@
 		(uuid "438519f0-d2ff-4f0a-a9ab-4d9173b9a98a")
 	)
 	(label "Zone 2"
-		(at 171.45 69.85 0)
+		(at 171.45 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 		(uuid "4ec2832c-3751-47ec-97db-93ce6bfe70e0")
 	)
 	(label "Zone 5"
-		(at 171.45 80.01 0)
+		(at 171.45 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1251,7 +1251,7 @@
 		(uuid "552c4b80-c026-4b4a-bccf-081b6d6a4bee")
 	)
 	(label "Zone 7"
-		(at 171.45 85.09 0)
+		(at 171.45 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 		(uuid "9515646d-91dd-405f-8d03-485d48eb5bde")
 	)
 	(label "Zone 3"
-		(at 171.45 72.39 0)
+		(at 171.45 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 		(uuid "d161fe2d-3d9d-459a-a067-8d43fd154f09")
 	)
 	(label "Zone 8"
-		(at 171.45 87.63 0)
+		(at 171.45 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 	)
 	(hierarchical_label "Zone 1 CTRL"
 		(shape output)
-		(at 171.45 67.31 180)
+		(at 171.45 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 	)
 	(hierarchical_label "Zone 2 CTRL"
 		(shape output)
-		(at 171.45 69.85 180)
+		(at 171.45 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1325,7 +1325,7 @@
 	)
 	(hierarchical_label "Zone 3 CTRL"
 		(shape output)
-		(at 171.45 72.39 180)
+		(at 171.45 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 	)
 	(hierarchical_label "Zone 6 CTRL"
 		(shape output)
-		(at 171.45 82.55 180)
+		(at 171.45 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1369,7 +1369,7 @@
 	)
 	(hierarchical_label "Zone 5 CTRL"
 		(shape output)
-		(at 171.45 80.01 180)
+		(at 171.45 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 	)
 	(hierarchical_label "Pump CTRL"
 		(shape output)
-		(at 171.45 64.77 180)
+		(at 171.45 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,7 +1391,7 @@
 	)
 	(hierarchical_label "Zone 8 CTRL"
 		(shape output)
-		(at 171.45 87.63 180)
+		(at 171.45 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 	)
 	(hierarchical_label "Zone 7 CTRL"
 		(shape output)
-		(at 171.45 85.09 180)
+		(at 171.45 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
