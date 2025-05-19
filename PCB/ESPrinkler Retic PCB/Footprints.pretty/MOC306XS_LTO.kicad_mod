@@ -504,4 +504,15 @@
 		(uuid "1a4d3c96-10b7-4edc-80ef-8c9b568dfc2e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/MOC306XS_LTO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

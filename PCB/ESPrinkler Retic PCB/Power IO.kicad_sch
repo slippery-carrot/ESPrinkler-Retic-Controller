@@ -6286,7 +6286,7 @@
 				)
 			)
 		)
-		(property "Value" "300R"
+		(property "Value" "1.2k"
 			(at 247.015 65.405 0)
 			(effects
 				(font
@@ -6330,7 +6330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F3000T5E"
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 242.57 63.5 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17617"
+		(property "Supplier P/N" "C17379"
 			(at 242.57 63.5 0)
 			(effects
 				(font
@@ -8966,7 +8966,7 @@
 				)
 			)
 		)
-		(property "Value" "300R"
+		(property "Value" "1.2k"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -9010,7 +9010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F3000T5E"
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -9028,7 +9028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17617"
+		(property "Supplier P/N" "C17379"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Value" "300R"
+		(property "Value" "1.2k"
 			(at 40.64 107.95 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F3000T5E"
+		(property "Manufacturer P/N" "0805W8F1201T5E"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17617"
+		(property "Supplier P/N" "C17379"
 			(at 36.83 107.95 0)
 			(effects
 				(font
