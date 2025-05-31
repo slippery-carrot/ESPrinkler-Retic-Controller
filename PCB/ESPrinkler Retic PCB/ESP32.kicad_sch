@@ -1211,7 +1211,7 @@
 		(uuid "3a97b935-51ec-4979-a6b6-c6145ca796a9")
 	)
 	(label "WIFI LED"
-		(at 121.92 87.63 180)
+		(at 121.92 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1281,7 +1281,7 @@
 		(uuid "f5eb6b92-47d9-4af7-a063-0301d907a390")
 	)
 	(label "Status LED"
-		(at 121.92 90.17 180)
+		(at 121.92 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1336,7 +1336,7 @@
 	)
 	(hierarchical_label "Status LED CTRL"
 		(shape output)
-		(at 121.92 90.17 0)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1358,7 +1358,7 @@
 	)
 	(hierarchical_label "WIFI LED CTRL"
 		(shape output)
-		(at 121.92 87.63 0)
+		(at 121.92 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)

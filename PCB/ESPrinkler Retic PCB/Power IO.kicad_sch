@@ -6910,7 +6910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSSC"
+		(property "Supplier" "LCSC"
 			(at 44.45 49.53 0)
 			(effects
 				(font
@@ -8031,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 20.32 92.71 0)
 			(effects
 				(font
