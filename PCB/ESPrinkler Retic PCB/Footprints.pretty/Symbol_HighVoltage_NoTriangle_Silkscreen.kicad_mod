@@ -1,0 +1,110 @@
+(footprint "Symbol_HighVoltage_NoTriangle_Silkscreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "High voltage symbol, no triangle, 6x15mm, copper layer")
+	(tags "warning graphic")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4576b453-d3bd-4bc4-b17d-0b9acecb621a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_HighVoltage_NoTriangle_Silkscreen"
+		(at -1.27 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "babf88cc-eef0-40ba-9558-52b37d3bc7b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dda9bfe-583e-4520-9dd4-e530beeef452")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee5659dd-f878-45c8-bd81-6be60f71885c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy -0.77 4.54) (xy 1.07 4.98) (xy -0.333376 6.604)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e9f5f15e-acfc-47b4-9028-1ce0ba1c00cc")
+	)
+	(fp_poly
+		(pts
+			(xy 0.619125 -0.547625) (xy 0.13 -0.28) (xy 0.55 0.02)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "682eafa0-6010-4f80-97af-3810f627a16e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.88 -1.14) (xy -1.143 -0.5) (xy -0.52 -0.81) (xy -0.89 -1.14)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8255f406-9f46-4ebe-86aa-75537ce6f1c2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.143 -0.5) (xy 2.54 -2.413) (xy 0.523874 5.262625) (xy 1.61925 4.595875) (xy -0.333376 6.604)
+			(xy -1.04775 4.072001) (xy -0.285751 5.11975) (xy 0.619125 -0.547625) (xy -3.048001 1.405001) (xy -0.381 -6.477)
+			(xy 1.397 -6.477)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7447847c-29d1-4399-9189-8654a1d3f121")
+	)
+	(embedded_fonts no)
+)

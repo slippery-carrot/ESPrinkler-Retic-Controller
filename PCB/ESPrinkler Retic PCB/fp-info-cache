@@ -1,4 +1,4 @@
-25604611276405366
+25675953215963185
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -22043,6 +22043,13 @@ connector Molex Micro-Fit_3.0 horizontal
 4
 3
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-0212_1x02-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0212 (compatible alternatives: 43650-0213, 43650-0214), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+4
+3
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0215 (compatible alternatives: 43650-0216, 43650-0217), 2 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22080,6 +22087,13 @@ connector Molex Micro-Fit_3.0 horizontal
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal_PnP
 Molex Micro-Fit 3.0 Connector System, 43650-0310 (compatible alternatives: 43650-0311, 43650-0309), 3 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+5
+4
+Connector_Molex
+Molex_Micro-Fit_3.0_43650-0312_1x03-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0312 (compatible alternatives: 43650-0313, 43650-0314), 3 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 horizontal
 0
 5
@@ -22127,6 +22141,13 @@ connector Molex Micro-Fit_3.0 horizontal
 6
 5
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-0412_1x04-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0412 (compatible alternatives: 43650-0413, 43650-0414), 4 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+6
+5
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0415 (compatible alternatives: 43650-0416, 43650-0417), 4 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22164,6 +22185,13 @@ connector Molex Micro-Fit_3.0 horizontal
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0510_1x05-1MP_P3.00mm_Horizontal_PnP
 Molex Micro-Fit 3.0 Connector System, 43650-0510 (compatible alternatives: 43650-0511, 43650-0509), 5 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+7
+6
+Connector_Molex
+Molex_Micro-Fit_3.0_43650-0512_1x05-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0512 (compatible alternatives: 43650-0513, 43650-0514), 5 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 horizontal
 0
 7
@@ -22211,6 +22239,13 @@ connector Molex Micro-Fit_3.0 horizontal
 8
 7
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-0612_1x06-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0612 (compatible alternatives: 43650-0613, 43650-0614), 6 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+8
+7
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0615 (compatible alternatives: 43650-0616, 43650-0617), 6 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22248,6 +22283,13 @@ connector Molex Micro-Fit_3.0 horizontal
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0710_1x07-1MP_P3.00mm_Horizontal_PnP
 Molex Micro-Fit 3.0 Connector System, 43650-0710 (compatible alternatives: 43650-0711, 43650-0709), 7 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+9
+8
+Connector_Molex
+Molex_Micro-Fit_3.0_43650-0712_1x07-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0712 (compatible alternatives: 43650-0713, 43650-0714), 7 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 horizontal
 0
 9
@@ -22295,6 +22337,13 @@ connector Molex Micro-Fit_3.0 horizontal
 10
 9
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-0812_1x08-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0812 (compatible alternatives: 43650-0813, 43650-0814), 8 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+10
+9
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-0815_1x08_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-0815 (compatible alternatives: 43650-0816, 43650-0817), 8 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22332,6 +22381,13 @@ connector Molex Micro-Fit_3.0 horizontal
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-0910_1x09-1MP_P3.00mm_Horizontal_PnP
 Molex Micro-Fit 3.0 Connector System, 43650-0910 (compatible alternatives: 43650-0911, 43650-0909), 9 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+11
+10
+Connector_Molex
+Molex_Micro-Fit_3.0_43650-0912_1x09-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0912 (compatible alternatives: 43650-0913, 43650-0914), 9 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 horizontal
 0
 11
@@ -22379,6 +22435,13 @@ connector Molex Micro-Fit_3.0 horizontal
 12
 11
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-1012_1x10-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-1012 (compatible alternatives: 43650-1013, 43650-1014), 10 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+12
+11
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-1015 (compatible alternatives: 43650-1016, 43650-1017), 10 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22421,6 +22484,13 @@ connector Molex Micro-Fit_3.0 horizontal
 13
 12
 Connector_Molex
+Molex_Micro-Fit_3.0_43650-1112_1x11-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-1112 (compatible alternatives: 43650-1113, 43650-1114), 11 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+13
+12
+Connector_Molex
 Molex_Micro-Fit_3.0_43650-1115_1x11_P3.00mm_Vertical
 Molex Micro-Fit 3.0 Connector System, 43650-1115 (compatible alternatives: 43650-1116, 43650-1117), 11 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
@@ -22458,6 +22528,13 @@ connector Molex Micro-Fit_3.0 horizontal
 Connector_Molex
 Molex_Micro-Fit_3.0_43650-1210_1x12-1MP_P3.00mm_Horizontal_PnP
 Molex Micro-Fit 3.0 Connector System, 43650-1210 (compatible alternatives: 43650-1211, 43650-1209), 12 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+14
+13
+Connector_Molex
+Molex_Micro-Fit_3.0_43650-1212_1x12-1MP_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-1212 (compatible alternatives: 43650-1213, 43650-1214), 12 Pins per row (https://www.molex.com/pdm_docs/sd/436500212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 horizontal
 0
 14
@@ -55377,6 +55454,13 @@ DCDC-Converter TRACO TBA1E THT SIP-7 1W
 4
 4
 Converter_DCDC
+Converter_DCDC_TRACO_TBA1-xxxx_THT
+DCDC-Converter, TRACO, TBA1-xxxx, 1W, Rev. May 21. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tba1.pdf)
+DCDC-Converter TRACO TBA1 THT SIP-4 1W
+0
+4
+4
+Converter_DCDC
 Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT
 DCDC-Converter, TRACO, TBA2-xxxx, Dual, 2W, Rev. October 18. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tba2.pdf)
 DCDC-Converter TRACO TBA2 THT SIP-7 2W
@@ -55432,6 +55516,13 @@ DCDC-Converter TRACO TEA1 THT SIP-4 1W
 0
 4
 4
+Converter_DCDC
+Converter_DCDC_TRACO_TEC2-12xxWI_24xxWI_48xxWI_THT
+DCDC-Converter, TRACO, TEC 2-12xxWI, TEC 2-24xxWI, TEC 2-48xxWI, 2W, Rev. May 7. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tec2wi.pdf)
+DCDC-Converter TRACO TEC2WI THT SIP-8 2W TMR2
+0
+7
+7
 Converter_DCDC
 Converter_DCDC_TRACO_TEC3-24xxUI_THT
 DCDC-Converter, TRACO, TEC3-24xxUI, 3W, Rev. July 31. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tec3ui.pdf)
@@ -55608,13 +55699,6 @@ DCDC-Converter TRACO TMRxxxxWI Single/Dual_output
 7
 7
 Converter_DCDC
-Converter_DCDC_TRACO_TMR-xxxx_THT
-DCDC-Converter, TRACO, TMR xxxx, Single/Dual output, http://www.datasheetlib.com/datasheet/135136/tmr-2-2410e_traco-power.html?page=3#datasheet
-DCDC-Converter TRACO TMRxxxx Single/Dual_output
-0
-7
-7
-Converter_DCDC
 Converter_DCDC_TRACO_TMR4-xxxxWI_THT
 DCDC-Converter, TRACO, TMR4-xxxxWI, 4W, Rev. December 06. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmr4wi.pdf)
 DCDC-Converter TRACO TMR4WI THT SIP-8 4W
@@ -55723,6 +55807,13 @@ Converter_DCDC
 Converter_DCDC_TRACO_TSR1-xxxxE_THT
 DCDC-Converter, TRACO, TSR1-xxxxE, 1A, Rev. October 31. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tsr1e.pdf)
 DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR1E 2.54MM THT SIP-3 1A
+0
+3
+3
+Converter_DCDC
+Converter_DCDC_TRACO_TSR1.5-24xxE_24120E_THT
+DCDC-Converter, TRACO, TSR1.5-24xxE, TSR1.5-24120E, 1.5A, Rev. April 2. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tsr1.5e.pdf)
+DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR1.5E 2.54MM THT SIP-3 1.5A
 0
 3
 3
@@ -56493,6 +56584,13 @@ Crystal
 Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm
 Abracon Miniature Ceramic SMD Crystal ABS25 https://abracon.com/Resonators/abs25.pdf, 8.0x3.8mm^2 package
 SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Citizen_CS325S-4Pin_3.2x2.5mm
+Citizen CS325S, Ultra-lightweight microminiature AT Crystal units, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, https://cfd.citizen.co.jp/cms/cfd/pdf/english/CS325S_E.pdf
+
 0
 4
 4
@@ -59402,6 +59500,13 @@ MOC3063S-TA1
 6
 6
 Footprints
+Symbol_HighVoltage_NoTriangle_Silkscreen
+High voltage symbol, no triangle, 6x15mm, copper layer
+warning graphic
+0
+0
+0
+Footprints
 TO-220-3_Horizontal_TabDown_Solder
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
@@ -60248,6 +60353,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Fuse
+GDT_Bourns_2038
+Gas Discharge Tube, 3-electrode GDT, SMD, 2038 series, https://www.bourns.com/data/global/pdfs/2038-xx-sm.pdf
+GDT gas discharge tube
+0
+3
+3
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -60297,6 +60409,27 @@ heatsink
 0
 2
 2
+Heatsink
+Heatsink_AAVID_Extruded_531X02B00000G
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+0
+0
+Heatsink
+Heatsink_AAVID_Extruded_531X02B02100G
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531X02B02500G
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
 Heatsink
 Heatsink_AAVID_TV5G_TO220_Horizontal
 Heatsink TV5G TO-220 Horizontal, https://www.shopaavid.com/Product/TV-5G
@@ -63969,6 +64102,83 @@ Inductor_SMD
 L_Taiyo-Yuden_NR-10050_9.8x10.0mm_HandSoldering
 Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-10050, 9.8mmx10.0mm, https://ds.yuden.co.jp/TYCOMPAS/or/specSheet?pn=NR10050T1R3N
 inductor taiyo-yuden nr smd
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0420
+Inductor, TechFuse, SL0420, 4.5x4.1x2.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0520
+Inductor, TechFuse, SL0520, 5.7x5.2x2.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0530
+Inductor, TechFuse, SL0530, 5.7x5.2x3.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0620
+Inductor, TechFuse, SL0620, 7.1x6.6x2.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0624
+Inductor, TechFuse, SL0624, 7.1x6.6x2.4mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0630
+Inductor, TechFuse, SL0630, 7.1x6.6x3.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL0650
+Inductor, TechFuse, SL0650, 7.1x6.6x5.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL1040
+Inductor, TechFuse, SL1040, 11.0x10.5x4.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL1050
+Inductor, TechFuse, SL1050, 11.0x10.5x5.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL1250
+Inductor, TechFuse, SL1250, 13.5x12.8x5.0mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
+0
+2
+2
+Inductor_SMD
+L_TechFuse_SL1265
+Inductor, TechFuse, SL1265, 13.5x12.8x6.5mm, ( http://www.sealand-pptc.com/product_view.php?r=77), generated with kicad-footprint-generator gen_inductor.py
+Inductor high-current power shielded
 0
 2
 2
@@ -68118,7 +68328,7 @@ onion omega module
 64
 Module
 Pololu_Breakout-16_15.2x20.3mm
-Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
+Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8
 Pololu Breakout
 0
 16
@@ -70959,6 +71169,13 @@ Hamamatsu SiPM
 2
 2
 OptoDevice
+Hamamatsu_S14160-6050HS
+Hamamatsu single MPPC, 6x6mm,  50um pixel pitch, 14331 pixels, 57% geometric fill factor, https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s14160_s14161_series_kapd1064e.pdf
+Hamamatsu MPPC photon counter SMD SiPM
+0
+8
+2
+OptoDevice
 Kingbright_KPS-3227
 3.2mmx2.7mm, light sensor, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf
 KPS-3227 Ambient Light Photo Sensor
@@ -72428,6 +72645,13 @@ BGA 96 0.8 DDR3 DDR3L DDR4
 0
 96
 96
+Package_BGA
+FCPBGA-780_23x23mm_Layout28x28_P0.8mm
+FCPBGA-780, 23.0x23.0mm, 780 Ball, 28x28 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/98ASA00854D.pdf
+BGA 780 0.8 NXP_SOT1653-1
+0
+780
+780
 Package_BGA
 Fujitsu_WLP-15_2.28x3.092mm_Layout3x5_P0.4mm
 WLP-15, 3x5 raster, 2.28x3.092mm package, pitch 0.4mm; http://www.fujitsu.com/global/documents/products/devices/semiconductor/fram/lineup/MB85RS1MT-DS501-00022-7v0-E.pdf
@@ -75363,7 +75587,7 @@ DFN 0.5
 21
 Package_DFN_QFN
 DFN-22-1EP_5x6mm_P0.5mm_EP3.14x4.3mm
-DFN22 6*5*0.9 MM, 0.5 P; CASE 506AF\xe2\x88\x9201 (see ON Semiconductor 506AF.PDF)
+DFN22 6*5*0.9 MM, 0.5 P; CASE 506AF-01 (https://www.onsemi.com/download/package-drawing/pdf/506af.pdf)
 DFN 0.5
 0
 35
@@ -75669,6 +75893,13 @@ MPS QFN NoLead
 0
 12
 12
+Package_DFN_QFN
+MPS_QFN-16_3x3mm_P0.5mm
+MPS  QFN, 16 Pin (https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP8859/document_id/4033/), generated with kicad-footprint-generator ipc_noLead_generator.py
+MPS QFN NoLead
+0
+16
+16
 Package_DFN_QFN
 Maxim_FC2QFN-14_2.5x2.5mm_P0.5mm
 14-FC2QFN, 14/12 Pin, https://pdfserv.maximintegrated.com/land_patterns/90-100127.PDF
@@ -78730,8 +78961,8 @@ MultiRow QFN
 105
 Package_DFN_QFN
 Texas_S-PX2QFN-14
-Texas  QFN, 14 Pin (http://www.ti.com/lit/ds/symlink/tlv9004.pdf#page=64), generated with kicad-footprint-generator ipc_noLead_generator.py
-Texas QFN NoLead
+Texas RUC0014A X2QFN, 14 Pin (https://www.ti.com/lit/ml/qfnd283a/qfnd283a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas X2QFN NoLead Texas_X2QFN-14_2x2mm_P0.4mm
 0
 14
 14
@@ -78905,8 +79136,8 @@ QFN 0.65
 17
 Package_DFN_QFN
 UQFN-16_1.8x2.6mm_P0.4mm
-UQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/ts3a5017.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
-UQFN NoLead TI-RSV0016A
+UQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd836/qfnd836.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead Texas_RSV0016A
 0
 16
 16
@@ -78973,6 +79204,13 @@ UQFN NoLead
 0
 43
 29
+Package_DFN_QFN
+UQFN-32_5x5mm_P0.5mm
+UQFN, 32 Pin (JEDEC MO-248 variation UHHD, 0.65mm maximum overall height, https://www.jedec.org/document_search?search_api_views_fulltext=MO-248), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead STMicroelectronics-UFQFPN32-A09E
+0
+32
+32
 Package_DFN_QFN
 UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm
 UQFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=345), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -79274,6 +79512,20 @@ VQFN NoLead
 0
 47
 33
+Package_DFN_QFN
+VQFN-40-1EP_5x5mm_P0.4mm_EP3.3x3.3mm
+VQFN, 40 Pin (Based on JEDEC MO-220-K.01, variation VHHE-1, https://tridentiot.com/wp-content/uploads/2024/11/DS-ZW-0001-01-T32CZ20-Datasheet.pdf#page=36), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+45
+41
+Package_DFN_QFN
+VQFN-40-1EP_5x5mm_P0.4mm_EP3.3x3.3mm_ThermalVias
+VQFN, 40 Pin (Based on JEDEC MO-220-K.01, variation VHHE-1, https://tridentiot.com/wp-content/uploads/2024/11/DS-ZW-0001-01-T32CZ20-Datasheet.pdf#page=36), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+62
+41
 Package_DFN_QFN
 VQFN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm
 VQFN, 40 Pin (Based on JEDEC MO-220-K.01, variation VHHE-1, https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6536/document_id/3761/), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -81243,7 +81495,7 @@ THT DIP DIL PDIP 2.54mm 26.669999999999998mm 1050mil SMDSocket LongPads
 64
 Package_DIP
 Fairchild_LSOP-8
-8-Lead, 300\" Wide, Surface Mount Package (https://www.fairchildsemi.com/package-drawings/ML/MLSOP08A.pdf)
+8-lead, 300 mils wide, surface mount package (https://www.fairchildsemi.com/package-drawings/ML/MLSOP08A.pdf)
 LSOP 2.54mm 300mil
 0
 8
@@ -82677,13 +82929,6 @@ Microchip PQFP QFP P-QFP 44-Lead-MQFP S-44-2
 44
 44
 Package_QFP
-PQFP-32_5x5mm_P0.5mm
-PQFP, 32 Pin (https://www.ti.com/lit/ds/symlink/ads127l01.pdf#page=87), generated with kicad-footprint-generator ipc_gullwing_generator.py
-PQFP QFP
-0
-32
-32
-Package_QFP
 PQFP-44_10x10mm_P0.8mm
 PQFP, 44 Pin (JEDEC MS-022 variation AB, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022, https://ww1.microchip.com/downloads/aemDocuments/documents/package-outline-drawings/c04-21291a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 PQFP QFP P-QFP QQZ M44-2 44L-MQFP-10x10x2mm
@@ -82774,6 +83019,13 @@ QFP 0.4
 0
 256
 256
+Package_QFP
+TQFP-32_5x5mm_P0.5mm
+TQFP, 32 Pin (JEDEC MS-026 variation AAA, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
+0
+32
+32
 Package_QFP
 TQFP-32_7x7mm_P0.8mm
 TQFP, 32 Pin (JEDEC MS-026 variation ABA, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=656), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -82895,10 +83147,17 @@ TQFP QFP
 64
 Package_QFP
 TQFP-80-1EP_14x14mm_P0.65mm_EP9.5x9.5mm
-80-Lead Plastic Thin Quad Flatpack (PF) - 14x14mm body, 9.5mm sq thermal pad (http://www.analog.com/media/en/technical-documentation/data-sheets/AD9852.pdf)
-QFP 0.65
+TQFP, 80 Pin (Based on JEDEC MS-026 variation AEC, 1.00mm body thickness, lead width / tolerances / custom Exposed Pad from Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_80_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP Analog-Devices_SV-80-4
 0
-85
+117
+81
+Package_QFP
+TQFP-80-1EP_14x14mm_P0.65mm_EP9.5x9.5mm_ThermalVias
+TQFP, 80 Pin (Based on JEDEC MS-026 variation AEC, 1.00mm body thickness, lead width / tolerances / custom Exposed Pad from Analog Devices, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_80_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP Analog-Devices_SV-80-4
+0
+199
 81
 Package_QFP
 TQFP-80_12x12mm_P0.5mm
@@ -82909,8 +83168,8 @@ QFP 0.5
 80
 Package_QFP
 TQFP-80_14x14mm_P0.65mm
-80-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.65
+TQFP, 80 Pin (JEDEC MS-026 variation AEC, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=679), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP Microsemi_VQ80 NXP_TQFP80 NXP_SOT1093-1
 0
 80
 80
@@ -82991,13 +83250,6 @@ Texas HTQFP QFP
 0
 88
 49
-Package_QFP
-VQFP-80_14x14mm_P0.65mm
-VQFP, 80 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VQFP QFP
-0
-80
-80
 Package_QFP
 VQFP-128_14x14mm_P0.4mm
 VQFP, 128 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -83267,14 +83519,14 @@ HTSOP SO
 Package_SO
 HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm
 HTSSOP, 14 Pin (http://www.ti.com/lit/ds/symlink/lm5161.pdf#page=34), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0014A
+HTSSOP SO Texas_PWP0014A
 0
 20
 15
 Package_SO
 HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm_ThermalVias
 HTSSOP, 14 Pin (http://www.ti.com/lit/ds/symlink/lm5161.pdf#page=34), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0014A
+HTSSOP SO Texas_PWP0014A
 0
 36
 15
@@ -83302,14 +83554,14 @@ HTSSOP SO
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm
 HTSSOP, 16 Pin (http://www.ti.com/lit/ds/symlink/tps2660.pdf#page=48), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0016H
+HTSSOP SO Texas_PWP0016H
 0
 20
 17
 Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias
 HTSSOP, 16 Pin (http://www.ti.com/lit/ds/symlink/tps2660.pdf#page=48), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0016H
+HTSSOP SO Texas_PWP0016H
 0
 33
 17
@@ -83351,35 +83603,35 @@ HTSSOP 0.65
 Package_SO
 HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm
 HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/bq24006.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP/R-PDSO-G20
+HTSSOP SO Texas_PWP/R-PDSO-G20
 0
 24
 21
 Package_SO
 HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm
 HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=37&zoom=160,-90,3), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0020U
+HTSSOP SO Texas_PWP0020U
 0
 26
 21
 Package_SO
 HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias
 HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=37&zoom=160,-90,3), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0020U
+HTSSOP SO Texas_PWP0020U
 0
 42
 21
 Package_SO
 HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm
 HTSSOP, 20 Pin (https://www.ti.com/lit/ds/symlink/tps2663.pdf#page=49), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0020T
+HTSSOP SO Texas_PWP0020T
 0
 23
 21
 Package_SO
 HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias
 HTSSOP, 20 Pin (https://www.ti.com/lit/ds/symlink/tps2663.pdf#page=49), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0020T
+HTSSOP SO Texas_PWP0020T
 0
 42
 21
@@ -83400,28 +83652,28 @@ HTSSOP SO
 Package_SO
 HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x2.98mm
 HTSSOP, 24 Pin (https://www.ti.com/lit/ds/symlink/tlc5949.pdf#page=49), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0024P
+HTSSOP SO Texas_PWP0024P
 0
 27
 25
 Package_SO
 HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x2.98mm_ThermalVias
 HTSSOP, 24 Pin (https://www.ti.com/lit/ds/symlink/tlc5949.pdf#page=49), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP0024P
+HTSSOP SO Texas_PWP0024P
 0
 49
 25
 Package_SO
 HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x4.68mm
 HTSSOP, 24 Pin (http://www.ti.com/lit/ds/symlink/tps703.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP/R-PDSO-G24
+HTSSOP SO Texas_PWP/R-PDSO-G24
 0
 28
 25
 Package_SO
 HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x7.8mm_Mask2.4x4.68mm_ThermalVias
 HTSSOP, 24 Pin (http://www.ti.com/lit/ds/symlink/tps703.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-PWP/R-PDSO-G24
+HTSSOP SO Texas_PWP/R-PDSO-G24
 0
 47
 25
@@ -83540,35 +83792,35 @@ HTSSOP SO U38E-3C
 Package_SO
 HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm
 HTSSOP, 38 Pin (http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=46), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-DAP/R-PDSO-G38
+HTSSOP SO Texas_DAP/R-PDSO-G38
 0
 46
 39
 Package_SO
 HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm_ThermalVias
 HTSSOP, 38 Pin (http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=46), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-DAP/R-PDSO-G38
+HTSSOP SO Texas_DAP/R-PDSO-G38
 0
 87
 39
 Package_SO
 HTSSOP-44-1EP_6.1x14mm_P0.635mm_EP5.2x14mm_Mask4.31x8.26mm
 HTSSOP, 44 Pin (http://www.ti.com/lit/pdf/pptd165), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-DDW0044B
+HTSSOP SO Texas_DDW0044B
 0
 61
 45
 Package_SO
 HTSSOP-44-1EP_6.1x14mm_P0.635mm_EP5.2x14mm_Mask4.31x8.26mm_ThermalVias
 HTSSOP, 44 Pin (http://www.ti.com/lit/pdf/pptd165), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-DDW0044B
+HTSSOP SO Texas_DDW0044B
 0
 118
 45
 Package_SO
 HTSSOP-44_6.1x14mm_P0.635mm_TopEP4.14x7.01mm
 HTSSOP, 44 Pin (http://www.ti.com/lit/ds/symlink/tpa3251.pdf#page=38), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO TI-DDV0044D
+HTSSOP SO Texas_DDV0044D
 0
 44
 44
@@ -84373,7 +84625,7 @@ SOIC 1.27 16 12 Wide
 Package_SO
 SOIC-16W_5.3x10.2mm_P1.27mm
 SOIC, 16 Pin (http://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO TI-NS TI-NS0016A
+SOIC SO Texas_NS Texas_NS0016A
 0
 16
 16
@@ -85220,7 +85472,7 @@ TSSOP SO
 Package_SO
 TSSOP-16_4.4x5mm_P0.65mm
 TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO JEDEC-MO-153-AB TI-PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800
+TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800
 0
 16
 16
@@ -85815,14 +86067,14 @@ SSOP 0.75
 Package_SO
 VSSOP-8_2.3x2mm_P0.5mm
 VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
+VSSOP SO JEDEC-MO-187-CA Texas_DCU0008A
 0
 8
 8
 Package_SO
 VSSOP-8_3x3mm_P0.65mm
 VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VSSOP SO JEDEC-MO-187-AA TI-DGK0008A
+VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A
 0
 8
 8
@@ -86536,14 +86788,14 @@ WSON 0.5
 Package_SON
 WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm
 WSON, 10 Pin (https://www.ti.com/lit/ml/mpss046b/mpss046b.pdf?ts=1728800628041&ref_url=https%253A%252F%252Fwww.ti.com%252Fpackaging%252Fdocs%252Fsearchtipackages.tsp%253FpackageName%253DSON), generated with kicad-footprint-generator ipc_noLead_generator.py
-WSON NoLead
+WSON NoLead Texas_DPR0010A
 0
 15
 11
 Package_SON
 WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm_ThermalVias
 WSON, 10 Pin (https://www.ti.com/lit/ml/mpss046b/mpss046b.pdf?ts=1728800628041&ref_url=https%253A%252F%252Fwww.ti.com%252Fpackaging%252Fdocs%252Fsearchtipackages.tsp%253FpackageName%253DSON), generated with kicad-footprint-generator ipc_noLead_generator.py
-WSON NoLead
+WSON NoLead Texas_DPR0010A
 0
 25
 11
@@ -92484,6 +92736,20 @@ resistor handsolder
 2
 2
 Resistor_SMD
+R_0508_1220Metric
+Resistor SMD 0508 (1220 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.koaspeer.com/pdfs/WK73S.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Resistor_SMD
+R_0508_1220Metric_Pad1.12x2.15mm_HandSolder
+Resistor SMD 0508 (1220 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.koaspeer.com/pdfs/WK73S.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -92605,6 +92871,20 @@ resistor
 Resistor_SMD
 R_1218_3246Metric_Pad1.22x4.75mm_HandSolder
 Resistor SMD 1218 (3246 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Resistor_SMD
+R_1225_3264Metric
+Resistor SMD 1225 (3264 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.koaspeer.com/pdfs/WK73S.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Resistor_SMD
+R_1225_3264Metric_Pad1.47x6.45mm_HandSolder
+Resistor SMD 1225 (3264 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.koaspeer.com/pdfs/WK73S.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
 2
