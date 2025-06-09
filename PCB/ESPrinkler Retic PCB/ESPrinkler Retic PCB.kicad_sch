@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESPrinkler Retic Controller")
+		(date "2025-06-01")
 		(rev "1.0")
 	)
 	(lib_symbols)

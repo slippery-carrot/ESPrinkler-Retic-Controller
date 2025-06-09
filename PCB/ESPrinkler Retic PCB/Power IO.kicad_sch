@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "a5cf7a85-7fab-4da1-aad4-5dc3a09678e9")
 	(paper "A4")
+	(title_block
+		(title "ESPrinkler Retic Controller")
+		(date "2025-06-01")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -8049,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "DORABO"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -8058,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "DB301V-5.0-4P-BU-S"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -8067,7 +8072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -8076,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "C3034542"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -9456,7 +9461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0100FF_L18.7mm_W5.1mm"
+		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0033FF_L11.4mm_W3.8mm"
 			(at 72.39 55.88 0)
 			(effects
 				(font

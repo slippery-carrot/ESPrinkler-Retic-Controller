@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "7c29f243-737f-4a71-a0a3-f987e8b3bfdf")
 	(paper "A4")
+	(title_block
+		(title "ESPrinkler Retic Controller")
+		(date "2025-06-01")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -2039,6 +2044,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Notes:"
+		(exclude_from_sim no)
+		(at 177.165 163.195 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "667fd54b-56d1-4dd0-bc92-a87ec7a8ff50")
+	)
+	(text "RC Snubber *"
+		(exclude_from_sim no)
+		(at 57.785 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c7e84b9-bc84-41f1-9266-b43d6b1c4d2e")
+	)
+	(text "* Replace with jumpers if snubber is not required"
+		(exclude_from_sim no)
+		(at 177.165 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "e141dd55-6b1b-4342-a074-d503d3131bb9")
+	)
 	(junction
 		(at 35.56 191.77)
 		(diameter 0)
@@ -2954,6 +2994,16 @@
 			(type default)
 		)
 		(uuid "1746d32c-d9e8-4818-9f97-4e67861cd35a")
+	)
+	(polyline
+		(pts
+			(xy 52.324 36.068) (xy 59.182 36.068)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1785134d-30fc-4a08-a33f-c8298e222c44")
 	)
 	(wire
 		(pts
@@ -3905,6 +3955,16 @@
 		)
 		(uuid "5ae26d04-c6a2-4ce4-8fbb-611c37ba3461")
 	)
+	(polyline
+		(pts
+			(xy 64.77 34.29) (xy 64.77 26.416)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5b1cc154-9538-4867-ab9c-e1df7845131b")
+	)
 	(wire
 		(pts
 			(xy 74.93 184.15) (xy 74.93 181.61)
@@ -3924,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "5c0ea82e-8b67-438c-9b93-0513867d654d")
+	)
+	(polyline
+		(pts
+			(xy 59.182 39.878) (xy 71.374 39.878)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5cb63e48-db10-4e3f-a780-7f74f6546469")
 	)
 	(wire
 		(pts
@@ -4101,7 +4171,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "6b3c9890-d010-4ced-9ccb-32aaa8c4baf2")
 	)
@@ -4245,6 +4315,16 @@
 		)
 		(uuid "75a6af00-e74c-408a-9359-7645ef03bd55")
 	)
+	(polyline
+		(pts
+			(xy 71.374 39.878) (xy 71.374 34.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "76c6e2cc-e523-49c5-8d11-4d664f93ebc2")
+	)
 	(wire
 		(pts
 			(xy 171.45 154.94) (xy 184.15 154.94)
@@ -4294,6 +4374,16 @@
 			(type default)
 		)
 		(uuid "7a3f6e9d-67c6-4d54-b78b-97363cfc0402")
+	)
+	(polyline
+		(pts
+			(xy 59.182 36.068) (xy 59.182 39.878)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7b5d031e-b4ae-4676-ba2a-0036d8f76504")
 	)
 	(wire
 		(pts
@@ -4444,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "83de47db-0129-474f-b828-09fae344def5")
+	)
+	(polyline
+		(pts
+			(xy 52.324 26.416) (xy 52.324 36.068)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "84c9e13a-3a89-467c-98b1-5ae2706e35b3")
 	)
 	(wire
 		(pts
@@ -5955,6 +6055,16 @@
 		)
 		(uuid "ef3abd87-b408-4044-a2f7-ede119ad135a")
 	)
+	(polyline
+		(pts
+			(xy 52.324 26.416) (xy 64.77 26.416)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f1e39c9a-5198-4f2a-b745-71c19878ac35")
+	)
 	(wire
 		(pts
 			(xy 111.76 181.61) (xy 114.3 181.61)
@@ -5994,6 +6104,16 @@
 			(type default)
 		)
 		(uuid "f4eebb50-a436-4f42-9c53-139841767c56")
+	)
+	(polyline
+		(pts
+			(xy 71.374 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f570bf55-0ed0-4191-8794-587f7676b900")
 	)
 	(wire
 		(pts

@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "6530848b-e66c-4cb5-a755-97bd1cc60fba")
 	(paper "A4")
+	(title_block
+		(title "ESPrinkler Retic Controller")
+		(date "2025-06-01")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x19"
 			(pin_names
