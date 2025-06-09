@@ -2067,7 +2067,7 @@
 		)
 		(uuid "6c7e84b9-bc84-41f1-9266-b43d6b1c4d2e")
 	)
-	(text "* Replace with jumpers if snubber is not required"
+	(text "* If snubber is not required; replace resistor with jumper, DNP capacitor."
 		(exclude_from_sim no)
 		(at 177.165 165.1 0)
 		(effects
