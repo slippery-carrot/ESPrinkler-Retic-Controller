@@ -138,7 +138,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -513,7 +513,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Fab Output/",
-      "pos_files": "Fab Output/",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -523,7 +523,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Fab Output\\ESPrinkler Retic PCB BOM.csv",
+    "bom_export_filename": "production\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -653,7 +653,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://SCH_Template_IMPULSIVE_MINDS.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

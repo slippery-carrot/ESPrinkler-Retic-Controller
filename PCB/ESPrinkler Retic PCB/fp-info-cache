@@ -1,4 +1,4 @@
-25675953215963185
+25714483450743897
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13839,9 +13839,23 @@ connector Hirose  horizontal
 4
 3
 Connector_Hirose
+Hirose_DF3EA-02P-2V_1x02-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-02P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+4
+3
+Connector_Hirose
 Hirose_DF3EA-03P-2H_1x03-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-03P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+5
+4
+Connector_Hirose
+Hirose_DF3EA-03P-2V_1x03-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-03P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 5
 4
@@ -13853,9 +13867,23 @@ connector Hirose  horizontal
 6
 5
 Connector_Hirose
+Hirose_DF3EA-04P-2V_1x04-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-04P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+6
+5
+Connector_Hirose
 Hirose_DF3EA-05P-2H_1x05-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-05P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+7
+6
+Connector_Hirose
+Hirose_DF3EA-05P-2V_1x05-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-05P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 7
 6
@@ -13867,9 +13895,23 @@ connector Hirose  horizontal
 8
 7
 Connector_Hirose
+Hirose_DF3EA-06P-2V_1x06-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-06P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+8
+7
+Connector_Hirose
 Hirose_DF3EA-07P-2H_1x07-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-07P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+9
+8
+Connector_Hirose
+Hirose_DF3EA-07P-2V_1x07-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-07P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 9
 8
@@ -13881,9 +13923,23 @@ connector Hirose  horizontal
 10
 9
 Connector_Hirose
+Hirose_DF3EA-08P-2V_1x08-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-08P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+10
+9
+Connector_Hirose
 Hirose_DF3EA-09P-2H_1x09-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-09P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+11
+10
+Connector_Hirose
+Hirose_DF3EA-09P-2V_1x09-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-09P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 11
 10
@@ -13895,9 +13951,23 @@ connector Hirose  horizontal
 12
 11
 Connector_Hirose
+Hirose_DF3EA-10P-2V_1x10-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-10P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+12
+11
+Connector_Hirose
 Hirose_DF3EA-11P-2H_1x11-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-11P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+13
+12
+Connector_Hirose
+Hirose_DF3EA-11P-2V_1x11-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-11P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 13
 12
@@ -13909,9 +13979,23 @@ connector Hirose  horizontal
 14
 13
 Connector_Hirose
+Hirose_DF3EA-12P-2V_1x12-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-12P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+14
+13
+Connector_Hirose
 Hirose_DF3EA-13P-2H_1x13-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-13P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+15
+14
+Connector_Hirose
+Hirose_DF3EA-13P-2V_1x13-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-13P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 15
 14
@@ -13923,9 +14007,23 @@ connector Hirose  horizontal
 16
 15
 Connector_Hirose
+Hirose_DF3EA-14P-2V_1x14-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-14P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
+0
+16
+15
+Connector_Hirose
 Hirose_DF3EA-15P-2H_1x15-1MP_P2.00mm_Horizontal
 Hirose  series connector, DF3EA-15P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator
 connector Hirose  horizontal
+0
+17
+16
+Connector_Hirose
+Hirose_DF3EA-15P-2V_1x15-1MP_P2.00mm_Vertical
+Hirose  series connector, DF3EA-15P-2V (https://www.hirose.com/en/product/document?clcode=CL0543-0315-0-21&productname=DF3EA-2P-2V(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001162002), generated with kicad-footprint-generator
+connector Hirose  vertical
 0
 17
 16
@@ -14538,6 +14636,48 @@ connector Hirose  horizontal
 0
 17
 16
+Connector_Hirose
+Hirose_DF57H-2P-1.2V_1x02_P1.2mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+4
+2
+Connector_Hirose
+Hirose_DF57H-2P-2.4V_1x02_P2.4mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+4
+2
+Connector_Hirose
+Hirose_DF57H-3P-1.2V_1x03_P1.2mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+5
+3
+Connector_Hirose
+Hirose_DF57H-4P-1.2V_1x04_P1.2mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+6
+4
+Connector_Hirose
+Hirose_DF57H-5P-1.2V_1x05_P1.2mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+7
+5
+Connector_Hirose
+Hirose_DF57H-6P-1.2V_1x06_P1.2mm_Socket
+Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)
+conn hirose socket low-profile power
+0
+8
+6
 Connector_Hirose
 Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Vertical
 Hirose DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
@@ -83791,15 +83931,15 @@ HTSSOP SO U38E-3C
 39
 Package_SO
 HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm
-HTSSOP, 38 Pin (http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=46), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO Texas_DAP/R-PDSO-G38
+HTSSOP, 38 Pin (https://www.ti.com/jp/lit/ml/pptd158c/pptd158c.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO Texas_DAP Texas_R-PDSO-G38
 0
 46
 39
 Package_SO
 HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm_ThermalVias
-HTSSOP, 38 Pin (http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=46), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HTSSOP SO Texas_DAP/R-PDSO-G38
+HTSSOP, 38 Pin (https://www.ti.com/jp/lit/ml/pptd158c/pptd158c.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO Texas_DAP Texas_R-PDSO-G38
 0
 87
 39
@@ -90104,6 +90244,13 @@ Potentiometer vertical Bourns 3386F
 3
 3
 Potentiometer_THT
+Potentiometer_Bourns_3386H_Horizontal
+Potentiometer, horizontal, Bourns 3386H, https://www.bourns.com/pdfs/3386.pdf
+Potentiometer horizontal Bourns 3386H
+0
+3
+3
+Potentiometer_THT
 Potentiometer_Bourns_3386P_Vertical
 Potentiometer, vertical, Bourns 3386P, https://www.bourns.com/pdfs/3386.pdf
 Potentiometer vertical Bourns 3386P
@@ -96118,42 +96265,42 @@ Logo UKCA marking
 0
 Symbol
 WEEE-Logo_4.2x6mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
 0
 Symbol
 WEEE-Logo_5.6x8mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
 0
 Symbol
 WEEE-Logo_8.4x12mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
 0
 Symbol
 WEEE-Logo_14x20mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
 0
 Symbol
 WEEE-Logo_21x30mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
 0
 Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
+Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
 0
 0
@@ -101459,15 +101606,15 @@ permalloy core
 4
 Transformer_SMD
 Transformer_Ethernet_Bel_S558-5999-T7-F
-Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf
-Ethernet Transformer
+Bel S558-5999-T7-F SO, 16 Pin (https://www.belfuse.com/media/drawings/products/discrete-magnetics/dr-mag-s558-5999-t7-f.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Bel SO Transformer_SMD Bel_QBS001
 0
 16
 16
 Transformer_SMD
 Transformer_Ethernet_Bourns_PT61017PEL
-https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
-Transformer Ethernet Single Center-Tap
+Bourns PT61017PEL SO, 16 Pin (https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Bourns SO Transformer_SMD
 0
 16
 16
@@ -101478,6 +101625,13 @@ Gigabit PoE Ethernet Transformer Single
 0
 24
 24
+Transformer_SMD
+Transformer_Ethernet_Bourns_SM13126PEL
+Bourns SM13126PEL SO, 16 Pin (https://www.bourns.com/docs/Product-Datasheets/SM13126PEL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Bourns SO Transformer_SMD
+0
+16
+16
 Transformer_SMD
 Transformer_Ethernet_HALO_TG111-MSC13
 Transformer Ethernet SMD, https://www.haloelectronics.com/pdf/discrete-genesus.pdf
