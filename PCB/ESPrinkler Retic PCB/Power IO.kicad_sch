@@ -3539,10 +3539,10 @@
 		)
 		(uuid "ab1cab2b-faec-41f5-85c7-c4d7c87014cf")
 	)
-	(text_box "~5.3V"
+	(text_box "~5V"
 		(exclude_from_sim no)
 		(at 226.568 27.686 0)
-		(size 10.414 52.832)
+		(size 12.192 52.832)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7707,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "53.6k"
 			(at 232.41 54.6099 0)
 			(effects
 				(font
@@ -7716,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.092 53.34 90)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1002T5E"
+		(property "Manufacturer P/N" "0603WAF5362T5E"
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17414"
+		(property "Supplier P/N" "C23074"
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -9559,7 +9559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "10.2k"
 			(at 232.41 67.3099 0)
 			(effects
 				(font
@@ -9568,7 +9568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.092 66.04 90)
 			(effects
 				(font
@@ -9604,7 +9604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F3001T5E"
+		(property "Manufacturer P/N" "0603WAF1022T5E"
 			(at 229.87 66.04 0)
 			(effects
 				(font
@@ -9622,7 +9622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17661"
+		(property "Supplier P/N" "C22772"
 			(at 229.87 66.04 0)
 			(effects
 				(font

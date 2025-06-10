@@ -1,4 +1,4 @@
-25714483450743897
+25821470673251994
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1291,6 +1291,13 @@ Button_Switch_SMD
 SW_Push_1P1T_NO_CK_KSC7xxJ
 CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf
 tactile switch ksc7
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_CK_KSC9xxG
+Tactile switch, 6.2x6.2mm, height=7.7mm, compatible with button, gullwing pins, https://www.ckswitches.com/media/1975/ksc9.pdf
+tactile switch ksc9
 0
 4
 2
@@ -21673,7 +21680,7 @@ connector Molex Micro-Fit_3.0 horizontal
 3
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-0212 (compatible alternatives: 43045-0213, 43045-0224), 1 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-0212 (compatible alternatives: 43045-0213, 43045-0214), 1 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 2
@@ -21715,7 +21722,7 @@ connector Molex Micro-Fit_3.0 horizontal
 5
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0424), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0414), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 4
@@ -21757,7 +21764,7 @@ connector Molex Micro-Fit_3.0 horizontal
 7
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0614), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 6
@@ -21799,7 +21806,7 @@ connector Molex Micro-Fit_3.0 horizontal
 9
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-0812 (compatible alternatives: 43045-0813, 43045-0824), 4 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-0812 (compatible alternatives: 43045-0813, 43045-0814), 4 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 8
@@ -21841,7 +21848,7 @@ connector Molex Micro-Fit_3.0 horizontal
 11
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1012_2x05_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-1012 (compatible alternatives: 43045-1013, 43045-1024), 5 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-1012 (compatible alternatives: 43045-1013, 43045-1014), 5 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 10
@@ -21883,7 +21890,7 @@ connector Molex Micro-Fit_3.0 horizontal
 13
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1224), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1214), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 12
@@ -21925,7 +21932,7 @@ connector Molex Micro-Fit_3.0 horizontal
 15
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1412_2x07_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-1412 (compatible alternatives: 43045-1413, 43045-1424), 7 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-1412 (compatible alternatives: 43045-1413, 43045-1414), 7 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 14
@@ -21967,7 +21974,7 @@ connector Molex Micro-Fit_3.0 horizontal
 17
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1612_2x08_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-1612 (compatible alternatives: 43045-1613, 43045-1624), 8 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-1612 (compatible alternatives: 43045-1613, 43045-1614), 8 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 16
@@ -22009,7 +22016,7 @@ connector Molex Micro-Fit_3.0 horizontal
 19
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-1812_2x09_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-1812 (compatible alternatives: 43045-1813, 43045-1824), 9 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-1812 (compatible alternatives: 43045-1813, 43045-1814), 9 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 18
@@ -22051,7 +22058,7 @@ connector Molex Micro-Fit_3.0 horizontal
 21
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-2012 (compatible alternatives: 43045-2013, 43045-2024), 10 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-2012 (compatible alternatives: 43045-2013, 43045-2014), 10 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 20
@@ -22093,7 +22100,7 @@ connector Molex Micro-Fit_3.0 horizontal
 23
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2212_2x11_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-2212 (compatible alternatives: 43045-2213, 43045-2224), 11 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-2212 (compatible alternatives: 43045-2213, 43045-2214), 11 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 22
@@ -22135,7 +22142,7 @@ connector Molex Micro-Fit_3.0 horizontal
 25
 Connector_Molex
 Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical
-Molex Micro-Fit 3.0 Connector System, 43045-2412 (compatible alternatives: 43045-2413, 43045-2424), 12 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+Molex Micro-Fit 3.0 Connector System, 43045-2412 (compatible alternatives: 43045-2413, 43045-2414), 12 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
 connector Molex Micro-Fit_3.0 vertical
 0
 24
@@ -60550,22 +60557,78 @@ heatsink
 2
 2
 Heatsink
-Heatsink_AAVID_Extruded_531X02B00000G
-Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+Heatsink_AAVID_Extruded_531002B00000G_34.9x12.7mm_H25.4mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 25.4mm height, no pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
 heatsink
 0
 0
 0
 Heatsink
-Heatsink_AAVID_Extruded_531X02B02100G
-Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+Heatsink_AAVID_Extruded_531002B02100G_34.9x12.7mm_H25.4mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 25.4mm height, 2.46mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
 heatsink
 0
 2
 1
 Heatsink
-Heatsink_AAVID_Extruded_531X02B02500G
-Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+Heatsink_AAVID_Extruded_531002B02500G_34.9x12.7mm_H25.4mm
+Extruded 5310, dual radial board level heatsink, TO‐220, 25.4mm height, 2.37mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531102B00000G_34.9x12.7mm_H38.1mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 38.1mm height, no pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+0
+0
+Heatsink
+Heatsink_AAVID_Extruded_531102B02100G_34.9x12.7mm_H38.1mm
+Extruded 5310, dual radial board level heatsink, TO‐220, 38.1mm height, 2.46mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531102B02500G_34.9x12.7mm_H38.1mm
+Extruded 5310, dual radial board level heatsink, TO‐220, 38.1mm height, 2.37mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531102V02500G_34.9x12.7mm_H38.1mm
+Extruded 5310, dual radial board level heatsink, TO‐220, 38.1mm height, 2.37mm dia. pins, AavSHIELD3 finish, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531202B00000G_34.9x12.7mm_H50.8mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 50.8mm height, no pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+0
+0
+Heatsink
+Heatsink_AAVID_Extruded_531202B02100G_34.9x12.7mm_H50.8mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 50.8mm height, 2.46mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531202B02500G_34.9x12.7mm_H50.8mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 50.8mm height, 2.37mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
+heatsink
+0
+2
+1
+Heatsink
+Heatsink_AAVID_Extruded_531302B02500G_34.9x12.7mm_H63.5mm
+Extruded 5310, dual radial board level heatsink, TO‐202, TO‐220, 63.5mm height, 2.37mm dia. pins, https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Extruded-5310.pdf
 heatsink
 0
 2
@@ -61992,6 +62055,41 @@ Inductor bmrx mchi
 2
 2
 Inductor_SMD
+L_Coilcraft_0403HQ_1008Metric
+Inductor, Coilcraft, 0403HQ_1008Metric, 1.19x0.86x0.71mm, (https://www.coilcraft.com/getmedia/69c5aa91-3ca0-4922-874d-581cd4e27e62/0403hq.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor hq
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_0604HQ_1610Metric
+Inductor, Coilcraft, 0604HQ_1610Metric, 1.85x1.37x1.19mm, (https://www.coilcraft.com/getmedia/0719743d-cfb7-4d4d-9e58-bb01a615ada6/0604hq.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor hq
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_0805HQ_2012Metric
+Inductor, Coilcraft, 0805HQ_2012Metric, 2.29x1.73x1.52mm, (https://www.coilcraft.com/getmedia/d1c77d59-e9b0-44a7-81e0-f46e468b0410/0805hq.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor hq
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_1008HQ_2520Metric
+Inductor, Coilcraft, 1008HQ_2520Metric, 2.92x2.79x2.03mm, (https://www.coilcraft.com/getmedia/d309e334-bba7-474c-baad-e9acd748f87a/1008hq.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor hq
+0
+2
+2
+Inductor_SMD
+L_Coilcraft_1008HQ_2520Metric_LowProfile
+Inductor, Coilcraft, 1008HQ_2520Metric_LowProfile, 2.92x2.79x1.27mm, (https://www.coilcraft.com/getmedia/d309e334-bba7-474c-baad-e9acd748f87a/1008hq.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor hq
+0
+2
+2
+Inductor_SMD
 L_Coilcraft_1515SQ-47N
 Inductor, Coilcraft, 1515SQ-47N, 4.06x3.56x3.73mm, (https://www.coilcraft.com/getmedia/a4eed406-a97e-4630-9d8e-771bb470867f/1515sq.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor sq
@@ -62758,6 +62856,13 @@ Inductor_SMD
 L_CommonModeChoke_Wuerth_WE-SL5
 WE-SL5 SMT Common Mode Line Filter, 9.5x8.3mm, height 5mm, https://www.we-online.com/components/products/datasheet/744273222.pdf
 SMT Common Mode Line Filter
+0
+4
+4
+Inductor_SMD
+L_CommonMode_Bourns_DR331
+Bourns DR331 SO, 4 Pin (https://bourns.com/docs/product-datasheets/dr331.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Bourns SO Inductor_SMD
 0
 4
 4
@@ -67347,6 +67452,13 @@ LED 3528
 2
 2
 LED_SMD
+LED_Foshan-NTD3528_3.5x2.8mm
+3.5mm x 2.8mm mid-power LED, https://www.lcsc.com/datasheet/lcsc_datasheet_2307180955_Foshan-NationStar-Optoelectronics-NTD3528U1_C7464740.pdf
+Nationstar
+0
+2
+2
+LED_SMD
 LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm
 5.0x5.0mm PLCC-6 RGB LED, Inolux, https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf
 LED RGB
@@ -69770,1288 +69882,1288 @@ mounting
 0
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H5mm_9771050360
-Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://katalog.we-online.com/em/datasheet/9771050360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://www.we-online.com/components/products/datasheet/9771050360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771050360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H6mm_9771060360
-Mounting Hardware, external M3, height 6, Wuerth electronics 9771060360 (https://katalog.we-online.com/em/datasheet/9771060360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 6, Wuerth electronics 9771060360 (https://www.we-online.com/components/products/datasheet/9771060360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771060360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H7mm_9771070360
-Mounting Hardware, external M3, height 7, Wuerth electronics 9771070360 (https://katalog.we-online.com/em/datasheet/9771070360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 7, Wuerth electronics 9771070360 (https://www.we-online.com/components/products/datasheet/9771070360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771070360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H8mm_9771080360
-Mounting Hardware, external M3, height 8, Wuerth electronics 9771080360 (https://katalog.we-online.com/em/datasheet/9771080360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 8, Wuerth electronics 9771080360 (https://www.we-online.com/components/products/datasheet/9771080360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771080360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H9mm_9771090360
-Mounting Hardware, external M3, height 9, Wuerth electronics 9771090360 (https://katalog.we-online.com/em/datasheet/9771090360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 9, Wuerth electronics 9771090360 (https://www.we-online.com/components/products/datasheet/9771090360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771090360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H10mm_9771100360
-Mounting Hardware, external M3, height 10, Wuerth electronics 9771100360 (https://katalog.we-online.com/em/datasheet/9771100360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 10, Wuerth electronics 9771100360 (https://www.we-online.com/components/products/datasheet/9771100360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771100360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H11mm_9771110360
-Mounting Hardware, external M3, height 11, Wuerth electronics 9771110360 (https://katalog.we-online.com/em/datasheet/9771110360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 11, Wuerth electronics 9771110360 (https://www.we-online.com/components/products/datasheet/9771110360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771110360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H12mm_9771120360
-Mounting Hardware, external M3, height 12, Wuerth electronics 9771120360 (https://katalog.we-online.com/em/datasheet/9771120360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 12, Wuerth electronics 9771120360 (https://www.we-online.com/components/products/datasheet/9771120360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771120360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H13mm_9771130360
-Mounting Hardware, external M3, height 13, Wuerth electronics 9771130360 (https://katalog.we-online.com/em/datasheet/9771130360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 13, Wuerth electronics 9771130360 (https://www.we-online.com/components/products/datasheet/9771130360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771130360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H14mm_9771140360
-Mounting Hardware, external M3, height 14, Wuerth electronics 9771140360 (https://katalog.we-online.com/em/datasheet/9771140360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 14, Wuerth electronics 9771140360 (https://www.we-online.com/components/products/datasheet/9771140360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771140360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H15mm_9771150360
-Mounting Hardware, external M3, height 15, Wuerth electronics 9771150360 (https://katalog.we-online.com/em/datasheet/9771150360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, external M3, height 15, Wuerth electronics 9771150360 (https://www.we-online.com/components/products/datasheet/9771150360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9771150360
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H1mm_9774010482
-Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010482 (https://katalog.we-online.de/em/datasheet/9774010482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010482 (https://www.we-online.com/components/products/datasheet/9774010482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774010482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H2mm_9774020482
-Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020482 (https://katalog.we-online.de/em/datasheet/9774020482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020482 (https://www.we-online.com/components/products/datasheet/9774020482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774020482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H3mm_9774030482
-Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030482 (https://katalog.we-online.de/em/datasheet/9774030482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030482 (https://www.we-online.com/components/products/datasheet/9774030482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774030482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H4mm_9774040482
-Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040482 (https://katalog.we-online.de/em/datasheet/9774040482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040482 (https://www.we-online.com/components/products/datasheet/9774040482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774040482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H5mm_9774050482
-Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050482 (https://katalog.we-online.de/em/datasheet/9774050482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050482 (https://www.we-online.com/components/products/datasheet/9774050482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774050482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H6mm_9774060482
-Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060482 (https://katalog.we-online.de/em/datasheet/9774060482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060482 (https://www.we-online.com/components/products/datasheet/9774060482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774060482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H7mm_9774070482
-Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070482 (https://katalog.we-online.de/em/datasheet/9774070482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070482 (https://www.we-online.com/components/products/datasheet/9774070482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774070482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H8mm_9774080482
-Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080482 (https://katalog.we-online.de/em/datasheet/9774080482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080482 (https://www.we-online.com/components/products/datasheet/9774080482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774080482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H9mm_9774090482
-Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090482 (https://katalog.we-online.de/em/datasheet/9774090482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090482 (https://www.we-online.com/components/products/datasheet/9774090482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774090482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-4.5mm_H10mm_9774100482
-Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100482 (https://katalog.we-online.de/em/datasheet/9774100482.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100482 (https://www.we-online.com/components/products/datasheet/9774100482R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774100482
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H1.5mm_9774015633
-Mounting Hardware, inside through hole M1.6, height 1.5, Wuerth electronics 9774015633 (https://katalog.we-online.com/em/datasheet/9774015633.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M1.6, height 1.5, Wuerth electronics 9774015633 (https://www.we-online.com/components/products/datasheet/9774015633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774015633
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H1mm_9774010633
-Mounting Hardware, inside through hole M1.6, height 1, Wuerth electronics 9774010633 (https://katalog.we-online.com/em/datasheet/9774010633.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M1.6, height 1, Wuerth electronics 9774010633 (https://www.we-online.com/components/products/datasheet/9774010633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774010633
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_9774025633
-Mounting Hardware, inside through hole M1.6, height 2.5, Wuerth electronics 9774025633 (https://katalog.we-online.com/em/datasheet/9774025633.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M1.6, height 2.5, Wuerth electronics 9774025633 (https://www.we-online.com/components/products/datasheet/9774025633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774025633
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_ThreadDepth1.5mm_97730256332
-Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256332 (https://katalog.we-online.com/em/datasheet/97730256332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256332 (https://www.we-online.com/components/products/datasheet/97730256332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730256332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H2.5mm_ThreadDepth1.5mm_NoNPTH_97730256330
-Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256330 (https://katalog.we-online.com/em/datasheet/97730256330R.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 2.5, Wuerth electronics 97730256330 (https://www.we-online.com/components/products/datasheet/97730256330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730256330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633
-Mounting Hardware, inside through hole M1.6, height 2, Wuerth electronics 9774020633 (https://katalog.we-online.com/em/datasheet/9774020633.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M1.6, height 2, Wuerth electronics 9774020633 (https://www.we-online.com/components/products/datasheet/9774020633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774020633
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_97730356332
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356332 (https://katalog.we-online.com/em/datasheet/97730356332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356332 (https://www.we-online.com/components/products/datasheet/97730356332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730356332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_97730356334
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356334 (https://katalog.we-online.com/em/datasheet/97730356334.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356334 (https://www.we-online.com/components/products/datasheet/97730356334R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730356334
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330
-Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356330 (https://katalog.we-online.com/em/datasheet/97730356330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356330 (https://www.we-online.com/components/products/datasheet/97730356330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730356330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3mm_9774030633
-Mounting Hardware, inside through hole M1.6, height 3, Wuerth electronics 9774030633 (https://katalog.we-online.com/em/datasheet/9774030633.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M1.6, height 3, Wuerth electronics 9774030633 (https://www.we-online.com/components/products/datasheet/9774030633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774030633
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3mm_ThreadDepth1.8mm_97730306332
-Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306332 (https://katalog.we-online.com/em/datasheet/97730306332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306332 (https://www.we-online.com/components/products/datasheet/97730306332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730306332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H3mm_ThreadDepth1.8mm_NoNPTH_97730306330
-Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306330 (https://katalog.we-online.com/em/datasheet/97730306330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 3, Wuerth electronics 97730306330 (https://www.we-online.com/components/products/datasheet/97730306330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730306330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456332 (https://katalog.we-online.com/em/datasheet/97730456332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456332 (https://www.we-online.com/components/products/datasheet/97730456332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730456332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456334
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456334 (https://katalog.we-online.com/em/datasheet/97730456334.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456334 (https://www.we-online.com/components/products/datasheet/97730456334R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730456334
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_NoNPTH_97730456330
-Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456330 (https://katalog.we-online.com/em/datasheet/97730456330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4.5, Wuerth electronics 97730456330 (https://www.we-online.com/components/products/datasheet/97730456330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730456330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_97730406332
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406332 (https://katalog.we-online.com/em/datasheet/97730406332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406332 (https://www.we-online.com/components/products/datasheet/97730406332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730406332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_97730406334
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406334 (https://katalog.we-online.com/em/datasheet/97730406334.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406334 (https://www.we-online.com/components/products/datasheet/97730406334R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730406334
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H4mm_ThreadDepth2mm_NoNPTH_97730406330
-Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406330 (https://katalog.we-online.com/em/datasheet/97730406330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 4, Wuerth electronics 97730406330 (https://www.we-online.com/components/products/datasheet/97730406330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730406330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_97730506332
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506332 (https://katalog.we-online.com/em/datasheet/97730506332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506332 (https://www.we-online.com/components/products/datasheet/97730506332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730506332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_97730506334
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506334 (https://katalog.we-online.com/em/datasheet/97730506334.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506334 (https://www.we-online.com/components/products/datasheet/97730506334R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730506334
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H5mm_ThreadDepth2mm_NoNPTH_97730506330
-Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506330 (https://katalog.we-online.com/em/datasheet/97730506330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 5, Wuerth electronics 97730506330 (https://www.we-online.com/components/products/datasheet/97730506330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730506330
 0
 5
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_97730606332
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606332 (https://katalog.we-online.com/em/datasheet/97730606332.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606332 (https://www.we-online.com/components/products/datasheet/97730606332R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730606332
 0
 6
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_97730606334
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606334 (https://katalog.we-online.com/em/datasheet/97730606334.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606334 (https://www.we-online.com/components/products/datasheet/97730606334R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730606334
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H6mm_ThreadDepth2mm_NoNPTH_97730606330
-Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606330 (https://katalog.we-online.com/em/datasheet/97730606330.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside blind hole M1.6, height 6, Wuerth electronics 97730606330 (https://www.we-online.com/components/products/datasheet/97730606330R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 97730606330
 0
 5
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151R
-Mounting Hardware, inside through hole M2.5, height 0.5, Wuerth electronics 9774005151R (https://www.we-online.com/components/products/datasheet/9774005151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774005151R
+Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151
+Mounting Hardware, inside through hole M2.5, height 0.5, Wuerth electronics 9774005151 (https://www.we-online.com/components/products/datasheet/9774005151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774005151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H1.5mm_9774015151R
-Mounting Hardware, inside through hole M2.5, height 1.5, Wuerth electronics 9774015151R (https://www.we-online.com/components/products/datasheet/9774015151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774015151R
+Mounting_Wuerth_WA-SMSI-M2.5_H1.5mm_9774015151
+Mounting Hardware, inside through hole M2.5, height 1.5, Wuerth electronics 9774015151 (https://www.we-online.com/components/products/datasheet/9774015151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774015151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H1mm_9774010151R
-Mounting Hardware, inside through hole M2.5, height 1, Wuerth electronics 9774010151R (https://www.we-online.com/components/products/datasheet/9774010151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774010151R
+Mounting_Wuerth_WA-SMSI-M2.5_H1mm_9774010151
+Mounting Hardware, inside through hole M2.5, height 1, Wuerth electronics 9774010151 (https://www.we-online.com/components/products/datasheet/9774010151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774010151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H2.5mm_9774025151R
-Mounting Hardware, inside through hole M2.5, height 2.5, Wuerth electronics 9774025151R (https://www.we-online.com/components/products/datasheet/9774025151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774025151R
+Mounting_Wuerth_WA-SMSI-M2.5_H2.5mm_9774025151
+Mounting Hardware, inside through hole M2.5, height 2.5, Wuerth electronics 9774025151 (https://www.we-online.com/components/products/datasheet/9774025151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774025151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H2.7mm_9774027151R
-Mounting Hardware, inside through hole M2.5, height 2.7, Wuerth electronics 9774027151R (https://www.we-online.com/components/products/datasheet/9774027151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774027151R
+Mounting_Wuerth_WA-SMSI-M2.5_H2.7mm_9774027151
+Mounting Hardware, inside through hole M2.5, height 2.7, Wuerth electronics 9774027151 (https://www.we-online.com/components/products/datasheet/9774027151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774027151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H2mm_9774020151R
-Mounting Hardware, inside through hole M2.5, height 2, Wuerth electronics 9774020151R (https://www.we-online.com/components/products/datasheet/9774020151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774020151R
+Mounting_Wuerth_WA-SMSI-M2.5_H2mm_9774020151
+Mounting Hardware, inside through hole M2.5, height 2, Wuerth electronics 9774020151 (https://www.we-online.com/components/products/datasheet/9774020151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774020151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H3.5mm_9774035151R
-Mounting Hardware, inside through hole M2.5, height 3.5, Wuerth electronics 9774035151R (https://www.we-online.com/components/products/datasheet/9774035151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774035151R
+Mounting_Wuerth_WA-SMSI-M2.5_H3.5mm_9774035151
+Mounting Hardware, inside through hole M2.5, height 3.5, Wuerth electronics 9774035151 (https://www.we-online.com/components/products/datasheet/9774035151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774035151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151R
-Mounting Hardware, inside through hole M2.5, height 3, Wuerth electronics 9774030151R (https://www.we-online.com/components/products/datasheet/9774030151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774030151R
+Mounting_Wuerth_WA-SMSI-M2.5_H3mm_9774030151
+Mounting Hardware, inside through hole M2.5, height 3, Wuerth electronics 9774030151 (https://www.we-online.com/components/products/datasheet/9774030151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774030151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H4.5mm_9774045151R
-Mounting Hardware, inside through hole M2.5, height 4.5, Wuerth electronics 9774045151R (https://www.we-online.com/components/products/datasheet/9774045151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774045151R
+Mounting_Wuerth_WA-SMSI-M2.5_H4.5mm_9774045151
+Mounting Hardware, inside through hole M2.5, height 4.5, Wuerth electronics 9774045151 (https://www.we-online.com/components/products/datasheet/9774045151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774045151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H4mm_9774040151R
-Mounting Hardware, inside through hole M2.5, height 4, Wuerth electronics 9774040151R (https://www.we-online.com/components/products/datasheet/9774040151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774040151R
+Mounting_Wuerth_WA-SMSI-M2.5_H4mm_9774040151
+Mounting Hardware, inside through hole M2.5, height 4, Wuerth electronics 9774040151 (https://www.we-online.com/components/products/datasheet/9774040151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774040151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H5.5mm_9774055151R
-Mounting Hardware, inside through hole M2.5, height 5.5, Wuerth electronics 9774055151R (https://www.we-online.com/components/products/datasheet/9774055151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774055151R
+Mounting_Wuerth_WA-SMSI-M2.5_H5.5mm_9774055151
+Mounting Hardware, inside through hole M2.5, height 5.5, Wuerth electronics 9774055151 (https://www.we-online.com/components/products/datasheet/9774055151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774055151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H5mm_9774050151R
-Mounting Hardware, inside through hole M2.5, height 5, Wuerth electronics 9774050151R (https://www.we-online.com/components/products/datasheet/9774050151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774050151R
+Mounting_Wuerth_WA-SMSI-M2.5_H5mm_9774050151
+Mounting Hardware, inside through hole M2.5, height 5, Wuerth electronics 9774050151 (https://www.we-online.com/components/products/datasheet/9774050151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774050151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H6.5mm_9774065151R
-Mounting Hardware, inside through hole M2.5, height 6.5, Wuerth electronics 9774065151R (https://www.we-online.com/components/products/datasheet/9774065151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774065151R
+Mounting_Wuerth_WA-SMSI-M2.5_H6.5mm_9774065151
+Mounting Hardware, inside through hole M2.5, height 6.5, Wuerth electronics 9774065151 (https://www.we-online.com/components/products/datasheet/9774065151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774065151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H6mm_9774060151R
-Mounting Hardware, inside through hole M2.5, height 6, Wuerth electronics 9774060151R (https://www.we-online.com/components/products/datasheet/9774060151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774060151R
+Mounting_Wuerth_WA-SMSI-M2.5_H6mm_9774060151
+Mounting Hardware, inside through hole M2.5, height 6, Wuerth electronics 9774060151 (https://www.we-online.com/components/products/datasheet/9774060151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774060151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H7.5mm_9774075151R
-Mounting Hardware, inside through hole M2.5, height 7.5, Wuerth electronics 9774075151R (https://www.we-online.com/components/products/datasheet/9774075151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774075151R
+Mounting_Wuerth_WA-SMSI-M2.5_H7.5mm_9774075151
+Mounting Hardware, inside through hole M2.5, height 7.5, Wuerth electronics 9774075151 (https://www.we-online.com/components/products/datasheet/9774075151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774075151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H7mm_9774070151R
-Mounting Hardware, inside through hole M2.5, height 7, Wuerth electronics 9774070151R (https://www.we-online.com/components/products/datasheet/9774070151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774070151R
+Mounting_Wuerth_WA-SMSI-M2.5_H7mm_9774070151
+Mounting Hardware, inside through hole M2.5, height 7, Wuerth electronics 9774070151 (https://www.we-online.com/components/products/datasheet/9774070151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774070151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H8.5mm_9774085151R
-Mounting Hardware, inside through hole M2.5, height 8.5, Wuerth electronics 9774085151R (https://www.we-online.com/components/products/datasheet/9774085151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774085151R
+Mounting_Wuerth_WA-SMSI-M2.5_H8.5mm_9774085151
+Mounting Hardware, inside through hole M2.5, height 8.5, Wuerth electronics 9774085151 (https://www.we-online.com/components/products/datasheet/9774085151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774085151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H8mm_9774080151R
-Mounting Hardware, inside through hole M2.5, height 8, Wuerth electronics 9774080151R (https://www.we-online.com/components/products/datasheet/9774080151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774080151R
+Mounting_Wuerth_WA-SMSI-M2.5_H8mm_9774080151
+Mounting Hardware, inside through hole M2.5, height 8, Wuerth electronics 9774080151 (https://www.we-online.com/components/products/datasheet/9774080151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774080151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H9.5mm_9774095151R
-Mounting Hardware, inside through hole M2.5, height 9.5, Wuerth electronics 9774095151R (https://www.we-online.com/components/products/datasheet/9774095151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774095151R
+Mounting_Wuerth_WA-SMSI-M2.5_H9.5mm_9774095151
+Mounting Hardware, inside through hole M2.5, height 9.5, Wuerth electronics 9774095151 (https://www.we-online.com/components/products/datasheet/9774095151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774095151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H9mm_9774090151R
-Mounting Hardware, inside through hole M2.5, height 9, Wuerth electronics 9774090151R (https://www.we-online.com/components/products/datasheet/9774090151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774090151R
+Mounting_Wuerth_WA-SMSI-M2.5_H9mm_9774090151
+Mounting Hardware, inside through hole M2.5, height 9, Wuerth electronics 9774090151 (https://www.we-online.com/components/products/datasheet/9774090151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774090151
 0
 8
 1
 Mounting_Wuerth
-Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151R
-Mounting Hardware, inside through hole M2.5, height 10, Wuerth electronics 9774100151R (https://www.we-online.com/components/products/datasheet/9774100151R.pdf), generated with kicad-footprint-generator
-Mounting M2.5 9774100151R
+Mounting_Wuerth_WA-SMSI-M2.5_H10mm_9774100151
+Mounting Hardware, inside through hole M2.5, height 10, Wuerth electronics 9774100151 (https://www.we-online.com/components/products/datasheet/9774100151R.pdf), generated with kicad-footprint-generator
+Mounting M2.5 9774100151
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H1.5mm_9774015243
-Mounting Hardware, inside through hole M2, height 1.5, Wuerth electronics 9774015243 (https://katalog.we-online.de/em/datasheet/9774015243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 1.5, Wuerth electronics 9774015243 (https://www.we-online.com/components/products/datasheet/9774015243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774015243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H1mm_9774010243
-Mounting Hardware, inside through hole M2, height 1, Wuerth electronics 9774010243 (https://katalog.we-online.de/em/datasheet/9774010243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 1, Wuerth electronics 9774010243 (https://www.we-online.com/components/products/datasheet/9774010243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774010243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H2.5mm_9774025243
-Mounting Hardware, inside through hole M2, height 2.5, Wuerth electronics 9774025243 (https://katalog.we-online.de/em/datasheet/9774025243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 2.5, Wuerth electronics 9774025243 (https://www.we-online.com/components/products/datasheet/9774025243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774025243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H2mm_9774020243
-Mounting Hardware, inside through hole M2, height 2, Wuerth electronics 9774020243 (https://katalog.we-online.de/em/datasheet/9774020243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 2, Wuerth electronics 9774020243 (https://www.we-online.com/components/products/datasheet/9774020243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774020243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H3.5mm_9774035243
-Mounting Hardware, inside through hole M2, height 3.5, Wuerth electronics 9774035243 (https://katalog.we-online.de/em/datasheet/9774035243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 3.5, Wuerth electronics 9774035243 (https://www.we-online.com/components/products/datasheet/9774035243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774035243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243
-Mounting Hardware, inside through hole M2, height 3, Wuerth electronics 9774030243 (https://katalog.we-online.de/em/datasheet/9774030243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 3, Wuerth electronics 9774030243 (https://www.we-online.com/components/products/datasheet/9774030243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774030243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H4.5mm_9774045243
-Mounting Hardware, inside through hole M2, height 4.5, Wuerth electronics 9774045243 (https://katalog.we-online.de/em/datasheet/9774045243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 4.5, Wuerth electronics 9774045243 (https://www.we-online.com/components/products/datasheet/9774045243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774045243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H4mm_9774040243
-Mounting Hardware, inside through hole M2, height 4, Wuerth electronics 9774040243 (https://katalog.we-online.de/em/datasheet/9774040243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 4, Wuerth electronics 9774040243 (https://www.we-online.com/components/products/datasheet/9774040243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774040243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H5mm_9774050243
-Mounting Hardware, inside through hole M2, height 5, Wuerth electronics 9774050243 (https://katalog.we-online.de/em/datasheet/9774050243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 5, Wuerth electronics 9774050243 (https://www.we-online.com/components/products/datasheet/9774050243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774050243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H6mm_9774060243
-Mounting Hardware, inside through hole M2, height 6, Wuerth electronics 9774060243 (https://katalog.we-online.de/em/datasheet/9774060243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 6, Wuerth electronics 9774060243 (https://www.we-online.com/components/products/datasheet/9774060243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774060243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H7mm_9774070243
-Mounting Hardware, inside through hole M2, height 7, Wuerth electronics 9774070243 (https://katalog.we-online.de/em/datasheet/9774070243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 7, Wuerth electronics 9774070243 (https://www.we-online.com/components/products/datasheet/9774070243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774070243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H8mm_9774080243
-Mounting Hardware, inside through hole M2, height 8, Wuerth electronics 9774080243 (https://katalog.we-online.de/em/datasheet/9774080243.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M2, height 8, Wuerth electronics 9774080243 (https://www.we-online.com/components/products/datasheet/9774080243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774080243
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H1.5mm_9774015360
-Mounting Hardware, inside through hole M3, height 1.5, Wuerth electronics 9774015360 (https://katalog.we-online.de/em/datasheet/9774015360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 1.5, Wuerth electronics 9774015360 (https://www.we-online.com/components/products/datasheet/9774015360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774015360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H1mm_9774010360
-Mounting Hardware, inside through hole M3, height 1, Wuerth electronics 9774010360 (https://katalog.we-online.de/em/datasheet/9774010360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 1, Wuerth electronics 9774010360 (https://www.we-online.com/components/products/datasheet/9774010360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774010360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H2.5mm_9774025360
-Mounting Hardware, inside through hole M3, height 2.5, Wuerth electronics 9774025360 (https://katalog.we-online.de/em/datasheet/9774025360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 2.5, Wuerth electronics 9774025360 (https://www.we-online.com/components/products/datasheet/9774025360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774025360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H2mm_9774020360
-Mounting Hardware, inside through hole M3, height 2, Wuerth electronics 9774020360 (https://katalog.we-online.de/em/datasheet/9774020360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 2, Wuerth electronics 9774020360 (https://www.we-online.com/components/products/datasheet/9774020360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774020360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H3mm_9774030360
-Mounting Hardware, inside through hole M3, height 3, Wuerth electronics 9774030360 (https://katalog.we-online.de/em/datasheet/9774030360R.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 3, Wuerth electronics 9774030360 (https://www.we-online.com/components/products/datasheet/9774030360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774030360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H4mm_9774040360
-Mounting Hardware, inside through hole M3, height 4, Wuerth electronics 9774040360 (https://katalog.we-online.de/em/datasheet/9774040360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 4, Wuerth electronics 9774040360 (https://www.we-online.com/components/products/datasheet/9774040360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774040360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H5mm_9774050360
-Mounting Hardware, inside through hole M3, height 5, Wuerth electronics 9774050360 (https://katalog.we-online.de/em/datasheet/9774050360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 5, Wuerth electronics 9774050360 (https://www.we-online.com/components/products/datasheet/9774050360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774050360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H6mm_9774060360
-Mounting Hardware, inside through hole M3, height 6, Wuerth electronics 9774060360 (https://katalog.we-online.de/em/datasheet/9774060360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 6, Wuerth electronics 9774060360 (https://www.we-online.com/components/products/datasheet/9774060360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774060360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H7mm_9774070360
-Mounting Hardware, inside through hole M3, height 7, Wuerth electronics 9774070360 (https://katalog.we-online.de/em/datasheet/9774070360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 7, Wuerth electronics 9774070360 (https://www.we-online.com/components/products/datasheet/9774070360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774070360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H8mm_9774080360
-Mounting Hardware, inside through hole M3, height 8, Wuerth electronics 9774080360 (https://katalog.we-online.de/em/datasheet/9774080360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 8, Wuerth electronics 9774080360 (https://www.we-online.com/components/products/datasheet/9774080360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774080360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H9mm_9774090360
-Mounting Hardware, inside through hole M3, height 9, Wuerth electronics 9774090360 (https://katalog.we-online.de/em/datasheet/9774090360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 9, Wuerth electronics 9774090360 (https://www.we-online.com/components/products/datasheet/9774090360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774090360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360
-Mounting Hardware, inside through hole M3, height 10, Wuerth electronics 9774100360 (https://katalog.we-online.de/em/datasheet/9774100360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 10, Wuerth electronics 9774100360 (https://www.we-online.com/components/products/datasheet/9774100360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774100360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360
-Mounting Hardware, inside through hole M3, height 11, Wuerth electronics 9774110360 (https://katalog.we-online.de/em/datasheet/9774110360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 11, Wuerth electronics 9774110360 (https://www.we-online.com/components/products/datasheet/9774110360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774110360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H12mm_9774120360
-Mounting Hardware, inside through hole M3, height 12, Wuerth electronics 9774120360 (https://katalog.we-online.de/em/datasheet/9774120360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 12, Wuerth electronics 9774120360 (https://www.we-online.com/components/products/datasheet/9774120360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774120360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H13mm_9774130360
-Mounting Hardware, inside through hole M3, height 13, Wuerth electronics 9774130360 (https://katalog.we-online.de/em/datasheet/9774130360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 13, Wuerth electronics 9774130360 (https://www.we-online.com/components/products/datasheet/9774130360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774130360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H14mm_9774140360
-Mounting Hardware, inside through hole M3, height 14, Wuerth electronics 9774140360 (https://katalog.we-online.de/em/datasheet/9774140360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 14, Wuerth electronics 9774140360 (https://www.we-online.com/components/products/datasheet/9774140360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774140360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H15mm_9774150360
-Mounting Hardware, inside through hole M3, height 15, Wuerth electronics 9774150360 (https://katalog.we-online.de/em/datasheet/9774150360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 15, Wuerth electronics 9774150360 (https://www.we-online.com/components/products/datasheet/9774150360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774150360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H2.6mm_ReverseMount_9775026960
-Mounting Hardware, inside through hole 3.2mm, height 2.6, Wuerth electronics 9775026960 (https://katalog.we-online.com/em/datasheet/9775026960R.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 2.6, Wuerth electronics 9775026960 (https://www.we-online.com/components/products/datasheet/9775026960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775026960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H3.1mm_ReverseMount_9775031960
-Mounting Hardware, inside through hole 3.2mm, height 3.1, Wuerth electronics 9775031960 (https://katalog.we-online.com/em/datasheet/9775031960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 3.1, Wuerth electronics 9775031960 (https://www.we-online.com/components/products/datasheet/9775031960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775031960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H3.6mm_ReverseMount_9775036960
-Mounting Hardware, inside through hole 3.2mm, height 3.6, Wuerth electronics 9775036960 (https://katalog.we-online.com/em/datasheet/9775036960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 3.6, Wuerth electronics 9775036960 (https://www.we-online.com/components/products/datasheet/9775036960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775036960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H4.1mm_ReverseMount_9775041960
-Mounting Hardware, inside through hole 3.2mm, height 4.1, Wuerth electronics 9775041960 (https://katalog.we-online.com/em/datasheet/9775041960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 4.1, Wuerth electronics 9775041960 (https://www.we-online.com/components/products/datasheet/9775041960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775041960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H4.6mm_ReverseMount_9775046960
-Mounting Hardware, inside through hole 3.2mm, height 4.6, Wuerth electronics 9775046960 (https://katalog.we-online.com/em/datasheet/9775046960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 4.6, Wuerth electronics 9775046960 (https://www.we-online.com/components/products/datasheet/9775046960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775046960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H5.1mm_ReverseMount_9775051960
-Mounting Hardware, inside through hole 3.2mm, height 5.1, Wuerth electronics 9775051960 (https://katalog.we-online.com/em/datasheet/9775051960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 5.1, Wuerth electronics 9775051960 (https://www.we-online.com/components/products/datasheet/9775051960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775051960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H5.6mm_ReverseMount_9775056960
-Mounting Hardware, inside through hole 3.2mm, height 5.6, Wuerth electronics 9775056960 (https://katalog.we-online.com/em/datasheet/9775056960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 5.6, Wuerth electronics 9775056960 (https://www.we-online.com/components/products/datasheet/9775056960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775056960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H6.6mm_ReverseMount_9775066960
-Mounting Hardware, inside through hole 3.2mm, height 6.6, Wuerth electronics 9775066960 (https://katalog.we-online.com/em/datasheet/9775066960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 6.6, Wuerth electronics 9775066960 (https://www.we-online.com/components/products/datasheet/9775066960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775066960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H7.6mm_ReverseMount_9775076960
-Mounting Hardware, inside through hole 3.2mm, height 7.6, Wuerth electronics 9775076960 (https://katalog.we-online.com/em/datasheet/9775076960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 7.6, Wuerth electronics 9775076960 (https://www.we-online.com/components/products/datasheet/9775076960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775076960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H8.6mm_ReverseMount_9775086960
-Mounting Hardware, inside through hole 3.2mm, height 8.6, Wuerth electronics 9775086960 (https://katalog.we-online.com/em/datasheet/9775086960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 8.6, Wuerth electronics 9775086960 (https://www.we-online.com/components/products/datasheet/9775086960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775086960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H9.6mm_ReverseMount_9775096960
-Mounting Hardware, inside through hole 3.2mm, height 9.6, Wuerth electronics 9775096960 (https://katalog.we-online.com/em/datasheet/9775096960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 9.6, Wuerth electronics 9775096960 (https://www.we-online.com/components/products/datasheet/9775096960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775096960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H10.6mm_ReverseMount_9775106960
-Mounting Hardware, inside through hole 3.2mm, height 10.6, Wuerth electronics 9775106960 (https://katalog.we-online.com/em/datasheet/9775106960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 10.6, Wuerth electronics 9775106960 (https://www.we-online.com/components/products/datasheet/9775106960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775106960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-3.2mm_H11.6mm_ReverseMount_9775116960
-Mounting Hardware, inside through hole 3.2mm, height 11.6, Wuerth electronics 9775116960 (https://katalog.we-online.com/em/datasheet/9775116960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.2mm, height 11.6, Wuerth electronics 9775116960 (https://www.we-online.com/components/products/datasheet/9775116960R.pdf), generated with kicad-footprint-generator
 Mounting 3.2mm 9775116960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H2.6mm_ReverseMount_9775026360
-Mounting Hardware, inside through hole M3, height 2.6, Wuerth electronics 9775026360 (https://katalog.we-online.com/em/datasheet/9775026360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 2.6, Wuerth electronics 9775026360 (https://www.we-online.com/components/products/datasheet/9775026360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775026360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H3.1mm_ReverseMount_9775031360
-Mounting Hardware, inside through hole M3, height 3.1, Wuerth electronics 9775031360 (https://katalog.we-online.com/em/datasheet/9775031360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 3.1, Wuerth electronics 9775031360 (https://www.we-online.com/components/products/datasheet/9775031360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775031360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H3.6mm_ReverseMount_9775036360
-Mounting Hardware, inside through hole M3, height 3.6, Wuerth electronics 9775036360 (https://katalog.we-online.com/em/datasheet/9775036360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 3.6, Wuerth electronics 9775036360 (https://www.we-online.com/components/products/datasheet/9775036360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775036360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H4.1mm_ReverseMount_9775041360
-Mounting Hardware, inside through hole M3, height 4.1, Wuerth electronics 9775041360 (https://katalog.we-online.com/em/datasheet/9775041360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 4.1, Wuerth electronics 9775041360 (https://www.we-online.com/components/products/datasheet/9775041360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775041360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H4.6mm_ReverseMount_9775046360
-Mounting Hardware, inside through hole M3, height 4.6, Wuerth electronics 9775046360 (https://katalog.we-online.com/em/datasheet/9775046360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 4.6, Wuerth electronics 9775046360 (https://www.we-online.com/components/products/datasheet/9775046360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775046360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H5.1mm_ReverseMount_9775051360
-Mounting Hardware, inside through hole M3, height 5.1, Wuerth electronics 9775051360 (https://katalog.we-online.com/em/datasheet/9775051360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 5.1, Wuerth electronics 9775051360 (https://www.we-online.com/components/products/datasheet/9775051360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775051360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H5.6mm_ReverseMount_9775056360
-Mounting Hardware, inside through hole M3, height 5.6, Wuerth electronics 9775056360 (https://katalog.we-online.com/em/datasheet/9775056360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 5.6, Wuerth electronics 9775056360 (https://www.we-online.com/components/products/datasheet/9775056360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775056360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H6.6mm_ReverseMount_9775066360
-Mounting Hardware, inside through hole M3, height 6.6, Wuerth electronics 9775066360 (https://katalog.we-online.com/em/datasheet/9775066360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 6.6, Wuerth electronics 9775066360 (https://www.we-online.com/components/products/datasheet/9775066360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775066360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H7.6mm_ReverseMount_9775076360
-Mounting Hardware, inside through hole M3, height 7.6, Wuerth electronics 9775076360 (https://katalog.we-online.com/em/datasheet/9775076360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 7.6, Wuerth electronics 9775076360 (https://www.we-online.com/components/products/datasheet/9775076360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775076360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H8.6mm_ReverseMount_9775086360
-Mounting Hardware, inside through hole M3, height 8.6, Wuerth electronics 9775086360 (https://katalog.we-online.com/em/datasheet/9775086360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 8.6, Wuerth electronics 9775086360 (https://www.we-online.com/components/products/datasheet/9775086360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775086360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H9.6mm_ReverseMount_9775096360
-Mounting Hardware, inside through hole M3, height 9.6, Wuerth electronics 9775096360 (https://katalog.we-online.com/em/datasheet/9775096360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 9.6, Wuerth electronics 9775096360 (https://www.we-online.com/components/products/datasheet/9775096360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775096360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H10.6mm_ReverseMount_9775106360
-Mounting Hardware, inside through hole M3, height 10.6, Wuerth electronics 9775106360 (https://katalog.we-online.com/em/datasheet/9775106360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 10.6, Wuerth electronics 9775106360 (https://www.we-online.com/components/products/datasheet/9775106360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775106360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSR-M3_H11.6mm_ReverseMount_9775116360
-Mounting Hardware, inside through hole M3, height 11.6, Wuerth electronics 9775116360 (https://katalog.we-online.com/em/datasheet/9775116360.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole M3, height 11.6, Wuerth electronics 9775116360 (https://www.we-online.com/components/products/datasheet/9775116360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9775116360
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H2.5mm_SnapRivet_9776025960
-Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9776025960 (https://katalog.we-online.com/em/datasheet/9776025960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9776025960 (https://www.we-online.com/components/products/datasheet/9776025960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776025960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H2mm_SnapRivet_9776020960
-Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9776020960 (https://katalog.we-online.com/em/datasheet/9776020960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9776020960 (https://www.we-online.com/components/products/datasheet/9776020960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776020960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H3mm_SnapRivet_9776030960
-Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9776030960 (https://katalog.we-online.com/em/datasheet/9776030960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9776030960 (https://www.we-online.com/components/products/datasheet/9776030960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776030960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H4mm_SnapRivet_9776040960
-Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9776040960 (https://katalog.we-online.com/em/datasheet/9776040960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9776040960 (https://www.we-online.com/components/products/datasheet/9776040960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776040960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H5mm_SnapRivet_9776050960
-Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9776050960 (https://katalog.we-online.com/em/datasheet/9776050960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9776050960 (https://www.we-online.com/components/products/datasheet/9776050960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776050960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H6mm_SnapRivet_9776060960
-Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9776060960 (https://katalog.we-online.com/em/datasheet/9776060960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9776060960 (https://www.we-online.com/components/products/datasheet/9776060960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776060960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H7mm_SnapRivet_9776070960
-Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9776070960 (https://katalog.we-online.com/em/datasheet/9776070960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9776070960 (https://www.we-online.com/components/products/datasheet/9776070960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776070960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H8mm_SnapRivet_9776080960
-Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9776080960 (https://katalog.we-online.com/em/datasheet/9776080960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9776080960 (https://www.we-online.com/components/products/datasheet/9776080960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776080960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H9mm_SnapRivet_9776090960
-Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9776090960 (https://katalog.we-online.com/em/datasheet/9776090960.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9776090960 (https://www.we-online.com/components/products/datasheet/9776090960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776090960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSSR-3.3mm_H10mm_SnapRivet_9776100960
-Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9776100960 (https://katalog.we-online.com/em/datasheet/9776100960R.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9776100960 (https://www.we-online.com/components/products/datasheet/9776100960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9776100960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951
-Mounting Hardware, inside through hole 2.7mm, height 1.5, Wuerth electronics 9774015951 (https://katalog.we-online.de/em/datasheet/9774015951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 1.5, Wuerth electronics 9774015951 (https://www.we-online.com/components/products/datasheet/9774015951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774015951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H1mm_9774010951
-Mounting Hardware, inside through hole 2.7mm, height 1, Wuerth electronics 9774010951 (https://katalog.we-online.de/em/datasheet/9774010951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 1, Wuerth electronics 9774010951 (https://www.we-online.com/components/products/datasheet/9774010951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774010951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H2.5mm_9774025951
-Mounting Hardware, inside through hole 2.7mm, height 2.5, Wuerth electronics 9774025951 (https://katalog.we-online.de/em/datasheet/9774025951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 2.5, Wuerth electronics 9774025951 (https://www.we-online.com/components/products/datasheet/9774025951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774025951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H2mm_9774020951
-Mounting Hardware, inside through hole 2.7mm, height 2, Wuerth electronics 9774020951 (https://katalog.we-online.de/em/datasheet/9774020951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 2, Wuerth electronics 9774020951 (https://www.we-online.com/components/products/datasheet/9774020951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774020951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H3mm_9774030951
-Mounting Hardware, inside through hole 2.7mm, height 3, Wuerth electronics 9774030951 (https://katalog.we-online.de/em/datasheet/9774030951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 3, Wuerth electronics 9774030951 (https://www.we-online.com/components/products/datasheet/9774030951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774030951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H4mm_9774040951
-Mounting Hardware, inside through hole 2.7mm, height 4, Wuerth electronics 9774040951 (https://katalog.we-online.de/em/datasheet/9774040951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 4, Wuerth electronics 9774040951 (https://www.we-online.com/components/products/datasheet/9774040951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774040951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H5.5mm_9774055951
-Mounting Hardware, inside through hole 2.7mm, height 5.5, Wuerth electronics 9774055951 (https://katalog.we-online.de/em/datasheet/9774055951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 5.5, Wuerth electronics 9774055951 (https://www.we-online.com/components/products/datasheet/9774055951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774055951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H5mm_9774050951
-Mounting Hardware, inside through hole 2.7mm, height 5, Wuerth electronics 9774050951 (https://katalog.we-online.de/em/datasheet/9774050951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 5, Wuerth electronics 9774050951 (https://www.we-online.com/components/products/datasheet/9774050951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774050951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H6.5mm_9774065951
-Mounting Hardware, inside through hole 2.7mm, height 6.5, Wuerth electronics 9774065951 (https://katalog.we-online.de/em/datasheet/9774065951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 6.5, Wuerth electronics 9774065951 (https://www.we-online.com/components/products/datasheet/9774065951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774065951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H6mm_9774060951
-Mounting Hardware, inside through hole 2.7mm, height 6, Wuerth electronics 9774060951 (https://katalog.we-online.de/em/datasheet/9774060951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 6, Wuerth electronics 9774060951 (https://www.we-online.com/components/products/datasheet/9774060951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774060951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H7mm_9774070951
-Mounting Hardware, inside through hole 2.7mm, height 7, Wuerth electronics 9774070951 (https://katalog.we-online.de/em/datasheet/9774070951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 7, Wuerth electronics 9774070951 (https://www.we-online.com/components/products/datasheet/9774070951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774070951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H8mm_9774080951
-Mounting Hardware, inside through hole 2.7mm, height 8, Wuerth electronics 9774080951 (https://katalog.we-online.de/em/datasheet/9774080951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 8, Wuerth electronics 9774080951 (https://www.we-online.com/components/products/datasheet/9774080951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774080951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H9mm_9774090951
-Mounting Hardware, inside through hole 2.7mm, height 9, Wuerth electronics 9774090951 (https://katalog.we-online.de/em/datasheet/9774090951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 9, Wuerth electronics 9774090951 (https://www.we-online.com/components/products/datasheet/9774090951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774090951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.7mm_H10mm_9774100951
-Mounting Hardware, inside through hole 2.7mm, height 10, Wuerth electronics 9774100951 (https://katalog.we-online.de/em/datasheet/9774100951.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.7mm, height 10, Wuerth electronics 9774100951 (https://www.we-online.com/components/products/datasheet/9774100951R.pdf), generated with kicad-footprint-generator
 Mounting 2.7mm 9774100951
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H1.5mm_9774015943
-Mounting Hardware, inside through hole 2.25mm, height 1.5, Wuerth electronics 9774015943 (https://katalog.we-online.de/em/datasheet/9774015943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 1.5, Wuerth electronics 9774015943 (https://www.we-online.com/components/products/datasheet/9774015943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774015943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H1mm_9774010943
-Mounting Hardware, inside through hole 2.25mm, height 1, Wuerth electronics 9774010943 (https://katalog.we-online.de/em/datasheet/9774010943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 1, Wuerth electronics 9774010943 (https://www.we-online.com/components/products/datasheet/9774010943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774010943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H2.5mm_9774025943
-Mounting Hardware, inside through hole 2.25mm, height 2.5, Wuerth electronics 9774025943 (https://katalog.we-online.de/em/datasheet/9774025943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 2.5, Wuerth electronics 9774025943 (https://www.we-online.com/components/products/datasheet/9774025943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774025943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H2mm_9774020943
-Mounting Hardware, inside through hole 2.25mm, height 2, Wuerth electronics 9774020943 (https://katalog.we-online.de/em/datasheet/9774020943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 2, Wuerth electronics 9774020943 (https://www.we-online.com/components/products/datasheet/9774020943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774020943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H3.5mm_9774035943
-Mounting Hardware, inside through hole 2.25mm, height 3.5, Wuerth electronics 9774035943 (https://katalog.we-online.de/em/datasheet/9774035943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 3.5, Wuerth electronics 9774035943 (https://www.we-online.com/components/products/datasheet/9774035943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774035943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H3mm_9774030943
-Mounting Hardware, inside through hole 2.25mm, height 3, Wuerth electronics 9774030943 (https://katalog.we-online.de/em/datasheet/9774030943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 3, Wuerth electronics 9774030943 (https://www.we-online.com/components/products/datasheet/9774030943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774030943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H4.5mm_9774045943
-Mounting Hardware, inside through hole 2.25mm, height 4.5, Wuerth electronics 9774045943 (https://katalog.we-online.de/em/datasheet/9774045943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 4.5, Wuerth electronics 9774045943 (https://www.we-online.com/components/products/datasheet/9774045943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774045943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H4mm_9774040943
-Mounting Hardware, inside through hole 2.25mm, height 4, Wuerth electronics 9774040943 (https://katalog.we-online.de/em/datasheet/9774040943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 4, Wuerth electronics 9774040943 (https://www.we-online.com/components/products/datasheet/9774040943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774040943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H5mm_9774050943
-Mounting Hardware, inside through hole 2.25mm, height 5, Wuerth electronics 9774050943 (https://katalog.we-online.de/em/datasheet/9774050943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 5, Wuerth electronics 9774050943 (https://www.we-online.com/components/products/datasheet/9774050943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774050943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H6mm_9774060943
-Mounting Hardware, inside through hole 2.25mm, height 6, Wuerth electronics 9774060943 (https://katalog.we-online.de/em/datasheet/9774060943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 6, Wuerth electronics 9774060943 (https://www.we-online.com/components/products/datasheet/9774060943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774060943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H7mm_9774070943
-Mounting Hardware, inside through hole 2.25mm, height 7, Wuerth electronics 9774070943 (https://katalog.we-online.de/em/datasheet/9774070943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 7, Wuerth electronics 9774070943 (https://www.we-online.com/components/products/datasheet/9774070943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774070943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-2.25mm_H8mm_9774080943
-Mounting Hardware, inside through hole 2.25mm, height 8, Wuerth electronics 9774080943 (https://katalog.we-online.de/em/datasheet/9774080943.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 2.25mm, height 8, Wuerth electronics 9774080943 (https://www.we-online.com/components/products/datasheet/9774080943R.pdf), generated with kicad-footprint-generator
 Mounting 2.25mm 9774080943
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H1.5mm_9774015960
-Mounting Hardware, inside through hole 3.3mm, height 1.5, Wuerth electronics 9774015960 (https://katalog.we-online.de/em/datasheet/9774015960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 1.5, Wuerth electronics 9774015960 (https://www.we-online.com/components/products/datasheet/9774015960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774015960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H1mm_9774010960
-Mounting Hardware, inside through hole 3.3mm, height 1, Wuerth electronics 9774010960 (https://katalog.we-online.de/em/datasheet/9774010960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 1, Wuerth electronics 9774010960 (https://www.we-online.com/components/products/datasheet/9774010960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774010960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H2.5mm_9774025960
-Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9774025960 (https://katalog.we-online.de/em/datasheet/9774025960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 2.5, Wuerth electronics 9774025960 (https://www.we-online.com/components/products/datasheet/9774025960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774025960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H2mm_9774020960
-Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9774020960 (https://katalog.we-online.de/em/datasheet/9774020960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 2, Wuerth electronics 9774020960 (https://www.we-online.com/components/products/datasheet/9774020960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774020960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H3mm_9774030960
-Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9774030960 (https://katalog.we-online.de/em/datasheet/9774030960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 3, Wuerth electronics 9774030960 (https://www.we-online.com/components/products/datasheet/9774030960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774030960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H4mm_9774040960
-Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9774040960 (https://katalog.we-online.de/em/datasheet/9774040960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 4, Wuerth electronics 9774040960 (https://www.we-online.com/components/products/datasheet/9774040960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774040960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H5mm_9774050960
-Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9774050960 (https://katalog.we-online.de/em/datasheet/9774050960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 5, Wuerth electronics 9774050960 (https://www.we-online.com/components/products/datasheet/9774050960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774050960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H6mm_9774060960
-Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9774060960 (https://katalog.we-online.de/em/datasheet/9774060960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 6, Wuerth electronics 9774060960 (https://www.we-online.com/components/products/datasheet/9774060960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774060960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H7mm_9774070960
-Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9774070960 (https://katalog.we-online.de/em/datasheet/9774070960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 7, Wuerth electronics 9774070960 (https://www.we-online.com/components/products/datasheet/9774070960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774070960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H8mm_9774080960
-Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9774080960 (https://katalog.we-online.de/em/datasheet/9774080960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 8, Wuerth electronics 9774080960 (https://www.we-online.com/components/products/datasheet/9774080960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774080960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H9mm_9774090960
-Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9774090960 (https://katalog.we-online.de/em/datasheet/9774090960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 9, Wuerth electronics 9774090960 (https://www.we-online.com/components/products/datasheet/9774090960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774090960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H10mm_9774100960
-Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9774100960 (https://katalog.we-online.de/em/datasheet/9774100960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 10, Wuerth electronics 9774100960 (https://www.we-online.com/components/products/datasheet/9774100960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774100960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H11mm_9774110960
-Mounting Hardware, inside through hole 3.3mm, height 11, Wuerth electronics 9774110960 (https://katalog.we-online.de/em/datasheet/9774110960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 11, Wuerth electronics 9774110960 (https://www.we-online.com/components/products/datasheet/9774110960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774110960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H12mm_9774120960
-Mounting Hardware, inside through hole 3.3mm, height 12, Wuerth electronics 9774120960 (https://katalog.we-online.de/em/datasheet/9774120960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 12, Wuerth electronics 9774120960 (https://www.we-online.com/components/products/datasheet/9774120960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774120960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H13mm_9774130960
-Mounting Hardware, inside through hole 3.3mm, height 13, Wuerth electronics 9774130960 (https://katalog.we-online.de/em/datasheet/9774130960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 13, Wuerth electronics 9774130960 (https://www.we-online.com/components/products/datasheet/9774130960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774130960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H14mm_9774140960
-Mounting Hardware, inside through hole 3.3mm, height 14, Wuerth electronics 9774140960 (https://katalog.we-online.de/em/datasheet/9774140960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 14, Wuerth electronics 9774140960 (https://www.we-online.com/components/products/datasheet/9774140960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774140960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H15mm_9774150960
-Mounting Hardware, inside through hole 3.3mm, height 15, Wuerth electronics 9774150960 (https://katalog.we-online.de/em/datasheet/9774150960.pdf,), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 3.3mm, height 15, Wuerth electronics 9774150960 (https://www.we-online.com/components/products/datasheet/9774150960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774150960
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H1mm_9774010982
-Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010982 (https://katalog.we-online.de/em/datasheet/9774010982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 1, Wuerth electronics 9774010982 (https://www.we-online.com/components/products/datasheet/9774010982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774010982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H2mm_9774020982
-Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020982 (https://katalog.we-online.de/em/datasheet/9774020982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 2, Wuerth electronics 9774020982 (https://www.we-online.com/components/products/datasheet/9774020982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774020982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H3mm_9774030982
-Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030982 (https://katalog.we-online.de/em/datasheet/9774030982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 3, Wuerth electronics 9774030982 (https://www.we-online.com/components/products/datasheet/9774030982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774030982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H4mm_9774040982
-Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040982 (https://katalog.we-online.de/em/datasheet/9774040982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 4, Wuerth electronics 9774040982 (https://www.we-online.com/components/products/datasheet/9774040982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774040982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H5mm_9774050982
-Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050982 (https://katalog.we-online.de/em/datasheet/9774050982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 5, Wuerth electronics 9774050982 (https://www.we-online.com/components/products/datasheet/9774050982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774050982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H6mm_9774060982
-Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060982 (https://katalog.we-online.de/em/datasheet/9774060982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 6, Wuerth electronics 9774060982 (https://www.we-online.com/components/products/datasheet/9774060982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774060982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H7mm_9774070982
-Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070982 (https://katalog.we-online.de/em/datasheet/9774070982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 7, Wuerth electronics 9774070982 (https://www.we-online.com/components/products/datasheet/9774070982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774070982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H8mm_9774080982
-Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080982 (https://katalog.we-online.de/em/datasheet/9774080982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 8, Wuerth electronics 9774080982 (https://www.we-online.com/components/products/datasheet/9774080982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774080982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H9mm_9774090982
-Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090982 (https://katalog.we-online.de/em/datasheet/9774090982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 9, Wuerth electronics 9774090982 (https://www.we-online.com/components/products/datasheet/9774090982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774090982
 0
 8
 1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-4.5mm_H10mm_9774100982
-Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100982 (https://katalog.we-online.de/em/datasheet/9774100982.pdf), generated with kicad-footprint-generator
+Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774100982 (https://www.we-online.com/components/products/datasheet/9774100982R.pdf), generated with kicad-footprint-generator
 Mounting 4.5mm 9774100982
 0
 8
@@ -72457,6 +72569,13 @@ BGA-48
 48
 48
 Package_BGA
+BGA-63_9x11mm_Layout10x12_P0.8mm
+BGA-63, 9.0x11.0mm, 63 Ball, 10x12 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-207N.pdf
+BGA 63 0.8
+0
+63
+63
+Package_BGA
 BGA-64_9.0x9.0mm_Layout10x10_P0.8mm
 BGA-64, 10x10 raster, 9x9mm package, pitch 0.8mm
 BGA-64
@@ -72506,6 +72625,20 @@ BGA-100
 100
 100
 Package_BGA
+BGA-100_12x18mm_Layout10x17_P1mm
+BGA-100, 12x18mm, 100 Ball, 10x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
+BGA 100 1
+0
+100
+100
+Package_BGA
+BGA-100_14x18mm_Layout10x17_P1mm
+BGA-100, 14x18mm, 100 Ball, 10x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
+BGA 100 1
+0
+100
+100
+Package_BGA
 BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD
 121-ball, 0.8mm BGA (based on http://www.latticesemi.com/view_document?document_id=213)
 BGA 0.8mm 9mm 121
@@ -72516,6 +72649,13 @@ Package_BGA
 BGA-132_12x18mm_Layout11x17_P1.0mm
 BGA-132 11x17 12x18mm 1.0pitch
 BGA-132
+0
+132
+132
+Package_BGA
+BGA-132_12x18mm_Layout11x17_P1mm
+BGA-132, 12x18mm, 132 Ball, 11x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
+BGA 132 1
 0
 132
 132
@@ -72537,6 +72677,13 @@ Package_BGA
 BGA-152_14x18mm_Layout13x17_P0.5mm
 BGA-152_14x18mm_Layout13x17_P0.5mm
 VBGA-152
+0
+152
+152
+Package_BGA
+BGA-152_14x18mm_Layout13x17_P1mm
+BGA-152, 14x18mm, 152 Ball, 13x17 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.jedec.org/system/files/docs/MO-304D.pdf
+BGA 152 1
 0
 152
 152
@@ -73045,6 +73192,13 @@ BGA 59 0.4
 59
 59
 Package_BGA
+NXP_TFBGA-50_5x5mm_Layout9x9_P0.5mm
+TFBGA-50, 5.0x5.0mm, 50 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1345-1.pdf
+BGA 50 0.5 SOT1345-1
+0
+50
+50
+Package_BGA
 NXP_VFBGA-42_2.6x3mm_Layout6x7_P0.4mm
 NXP VFBGA-42, 2.6x3.0mm, 42 Ball, 6x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.nxp.com/docs/en/package-information/SOT1963-1.pdf
 BGA 42 0.4
@@ -73101,6 +73255,13 @@ BGA 361 0.5
 361
 361
 Package_BGA
+ST_TFBGA-436_18x18mm_Layout22x22_P0.8mm
+ST TFBGA-436, 18.0x18.0mm, 436 Ball, 22x22 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp255c.pdf#page=222
+BGA 436 0.8 ST-Package-B0MS
+0
+436
+436
+Package_BGA
 ST_UFBGA-59_5x5mm_Layout8x8_P0.5mm
 ST UFBGA-59, 5.0x5.0mm, 59 Ball, 8x8 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wba55ug.pdf
 BGA 59 0.5
@@ -73135,6 +73296,20 @@ BGA 129 0.5
 0
 129
 129
+Package_BGA
+ST_VFBGA-361_10x10mm_Layout19x19_P0.5mm
+ST VFBGA-361, 10.0x10.0mm, 361 Ball, 19x19 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp255c.pdf#page=218
+BGA 361 0.5 ST-Package-B09U
+0
+361
+361
+Package_BGA
+ST_VFBGA-424_14x14mm_Layout27x27_P0.5mmP0.5x0.5mm_Stagger
+ST VFBGA-424, 14.0x14.0mm, 424 Ball, 27x27 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp255c.pdf
+BGA 424 0.5
+0
+424
+424
 Package_BGA
 ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm
 ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
@@ -74501,6 +74676,13 @@ CSP 18 0.4
 18
 18
 Package_CSP
+ST_WLCSP-19_1.643x2.492mm_Layout4x11_P0.35mm_Stagger
+ST WLCSP-19, ST Die ID 493, 1.643x2.492mm, 19 Ball, Y-staggered 4x11 Layout, 0.35mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32c071kb.pdf#page=100
+CSP 19 0.35 ST-Die-493 ST-Package-B0MQ
+0
+19
+19
+Package_CSP
 ST_WLCSP-20_1.94x2.4mm_Layout4x5_P0.4mm
 ST WLCSP-20, ST die ID 456, 1.94x2.4mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32g051f8.pdf#page=102
 CSP 20 0.4
@@ -74557,6 +74739,20 @@ CSP 36 0.4
 36
 36
 Package_CSP
+ST_WLCSP-36_2.83x2.99mm_Layout7x13_P0.4mm_Stagger_Offcenter
+ST WLCSP-36, ST Die ID 032, 2.83x2.99mm, 36 Ball, Y-staggered 7x13 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb09te.pdf#page=59
+CSP 36 0.4 ST-Die-032 ST-Package-B0LY
+0
+36
+36
+Package_CSP
+ST_WLCSP-36_2.652x2.592mm_Layout7x12_P0.4mm_Stagger_Offcenter
+ST WLCSP-36, ST Die ID 028, 2.652x2.592mm, 36 Ball, Y-staggered 7x12 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb05tz.pdf#page=55
+CSP 36 0.4 ST-Die-028 ST-Package-01C1
+0
+36
+36
+Package_CSP
 ST_WLCSP-36_Die417
 WLCSP-36, 2.61x2.88mm, 36 Ball, 6x6 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://www.st.com/resource/en/datasheet/stm32l052t8.pdf#page=123
 CSP 36 0.4
@@ -74585,6 +74781,13 @@ CSP 36 0.4
 36
 36
 Package_CSP
+ST_WLCSP-39_2.76x2.78mm_Layout11x7_P0.4mm_Stagger
+ST WLCSP-39, ST Die ID 478, 2.76x2.78mm, 39 Ball, X-staggered 11x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32h523he.pdf#page=197
+CSP 39 0.4 ST-Package-B0MM
+0
+39
+39
+Package_CSP
 ST_WLCSP-41_2.98x2.76mm_Layout13x7_P0.4mm_Stagger
 ST WLCSP-41, 2.98x2.76mm, 41 Ball, X-staggered 13x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wba55hg.pdf#page=140
 CSP 41 0.4
@@ -74602,6 +74805,13 @@ Package_CSP
 ST_WLCSP-49_3.3x3.38mm_Layout7x7_P0.4mm_Offcenter
 ST WLCSP-49, off-center ball grid, ST die ID 494, 3.3x3.38mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf#page=119
 CSP 49 0.4
+0
+49
+49
+Package_CSP
+ST_WLCSP-49_3.14x3.14mm_Layout7x7_P0.4mm_Offcenter
+ST WLCSP-49, ST Die ID 01E, 3.14x3.14mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32wb07cc.pdf#page=62
+CSP 49 0.4 ST-Die-01E ST-Package-01C1
 0
 49
 49
@@ -75907,6 +76117,20 @@ HXQFN NoLead
 0
 26
 17
+Package_DFN_QFN
+IDT_QFN-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm
+IDT  QFN, 12 Pin (https://www.renesas.com/en/document/psc/neg12-package-outline-20-x-20-mm-body-epad-11-x-11-mm-050-mm-pitch-qfn), generated with kicad-footprint-generator ipc_noLead_generator.py
+IDT QFN NoLead IDT_NEG-12
+0
+14
+13
+Package_DFN_QFN
+IDT_QFN-12-1EP_2x2mm_P0.5mm_EP1.1x1.1mm_ThermalVias
+IDT  QFN, 12 Pin (https://www.renesas.com/en/document/psc/neg12-package-outline-20-x-20-mm-body-epad-11-x-11-mm-050-mm-pitch-qfn), generated with kicad-footprint-generator ipc_noLead_generator.py
+IDT QFN NoLead IDT_NEG-12
+0
+19
+13
 Package_DFN_QFN
 Infineon_MLPQ-16-14-1EP_4x4mm_P0.5mm
 MLPQ 32 leads, 7x7mm, 0.127mm stencil (https://www.infineon.com/dgdl/Infineon-AN1170-AN-v05_00-EN.pdf?fileId=5546d462533600a40153559ac3e51134)
@@ -77374,6 +77598,20 @@ Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm_ThermalVias
 QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
+0
+75
+49
+Package_DFN_QFN
+QFN-48-1EP_6x6mm_P0.4mm_EP4.4x4.4mm
+QFN, 48 Pin (https://www.st.com/resource/en/datasheet/stm32wb06cc.pdf#page=60), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead ST-Package-A0BE VFQFPN-48
+0
+58
+49
+Package_DFN_QFN
+QFN-48-1EP_6x6mm_P0.4mm_EP4.4x4.4mm_ThermalVias
+QFN, 48 Pin (https://www.st.com/resource/en/datasheet/stm32wb06cc.pdf#page=60), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead ST-Package-A0BE VFQFPN-48
 0
 75
 49
@@ -79820,6 +80058,34 @@ powerpak mlp44-24l
 0
 35
 28
+Package_DFN_QFN
+Vishay_PowerPAK_MLP55-27L
+MLP55-27L (https://www.vishay.com/docs/75269/ppak_mlp55-27l.pdf)
+powerpak mlp55-27l
+0
+38
+22
+Package_DFN_QFN
+Vishay_PowerPAK_MLP55-27L_R
+MLP55-27L_R (https://www.vishay.com/docs/75269/ppak_mlp55-27l.pdf)
+powerpak mlp55-27l
+0
+38
+22
+Package_DFN_QFN
+Vishay_PowerPAK_MLP55-27L_R_ThermalVias
+MLP55-27L_R (https://www.vishay.com/docs/75269/ppak_mlp55-27l.pdf)
+powerpak mlp55-27l
+0
+58
+23
+Package_DFN_QFN
+Vishay_PowerPAK_MLP55-27L_ThermalVias
+MLP55-27L (https://www.vishay.com/docs/75269/ppak_mlp55-27l.pdf)
+powerpak mlp55-27l
+0
+58
+23
 Package_DFN_QFN
 W-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm
 W-PDFN, 8 Pin (https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-a/mt25q_qljs_u_256_aba_0.pdf#page=22), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -82964,6 +83230,20 @@ LQFP QFP
 80
 80
 Package_QFP
+LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm
+LQFP, 100 Pin (JEDEC MS-026 variation BED with exposed pad, 1.60mm max body thickness, https://www.jedec.org/system/files/docs/MS-026D.pdf, https://www.nxp.com/docs/en/package-information/SOT2229-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP 98ASA02131D SOT2229-1
+0
+110
+101
+Package_QFP
+LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_ThermalVias
+LQFP, 100 Pin (JEDEC MS-026 variation BED with exposed pad, 1.60mm max body thickness, https://www.jedec.org/system/files/docs/MS-026D.pdf, https://www.nxp.com/docs/en/package-information/SOT2229-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP 98ASA02131D SOT2229-1
+0
+127
+101
+Package_QFP
 LQFP-100_14x14mm_P0.5mm
 LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
@@ -84140,20 +84420,6 @@ Linear HTSSOP SO FE38-(31)
 54
 32
 Package_SO
-MFSOP6-4_4.4x3.6mm_P1.27mm
-https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.4pin%20MFSOP6.html
-MFSOP 4 pin SMD
-0
-4
-4
-Package_SO
-MFSOP6-5_4.4x3.6mm_P1.27mm
-https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.5pin%20MFSOP6.html
-MFSOP 4 pin SMD
-0
-5
-5
-Package_SO
 MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm
 MSOP, 8 Pin (https://www.diodes.com/assets/Package-Files/MSOP-8EP.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 MSOP SO
@@ -84504,13 +84770,6 @@ SO SO TLP2310 Toshiba
 5
 5
 Package_SO
-SO-5_4.4x3.6mm_P1.27mm
-5-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true
-SO SOIC 1.27
-0
-5
-5
-Package_SO
 SO-6L_10x3.84mm_P1.27mm
 6-pin plasic small outline 7,5mm long https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770
 SO-6L
@@ -84609,6 +84868,13 @@ SOIC SO
 4
 4
 Package_SO
+SOIC-5-6_4.4x3.6mm_P1.27mm
+SOIC, 5 Pin (JEDEC MO-155, variation AA, 2.50mm nominal body thickness, https://www.jedec.org/system/files/docs/Mo-155a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+5
+5
+Package_SO
 SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
 SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -84702,6 +84968,13 @@ SOIC 1.27
 Package_SO
 SOIC-8_3.9x4.9mm_P1.27mm
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Package_SO
+SOIC-8_3.81x9.347mm_P2.54mm
+SOIC, 8 Pin (https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc2014n-datasheet?assetguid=6e3baf84-de75-4ea7-97ce-3a5e05a007c9), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 8
@@ -86191,6 +86464,20 @@ DGK VSSOP SO
 8
 8
 Package_SO
+Toshiba_SOIC-4-6_4.4x3.6mm_P1.27mm
+Toshiba  SOIC, 4 Pin (https://toshiba.semicon-storage.com/eu/semiconductor/design-development/package/detail.4pin%20MFSOP6.html), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Toshiba SOIC SO Toshiba_11-4C1 Toshiba_MFSOP-4-6
+0
+4
+4
+Package_SO
+Toshiba_SOIC-5-6_4.4x3.6mm_P1.27mm
+Toshiba  SOIC, 5 Pin (https://toshiba.semicon-storage.com/eu/semiconductor/design-development/package/detail.5pin%20MFSOP6.html), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Toshiba SOIC SO Toshiba_11-4C2 Toshiba_MFSOP-5-6
+0
+5
+5
+Package_SO
 VSO-40_7.6x15.4mm_P0.762mm
 VSO40: plastic very small outline package; 40 leads (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot158-1_po.pdf)
 SSOP 0.762
@@ -86617,6 +86904,20 @@ Texas VSON-HR NoLead
 0
 8
 8
+Package_SON
+Texas_X2SON-4-1EP_1.1x1.4mm_P0.5mm_EP0.8x0.6mm
+Texas  X2SON, 4 Pin (http://www.ti.com/lit/ds/symlink/drv5032.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas X2SON NoLead
+0
+6
+5
+Package_SON
+Texas_X2SON-4-1EP_1.1x1.4mm_P0.5mm_EP0.8x0.6mm_ThermalVias
+Texas  X2SON, 4 Pin (http://www.ti.com/lit/ds/symlink/drv5032.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas X2SON NoLead
+0
+8
+5
 Package_SON
 Texas_X2SON-4_1x1mm_P0.65mm
 X2SON 5 pin 1x1mm package, DQN0004A (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
@@ -90699,7 +91000,21 @@ antenna
 2
 2
 RF_Antenna
+Johanson_2450AT18x100_2400-2500Mhz
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
+antenna
+0
+2
+2
+RF_Antenna
 Johanson_2450AT43F0100
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Johanson_2450AT43F0100_2400-2500Mhz
 Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
 antenna
 0
@@ -91489,6 +91804,13 @@ Bluetooth BLE NFC
 0
 39
 39
+RF_Module
+Laird_BL653
+BL653 Bluetooth 5.1 module, https://www.lairdconnect.com/wireless-modules/bluetooth-modules/bluetooth-5-modules/bl653-series-bluetooth-51-802154-nfc-module
+Wi-Fi Module
+0
+73
+73
 RF_Module
 MCU_Seeed_ESP32C3
 ESP32C3 Seeed Xiao RF Wifi Shield (https://www.seeedstudio.com/blog/wp-content/uploads/2022/08/Seeed-Studio-XIAO-Series-Package-and-PCB-Design.pdf)
@@ -92280,6 +92602,13 @@ ssr
 0
 4
 4
+Relay_THT
+Relay_SPDT_CUI_SR5
+CUI Relay, SPDT, https://www.cuidevices.com/product/resource/sr5.pdf
+CUI Relay SPDT
+0
+6
+5
 Relay_THT
 Relay_SPDT_Finder_32.21-x000
 Finder 32.21-x000 Relay, SPDT, https://gfinder.findernet.com/assets/Series/355/S32EN.pdf
@@ -98231,6 +98560,90 @@ THT Terminal Block Phoenix MKDS-1,5-16 pitch 5mm size 80x9.8mm drill 1.3mm pad 2
 16
 16
 TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-2-3.81, 2 pins, pitch 3.81mm, size 7.61x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727010/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-2-3.81 pitch 3.81mm size 7.61x7.3mm drill 1.1mm pad 2mm
+0
+2
+2
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-3-3.81_1x03_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-3-3.81, 3 pins, pitch 3.81mm, size 11.4x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727023/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-3-3.81 pitch 3.81mm size 11.4x7.3mm drill 1.1mm pad 2mm
+0
+3
+3
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-4-3.81_1x04_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-4-3.81, 4 pins, pitch 3.81mm, size 15.2x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727036/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-4-3.81 pitch 3.81mm size 15.2x7.3mm drill 1.1mm pad 2mm
+0
+4
+4
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-5-3.81_1x05_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-5-3.81, 5 pins, pitch 3.81mm, size 19x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727049/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-5-3.81 pitch 3.81mm size 19x7.3mm drill 1.1mm pad 2mm
+0
+5
+5
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-6-3.81_1x06_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-6-3.81, 6 pins, pitch 3.81mm, size 22.9x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727052/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-6-3.81 pitch 3.81mm size 22.9x7.3mm drill 1.1mm pad 2mm
+0
+6
+6
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-7-3.81_1x07_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-7-3.81, 7 pins, pitch 3.81mm, size 26.7x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727065/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-7-3.81 pitch 3.81mm size 26.7x7.3mm drill 1.1mm pad 2mm
+0
+7
+7
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-8-3.81_1x08_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-8-3.81, 8 pins, pitch 3.81mm, size 30.5x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727078/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-8-3.81 pitch 3.81mm size 30.5x7.3mm drill 1.1mm pad 2mm
+0
+8
+8
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-9-3.81_1x09_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-9-3.81, 9 pins, pitch 3.81mm, size 34.3x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727081/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-9-3.81 pitch 3.81mm size 34.3x7.3mm drill 1.1mm pad 2mm
+0
+9
+9
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-10-3.81_1x10_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-10-3.81, 10 pins, pitch 3.81mm, size 38.1x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727094/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-10-3.81 pitch 3.81mm size 38.1x7.3mm drill 1.1mm pad 2mm
+0
+10
+10
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-11-3.81_1x11_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-11-3.81, 11 pins, pitch 3.81mm, size 41.9x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727104/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-11-3.81 pitch 3.81mm size 41.9x7.3mm drill 1.1mm pad 2mm
+0
+11
+11
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-12-3.81_1x12_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-12-3.81, 12 pins, pitch 3.81mm, size 45.7x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1727117/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-12-3.81 pitch 3.81mm size 45.7x7.3mm drill 1.1mm pad 2mm
+0
+12
+12
+TerminalBlock_Phoenix
+TerminalBlock_Phoenix_MKDS-1-13-3.81_1x13_P3.81mm_Horizontal
+Terminal Block Phoenix MKDS-1-13-3.81, 13 pins, pitch 3.81mm, size 49.5x7.3mm, drill diameter 1.1mm, pad diameter 2mm, http://www.phoenixcontact.com/us/products/1931754/pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1-13-3.81 pitch 3.81mm size 49.5x7.3mm drill 1.1mm pad 2mm
+0
+13
+13
+TerminalBlock_Phoenix
 TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-3-2-5.08, 2 pins, pitch 5.08mm, size 10.2x11.2mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/2138224.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-3-2-5.08 pitch 5.08mm size 10.2x11.2mm drill 1.3mm pad 2.6mm
@@ -101629,6 +102042,13 @@ Transformer_SMD
 Transformer_Ethernet_Bourns_SM13126PEL
 Bourns SM13126PEL SO, 16 Pin (https://www.bourns.com/docs/Product-Datasheets/SM13126PEL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 Bourns SO Transformer_SMD
+0
+16
+16
+Transformer_SMD
+Transformer_Ethernet_CNDtek_H1102N
+CNDtek H1102N SO, 16 Pin (https://www.lcsc.com/datasheet/lcsc_datasheet_2412231915_CND-tek-H1102N_C42418465.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+CNDtek SO Transformer_SMD
 0
 16
 16
