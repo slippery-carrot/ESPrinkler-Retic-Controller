@@ -17,7 +17,7 @@
 
 ## Overview
 
-ESPrinkler Retic Controller is an ESPHome-based irrigation controller built around the ESP32. It integrates seamlessly with Home Assistant for monitoring and control, while storing schedules in onboard flash for fully independent operation so it does not rely solely on HA to run.
+ESPrinkler Retic Controller is an ESPHome-based irrigation controller built around the ESP32. It integrates seamlessly with Home Assistant for monitoring and control, while storing schedules in onboard flash for fully independent operation.
 
 ## Features
 
@@ -32,11 +32,27 @@ ESPrinkler Retic Controller is an ESPHome-based irrigation controller built arou
 - 24VAC transmformer, at least 10VA (dependant on your solenoids).
 - [ESP32-WROOM-32U, 38 pin dev board](https://www.aliexpress.com/item/1005008209898668.html)
 - Some sort of enclosure, such as [this](https://www.ebay.com/itm/253801792805?var=556465393265).
+- 1A M205 fuse, rated for a minimum of 32V AC.
 
 ## Software Requirements
 
 - [ESPHome](https://esphome.io) (>=1.0.0)
 - [Home Assistant](https://www.home-assistant.io/) (>=2025.1)
+
+
+
+
+## Hardware Overview
+### Pinout
+The barrier terminal block is located at the bottom of the PCB, this is where power and solenoid connections are to be made. The silkscreen is clearly marked for pin functions.
+
+**Power**
+Power is connected to the pin 1 and 2 of the terminal block, labelled "L" and "N".
+A 1A fuse must be installed into the fuse holder to the left of the terminal block.
+
+**Solenoids**
+Pin 3 is the common pin for your retic solenoids, pins 4 through to 12 are for channels 1 to 8 respectively.
+
 
 ## Installation
 
@@ -71,6 +87,4 @@ ESPrinkler Retic Controller is an ESPHome-based irrigation controller built arou
 Please follow the code style and include relevant tests or documentation updates.
 
 ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
