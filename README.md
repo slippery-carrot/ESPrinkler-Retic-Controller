@@ -6,6 +6,8 @@
 - [Features](#features)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
+- [Hardware Overview](#hardware-overview)
+  - [Barrier Terminal Pinout](#barrier-terminal-pinout)
 - [Installation](#installation)
 - [Configuration](#configuration)
   - [ESPHome Configuration](#esphome-configuration)
@@ -43,7 +45,7 @@ ESPrinkler Retic Controller is an ESPHome-based irrigation controller built arou
 
 
 ## Hardware Overview
-### Pinout
+### Barrier Terminal Pinout
 The barrier terminal block is located at the bottom of the PCB, this is where power and solenoid connections are to be made. The silkscreen is clearly marked for pin functions.
 
 **Power**
