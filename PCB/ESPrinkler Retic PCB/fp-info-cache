@@ -1,4 +1,4 @@
-25821470673251994
+25830219137373993
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70028,6 +70028,13 @@ Mounting 4.5mm 9774100482
 8
 1
 Mounting_Wuerth
+Mounting_Wuerth_WA-SMSI-M1.6_H0.5mm_9774005633
+Mounting Hardware, inside through hole M1.6, height 0.5, Wuerth electronics 9774005633 (https://www.we-online.com/components/products/datasheet/9774005633R.pdf), generated with kicad-footprint-generator
+Mounting M1.6 9774005633
+0
+8
+1
+Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M1.6_H1.5mm_9774015633
 Mounting Hardware, inside through hole M1.6, height 1.5, Wuerth electronics 9774015633 (https://www.we-online.com/components/products/datasheet/9774015633R.pdf), generated with kicad-footprint-generator
 Mounting M1.6 9774015633
@@ -70343,6 +70350,13 @@ Mounting M2.5 9774100151
 8
 1
 Mounting_Wuerth
+Mounting_Wuerth_WA-SMSI-M2_H0.5mm_9774005243
+Mounting Hardware, inside through hole M2, height 0.5, Wuerth electronics 9774005243 (https://www.we-online.com/components/products/datasheet/9774005243R.pdf), generated with kicad-footprint-generator
+Mounting M2 9774005243
+0
+8
+1
+Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H1.5mm_9774015243
 Mounting Hardware, inside through hole M2, height 1.5, Wuerth electronics 9774015243 (https://www.we-online.com/components/products/datasheet/9774015243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774015243
@@ -70423,6 +70437,13 @@ Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M2_H8mm_9774080243
 Mounting Hardware, inside through hole M2, height 8, Wuerth electronics 9774080243 (https://www.we-online.com/components/products/datasheet/9774080243R.pdf), generated with kicad-footprint-generator
 Mounting M2 9774080243
+0
+8
+1
+Mounting_Wuerth
+Mounting_Wuerth_WA-SMSI-M3_H0.5mm_9774005360
+Mounting Hardware, inside through hole M3, height 0.5, Wuerth electronics 9774005360 (https://www.we-online.com/components/products/datasheet/9774005360R.pdf), generated with kicad-footprint-generator
+Mounting M3 9774005360
 0
 8
 1
@@ -70542,6 +70563,13 @@ Mounting_Wuerth
 Mounting_Wuerth_WA-SMSI-M3_H15mm_9774150360
 Mounting Hardware, inside through hole M3, height 15, Wuerth electronics 9774150360 (https://www.we-online.com/components/products/datasheet/9774150360R.pdf), generated with kicad-footprint-generator
 Mounting M3 9774150360
+0
+8
+1
+Mounting_Wuerth
+Mounting_Wuerth_WA-SMSI-M3_H16mm_9774160360
+Mounting Hardware, inside through hole M3, height 16, Wuerth electronics 9774160360 (https://www.we-online.com/components/products/datasheet/9774160360R.pdf), generated with kicad-footprint-generator
+Mounting M3 9774160360
 0
 8
 1
@@ -71095,6 +71123,13 @@ Mounting_Wuerth
 Mounting_Wuerth_WA-SMST-3.3mm_H15mm_9774150960
 Mounting Hardware, inside through hole 3.3mm, height 15, Wuerth electronics 9774150960 (https://www.we-online.com/components/products/datasheet/9774150960R.pdf), generated with kicad-footprint-generator
 Mounting 3.3mm 9774150960
+0
+8
+1
+Mounting_Wuerth
+Mounting_Wuerth_WA-SMST-3.3mm_H16mm_9774160960
+Mounting Hardware, inside through hole 3.3mm, height 16, Wuerth electronics 9774160960 (https://www.we-online.com/components/products/datasheet/9774160960R.pdf), generated with kicad-footprint-generator
+Mounting 3.3mm 9774160960
 0
 8
 1

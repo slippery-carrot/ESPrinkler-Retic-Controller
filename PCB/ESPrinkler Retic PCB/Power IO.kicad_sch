@@ -7734,7 +7734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 53.6kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -9586,7 +9586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 3kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10.2kΩ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 229.87 66.04 0)
 			(effects
 				(font

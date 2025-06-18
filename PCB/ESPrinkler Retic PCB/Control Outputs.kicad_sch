@@ -6461,7 +6461,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 191.77 101.6 90)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -6505,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -6632,7 +6632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 201.93 144.7862 0)
 			(effects
 				(font
@@ -6659,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -6677,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -8775,7 +8775,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 71.12 64.77 90)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -8837,7 +8837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -9508,7 +9508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 201.93 109.2262 0)
 			(effects
 				(font
@@ -9535,7 +9535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -9553,7 +9553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -9571,7 +9571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -9994,7 +9994,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 191.77 30.48 90)
 			(effects
 				(font
@@ -10020,7 +10020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -10038,7 +10038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -10056,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -10201,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 207.01 137.16 90)
 			(effects
 				(font
@@ -10227,7 +10227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -10245,7 +10245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -10263,7 +10263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 55.88 64.77 90)
 			(effects
 				(font
@@ -10681,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -10699,7 +10699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -10717,7 +10717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -11031,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 55.88 30.48 90)
 			(effects
 				(font
@@ -11057,7 +11057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -11075,7 +11075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -11093,7 +11093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -11304,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 207.01 64.77 90)
 			(effects
 				(font
@@ -11330,7 +11330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -11348,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -11366,7 +11366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -13101,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 201.93 72.3962 0)
 			(effects
 				(font
@@ -13128,7 +13128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13146,7 +13146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13164,7 +13164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13489,7 +13489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 66.04 38.1062 0)
 			(effects
 				(font
@@ -13516,7 +13516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -13534,7 +13534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -13552,7 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -14218,7 +14218,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 55.88 101.6 90)
 			(effects
 				(font
@@ -14244,7 +14244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -14262,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -14280,7 +14280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -14322,7 +14322,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 191.77 64.77 90)
 			(effects
 				(font
@@ -14348,7 +14348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -14366,7 +14366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -15447,7 +15447,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 71.12 30.48 90)
 			(effects
 				(font
@@ -15473,7 +15473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -15491,7 +15491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -15509,7 +15509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -16269,7 +16269,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 207.01 30.48 90)
 			(effects
 				(font
@@ -16295,7 +16295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -16313,7 +16313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -16331,7 +16331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -16373,7 +16373,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 55.88 173.99 90)
 			(effects
 				(font
@@ -16399,7 +16399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16417,7 +16417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16435,7 +16435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16477,7 +16477,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 71.12 137.16 90)
 			(effects
 				(font
@@ -16503,7 +16503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -16521,7 +16521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -16539,7 +16539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -17077,7 +17077,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 71.12 101.6 90)
 			(effects
 				(font
@@ -17103,7 +17103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -17121,7 +17121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -17139,7 +17139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -17514,7 +17514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 66.04 181.6162 0)
 			(effects
 				(font
@@ -17541,7 +17541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -17559,7 +17559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -17577,7 +17577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -18051,7 +18051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 201.93 38.1062 0)
 			(effects
 				(font
@@ -18078,7 +18078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 199.39 36.83 0)
 			(effects
 				(font
@@ -18096,7 +18096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 199.39 36.83 0)
 			(effects
 				(font
@@ -18114,7 +18114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 199.39 36.83 0)
 			(effects
 				(font
@@ -18156,7 +18156,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 191.77 137.16 90)
 			(effects
 				(font
@@ -18182,7 +18182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 139.7 0)
 			(effects
 				(font
@@ -18200,7 +18200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 191.77 139.7 0)
 			(effects
 				(font
@@ -18218,7 +18218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 191.77 139.7 0)
 			(effects
 				(font
@@ -18260,7 +18260,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "300R"
 			(at 55.88 137.16 90)
 			(effects
 				(font
@@ -18286,7 +18286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1.2kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -18304,7 +18304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17379"
+		(property "Supplier P/N" "C17617"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -18322,7 +18322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F1201T5E"
+		(property "Manufacturer P/N" "0805W8F3000T5E"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -18467,7 +18467,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 207.01 101.6 90)
 			(effects
 				(font
@@ -18493,7 +18493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -18511,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -18529,7 +18529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -18571,7 +18571,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "22R"
 			(at 71.12 173.99 90)
 			(effects
 				(font
@@ -18597,7 +18597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±1% ±200ppm/℃ 68Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 176.53 0)
 			(effects
 				(font
@@ -18615,7 +18615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C17802"
+		(property "Supplier P/N" "C17561"
 			(at 71.12 176.53 0)
 			(effects
 				(font
@@ -18633,7 +18633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "0805W8F680JT5E"
+		(property "Manufacturer P/N" "0805W8F220JT5E"
 			(at 71.12 176.53 0)
 			(effects
 				(font
@@ -18795,7 +18795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 66.04 72.3962 0)
 			(effects
 				(font
@@ -18822,7 +18822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18840,7 +18840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18858,7 +18858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -19802,7 +19802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 66.04 144.7862 0)
 			(effects
 				(font
@@ -19829,7 +19829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -19847,7 +19847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -19865,7 +19865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -20844,7 +20844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "2.2nF"
 			(at 66.04 109.2262 0)
 			(effects
 				(font
@@ -20871,7 +20871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -20889,7 +20889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10C120JB8NNNC"
+		(property "Manufacturer P/N" "CL21C222JBFNNNE"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -20907,7 +20907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "C38523"
+		(property "Supplier P/N" "C28260"
 			(at 63.5 107.95 0)
 			(effects
 				(font
