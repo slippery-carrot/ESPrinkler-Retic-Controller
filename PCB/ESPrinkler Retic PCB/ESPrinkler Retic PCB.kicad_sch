@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
-		(rev "1.0")
+		(rev "1.1")
 	)
 	(lib_symbols)
 	(text "https://www.st.com/resource/en/application_note/an5114-controlling-a-triac-with-a-phototriac-stmicroelectronics.pdf\nhttps://www.st.com/resource/en/application_note/an437-rc-snubber-circuit-design-for-triacs-stmicroelectronics.pdf\nhttps://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/_images/esp32_devkitC_v4_pinlayout.png\nhttps://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html#header-block\nhttps://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"

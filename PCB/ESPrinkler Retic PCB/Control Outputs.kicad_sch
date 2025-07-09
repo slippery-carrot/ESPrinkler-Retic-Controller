@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
-		(rev "1.0")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -576,21 +576,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3987,7 +3985,7 @@
 	)
 	(polyline
 		(pts
-			(xy 59.182 39.878) (xy 71.374 39.878)
+			(xy 59.182 39.878) (xy 71.628 39.878)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.374 39.878) (xy 71.374 34.29)
+			(xy 71.628 39.878) (xy 71.628 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6105,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.374 34.29) (xy 64.77 34.29)
+			(xy 71.628 34.29) (xy 64.77 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6478,7 +6476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -6487,7 +6485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -6650,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -6659,7 +6657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 199.39 143.51 0)
 			(effects
 				(font
@@ -6753,7 +6751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 134.62 0)
 			(effects
 				(font
@@ -6762,7 +6760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 120.65 134.62 0)
 			(effects
 				(font
@@ -6925,7 +6923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 72.39 90)
 			(effects
 				(font
@@ -6934,7 +6932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -7031,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 26.67 0)
 			(effects
 				(font
@@ -7040,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 219.71 26.67 0)
 			(effects
 				(font
@@ -7118,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 179.07 127 0)
 			(effects
 				(font
@@ -7199,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 35.56 148.59 0)
 			(effects
 				(font
@@ -7208,7 +7206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 35.56 148.59 0)
 			(effects
 				(font
@@ -7286,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 43.18 127 0)
 			(effects
 				(font
@@ -7367,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -7376,7 +7374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -7473,7 +7471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 219.71 69.85 0)
 			(effects
 				(font
@@ -7483,7 +7481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 219.71 69.85 0)
 			(effects
 				(font
@@ -7657,7 +7655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 269.24 99.06 0)
 			(effects
 				(font
@@ -7666,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 264.16 99.06 0)
 			(effects
 				(font
@@ -7760,7 +7758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 83.82 179.07 0)
 			(effects
 				(font
@@ -7770,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 83.82 179.07 0)
 			(effects
 				(font
@@ -7879,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -7888,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -8179,7 +8177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -8188,7 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -8285,7 +8283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 83.82 142.24 0)
 			(effects
 				(font
@@ -8295,7 +8293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 83.82 142.24 0)
 			(effects
 				(font
@@ -8401,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -8410,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -8572,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -8582,7 +8580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -8688,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 35.56 76.2 0)
 			(effects
 				(font
@@ -8697,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 35.56 76.2 0)
 			(effects
 				(font
@@ -8792,7 +8790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -8801,7 +8799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -8895,7 +8893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 26.67 0)
 			(effects
 				(font
@@ -8904,7 +8902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 83.82 26.67 0)
 			(effects
 				(font
@@ -9001,7 +8999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -9010,7 +9008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -9173,7 +9171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 171.45 0)
 			(effects
 				(font
@@ -9182,7 +9180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -9276,7 +9274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 83.82 35.56 0)
 			(effects
 				(font
@@ -9286,7 +9284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 83.82 35.56 0)
 			(effects
 				(font
@@ -9442,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 43.18 163.83 0)
 			(effects
 				(font
@@ -9526,7 +9524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -9535,7 +9533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -9632,7 +9630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 242.57 35.56 0)
 			(effects
 				(font
@@ -9641,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 242.57 35.56 0)
 			(effects
 				(font
@@ -9804,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 67.31 0)
 			(effects
 				(font
@@ -9813,7 +9811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 114.3 67.31 0)
 			(effects
 				(font
@@ -9910,7 +9908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 134.62 0)
 			(effects
 				(font
@@ -9919,7 +9917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -10011,7 +10009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -10020,7 +10018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 191.77 33.02 0)
 			(effects
 				(font
@@ -10117,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 269.24 134.62 0)
 			(effects
 				(font
@@ -10126,7 +10124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 264.16 134.62 0)
 			(effects
 				(font
@@ -10218,7 +10216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -10227,7 +10225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -10391,7 +10389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 109.22 90)
 			(effects
 				(font
@@ -10400,7 +10398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -10500,7 +10498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -10509,7 +10507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -10672,7 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -10681,7 +10679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -10775,7 +10773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -10784,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -10881,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 269.24 27.94 0)
 			(effects
 				(font
@@ -10890,7 +10888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -11048,7 +11046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -11057,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -11217,7 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -11226,7 +11224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -11321,7 +11319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -11330,7 +11328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -11424,7 +11422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 256.54 27.94 0)
 			(effects
 				(font
@@ -11433,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 256.54 27.94 0)
 			(effects
 				(font
@@ -11527,7 +11525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -11536,7 +11534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -11832,7 +11830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 109.22 90)
 			(effects
 				(font
@@ -11841,7 +11839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 48.26 109.22 0)
 			(effects
 				(font
@@ -11941,7 +11939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 115.57 0)
 			(effects
 				(font
@@ -11950,7 +11948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 54.61 115.57 0)
 			(effects
 				(font
@@ -12044,7 +12042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -12053,7 +12051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -12147,7 +12145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -12156,7 +12154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -12250,7 +12248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -12259,7 +12257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -12356,7 +12354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -12365,7 +12363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -12462,7 +12460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -12471,7 +12469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -12574,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -12583,7 +12581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -12686,7 +12684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -12695,7 +12693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -12798,7 +12796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -12807,7 +12805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -12901,7 +12899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 162.56 69.85 0)
 			(effects
 				(font
@@ -12910,7 +12908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 162.56 69.85 0)
 			(effects
 				(font
@@ -13013,7 +13011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 133.35 0)
 			(effects
 				(font
@@ -13022,7 +13020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 219.71 133.35 0)
 			(effects
 				(font
@@ -13119,7 +13117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13128,7 +13126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -13225,7 +13223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -13234,7 +13232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -13398,7 +13396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 72.39 90)
 			(effects
 				(font
@@ -13407,7 +13405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 48.26 72.39 0)
 			(effects
 				(font
@@ -13507,7 +13505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -13516,7 +13514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -13610,7 +13608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 113.03 0)
 			(effects
 				(font
@@ -13619,7 +13617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 170.18 113.03 0)
 			(effects
 				(font
@@ -13713,7 +13711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 256.54 62.23 0)
 			(effects
 				(font
@@ -13722,7 +13720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 256.54 62.23 0)
 			(effects
 				(font
@@ -13819,7 +13817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 35.56 0)
 			(effects
 				(font
@@ -13828,7 +13826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 106.68 35.56 0)
 			(effects
 				(font
@@ -13928,7 +13926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 269.24 62.23 0)
 			(effects
 				(font
@@ -13937,7 +13935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 264.16 62.23 0)
 			(effects
 				(font
@@ -14028,7 +14026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -14037,7 +14035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -14131,7 +14129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -14140,7 +14138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -14235,7 +14233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -14244,7 +14242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -14339,7 +14337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -14348,7 +14346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -14573,7 +14571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -14582,7 +14580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -14725,7 +14723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 179.07 54.61 0)
 			(effects
 				(font
@@ -14806,7 +14804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 35.56 113.03 0)
 			(effects
 				(font
@@ -14815,7 +14813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 35.56 113.03 0)
 			(effects
 				(font
@@ -14912,7 +14910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -14921,7 +14919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -14999,7 +14997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 179.07 91.44 0)
 			(effects
 				(font
@@ -15083,7 +15081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -15092,7 +15090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -15167,7 +15165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 43.18 20.32 0)
 			(effects
 				(font
@@ -15248,7 +15246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 139.7 0)
 			(effects
 				(font
@@ -15257,7 +15255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 250.19 139.7 0)
 			(effects
 				(font
@@ -15351,7 +15349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -15360,7 +15358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -15464,7 +15462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -15473,7 +15471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -15567,7 +15565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 35.56 185.42 0)
 			(effects
 				(font
@@ -15576,7 +15574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 35.56 185.42 0)
 			(effects
 				(font
@@ -15670,7 +15668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -15679,7 +15677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -15839,7 +15837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 139.7 0)
 			(effects
 				(font
@@ -15848,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 114.3 139.7 0)
 			(effects
 				(font
@@ -15942,7 +15940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 133.35 0)
 			(effects
 				(font
@@ -15951,7 +15949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 83.82 133.35 0)
 			(effects
 				(font
@@ -16048,7 +16046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -16057,7 +16055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -16204,7 +16202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 179.07 20.32 0)
 			(effects
 				(font
@@ -16286,7 +16284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -16295,7 +16293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -16390,7 +16388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16399,7 +16397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16494,7 +16492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -16503,7 +16501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -16597,7 +16595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -16606,7 +16604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -16700,7 +16698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 142.24 0)
 			(effects
 				(font
@@ -16709,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 27.94 142.24 0)
 			(effects
 				(font
@@ -16878,7 +16876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 179.07 0)
 			(effects
 				(font
@@ -16887,7 +16885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 27.94 179.07 0)
 			(effects
 				(font
@@ -16990,7 +16988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 67.31 0)
 			(effects
 				(font
@@ -16999,7 +16997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 250.19 67.31 0)
 			(effects
 				(font
@@ -17094,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -17103,7 +17101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 71.12 104.14 0)
 			(effects
 				(font
@@ -17200,7 +17198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -17209,7 +17207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -17303,7 +17301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -17313,7 +17311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -17423,7 +17421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 38.1 90)
 			(effects
 				(font
@@ -17432,7 +17430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17532,7 +17530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -17541,7 +17539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 180.34 0)
 			(effects
 				(font
@@ -17639,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 144.78 90)
 			(effects
 				(font
@@ -17648,7 +17646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 48.26 144.78 0)
 			(effects
 				(font
@@ -17748,7 +17746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 242.57 106.68 0)
 			(effects
 				(font
@@ -17757,7 +17755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 242.57 106.68 0)
 			(effects
 				(font
@@ -17857,7 +17855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -17866,7 +17864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -17966,7 +17964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -17975,7 +17973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TP - 1.5mm diameter"
+		(property "Description" "test point"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -18069,7 +18067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 199.39 36.83 0)
 			(effects
 				(font
@@ -18078,7 +18076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 199.39 36.83 0)
 			(effects
 				(font
@@ -18173,7 +18171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 191.77 139.7 0)
 			(effects
 				(font
@@ -18182,7 +18180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 191.77 139.7 0)
 			(effects
 				(font
@@ -18277,7 +18275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -18286,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -18380,7 +18378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 171.45 148.59 0)
 			(effects
 				(font
@@ -18389,7 +18387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 171.45 148.59 0)
 			(effects
 				(font
@@ -18484,7 +18482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -18493,7 +18491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -18588,7 +18586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 176.53 0)
 			(effects
 				(font
@@ -18597,7 +18595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 22Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 71.12 176.53 0)
 			(effects
 				(font
@@ -18694,7 +18692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 219.71 35.56 0)
 			(effects
 				(font
@@ -18704,7 +18702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 219.71 35.56 0)
 			(effects
 				(font
@@ -18813,7 +18811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18822,7 +18820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18919,7 +18917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -18929,7 +18927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -19035,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -19044,7 +19042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -19150,7 +19148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 106.68 0)
 			(effects
 				(font
@@ -19159,7 +19157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 106.68 106.68 0)
 			(effects
 				(font
@@ -19259,7 +19257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 190.5 151.13 0)
 			(effects
 				(font
@@ -19268,7 +19266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 190.5 151.13 0)
 			(effects
 				(font
@@ -19366,7 +19364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 181.61 90)
 			(effects
 				(font
@@ -19375,7 +19373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -19537,7 +19535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 104.14 0)
 			(effects
 				(font
@@ -19546,7 +19544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 250.19 104.14 0)
 			(effects
 				(font
@@ -19624,7 +19622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 43.18 91.44 0)
 			(effects
 				(font
@@ -19705,7 +19703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 69.85 0)
 			(effects
 				(font
@@ -19714,7 +19712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
+		(property "Description" "Light emitting diode"
 			(at 27.94 69.85 0)
 			(effects
 				(font
@@ -19820,7 +19818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -19829,7 +19827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 143.51 0)
 			(effects
 				(font
@@ -19927,7 +19925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 144.78 90)
 			(effects
 				(font
@@ -19936,7 +19934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 184.15 144.78 0)
 			(effects
 				(font
@@ -20033,7 +20031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 33.02 0)
 			(effects
 				(font
@@ -20042,7 +20040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 250.19 33.02 0)
 			(effects
 				(font
@@ -20139,7 +20137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 151.13 0)
 			(effects
 				(font
@@ -20148,7 +20146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 54.61 151.13 0)
 			(effects
 				(font
@@ -20242,7 +20240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -20251,7 +20249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -20348,7 +20346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -20357,7 +20355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -20520,7 +20518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 38.1 90)
 			(effects
 				(font
@@ -20529,7 +20527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 50mA 600V 1 bidirectional thyristor TO-220  Thyristors (SCR)/Modules ROHS"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
 			(at 184.15 38.1 0)
 			(effects
 				(font
@@ -20626,7 +20624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -20635,7 +20633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 300Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -20713,7 +20711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LIVE"
+		(property "Value" "LIVE_SOLENOID"
 			(at 43.18 54.61 0)
 			(effects
 				(font
@@ -20862,7 +20860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -20871,7 +20869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 2.2nF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -20968,7 +20966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -20977,7 +20975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -21077,7 +21075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -21087,7 +21085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 600V 1.2V Two-way thyristor SMD-6P Triac, SCR Output Optoisolators ROHS"
+		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"
 			(at 219.71 142.24 0)
 			(effects
 				(font
@@ -21196,7 +21194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 54.61 187.96 0)
 			(effects
 				(font
@@ -21205,7 +21203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 54.61 187.96 0)
 			(effects
 				(font
