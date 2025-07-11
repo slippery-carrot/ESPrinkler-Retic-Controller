@@ -1,4 +1,4 @@
-25877515271146207
+25892253540967891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55839,6 +55839,13 @@ traco dcdc tht 15w
 9
 9
 Converter_DCDC
+Converter_DCDC_TRACO_THN10-xxxxUIR_THT
+DCDC-Converter, TRACO, THN 10-xxxxUIR, 10W, Rev. July 3. 2025, https://www.tracopower.com/products/thn10uir.pdf, generated with kicad-footprint-generator StandardBox_generator.py
+DCDC-Converter TRACO THN10UIR THT 1"x1" 10W
+0
+7
+7
+Converter_DCDC
 Converter_DCDC_TRACO_THN30-xxxx_THT
 DCDC-Converter TRACO THN 10 to 30W, Single or dual Output, (https://www.tracopower.com/sites/default/files/products/datasheets/thn30_datasheet.pdf)
 DCDC-Converter TRACO THN30 Generic
@@ -59738,6 +59745,13 @@ warning graphic
 0
 0
 Footprints
+TO-220-3_Horizontal_TabDown_NoHole
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+Footprints
 TO-220-3_Horizontal_TabDown_Solder
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
@@ -63084,9 +63098,16 @@ high-current power shielded
 2
 2
 Inductor_SMD
-L_Murata_DEM35xxC
-https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_dem3518c.ashx
-Inductor SMD DEM35xxC
+L_Murata_DEM3512C
+Inductor, Murata, DEM3512C, 3.9x3.7x1.2mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_dem3512c.ashx), generated with kicad-footprint-generator gen_inductor.py
+power shielded
+0
+2
+2
+Inductor_SMD
+L_Murata_DEM3518C
+Inductor, Murata, DEM3518C, 3.9x3.7x1.8mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_dem3518c.ashx), generated with kicad-footprint-generator gen_inductor.py
+power shielded
 0
 2
 2
@@ -83237,6 +83258,13 @@ HTQFP-64 Pitch 0.5
 135
 65
 Package_QFP
+Hitachi_FP80B_PQFP-80_14x20mm_P0.8mm
+Hitachi FP80B PQFP, 80 Pin (Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28), generated with kicad-footprint-generator ipc_gullwing_generator.py
+Hitachi PQFP QFP Hitachi_FP-80B
+0
+80
+80
+Package_QFP
 LQFP-32_5x5mm_P0.5mm
 LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT401-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
@@ -83517,9 +83545,16 @@ PQFP QFP
 64
 64
 Package_QFP
+PQFP-80_14x14mm_P0.65mm
+PQFP, 80 Pin (JEDEC MS-022 variation BC, 2.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP MQFP-80 Infineon_P-MQFP-80-7
+0
+80
+80
+Package_QFP
 PQFP-80_14x20mm_P0.8mm
-PQFP80 14x20 / QIP80E CASE 122BS (see ON Semiconductor 122BS.PDF)
-QFP 0.8
+PQFP, 80 Pin (JEITA/EIAJ ED-7311A (variation 80-001-PB) / JEDEC MS-022 (variation GB-2), 2.70mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=91, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP P-QFP080-14.00x20.00-0.80 P-QFP080-1420-0.80 MQFP-80 Onsemi_PQFP80-14x20-/-QIP80E Onsemi_CASE-122BS
 0
 80
 80
@@ -85568,6 +85603,13 @@ SSOP-8 3.95x5.21x3.27mm 1.27mm
 8
 8
 Package_SO
+SSOP-8_5.3x3mm_P0.65mm
+SSOP, 8 Pin (JEDEC MO-150 variation AA, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO
+0
+8
+8
+Package_SO
 SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm
 SSOP, 10 Pin (http://download.py32.org/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/zh-CN/PY32F002A%20%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_Rev1.0.pdf#page=44), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SSOP SO ESSOP-10
@@ -85653,8 +85695,8 @@ SSOP 0.635
 24
 Package_SO
 SSOP-24_5.3x8.2mm_P0.65mm
-24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+SSOP, 24 Pin (JEDEC MO-150 variation AG, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=398, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-ssop/ssop_24_05-08-1640.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO
 0
 24
 24
@@ -89648,6 +89690,13 @@ TO-220-9 Vertical 2.54mm Pitch Multiwatt-8
 0
 8
 8
+Package_TO_SOT_THT
+TO-220-9_P1.93x5.08mm_StaggerOdd_Lead3.378mm_Vertical
+TO-220-9, Vertical, RM 0.965mm, Texas_NEC0009A, Texas_TA09A-(Rev-C), staggered type-1, see Texas Instruments NEC0009A, https://www.ti.com/lit/ml/mpsf023/mpsf023.pdf?ts=1736330780857, generated with kicad-footprint-generator TO_SOT_THT_generate.py
+TO-220-9 Vertical RM 0.965mm Texas_NEC0009A Texas_TA09A-(Rev-C) staggered type-1
+0
+9
+9
 Package_TO_SOT_THT
 TO-220-9_P1.94x3.7mm_StaggerEven_Lead3.8mm_Vertical
 TO-220-9, Vertical, RM 0.97mm, staggered type-2, generated with kicad-footprint-generator TO_SOT_THT_generate.py

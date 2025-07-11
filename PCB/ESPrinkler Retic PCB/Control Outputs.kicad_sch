@@ -6914,7 +6914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 182.245 71.755 90)
 			(effects
 				(font
@@ -10380,7 +10380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 182.245 108.585 90)
 			(effects
 				(font
@@ -11821,7 +11821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 46.355 108.585 90)
 			(effects
 				(font
@@ -13387,7 +13387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 46.355 71.755 90)
 			(effects
 				(font
@@ -17412,7 +17412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 46.355 37.465 90)
 			(effects
 				(font
@@ -17628,7 +17628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 46.355 144.145 90)
 			(effects
 				(font
@@ -19355,7 +19355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 46.355 180.975 90)
 			(effects
 				(font
@@ -19916,7 +19916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 182.245 144.145 90)
 			(effects
 				(font
@@ -20509,7 +20509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_Solder"
+		(property "Footprint" "Footprints:TO-220-3_Horizontal_TabDown_NoHole"
 			(at 182.245 37.465 90)
 			(effects
 				(font
