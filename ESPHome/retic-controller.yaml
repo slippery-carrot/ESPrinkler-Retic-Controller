@@ -53,29 +53,30 @@ substitutions:
 
 
   # Status LEDs GPIO assignments
-  status_led_gpio: GPIO15
-  wifi_led_gpio: GPIO16
+  status_led_gpio: GPIO27
+  wifi_led_gpio: GPIO14
 
   # Sprinkler Component variables
   duration_entity_mode: SLIDER     # Changes the integration input mode, recommend BOX or SLIDER 
-  valve_overlap_setting: 5s     # Set the overlap between two valves, helps reduce banging
-  pump_start_delay_setting: 5s  # Set the delay from when a zone valve opens, and the main valve opens
-  pump_stop_delay_setting: 5s   # Set the delay from when the pump is turned off to when the last valve closes to reduce pressure in the line
+  valve_overlap_setting: 3s     # Set the overlap between two valves, helps reduce banging
+  pump_start_delay_setting: 3s  # Set the delay from when a zone valve opens, and the main valve opens
+  pump_stop_delay_setting: 3s   # Set the delay from when the pump is turned off to when the last valve closes to reduce pressure in the line
   repeat_cycle_initial: '0'     # Configure the initial setting for the repeat cycles
   repeat_cycle_max: '5'         # Configure the max setting for the repeat cycles
   repeat_cycle_min: '0'         # Configure the min setting for the repeat cycles
 
   # Valve & Pump (Main Valve) GPIO's
   # Enter the GPIO assignments for the pump and each zone below
-  pump_gpio: GPIO23
-  zone_1_gpio: GPIO22
-  zone_2_gpio: GPIO1
-  zone_3_gpio: GPIO3
+  pump_gpio: GPIO17
+  zone_1_gpio: GPIO5
+  zone_2_gpio: GPIO18
+  zone_3_gpio: GPIO19
   zone_4_gpio: GPIO21
-  zone_5_gpio: GPIO19
-  zone_6_gpio: GPIO18
-  zone_7_gpio: GPIO5
-  zone_8_gpio: GPIO17
+  zone_5_gpio: GPIO3
+  zone_6_gpio: GPIO1
+  zone_7_gpio: GPIO22
+  zone_8_gpio: GPIO23
+
 
   # True if your relay board is active low (GND trigger)
   # False if your relay board is active high (VCC trigger)
@@ -192,22 +193,6 @@ output:
     id: status_led_out
     inverted: false
 
-
-###################################
-# Light component
-###################################
-light:
-  - platform: binary
-    name: "WiFi LED"
-    output: wifi_led_out
-    id: wifi_led
-    internal: true
-
-  - platform: binary
-    name: "System Status LED"
-    output: status_led_out
-    id: status_led
-    internal: true
 
 #########################################
 # Sprinkler components – Three Programs
@@ -1982,6 +1967,12 @@ script:
   # Turns on the status LED if there is a program runnings
   - id: update_status_led
     then:
+
+      - logger.log:
+          tag: "led"
+          format: "Status LED script triggered"
+          level: INFO
+
       - lambda: |-
           bool running = false;
           // Check if any program is running (i.e. not in the IDLE state)
@@ -1993,15 +1984,19 @@ script:
             running = true;
           }
           if (running) {
-            id(status_led).turn_on();
+            id(status_led_out).turn_on();
           } else {
-            id(status_led).turn_off();
+            id(status_led_out).turn_off();
           }
 
   # Controls the wifi LED using flashing patterns, a single pulse indicates a connection, multiple pulses indicates
   # no connection
   - id: update_wifi_led
     then:
+      - logger.log:
+          tag: "led"
+          format: "WIFI LED script triggered"
+          level: INFO
 
       # If wifi is connected, flash every second
       - if:
@@ -2012,22 +2007,22 @@ script:
                 condition:
                   lambda: 'return (id(ha_time).now().second % 30) == 0;'
                 then:
-                  - light.turn_on:
-                      id: wifi_led
+                  - output.turn_on:
+                      id: wifi_led_out
                   - delay: 1s
-                  - light.turn_off:
-                      id: wifi_led
+                  - output.turn_off:
+                      id: wifi_led_out
 
           # If wifi is not connected, flash the LED regularly
           else:
             - repeat:
                 count: 3
                 then:
-                  - light.turn_on:
-                      id: wifi_led
+                  - output.turn_on:
+                      id: wifi_led_out
                   - delay: 200ms
-                  - light.turn_off:
-                      id: wifi_led
+                  - output.turn_off:
+                      id: wifi_led_out
                   - delay: 200ms
 
 
