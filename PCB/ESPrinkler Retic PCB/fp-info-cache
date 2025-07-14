@@ -1,4 +1,4 @@
-25892253540967891
+25894027824299799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52206,21 +52206,21 @@ HDMI Molex Type A
 23
 20
 Connector_Video
-HDMI_Micro-D_Molex_46765-0x01
+HDMI_Micro-D_Molex_46765-0xxx
 HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
 hdmi micro type d right angle smd
 0
 23
 20
 Connector_Video
-HDMI_Micro-D_Molex_46765-1x01
+HDMI_Micro-D_Molex_46765-1xxx
 HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
 hdmi micro type d right angle tht
 0
 23
 20
 Connector_Video
-HDMI_Micro-D_Molex_46765-2x0x
+HDMI_Micro-D_Molex_46765-2xxx
 HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
 hdmi micro type d right angle tht smd hybrid 
 0
@@ -61363,8 +61363,8 @@ molded power shielded
 2
 Inductor_SMD
 L_AVX_LMLP07A7
-Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height., https://datasheets.avx.com/LMLPD.pdf, generated with kicad-footprint-generator StandardBox_generator.py
-Inductor LMLP
+Inductor, AVX, LMLP07A7, LMLP series, Style D, 7.3x6.6x3.0mm, (https://datasheets.avx.com/LMLPD.pdf), generated with kicad-footprint-generator gen_inductor.py
+AVX-Kyocera power shielded low-profile
 0
 2
 2
@@ -63486,6 +63486,13 @@ Inductor_SMD
 L_SXN_SMDRI127
 Inductor, SXN, SMDRI127, 12.3x12.3x8.0mm, (https://www.sxndz.com/upload/202108/16/202108161607454319.pdf), generated with kicad-footprint-generator gen_inductor.py
 sxn smdri
+0
+2
+2
+Inductor_SMD
+L_SXN_SMMS1770
+Inductor, SXN, SMMS1770, 17.5x17.15x7.0mm, (https://www.sxndz.com/upload/202406/07/202406071030485268.pdf), generated with kicad-footprint-generator gen_inductor.py
+sxn smms
 0
 2
 2

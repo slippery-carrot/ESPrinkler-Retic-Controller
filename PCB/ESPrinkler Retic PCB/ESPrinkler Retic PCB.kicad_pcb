@@ -368,11 +368,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b3c126a-17dc-42df-9eb9-7b5038f7e315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44d0384a-7217-43e7-9be9-69f240d25b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11955f53-ce92-4435-9ec5-17d0e10699e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa5b41ed-66c9-4ec5-8291-67f116dd88a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/07c98154-98d9-43ed-9836-884090e9ed3b")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -613,6 +665,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50c9fd8d-deaf-4f30-a6d1-60a5c55cad28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9df8dd36-c0f5-4eb7-8b16-6020f57e724c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71ece15-e8be-4d7c-9f15-ccb3c1c74cc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9b6e83e-23d9-4f09-ad9f-07cef748512c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4f75930-3157-431f-8c23-82ebfb2b5fcd")
 			(effects
 				(font
 					(size 1 1)
@@ -1358,6 +1462,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87db72e6-938c-41b2-982e-0ff9530e58f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c5c6736-6f25-4e4a-9726-23ebdc6f5961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b733dbd1-0b81-4088-ba8b-97d30324fc7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4222ad81-a0a4-44f0-8147-04d53811c7e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/d5d40065-0f68-4a3c-afee-92778d6de374")
 		(sheetname "/Control Outputs/")
@@ -1612,6 +1768,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91cda504-7295-4ce6-b77c-a9b2f6125553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddfc9dc0-8699-44ac-974c-1affedfc1574")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f2470d1-1f5f-422e-b2ce-efb150cbd093")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "084625f7-9b74-4b36-b3ab-d5f1a6d921d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/7fed380f-6d54-468f-9ba2-2a6ab9bccfa7")
 		(sheetname "/Power & IO/")
@@ -1759,6 +1967,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95fd02cd-231e-4cc2-8771-a11d1630e1f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89c8a09b-4c75-4287-b420-22b5961c8267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01d3cc43-9c44-469b-b4e9-1b549ae6d601")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e906a4de-2909-4be0-a6d7-6811fe2cb02a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5146463-6386-44c9-ad72-9d0bffeca654")
 			(effects
 				(font
 					(size 1 1)
@@ -2504,6 +2764,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acd37c20-f8cc-4b9a-b75f-8d2b9c61a1f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e59802b-482d-4d45-b3e0-30ac7a072771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac30428-b891-48ff-a3fa-7c57c6372b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ff20a6f-bfa7-43e5-9bcf-2732117d033f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/68d262c9-3cab-4f2b-b5b0-26aa910611e1")
 		(sheetname "/Control Outputs/")
@@ -2758,6 +3070,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b072ee-d718-4c77-81f0-ad685027537c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a8cef31-7e53-47f2-a242-8f964714aa86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a61da07-af01-422c-bcc7-0a5b7fabd53e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e1a2bb3-0f50-4143-967e-ece996bfa10b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/82a5af7a-c8e0-4c32-a6de-6706db5c2436")
 		(sheetname "/Power & IO/")
@@ -2904,6 +3268,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24f03101-4146-417d-8fd8-40f6dbe0e143")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87318dac-0e90-4d8e-bdc5-16ae0530f874")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c4f8edc-e2e0-4ed4-bc54-63c7c1221d24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9553c793-fac7-4da9-a374-ba0d625253e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "014e0a0c-b57e-47c2-b222-26744b47c0ee")
 			(effects
 				(font
 					(size 1 1)
@@ -3162,11 +3578,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59ae2385-3ee8-47f8-9429-3df61a6472fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e073f03a-f6ae-4bbc-8a77-f70889843a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "651572ec-049d-4016-99f2-ea7217f96d1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa70be42-8604-441c-9004-99a4b1e2ac3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/440938d4-9962-4692-907e-654fb48b4212")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -3406,6 +3874,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c1305e2-46e2-488d-a699-54fa277d7caa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdab90b0-6f18-4daf-9c0e-ce6168b2e774")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25725780-e7f9-47ce-86e1-547f6494a952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "652d1e30-9361-40d5-9836-b1b20346bca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da589b2d-a37d-4422-b376-3e1973c03830")
 			(effects
 				(font
 					(size 1 1)
@@ -3664,6 +4184,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc4eb5fe-665d-4fd0-be78-e7b666d7768a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a98fa173-3d32-44cc-9dc8-9232a30bf077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ca34a37-e211-4aed-b7ee-8c3394474274")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "184d3dce-2044-49fb-af51-dbf62cb79773")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/ac167ca8-a701-49da-851c-20fedf5109d2")
 		(sheetname "/Control Outputs/")
@@ -3915,11 +4487,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b510adb0-f4c9-4445-967a-de1725801257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676557a7-ceca-4426-b493-8b33e009e6d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76b4e4c3-14b8-4eda-86fd-368efa77f1ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239bd02d-0691-49e9-805c-7bea22a9085c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/d0a3621c-8e3a-4cba-9014-267521c611b7")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -4159,6 +4783,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5352b1e-1a96-4176-87a9-23195b6497ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e8cdd49-e069-4acf-b1d7-ceea8cd72cd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06d3d1fd-35dc-4468-b61f-0c91bb7be178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f684bb9a-c5a0-4c8b-bdfa-5e9d7a38c4b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1578c0a5-22ad-492c-ab39-6efe54815595")
 			(effects
 				(font
 					(size 1 1)
@@ -4417,6 +5093,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2faad6f7-afd2-484e-b5dd-d885decac521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96d74769-8125-4f61-b703-732faa109722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f282aed-4e78-47e5-8612-ac58e26d9682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d425e03a-b2ee-4f85-b670-e7b4bd2273e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/0d84b873-e5fa-42c8-9f43-55da6822a807")
 		(sheetname "/Control Outputs/")
@@ -4661,6 +5389,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a5d6b52-f42f-4dc7-8643-27e9eebfc8fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "742c7cf3-349a-4a40-aaa5-b01538b71c37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ba282f0-7663-4c3a-ae61-bb7fd9723abc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c303e2cd-1cb9-44ad-bd12-2c6c9e2f8214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c65d31-239f-4842-894c-68a4f038d3c5")
 			(effects
 				(font
 					(size 1 1)
@@ -4919,11 +5699,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71680c69-d15a-4804-b9b3-70423bed0435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90be91bc-1c0d-42cf-94ce-8f59eb99100f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f277bc51-3f0b-4eb0-b76e-5eb641af60ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f045e864-578c-498f-9160-f5e5d48a6ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/fd4faffd-9372-4f0f-87e8-c7a881901f2b")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -5173,6 +6005,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4469444-7c25-42c4-b20d-8cbc48acca15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8797bc9-0c3c-4225-b3c4-e5a88c5367eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d5d70e8-74ee-41b7-aaaa-40b0bde9cd58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d542e2c2-51b6-408d-90cf-6c806d60ff9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/4d87c275-ddea-4f4e-a222-ed4093e3afea")
 		(sheetname "/Control Outputs/")
@@ -5319,6 +6203,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc038be3-fea6-4e5c-8424-90f0accdd4c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c4f442f-d347-46ff-81b2-945cbc9c216c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aeae14d-7d52-49a4-93dd-f8729907219f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd8d4c86-6cb7-4a4b-a921-acbe3ef1d764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9785579a-dcc3-4d69-8ffa-a296ce5287ed")
 			(effects
 				(font
 					(size 1 1)
@@ -5577,11 +6513,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79522869-9605-4ebd-94c0-87984904d7bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a0be5f-5e99-4973-986e-18c10e38f514")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fabc23a-91ef-4399-a7e3-8ad164a82968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40283eb9-bafc-4fed-b065-1950efd4dc81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/e2fa9911-236a-4bdc-9f1e-8fb0cc1ca2a5")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -5821,6 +6809,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a7e96b1-b289-4832-8238-624db0f079ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c674987-35bd-48a8-a6ff-89c61f356a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bb6984f-0dfa-41d2-a9e3-128cf522e959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7005fb9-4b10-4c21-8672-7436ed829681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbb97279-946d-4d16-8b0a-7080d9d09201")
 			(effects
 				(font
 					(size 1 1)
@@ -6183,6 +7223,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e9d408-e9a8-4af6-97bb-1bae2e738f09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "146dcb30-d742-4dcc-8171-3b2f042f60ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07357bb2-3b8f-4568-a709-00c3001447da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66c68cba-1a5e-4f3e-afc1-f2dd0c28f100")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/1a4c8546-1a68-41a8-9189-b2681bb142de")
 		(sheetname "/Power & IO/")
@@ -6527,6 +7619,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f73356e-36c2-47fd-88d6-b2b2972b22ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "919a147f-ee39-48f4-a762-7144820a1205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "607efe64-f866-4d4a-9f6b-98f76f3aefda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4d807b1-1d63-479a-8475-780b50d0ac49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/adcff281-157c-4152-a2e6-1aa273662923")
 		(sheetname "/Power & IO/")
@@ -6771,6 +7915,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ee0630fc-188b-4496-a1ae-51094b750a28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "549c5ba6-a791-460f-a12b-b36c3eb12789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81256fb1-3485-453f-b72a-deb5c655a6e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afea3b31-701c-45eb-a76b-353dab7b55b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f1eeae8-ff2b-4dfa-9bf5-a783cace9e58")
 			(effects
 				(font
 					(size 1 1)
@@ -7029,6 +8225,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fa008b2-ea25-4de0-a490-1387232e0549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d620c4f4-311a-4486-810d-82e17fa6e58a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2191b6d-6a6e-4c6c-8fff-17eef132fa8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f95b4e42-6436-4bf6-9047-e4ae5a2c0779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/9cebb855-9c62-4e64-a250-6e8f85e93f00")
 		(sheetname "/Control Outputs/")
@@ -7273,6 +8521,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be0b0e4e-691a-4ecc-8427-c45000ae31ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dd256b0-3197-4b16-aec0-a33cf87eac5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea444d3-cbcf-4204-8097-564d4051d0de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c866d66-816b-4b0a-a237-50a461a27f0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db944ef2-3773-4b8a-90f0-6e1c30fbcc2d")
 			(effects
 				(font
 					(size 1 1)
@@ -7531,6 +8831,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7bfbb3f-56dd-4daa-8f3f-a413b5fbb37f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0994ed67-0ecf-4c2c-9b95-467a64109f5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa27d33c-7db0-4b26-ae84-56bf8e7b0868")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1d7a7b2-9f63-4d3e-bf18-edc4b35ff379")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/f7a7267c-295b-4613-b4bc-f6dcbe44c180")
 		(sheetname "/Control Outputs/")
@@ -7775,6 +9127,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca9e5bb6-fad1-4119-8dc0-e4e23ff5bf24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a967710e-39b4-4ac3-883d-f6daa3802969")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473d3103-a6b4-4f21-b4c1-c19a1b9d12e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7c689af-d507-495e-918f-aa1bca76bda5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76a0ae36-2fd2-4f77-84e4-e47c1814a4c7")
 			(effects
 				(font
 					(size 1 1)
@@ -8279,6 +9683,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e28bc70-1c98-474d-a6e6-70acb94a1d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fbf0b70-2dee-46dd-af66-8bb08ca3000e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c173a27f-208e-4f64-91b7-d93636d836c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10085f75-e171-401a-9f6e-8508c5be8bac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/a11abcab-0134-46e6-9b89-c07336fce2d7")
 		(sheetname "/Control Outputs/")
@@ -8425,6 +9881,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8eee4ad2-1e8c-44a9-a50a-82b63ba35071")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "160a3332-aa6e-4572-a7f1-e423ec229820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b578b18d-e1b1-4f90-9818-aa277e7e7314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f24f8ab-f97d-4a74-8200-17154b3531a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adc8323f-832e-40bd-8c01-05eba610605e")
 			(effects
 				(font
 					(size 1 1)
@@ -8683,6 +10191,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b628cd73-10a3-45c6-a47a-5783f4415012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81258eaf-1d5f-4604-a852-be18ffa7c1ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86535c4-9e53-481c-8641-9bbd4398f1ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0f9aa15-1d10-439f-8afd-a108e01649ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/4d2f4e27-bc07-4beb-8862-3c37390fc130")
 		(sheetname "/Power & IO/")
@@ -8927,6 +10487,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63f93070-ab64-41b5-83ad-1a21275277b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f6f58b0-df16-43f2-b2b2-5846ecc73ef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87798326-1425-4e83-ae9d-41d41749da35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aa7af25-21fc-452c-8efd-ffdfdf4fc2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a00ace8-4fbf-4d7f-8e7e-263f081a3333")
 			(effects
 				(font
 					(size 1 1)
@@ -9185,6 +10797,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2e6fe8-7c6a-4dca-bc91-3dd9f25451bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bb76d27-1f1d-47a9-84c9-a463ee9b42af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1733f936-550c-401f-b53c-596f6607db85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3900a9a7-b7c7-4708-8029-380590c128d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2cbe12b4-9a11-46cd-a19a-1b85f618cce0")
 		(sheetname "/Control Outputs/")
@@ -9430,6 +11094,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d03f6e1e-83ac-4191-a721-7436ff3ff688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e934419-8507-4052-a005-a7a6905e0b45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f51d64f-7c10-4db0-8eca-227e16c4c8f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fcd9231-5b88-40f9-b736-09608ea2894f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53eadf19-1987-4d7b-90b9-7ed9398c3252")
 			(effects
 				(font
 					(size 1 1)
@@ -10177,6 +11893,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "392cacd2-d6a9-4c8c-9c88-fe6889008063")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6673518-8496-4e27-a2b4-957db1336b50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a575cb0-4294-4ca7-93dc-403eda8f5fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76be4a65-7678-446a-823b-80fab48ec48f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/fe41fa82-8af3-4c4d-ab75-33909bc4d637")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
@@ -10491,6 +12259,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65de2086-acfb-447d-81b2-d7dfff941604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "616af2bf-d7b1-4e76-9959-c4eba3a2dff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71722717-0851-443a-a1a1-9a7e2c7fa130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8911848d-6e24-40a4-aea8-859d6aa14064")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2354dce6-5325-46b4-a50f-27da236c3eed")
 		(sheetname "/Control Outputs/")
@@ -10735,6 +12555,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "933cc4ee-5b81-4654-b941-023091ed2aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d08a9e9-4caa-44f3-9d9e-e816fbfed464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d98127c8-11a9-49d2-8d67-f11aa4c8ee6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04339e86-3898-45a0-ac48-c540c900cb56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14bc0a24-9e60-4584-9bb1-5c272ae6530b")
 			(effects
 				(font
 					(size 1 1)
@@ -10993,6 +12865,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0ccf176-9cbd-469c-b6f8-085cd64b2713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ab6920-cadc-4286-a69d-d789605c0780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd196d26-3426-45c1-aedd-cd0a1c62007a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "656a1a59-9c9f-47c7-9db4-4b8b511534fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/c17d74bf-e055-4fb9-8ac3-4a0a5d8d47e1")
 		(sheetname "/Control Outputs/")
@@ -11237,6 +13161,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15bc79cc-79a3-4176-8936-f9259ebb4534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f7bc966-0d63-4580-8dbb-e86b83c85cf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac0d7f62-932f-4ba0-b724-2be3821b8bbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b197a55e-ff44-48c3-9a2f-67d459615fd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46eeea8-28dd-4232-a2f9-30c79683a011")
 			(effects
 				(font
 					(size 1 1)
@@ -11495,6 +13471,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fc93486-2624-4d21-aeea-a73713a4732b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e347954d-9200-4010-a350-2f3d144ed316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fe0fe39-6d99-4a04-8544-c83cdc7a2bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c578b3-2e50-4d58-89bd-b50e6c6b4fe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/00f9e394-cd4f-4db4-a0b8-e579d46f4501")
 		(sheetname "/Control Outputs/")
@@ -11739,6 +13767,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "132bd56e-b9bb-40db-a61b-de902ac57e89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8acaa297-8c0b-483f-a468-b74ea3d86dce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c33eb18-8de1-489c-82ce-fa4e99c404ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "632201de-b672-4f92-8535-79809f65255b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34246b5f-2f8a-46bd-9928-f9af2145ef71")
 			(effects
 				(font
 					(size 1 1)
@@ -11997,6 +14077,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b3ec288-96b2-4e23-8394-f99166897d48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baaf25b4-d25f-4486-be16-6e598c57b7ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d437ea-cf12-467c-a9eb-ab5a01a20c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41b8cc74-9b4a-4b33-8145-f9d2c2587ce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/5b5030b3-c464-45d7-a94d-f06358c6fc02")
 		(sheetname "/Control Outputs/")
@@ -12242,6 +14374,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ecd52f4-6492-4b8d-bb50-b9d9ad2ea1d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296e6283-75c9-4ee5-af9d-30a38ee7f03e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf1ebc7-a019-44ce-8479-d0a33f29722c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dff6f6a0-7ec7-4402-8ecc-5a5e1b36f5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c644ce8-4b77-448b-89c9-b45ddc09156e")
 			(effects
 				(font
 					(size 1 1)
@@ -12987,6 +15171,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0167d9c8-9c01-43bc-b990-63a047e0244f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22271a22-1612-4e33-b516-e69d9f77b073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6de168e8-d154-46c6-ae3d-ed375d6868b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb992852-dd78-4f76-9827-70671ec2c292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2b94954d-3330-47ba-94f2-2a2467ad86a0")
 		(sheetname "/Control Outputs/")
@@ -13231,6 +15467,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a911e4d9-1fe3-418d-a87f-e03217c3a5ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0869042f-a03f-491e-9f82-395e9204cf0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efd99f20-10ac-487e-9838-2e127f040331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b66e83c-8392-4c73-8ab9-92c2aabd0dbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dab6c47b-b0ba-4fc0-8eb4-4d74ab54184c")
 			(effects
 				(font
 					(size 1 1)
@@ -13484,6 +15772,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c56df896-6916-48af-ad90-2fc85e5e8be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0574d95-91ea-4210-9f6b-d1db548f4373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "625e791c-dd99-400a-ba29-c7f32e3cb271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ec4c56e-731b-4be6-ab87-738e185dc850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f448019-cfe9-4a7d-87f8-22a301c0de52")
 			(effects
 				(font
 					(size 1 1)
@@ -13807,6 +16147,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ead8f64-1b8f-4638-8d37-3d5cbe1283dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af380d8e-ec76-4ea9-bd2d-b12b823d9d9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90c62652-e43b-471a-82b1-1532a83e1c51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f0afda6-f159-4f43-97fd-e576d069e355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/1e224963-2518-4cad-b561-6f4966a56405")
 		(sheetname "/Power & IO/")
@@ -14123,6 +16515,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "888f1ae8-f97c-4604-a2ba-dc195fbe0059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "135953d8-1f66-421a-974e-58aa7035099f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26e6d52b-4832-4a47-854b-1c7c01ba460e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22bcbad9-9126-416c-9e7f-15c8d5f9028d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26d6fc47-30a1-42ef-9f5b-3014ae887b47")
 			(effects
 				(font
 					(size 1 1)
@@ -15697,6 +18141,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8ecd85b-dcc6-4784-a279-b3224db0a707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d5ce2a6-c4bf-4f64-bdcc-0009a9c3ba04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31bba17f-3615-4324-8b2d-daee166ad0e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "006ea9c5-7c1b-40af-ae59-a327c9521f37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/ffc2a9dc-f8ea-447f-9449-d3501f94f291")
 		(sheetname "/Control Outputs/")
@@ -15941,6 +18437,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9148d2fd-9a07-4bd5-9089-e7c5e37731ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "342cd4c3-f2a7-43a7-af66-177cd20f31aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a383caf-a2da-49e5-b28a-d86dab2dcd3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63d9de56-4f58-4b06-aa54-83ca8aef65aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3e4a4b2-4029-487b-9324-7d262690df35")
 			(effects
 				(font
 					(size 1 1)
@@ -16296,6 +18844,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3ca8640-d45f-468e-9a8b-28ab71c08dbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "843e8c19-c60d-4733-a785-3b9617dda102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c152b1a7-1b5d-46ed-a90d-7d0b5016e940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee52cad-ae13-45bd-9381-4c76d85d874e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/f848a880-51f1-4927-89df-1d7b3eb008a8")
 		(sheetname "/Power & IO/")
@@ -16540,6 +19140,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b82df2b0-4ba1-44a1-996d-374ed43cbb29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f721abf8-368b-479c-abb2-da02ce1cb056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75cf3403-6c69-4a52-be17-dc58d9f7d1ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47b7dcec-9d14-4106-8d3e-07c49bf8b480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e15d9ee0-b095-4a9e-ac9d-4106113e07f9")
 			(effects
 				(font
 					(size 1 1)
@@ -16798,11 +19450,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9cab0c0-9353-4f5e-b831-a52d078c5b9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86541102-904a-42e0-9df1-eccb70cee16d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46b6049b-acda-4473-900e-d072f0c2a0b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "825912a2-c795-4183-85c1-d40c76b8e612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/cc38d08e-d6fb-4f28-b97e-8e74f73dd032")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -17044,6 +19748,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1fd1258d-0e3e-4bab-bc64-f8619a6662cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dafa7e19-8aab-48ac-a404-ec843a013d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d4cf8b-5101-405a-a448-8244e4848485")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da68ed77-1b53-46c5-94c8-763b3440f44f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf71b9ef-c0d7-488b-8788-33d6ab95da3a")
 			(effects
 				(font
 					(size 1 1)
@@ -17368,6 +20124,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5723f36-601b-4e3b-b128-7ec677cb52af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b46cc4-6b0e-4db3-b57d-fa40e8cc6886")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e4533fb-f0f1-4e0d-b609-28ee8ffa40d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4668faaf-90ca-4850-8a56-edcfe12cef29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/c854cfc1-5595-4874-8e21-ad95a2b4d5bb")
 		(sheetname "/Control Outputs/")
@@ -17528,6 +20336,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aad3f205-2aeb-4ec1-9242-4ebe470c4e98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cbad107-92cc-4a00-a89d-bd111967bc30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b987e8b-06b5-490a-841d-de3a74a07c72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20ab2594-44b7-4ce2-a5a4-7143b13fc52e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf5dfaef-2b7d-40d3-b7a6-bd21bd06a43e")
 			(effects
 				(font
 					(size 1 1)
@@ -17801,6 +20661,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e55cbf91-ecc2-48db-827c-7d6d3321121e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80de3d3d-8076-40de-aa5a-4f5b583cf106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734324ca-10d1-4240-92a7-fcf63873e3f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aa06268-eda6-4ffd-ab57-6d420b23f8ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4768e1ee-953a-46b6-8aa2-7a90abb8b10c")
 			(effects
 				(font
 					(size 1 1)
@@ -20511,6 +23423,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03a78f2b-0dca-4d1b-a221-fc911b3937b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7014321-fef7-4813-a14d-e6d950dfa850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34bac379-3a2e-4ea8-a5ca-b796610c05ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7427037a-bae9-41e6-b1c3-94036176171f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/bb561e1e-9b17-4b94-b44d-5be2f4c4a9cd")
 		(sheetname "/Control Outputs/")
@@ -20765,6 +23729,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab45a36-46f1-4666-b286-93d666d4157b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bb72b78-effe-42d7-949a-2c16590e10b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89df67de-3bd3-4729-9acc-d2ea9de6d244")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43246499-5ff9-480c-b582-981e7f3382b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/57d9b656-7484-4d0d-838b-b1179fb76524")
 		(sheetname "/Control Outputs/")
@@ -20911,6 +23927,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4cc6ae90-188f-43d0-93fa-750cd797f0b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab8313b1-e911-401c-901b-5faddb826aad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a10c75a4-73e5-4904-8f3f-472bcbdfeb63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50d1b9ad-28d7-4907-ae80-9650b28783d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ab95f1-6439-44d4-b808-3e2882562e8b")
 			(effects
 				(font
 					(size 1 1)
@@ -21169,6 +24237,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8132178-689e-4006-bbe1-4f712b0add54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0a24391-4a02-48ac-959d-8d86884536fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c08bfe4-48c8-4d8c-b4f0-4430e81b98d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71093efe-7876-49af-bc0e-342589791ce7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/8e5d9097-ffc0-472e-820e-6478d8617c7e")
 		(sheetname "/Control Outputs/")
@@ -21420,11 +24540,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c359ded-a737-4d72-8af5-c551f5d35249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acda4c69-7429-427a-acff-24822047776c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6ae3c55-666f-42cd-9378-6263fcc69b7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "211beb0e-0279-48ec-b66d-c4a45cf9dce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/80b1a5bc-7916-4840-9c9e-325af4002015")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -21664,6 +24836,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52ba75ae-0431-4d0a-8f15-a0a46ecb6865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7dca01-5175-4820-bd5e-9f26162e2fcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f007fd1-3cd7-4d9f-b4e9-433d3db535b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0652175-e192-492d-af0b-a965d7733c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a629319-2797-4f35-aba8-223848a26c24")
 			(effects
 				(font
 					(size 1 1)
@@ -21915,6 +25139,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "266da6da-109f-4c0e-a522-c36f00e12492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c33bc44f-2635-47c7-bf76-053036ddf754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3956968b-ab1f-46dd-aaa2-94d61713250a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9670ebef-fc36-459e-8946-55567b4e6f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c75b4a50-c5bc-40e4-af3e-d786ffea1b45")
 			(effects
 				(font
 					(size 1 1)
@@ -22180,6 +25456,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ac6462b-ffe9-4a78-b281-1eb099fdc516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd6f994f-3c6d-4c35-9fd8-97c6845d82cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d94f106-682e-4f03-b63c-ae497f9edf9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3770b3bb-7f0b-4e6d-b22c-ca6bbb4b295e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c418fd-b5bd-4df9-b5d8-24056196f467")
 			(effects
 				(font
 					(size 1 1)
@@ -22453,6 +25781,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e3c12f3-5ade-414d-98c4-482d81fcd124")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7430cf6-1ad2-49bf-b24a-32fb9dd3b95c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "286e6f9a-7639-4d33-a365-c9e5e6819f98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9521c8c5-6e92-4ce5-91ff-5d41be08f680")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "880496b4-f9f0-4e4f-9675-1aae5a8cab83")
 			(effects
 				(font
 					(size 1 1)
@@ -22804,6 +26184,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0b69f2d-811b-47db-bbea-85b7449a3850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c76430a-5e9e-4d25-8720-9627d02c0063")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91624a9f-f01a-469c-ac15-e565fe4cfb0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce150a5d-348c-47dd-a321-393d55784d4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/3cb6086c-fa70-4327-8480-004a5b67b98d")
 		(sheetname "/Power & IO/")
@@ -23050,6 +26482,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c43654b0-85ed-4a99-ae40-eaf6da0e2326")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a4a1699-7c44-4f97-9705-392d454e24af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcddc04f-cd83-4966-aab7-d469e905ef99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffa161cf-fe6c-45d7-9ffe-dfbad65ea820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80bcc321-c93e-4b3d-b560-c95914c2bd72")
 			(effects
 				(font
 					(size 1 1)
@@ -23365,6 +26849,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "356082e5-0e3b-433c-aa41-f06f4b547308")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e53be253-00df-44d9-b0fd-bfbefedfe9b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ca757c-111b-4db3-a9aa-84a5f1e81805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "003bd03c-b4c3-4b0e-9adf-b7373b5f9e92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99a07f8d-ebb0-4431-bd5d-17bfe767591d")
 			(effects
 				(font
 					(size 1 1)
@@ -24124,6 +27660,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baf5816b-8569-4991-b795-a7d4cadac59a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2898775c-78b4-4184-af33-3b008b82b51d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99859913-a8c7-4fe3-90f8-0ae15b5f9985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36134d12-65c4-480f-8b11-406b5aaaf66e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/7607caa7-8d8a-4673-a4a9-ef2c23424b1a")
 		(sheetname "/Control Outputs/")
@@ -24397,6 +27985,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c7c361a-4e7e-4d08-bc99-078151a4281a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e5f944-f8ca-431a-bdfe-507f1293c86f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b83eb008-30a3-4202-b066-d8ec22572887")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4524d5a5-27e1-4c29-85c5-d1551ffb5114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/dfa6bb64-7023-4fc6-b3ba-dc71ed61e168")
 		(sheetname "/Control Outputs/")
@@ -24648,6 +28288,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c520d37-1109-49b4-9eeb-1aa9cd5329e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ee7bc2-b608-4f95-a8c0-c1b64d838b1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531467fa-8382-4b3a-84b3-37db5c351631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d388eb37-b4fa-480f-998f-0e0e8da66778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/fc53be41-8076-4f38-9b3c-d94a94d52734")
 		(sheetname "/Power & IO/")
@@ -24892,6 +28584,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59958efd-cadf-4c6b-9fa8-459fad4df29b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "454605fb-f4f2-486b-b413-293d65009f9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c35bd76a-0c29-4c8b-8b68-b7086532f304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8318c5c7-bf78-4819-b183-27aa7d81c07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88e3a03b-c1b0-492f-97b0-f0afbd391b16")
 			(effects
 				(font
 					(size 1 1)
@@ -25153,6 +28897,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0fa1f9a-4771-40e6-b32f-0522ae398de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "349f2400-b118-4f72-926a-c7561c11d41e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "058585f1-0f27-4696-befb-e3005335458b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e47c338-49c1-4808-b837-565285f7b0e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/4cbc350c-50e5-4c2c-b236-e2df1d90d780")
 		(sheetname "/Control Outputs/")
@@ -25313,6 +29109,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67cac851-8425-4ce4-910a-c8b038ea38dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b271e1cd-1af0-4458-8675-bf6bb21b0ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b84b1fae-fbdc-407e-8f06-6dcf81b06bb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "037392c3-a68c-4767-81e7-a80516aef0c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c125a7-a881-485d-aa09-a14a9ab96d8c")
 			(effects
 				(font
 					(size 1 1)
@@ -25596,6 +29444,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61fbb6fc-78cb-403b-ba1b-aafca51f5133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb10b70e-f0d6-4568-9904-b0520b1acb2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94b891cc-27c1-4f74-9413-57055c4da64d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90283a6f-549e-45d1-947f-66a5d9aceefc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/8ab2e90a-a655-40a0-98d4-5bba1b674573")
 		(sheetname "/Control Outputs/")
@@ -25853,6 +29753,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "650a3c80-75d2-4b31-9fa3-03e19b50e006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e35853b-019e-4f61-831f-290285d274e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4980ba9-c82b-4bc7-bb6d-428cd49123d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c34583a-d159-48f5-9b50-1990034c3628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f65a42ab-ca78-4df4-af3f-30f0b6992bc9")
 			(effects
 				(font
 					(size 1 1)
@@ -26188,6 +30140,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2c591e4-2de2-428d-9a06-061277decd6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "977871ab-bc40-4ba0-a19f-bd08d2f8a1e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbe31631-0f84-4799-a636-5ceb7ede1d17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "892a94a2-1a88-4c29-81fd-335c533ea935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/76a30abd-d21a-4693-b24d-6c827515370e")
 		(sheetname "/Control Outputs/")
@@ -26461,6 +30465,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1ec8683-4546-43f6-a23c-e6ff03769e05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85540686-1cf1-4ddd-b1a3-e1cdfffd0f48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5111c6d7-2317-4320-aff7-2625a054f118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff7af680-7610-42a1-9ddf-9e5db8ed81d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/54953db7-d9be-4e05-9c0d-1298e9e59dbf")
 		(sheetname "/Control Outputs/")
@@ -26705,6 +30761,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a159a271-7b0c-4035-b21f-e0021dc9384c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "745e01dc-409a-44ab-a115-5265dafa6553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "521dd19d-cb82-45f4-a1ea-a1823efd9e05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "396114df-ec72-4312-8a7d-b50fd17308cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc240e9b-0ec9-4d36-873b-fa434fcec0ff")
 			(effects
 				(font
 					(size 1 1)
@@ -26958,6 +31066,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f47d3284-05e4-4906-8b14-988d35f1f01c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11a5f233-9cc4-4917-9261-95e2428cbd17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c37222b9-e2d2-47aa-a365-2af7389fee4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c833eccd-44bf-4a3b-b620-de5ecaecb228")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce770e22-ced5-4fce-8c0b-f900b3d24043")
 			(effects
 				(font
 					(size 1 1)
@@ -27293,6 +31453,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac0f36c-fddc-4f5e-82f1-3fbef916ceab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9f611e5-dd88-4d59-9117-edcdb1c1129c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bff17088-a61c-45a3-8bd9-a00d1d1e5525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "849e6f91-8a2d-4da7-a39b-f5c8c307013a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/e2e56b94-97c0-473c-885b-7808dd815677")
 		(sheetname "/Control Outputs/")
@@ -27569,6 +31781,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb9aef55-3e38-4277-8d8e-6288dc63de83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57736b58-b28d-411f-8574-d4d27d39e237")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fb129d1-a88e-4342-84cd-b4aee452f491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef80f52f-1a59-4731-a011-4ef8a85b6c51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/cffb6bb4-5bae-4d0e-8925-2dc9e7002f3c")
 		(sheetname "/Power & IO/")
@@ -27717,6 +31981,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef562be4-55f8-4478-b2ef-a38f2fa13fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "532a24bf-7c9c-49cf-b868-aadb2b30a70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0452a5b3-2b94-4d6f-87fd-105f0db867f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b45cbfc-97da-48af-bb72-b7d07e470b74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79a1ab95-0f5c-4bbc-a386-b972087a0518")
 			(effects
 				(font
 					(size 1 1)
@@ -28038,6 +32354,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea28f705-21c8-4596-812f-3697d0371b41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69a7d3f8-4dd6-4ea2-addb-e5f4ddd02189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0319d1f5-34ee-4bbc-bec8-d21092c039f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa589036-8b8d-4c66-abe6-6fcbcdb86bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/bdbfbdd7-eede-405e-9cb7-005e47e6009c")
 		(sheetname "/Power & IO/")
@@ -28282,6 +32650,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b931dbef-a50f-4eae-8304-5240baacc8f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0eabbaa1-9dfc-42f3-a13d-8b82e2731bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f76f00d-9b14-469f-a449-5ab168efec54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "555f8c12-0f03-44da-adeb-7a2dbcc64526")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdb3fa54-b406-4679-b77b-044721793c52")
 			(effects
 				(font
 					(size 1 1)
@@ -28534,6 +32954,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f26c43d9-6b29-463c-8e8a-683a18f6fcd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a4a5c25-cfd5-48bf-ab81-1dd9f2eeb60e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "235de18b-39e1-47d7-827c-0016527a376b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aa7ce45-e19c-4e6d-94b0-3d35b6e87eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a92c447d-b9c4-4d90-9529-e747d9e3a3c3")
 			(effects
 				(font
 					(size 1 1)
@@ -29279,6 +33751,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11366daa-fbb8-4b8d-9c32-a0064d04440a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8765e23-3b88-48db-b38c-af9db09c5ce3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dadc6117-9e94-49f3-bcbf-0c29b1bd0e8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ed3938b-4e9c-4d31-ad53-991d882e5858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/1d395404-757d-4714-bfd0-abbd59cafb2b")
 		(sheetname "/Control Outputs/")
@@ -29533,6 +34057,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6432ea1b-fe72-4f2e-a885-de31c2bce034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d5478b-cf1a-4739-a504-a2455371306f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d97cf202-699e-4ee8-9ca3-2153061505eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75aefdff-26dd-455f-8274-f3dc51877ff6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/4764f777-537f-4821-8e66-c0047a92151f")
 		(sheetname "/Power & IO/")
@@ -29680,6 +34256,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7987b9df-0545-4767-84d7-4a15c74eefed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bcd421b-e588-4dba-9c6f-e03cfb5f5180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b8e7fab-4cd3-4ef2-8d1d-fcc9566e5ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aa42a05-56b1-4827-b4bb-a0b5936a4b48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6436ebda-3a4f-4759-951d-479a257e4acf")
 			(effects
 				(font
 					(size 1 1)
@@ -30425,6 +35053,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed62db6-d2b7-45c3-8029-07f5e0d7f1d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "174aa2ec-7816-472a-a330-7409ec080b14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baccf670-dbaf-4219-a5f5-abfdd60f22e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9ef7793-93cf-4657-8792-32a0fd3b9158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/b6375f5a-b977-4213-9668-a87c24c842d0")
 		(sheetname "/Control Outputs/")
@@ -30676,11 +35356,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ac2982-a95a-401b-8983-e13d56cae02f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a459fe03-d873-4327-86aa-f1f6c62375b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc43be2b-6cb9-41ff-accc-b03c4fb31290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08c349ce-daf0-4ad3-a984-02b496f41f3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/7b145f2e-9679-4dcc-81ce-ae2b98c3be21")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -30922,6 +35654,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ee4f2286-e651-439e-a7ff-301479f4b684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "214576dc-4a7b-4004-bbbe-6b52840d11a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a17f3b56-554b-47b5-939e-24983f78d250")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b28c11-5477-4fa4-98ec-8b77fca16e81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f47fbaa-fad0-4203-8f5e-0264b6292649")
 			(effects
 				(font
 					(size 1 1)
@@ -31246,6 +36030,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34fed01e-3efb-4a63-9e26-06b417ae2fd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c75b5a88-2130-4f3a-a1fd-8c476bf0be8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51fef635-cbe2-4e87-b65b-03f86e38d8a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "862a9545-eeda-4364-9f0b-9c7b415ba25d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/b060d956-35ba-4cdb-9ee8-62dba86b1a6f")
 		(sheetname "/Power & IO/")
@@ -31405,6 +36241,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bb5bf67-fa7b-4c81-a2f0-14a9cfc622f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "483f7cec-9ab0-4156-9183-43d6f546f192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8575fb8-d18c-48a2-bdb6-3456891505e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf13993a-e58d-4c38-98f8-90df1bdca0f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d165ad-8793-4f00-b763-4e3892b5ad8c")
 			(effects
 				(font
 					(size 1 1)
@@ -31685,6 +36573,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92525d46-5d38-4892-bdf6-863a5f02cba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a29575bc-b4c3-41f6-bd65-953fabd805bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60ae01a9-c371-4335-98f2-0ce490e215a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "322a327b-4179-42a4-9bda-0eb2856ac2a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2a89b6f9-15b6-47ee-8705-4ebf94ff2444")
 		(sheetname "/Control Outputs/")
@@ -31929,6 +36869,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec323537-e56b-49ec-bcf7-9e30f08180a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa52a3fb-45ea-418c-bb2c-c4ad88c3821e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b34e8a47-b31e-4b5c-9f05-55478d016f49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c50ba7df-9185-4d2c-a232-f09a9252aa34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528b14c6-8c14-4fe1-92eb-1c99eb09b3e4")
 			(effects
 				(font
 					(size 1 1)
@@ -32194,6 +37186,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb317d35-b937-4ed0-865b-f171dd6565ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d16b07d-ea78-4bb6-b58b-3ced44eae469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4a2f01b-f274-46f8-99bd-3e66b93be95b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ff7c9a-782f-4e67-864f-a9b0fb61fe4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15d950a7-4374-46d9-a49a-4bf9a811f95b")
 			(effects
 				(font
 					(size 1 1)
@@ -32488,6 +37532,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd32ff1e-ce11-48ac-be40-1fa1e8c5768f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d028e213-2044-4a95-a61b-19d67c362b41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b876c8b-7e06-4a6c-9cc2-5395187d81a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29906ddc-231a-4fb8-9d3b-69fff3f81f0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/c064110a-7c86-49b0-a374-7c8df8d217bb")
 		(sheetname "/Control Outputs/")
@@ -32761,6 +37857,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f9acdf-7309-491a-bf79-4591b63a7868")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9c6b666-8c92-45eb-b246-b3da5bf3e0eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d0820ee-18cd-4f84-a642-3247ea1a7138")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cffbf84-57b9-4a55-bbd2-505a459643e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/97da5dfa-11b8-4914-b644-e1b9d92ee6cf")
 		(sheetname "/Control Outputs/")
@@ -33006,6 +38154,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b1dd8da-b993-4f35-98c8-78b100b11c55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5182d7b-a496-4fea-88ec-4622694f3a6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b6c8853-758f-4b95-baf4-9d8228c5673d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef8bc6b5-8314-47fc-9d2b-5314bf350bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc0b7265-8ca8-469b-827f-baa7caccdbc3")
 			(effects
 				(font
 					(size 1 1)
@@ -33751,6 +38951,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc6eb16b-0570-4cc5-a482-0903ac4e8036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf60df9b-8fa5-44a5-b942-638c32c6823d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f93baaeb-c1db-41e8-9666-eea99f0cd568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d982072-f9e9-40d3-beb2-5962f3440b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/dcee110a-a41f-41d3-afdf-98a1ec8914b0")
 		(sheetname "/Control Outputs/")
@@ -34002,6 +39254,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8f0e65d-0b15-43a1-93a3-9c3276ca65cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28b78e80-4696-4abe-a0ca-5269ca239a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b90444e-f222-4c91-97a1-fe90a97c850f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff3bfec0-5e54-4400-99ba-bb53930f395c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/92257b17-41d3-4d4f-9626-5fb3d4eae33c")
 		(sheetname "/Control Outputs/")
@@ -34246,6 +39550,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67505752-15a6-4f8f-80c7-0539e147904f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be8e8bfc-ee2e-4cfa-943a-206029035e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1ae1d6b-2fdd-400c-92c4-e9c46d110c57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e37af9-d817-4d5a-a850-b43b4b2bca4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8cc5313-ea00-457b-8368-24cf09e6dad9")
 			(effects
 				(font
 					(size 1 1)
@@ -34507,6 +39863,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c086bfce-41f9-43ab-8f80-ad7ddb08880d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84c5b8c-e36a-44f2-a12e-98c8ab874908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f680ff30-b562-4a1b-a385-59c9254d8d0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee78fb6f-fec0-4d90-81d4-3500c55193ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/cf7d9f59-1199-461d-9a50-a77a2543dd1e")
 		(sheetname "/Control Outputs/")
@@ -34653,6 +40061,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9728930-2090-4cdb-a6a6-cae5b68fa999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b466fbe4-7149-46d8-a68d-e27c60d90c7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15b69f76-fa12-42ee-8d96-5316fbf5fa36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33aa13ca-1100-4938-a4e3-1cd4fac2ef2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef984cb-1a3d-4e68-931d-69f1fc5ed3d4")
 			(effects
 				(font
 					(size 1 1)
@@ -34906,6 +40366,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2962a04-2886-4a63-9a63-7a9e8e0d25e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd2abce-88bb-4f1f-881e-389d5ffff5e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82100cb2-5a3d-495a-bdd2-4bd6634d362c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2459372-76f8-4859-9e20-0b71a3d678c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39725008-dd9a-459f-9bd0-ae18177cc8a6")
 			(effects
 				(font
 					(size 1 1)
@@ -35358,6 +40870,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07759c4c-8315-43cb-b3ec-d8c1bd9768c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4634921e-ec6b-4ac3-b115-c3e75c88b5a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05403a2e-a4e2-4876-8a31-928a65ed5fad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f549c054-7efd-48a2-b100-17b2b75026ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/e5c9c84e-05d7-44da-80b9-4bcd812492c5")
 		(sheetname "/Power & IO/")
@@ -35648,6 +41212,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d1b304-18bf-4ab0-b961-a4a4ece682ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f44e406b-b038-41c1-83de-5b523ab412a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fac0190-8bd0-47b0-b6e5-0b4e3613377e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76fbb271-3e1f-4938-84de-f40b85faba40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/df46f938-d081-4b31-b9fd-7b1466681051")
 		(sheetname "/Power & IO/")
@@ -35914,6 +41530,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6277e712-9bc0-41fd-aa9f-15ce5d904323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25c41d3-d6d3-4c21-9829-f1e6c686f371")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db162446-0f28-4423-9579-7faf25844bc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dd837de-fefe-45c2-9405-cabf8aac797d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8096edc1-12d2-4bc8-876a-ba0ef08d802d")
 			(effects
 				(font
 					(size 1 1)
@@ -36268,6 +41936,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25137976-8a0e-416a-bd79-7bd65f92f85a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6232de4c-5d5b-4286-8fbf-90c00703b226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "133ad75f-0b51-4a46-9344-669ce8c3dcef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38636c09-40b4-4604-8f9e-adad9b0b91b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/d37af723-425a-42a5-bf71-10538fa25b28")
 		(sheetname "/Control Outputs/")
@@ -36519,6 +42239,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "030233a3-ddc9-499b-872a-3071c13385a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a66d9e1-b706-4bed-8161-1e634e60e0b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b65db125-8796-489d-83b0-4703698f429d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc24ae83-aedc-46f0-9fc3-a46d458d51d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/fb7abd17-7fec-41c2-b86f-eab90743a62e")
 		(sheetname "/Control Outputs/")
@@ -36763,6 +42535,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "879cc147-dbf6-4d30-80ea-ce169ea88e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "775851c1-72aa-48b6-9dbf-9eab09b06575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e4bf6e2-91b6-4ef3-bfb1-90e5de647bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a6ec181-b869-42b5-af1f-27cdd9d04059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ac9dcb6-5a03-475d-b07f-fb3891fcf902")
 			(effects
 				(font
 					(size 1 1)
@@ -37024,6 +42848,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89c0b672-184a-499d-bc9b-9f0df03ac893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61087717-8532-4ca3-998d-31a15c507036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d3a6a84-ddd2-4ff4-a83e-2eebab42490e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caba887d-4dbb-4c78-b0f0-34a362501249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/35b1780c-2f97-4a0e-9469-fafa5828307c")
 		(sheetname "/Control Outputs/")
@@ -37267,6 +43143,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "693aa7f9-f05f-4c11-b3a4-7988923dc261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3b4173-d3ab-4879-9974-7b895be3f703")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6ee11a4-8803-49fb-a8a3-a5c62ffcf665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb0069fa-ae89-4d04-8796-7793f5f8af15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda99727-258a-4dcd-b9f2-5f36a1e6995c")
 			(effects
 				(font
 					(size 1 1)
@@ -37769,6 +43697,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e58c814a-c2ee-4df8-b97c-a812081bb419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5107155-045f-4035-9bcc-2e6e0a9c81c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11d13dad-9746-453a-ba3e-3bf88fc3fb52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "889e0c78-aaa4-409f-961e-282c79de7b65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/85ea5271-f087-4e99-9ebf-b4e90df34735")
 		(sheetname "/Power & IO/")
@@ -37915,6 +43895,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "983c7db6-7374-4bde-babf-78fa256cdecc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d0f8853-da4f-4d87-a75e-837bd8146763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec085a6f-69dd-4ee5-90a8-16fcc66426f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "781d7741-2368-4a1a-9428-20eafb1e4026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcc916de-70dd-4268-81e8-f591094be55a")
 			(effects
 				(font
 					(size 1 1)
@@ -38173,6 +44205,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e683976-21d5-466a-80a3-80b2dd834561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "049177fb-6c41-41d2-a5a8-644a95581ac4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "816a2ba2-eb96-417f-85c6-0e51c3b3416a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfbd96f0-6a12-47a4-bbba-9c023cb55c32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/671f12c2-46df-4fe8-93cd-ca2fbb2592df")
 		(sheetname "/Control Outputs/")
@@ -38417,6 +44501,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14f6affa-128f-4b13-93e9-54630b9db39f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e80155c-d03b-4f06-a52d-2840054a5398")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e27d82-3ada-47fe-a7ae-9a6b8d6d4283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "997a1d17-04e1-4803-bd08-1eded1a66173")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e129298c-c6b4-4920-8f3b-9be4b88fbdae")
 			(effects
 				(font
 					(size 1 1)
@@ -38675,6 +44811,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfe94602-df66-49ef-aaa0-39078a2409f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a860d085-75ff-46e3-bb30-e4fbeb23f349")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3024214d-e97f-4072-8c83-89a84acadb65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5613323-61d6-43d3-a99a-fc38b1d4bcc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/6b04b7c1-f5e7-41d1-b159-9dd5c24877f5")
 		(sheetname "/Control Outputs/")
@@ -38919,6 +45107,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b2f0f45-dd40-4fdd-9198-fcd03685dc7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77142599-8781-4a1c-88e6-d9e39fb5ecce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53e195bb-fb92-4a91-bd84-b0418d296227")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93eec39e-7798-48a0-956b-649b14db0f49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6189dd8-be9f-46ee-8d67-e64c9e4ff893")
 			(effects
 				(font
 					(size 1 1)
@@ -39172,6 +45412,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f345f748-7b6f-412d-b78a-74be6bb9a2b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0568ba2f-0c78-468d-ba27-fcc37ae12914")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaba07f8-1643-4003-9d53-ef3348331b0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90800428-b756-43db-8c4f-24ffe6259390")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d441403-da5a-4d31-a6dd-0b0542f76b8c")
 			(effects
 				(font
 					(size 1 1)
@@ -39493,6 +45785,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "500a16c4-fbb4-497f-a6e3-b7309f97c719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea6fac55-4265-4677-8d5b-308b691a3d9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "424028b5-6bbb-44dd-b192-8d4cb0802c88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d949d8d-ef49-48df-8084-a0e6e1f24f66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/54379d40-81da-49fc-98b5-4335e992a551")
 		(sheetname "/Control Outputs/")
@@ -39737,6 +46081,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c71da46-6752-461c-85d3-2630ad7c0ae2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d5a65d8-c1da-475b-a16c-3b8dc06314d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbdbefd1-a3b4-4991-b919-55ee70b2ce29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40c28b2c-b1d1-4f4c-82cb-1d73fbaca5e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa0c9364-222d-4528-9407-f9fac484be61")
 			(effects
 				(font
 					(size 1 1)
@@ -39990,6 +46386,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1553ecf-4758-4693-9e2f-bd0a0e13b31b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61d9657c-0bd3-4a43-ab29-8575e0298f52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c87f24c-d2bd-411d-b566-04e2b801cd33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fbe51e4-9684-4548-8f6a-c43a6d6f4452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85f8eaf6-0ef7-4d14-a07e-50ebd2670a5f")
 			(effects
 				(font
 					(size 1 1)
@@ -40325,6 +46773,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1c4dd05-9b6c-4876-b85d-2ea72c5cfc37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5464228a-183d-4dd2-af9d-62e2e5b9df2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cf84f1e-35f8-40e8-a503-731f32226e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1375f007-c46c-4020-a647-4781535bda67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/db77d700-3431-493e-85a6-ad275063276d")
 		(sheetname "/Control Outputs/")
@@ -40601,6 +47101,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34bbfbff-376d-42f8-b1f9-8443c6a3a507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd877236-4912-4084-82e3-84820850988a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c7b817-b047-4967-a164-36e65a59ff79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67238510-b7fe-4e40-b7bb-b6c8cb9c6fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/1c834d03-ee7a-43c9-874e-7dc53bfbc534")
 		(sheetname "/Control Outputs/")
@@ -40757,6 +47309,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09a19341-59b2-4267-8b5b-440ab05bfe44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2792f6d3-cef8-4603-8d63-6b3c7a63df64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "152ce5b5-d1cc-4fd7-8e35-39af80258e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af0dad10-f1f7-4779-9499-0108c588dec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/9abf6f79-638e-4c5a-a08b-f0009a45911e")
 		(sheetname "/Power & IO/")
@@ -40903,6 +47507,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5465760a-1f19-496c-86d2-2d839b388a54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51f50097-8042-4384-9164-0368e7005b67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d81650c6-6889-4f93-ac4d-65a268cc5aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5ebb744-b052-43fb-8e3c-a59c9235cc7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13df609e-dbe8-4522-bb67-71d4a3543d27")
 			(effects
 				(font
 					(size 1 1)
@@ -41155,6 +47811,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0b610a0-8526-4fed-ae3b-f5c94f894be8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3f9f47-43a3-4f54-9a4d-e7f4561fd70a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "876802bd-f68a-4d03-bb02-ea4918992003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c610f78-4976-4642-86bb-b19f648ab3b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8574b88-a15d-45c3-af2d-6ec07b961ff2")
 			(effects
 				(font
 					(size 1 1)
@@ -41902,6 +48610,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb83c83-7fa8-4127-8421-9a232709a0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f50129-ea0b-4e0a-87b5-9bb628469bb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab3c52fb-889c-4594-9d1d-997fec2f405f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9881e914-a9d5-46fa-858c-c8b264c8f477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/7517b5f8-0188-4ffd-8bc2-a55f4c79b79a")
 		(sheetname "/Power & IO/")
 		(sheetfile "Power IO.kicad_sch")
@@ -42216,11 +48976,63 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b165adf-3292-4744-8323-884f13c89b08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc545fbe-f931-46c0-bb3c-1eb2b2345d4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "510acd78-eda8-4436-b95a-51722f7a611f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e70f60d5-f4e3-4b44-a128-85d1d061c9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/da693da8-2031-4545-90a4-263ee870e4ae")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -42460,6 +49272,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "479cc6ad-182e-48b8-be20-25d29f8937f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31de2362-51e6-4b35-bff8-45ab46e79251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dc5610b-5ce7-452c-ab49-40a94fb94c84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc22cf3c-4fbc-4e40-bb98-a097ba18a893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b07be40d-7526-475b-8e16-bd133ea629f7")
 			(effects
 				(font
 					(size 1 1)
@@ -42718,6 +49582,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "025e6b6f-c6aa-4d09-a488-c75b56c897e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e2ea7ef-d151-444b-9fc6-0868a8f0adac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0debd31e-10ec-462f-b6e1-9d863f99ca6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92f1f783-5a7d-4046-a711-f8ca23b02d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/7cb69cec-e97d-4ce1-a306-bb9912d3d452")
 		(sheetname "/Control Outputs/")
@@ -42969,6 +49885,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57f15241-25c9-41d4-b18d-cf701b90e18c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b4724a2-f495-4d97-9ea2-bb98c5328066")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b73982e6-9260-4584-87f3-67f99f1837c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3539bcc9-1d74-42f2-998e-49dac66ef0db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/d706a42a-616e-4075-8428-c91aad612e73")
 		(sheetname "/Control Outputs/")
@@ -43213,6 +50181,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "88cafb42-199e-44e8-aa4f-6c16c061edca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b57823c2-7c3c-4a26-81d2-48b21d24364b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "940bc8fe-f3e9-4f0f-b390-0fef69003747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf36ff5-3349-4498-b905-1a80e766c805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb8aee6b-80dc-408a-aba5-c4186abedb63")
 			(effects
 				(font
 					(size 1 1)
@@ -43714,6 +50734,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "919cb412-2449-470b-806d-c9e075fb2cb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bee12a8b-e5cd-40bb-b0e7-04ff134ddacb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59a6ea2f-5da3-448e-8aad-e4e2cb003b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efd7267b-a3a9-43bd-8908-601bd6864afd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/03d104c2-b3b9-43f2-8dd0-3f6a8e52da43/4d3308e9-4c22-455c-99ee-d6bef0686e9e")
 		(sheetname "/Power & IO/")
@@ -44014,6 +51086,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d36617c-3067-4330-9c82-a32a39cdbfae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" "0805W8F0000T5E"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44416765-62bc-4405-a262-0b6a637a6d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9dfce68-f9e7-42ee-9d21-e8dec6405fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" "C17477"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14dcf296-5003-4ec0-849d-ee2b42557b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/901bd119-f42d-45bf-8e8e-22491a0969e9")
 		(sheetname "/Control Outputs/")
@@ -44258,6 +51382,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30357b15-430e-4677-8e25-79840df7b9c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f12580cd-4336-476f-acb5-0172b688c2dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ba4bf44-002f-4ad8-9925-5147d02b939b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c74891f-23bd-40c7-9515-d05fe8553b3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee5116c3-2c10-4c23-951a-7c7043bc7494")
 			(effects
 				(font
 					(size 1 1)
@@ -44516,6 +51692,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "606aed3b-8614-47c4-b2b4-9f6e3491389c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20689011-d885-4bc0-b188-ec7b91e88e1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf4b191-3b1f-4ddb-ae61-87cdc94d6651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4252c387-2f05-4466-a4aa-3a628baa6620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2137022d-6575-4e73-ac91-0149c20d4b90")
 		(sheetname "/Control Outputs/")
@@ -44760,6 +51988,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fec1771-85c9-4c0e-9835-3007b4d15d17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d00024-1b01-4be4-97b6-5608b375f99f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "177d7dd1-7869-4499-b91c-ce246d5d2d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e291a1e-556d-4bfd-933f-bcf36011c8e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ea8f92-1943-4cf2-89e0-d8c382645009")
 			(effects
 				(font
 					(size 1 1)
@@ -45018,6 +52298,58 @@
 				)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4ca5524-3405-4793-95da-b71fa78ff5ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3419972b-bb44-4cf0-b189-f2942f9aa429")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f758fbf5-a878-4e21-ac90-0a314cc8ceca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0dd6e0-49b4-4499-8f8f-3673fd21a082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/2f6b4195-272b-4a4c-8dbf-673c5e4e484c")
 		(sheetname "/Control Outputs/")
@@ -45262,6 +52594,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fd7195d-4530-4d13-b1a6-93a2edc753a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dac10ef2-f10e-4617-8ea7-dfcb3d5e46d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bbd4e1a-c898-4c47-aeca-0a37dd1e137e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fbd094a-77d6-43af-9d59-2751c60aa3f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74ce21a4-1396-4111-9c48-c6cf111fe9ef")
 			(effects
 				(font
 					(size 1 1)
@@ -45520,6 +52904,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8ebe2764-55d4-482c-bbab-c3317075a579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5b6136f-d8b2-4f37-93f9-1e3a3913e273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5f46d4a-bf2f-42cc-86db-3e8f62c3e8e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9eac000c-94aa-43b3-8977-d9039d744bc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5c3ba16-593e-43e9-8c71-4273e85d8a12")
 			(effects
 				(font
 					(size 1 1)
@@ -45933,6 +53373,62 @@
 				(justify mirror)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b0fd7d4-806b-46f0-a82c-04f1b651b824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "124a32c5-a34e-42b3-8996-04aaaf21f495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ac1b7f5-fd2a-4525-bf27-cdd6a7acfe51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66988ab5-f6f1-48ab-b084-239596cb224a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/e8acc4db-abea-4a3b-a27c-5d262d1b61ea")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
@@ -46330,6 +53826,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "07391f65-4a73-49d2-93c0-8c4d12d95d8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "521fb7f8-b9fe-4550-b2d8-545e4254c342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46f0fe16-d515-4382-abbd-68169e000940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a7a43f0a-78ca-4043-b01b-f7c375ea9b13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a63417c-27ce-41b8-98c4-89e7258a73e7")
 			(effects
 				(font
 					(size 1 1)
@@ -46743,6 +54295,62 @@
 				(justify mirror)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce040992-47d8-470e-90cf-235136c9ec3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1465d5c4-db36-47ab-9804-c640738b1778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1dd413fd-a9fb-4207-ad63-be9f3cd579a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "235eaa7c-e2bb-4000-8db8-c87ea3162115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/125837cd-508a-47ea-a9c5-421cac201599")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
@@ -47140,6 +54748,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "630ef381-43f2-4450-9efb-919d8e007fa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1708cc4b-2af9-48b4-a863-2f0ea0b4fd16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fd47a89-e090-406b-b8f6-24bdde542879")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "07aaca66-3a56-4629-95e7-1611d0a1d55b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17ac266d-755b-4bb4-aa36-f87973613547")
 			(effects
 				(font
 					(size 1 1)
@@ -48386,6 +56050,62 @@
 				(justify mirror)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fcb44471-f611-421d-a352-f85b7aeb1fc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bee992c6-423e-4abf-ade1-46821f5d31c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc18b39d-5afe-44d5-bfb9-48af001d8e81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92b32882-4416-4afe-9798-675e065e89b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/cb31fb10-9c44-4bf6-9681-2cbe8e5aa8c5")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
@@ -48783,6 +56503,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fa497a41-abaa-4dbe-bc96-2408fff744bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11049925-f0a2-4720-b6ba-9396d1f0d200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c05a0a6e-d3f8-4516-8747-91f029b72f35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d25b427f-0878-46cb-8633-6c909b711e3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40b6e4f2-d069-426b-b422-8f424c15c33b")
 			(effects
 				(font
 					(size 1 1)
@@ -49196,6 +56972,62 @@
 				(justify mirror)
 			)
 		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0957f35-f650-4f33-b5a6-776f811fdb96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2ab29a8-883f-46f6-8893-75854f4d312f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "82b9b9a7-417c-4251-a736-23192b34e8a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf69d256-f2a3-472d-a7a6-533491c78c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/052ed708-5486-46d3-a3dd-20a636eb3278/8043276c-85dd-4daa-84cb-25903925a98e")
 		(sheetname "/Control Outputs/")
 		(sheetfile "Control Outputs.kicad_sch")
@@ -49593,6 +57425,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7cd17e4f-4925-4325-9353-a60a37a3d0b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0d4cd80-beb8-4d83-a350-f0ca8f308992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Manufacturer P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da7d3274-9b69-46bb-80b1-f7a1c334aeb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34897d00-fadf-43e6-b93d-ed020eb0d5cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Alternate Supplier P/N" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7bac2e6-d024-44fe-9a9c-5beda4014696")
 			(effects
 				(font
 					(size 1 1)

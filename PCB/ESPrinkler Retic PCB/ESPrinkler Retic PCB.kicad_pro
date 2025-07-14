@@ -620,14 +620,38 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate Manufacturer",
+          "name": "Alternate Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alternate Manufacturer P/N",
+          "name": "Alternate Manufacturer P/N",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alternate Supplier",
+          "name": "Alternate Supplier",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alternate Supplier P/N",
+          "name": "Alternate Supplier P/N",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
