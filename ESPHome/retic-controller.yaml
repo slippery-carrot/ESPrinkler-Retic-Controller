@@ -7,28 +7,10 @@
 #                - Independent operation in case of Wi-Fi loss
 #                - Adjustable sprinkler schedules for up to 3 separate programs
 # Author:        Alexander Maitland-Lauderdale
-# GitHub:        [Your Repository URL]
-# Version:       1.0.0
+# GitHub:        https://github.com/slippery-carrot/ESPrinkler-Retic-Controller
+# Version:       1.1.0
 # Date:          2024-02-10
-# ---------------------------------------------------------------
-# Hardware:
-# - ESP32 Development Board
-# - 8 Relay Outputs
-# - 5V power supply for the board
-# - Suitable power supply for your solenoids (usually 24VAC)
-#
-# Features:
-# - Home Assistant integration via ESPHome
-# - Independent operation (stores schedule locally)
-# - Adjustable watering days, durations, overlap time
-# - Up to 3 programs
-# - OTA firmware updates
-# - Manual override button to skip next watering
-#
-# Notes:
-#
 # ================================================================
-
 
 
 ###################################
@@ -83,13 +65,13 @@ substitutions:
   relay_inversion: 'False'
 
 
-#########################################
-###### DO NOT CHANGE THE BELOW CODE #####
-#########################################
+##########################################
+###### DO NOT CHANGE THE BELOW CODE ######
+##########################################
 
 
   # Version info
-  esprinkler_sw_version: "V1.0.0"
+  esprinkler_sw_version: "V1.1.0"
 
   # Names and name IDs
   project_author: "Alexander Lauderdale"
@@ -98,6 +80,7 @@ substitutions:
   namespace_of_project: ${project_author}.${name_of_device}
   friendly_name: "ESPrinkler Retic Controller"  # Friendly name
   id_prefix: esprinkler # Prefix used for IDs
+
 
 ###################################
 # Board setup
@@ -1856,7 +1839,8 @@ button:
     id: restart_button
     icon: "mdi:restart"
 
-  # Swiches to control the start/stop/pause of a program
+  # Swiches to control the start/stop/pause of a program, and trigger the next valve of 
+  # the program
 
   # Program 1
   - platform: template
