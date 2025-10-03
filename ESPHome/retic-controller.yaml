@@ -79,7 +79,6 @@ substitutions:
   name_of_project: esprinkler                   # Name of the project
   namespace_of_project: ${project_author}.${name_of_device}
   friendly_name: "ESPrinkler Retic Controller"  # Friendly name
-  id_prefix: esprinkler # Prefix used for IDs
 
 
 ###################################
@@ -186,7 +185,7 @@ sprinkler:
   # Program 1
   ###############
 
-  - id: ${id_prefix}_prog1
+  - id: esprinkler_prog1
     main_switch: "Program 1 Start/Stop"
     auto_advance_switch: "Program 1 Auto Advance Switch"
     valve_overlap: $valve_overlap_setting
@@ -223,8 +222,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw1
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw1
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 2 for Program 1
       - valve_switch:
@@ -247,8 +246,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw2
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw2
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 3 for Program 1
       - valve_switch:
@@ -271,8 +270,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw3
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw3
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 4 for Program 1
       - valve_switch:
@@ -295,8 +294,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw4
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw4
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 5 for Program 1
       - valve_switch:
@@ -319,8 +318,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw5
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw5
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 6 for Program 1
       - valve_switch:
@@ -343,8 +342,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw6
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw6
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 7 for Program 1
       - valve_switch:
@@ -367,8 +366,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw7
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw7
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 8 for Program 1
       - valve_switch:
@@ -391,14 +390,14 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw8
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw8
+        pump_switch_id: esprinkler_pump_sw
 
   ###############
   # Program 2
   ###############
 
-  - id: ${id_prefix}_prog2
+  - id: esprinkler_prog2
     main_switch: "Program 2 Start/Stop"
     auto_advance_switch: "Program 2 Auto Advance Switch"
     valve_overlap: $valve_overlap_setting
@@ -435,8 +434,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw1
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw1
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 2 for Program 2
       - valve_switch:
@@ -459,8 +458,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw2
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw2
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 3 for Program 2
       - valve_switch:
@@ -483,8 +482,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw3
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw3
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 4 for Program 2
       - valve_switch:
@@ -507,8 +506,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw4
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw4
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 5 for Program 2
       - valve_switch:
@@ -531,8 +530,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw5
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw5
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 6 for Program 2
       - valve_switch:
@@ -555,8 +554,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw6
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw6
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 7 for Program 2
       - valve_switch:
@@ -579,8 +578,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw7
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw7
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 8 for Program 2
       - valve_switch:
@@ -603,15 +602,15 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw8
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw8
+        pump_switch_id: esprinkler_pump_sw
 
 
   ###############
   # Program 3
   ###############
 
-  - id: ${id_prefix}_prog3
+  - id: esprinkler_prog3
     main_switch: "Program 3 Start/Stop"
     auto_advance_switch: "Program 3 Auto Advance Switch"
     valve_overlap: $valve_overlap_setting
@@ -648,8 +647,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw1
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw1
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 2 for Program 3
       - valve_switch:
@@ -672,8 +671,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw2
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw2
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 3 for Program 3
       - valve_switch:
@@ -696,8 +695,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw3
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw3
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 4 for Program 3
       - valve_switch:
@@ -720,8 +719,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw4
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw4
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 5 for Program 3
       - valve_switch:
@@ -744,8 +743,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw5
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw5
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 6 for Program 3
       - valve_switch:
@@ -768,8 +767,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw6
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw6
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 7 for Program 3
       - valve_switch:
@@ -792,8 +791,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw7
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw7
+        pump_switch_id: esprinkler_pump_sw
 
       # Zone 8 for Program 3
       - valve_switch:
@@ -816,8 +815,8 @@ sprinkler:
           step: 1
           restore_value: True
           entity_category: config
-        valve_switch_id: ${id_prefix}_valve_sw8
-        pump_switch_id: ${id_prefix}_pump_sw
+        valve_switch_id: esprinkler_valve_sw8
+        pump_switch_id: esprinkler_pump_sw
 
 
 ###################################
@@ -829,7 +828,7 @@ switch:
 
   # Main pump
   - platform: gpio
-    id: ${id_prefix}_pump_sw
+    id: esprinkler_pump_sw
     pin: $pump_gpio
     restore_mode: RESTORE_DEFAULT_OFF
     inverted: $relay_inversion
@@ -837,7 +836,7 @@ switch:
 
   # Zone 1
   - platform: gpio
-    id: ${id_prefix}_valve_sw1
+    id: esprinkler_valve_sw1
     pin: $zone_1_gpio
     restore_mode: RESTORE_DEFAULT_OFF 
     inverted: $relay_inversion
@@ -845,7 +844,7 @@ switch:
   
   # Zone 2
   - platform: gpio
-    id: ${id_prefix}_valve_sw2
+    id: esprinkler_valve_sw2
     pin: $zone_2_gpio
     restore_mode: RESTORE_DEFAULT_OFF 
     inverted: $relay_inversion
@@ -853,7 +852,7 @@ switch:
   
   # Zone 3
   - platform: gpio
-    id: ${id_prefix}_valve_sw3
+    id: esprinkler_valve_sw3
     pin: $zone_3_gpio
     restore_mode: RESTORE_DEFAULT_OFF 
     inverted: $relay_inversion
@@ -861,7 +860,7 @@ switch:
   
   # Zone 4
   - platform: gpio
-    id: ${id_prefix}_valve_sw4
+    id: esprinkler_valve_sw4
     pin: $zone_4_gpio
     restore_mode: RESTORE_DEFAULT_OFF 
     inverted: $relay_inversion
@@ -869,7 +868,7 @@ switch:
   
   # Zone 5
   - platform: gpio
-    id: ${id_prefix}_valve_sw5
+    id: esprinkler_valve_sw5
     pin: $zone_5_gpio
     restore_mode: RESTORE_DEFAULT_OFF
     inverted: $relay_inversion
@@ -877,7 +876,7 @@ switch:
   
   # Zone 6
   - platform: gpio
-    id: ${id_prefix}_valve_sw6
+    id: esprinkler_valve_sw6
     pin: $zone_6_gpio
     restore_mode: RESTORE_DEFAULT_OFF
     inverted: $relay_inversion
@@ -885,7 +884,7 @@ switch:
 
   # Zone 7
   - platform: gpio
-    id: ${id_prefix}_valve_sw7
+    id: esprinkler_valve_sw7
     pin: $zone_7_gpio
     restore_mode: RESTORE_DEFAULT_OFF
     inverted: $relay_inversion
@@ -893,7 +892,7 @@ switch:
 
   # Zone 8
   - platform: gpio
-    id: ${id_prefix}_valve_sw8
+    id: esprinkler_valve_sw8
     pin: $zone_8_gpio
     restore_mode: RESTORE_DEFAULT_OFF
     inverted: $relay_inversion
@@ -1576,7 +1575,7 @@ sensor:
     unit_of_measurement: "min"
     update_interval: $sensor_update_frequency
     lambda: |-
-      auto sprinkler = id(${id_prefix}_prog1);
+      auto sprinkler = id(esprinkler_prog1);
 
       if (sprinkler->time_remaining_current_operation().has_value()) {
 
@@ -1595,7 +1594,7 @@ sensor:
     unit_of_measurement: "min"
     update_interval: $sensor_update_frequency
     lambda: |-
-      auto sprinkler = id(${id_prefix}_prog2);
+      auto sprinkler = id(esprinkler_prog2);
 
       if (sprinkler->time_remaining_current_operation().has_value()) {
 
@@ -1614,7 +1613,7 @@ sensor:
     unit_of_measurement: "min"
     update_interval: $sensor_update_frequency
     lambda: |-
-      auto sprinkler = id(${id_prefix}_prog3);
+      auto sprinkler = id(esprinkler_prog3);
 
       if (sprinkler->time_remaining_current_operation().has_value()) {
 
@@ -1643,21 +1642,21 @@ text_sensor:
     lambda: |-
       // Check each zone in order. 
       // If the switch for a zone is ON, return its name.
-      if (id(${id_prefix}_valve_sw1).state) {
+      if (id(esprinkler_valve_sw1).state) {
         return std::string("Zone 1");
-      } else if (id(${id_prefix}_valve_sw2).state) {
+      } else if (id(esprinkler_valve_sw2).state) {
         return std::string("Zone 2");
-      } else if (id(${id_prefix}_valve_sw3).state) {
+      } else if (id(esprinkler_valve_sw3).state) {
         return std::string("Zone 3");
-      } else if (id(${id_prefix}_valve_sw4).state) {
+      } else if (id(esprinkler_valve_sw4).state) {
         return std::string("Zone 4");
-      } else if (id(${id_prefix}_valve_sw5).state) {
+      } else if (id(esprinkler_valve_sw5).state) {
         return std::string("Zone 5");
-      } else if (id(${id_prefix}_valve_sw6).state) {
+      } else if (id(esprinkler_valve_sw6).state) {
         return std::string("Zone 6");
-      } else if (id(${id_prefix}_valve_sw7).state) {
+      } else if (id(esprinkler_valve_sw7).state) {
         return std::string("Zone 7");
-      } else if (id(${id_prefix}_valve_sw8).state) {
+      } else if (id(esprinkler_valve_sw8).state) {
         return std::string("Zone 8");
       }
       return std::string("None");
@@ -1671,7 +1670,7 @@ text_sensor:
     update_interval: $sensor_update_frequency
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog1);
+      auto sprinkler = id(esprinkler_prog1);
 
       switch (sprinkler->controller_state()) {
         case esphome::sprinkler::SprinklerState::IDLE:
@@ -1695,7 +1694,7 @@ text_sensor:
     update_interval: $sensor_update_frequency
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog2);
+      auto sprinkler = id(esprinkler_prog2);
 
       switch (sprinkler->controller_state()) {
         case esphome::sprinkler::SprinklerState::IDLE:
@@ -1719,7 +1718,7 @@ text_sensor:
     update_interval: $sensor_update_frequency
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog3);
+      auto sprinkler = id(esprinkler_prog3);
 
       switch (sprinkler->controller_state()) {
         case esphome::sprinkler::SprinklerState::IDLE:
@@ -1746,7 +1745,7 @@ text_sensor:
     icon: "mdi:timer-sand"
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog1);
+      auto sprinkler = id(esprinkler_prog1);
 
       int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
       int days = seconds / (24 * 3600);
@@ -1769,7 +1768,7 @@ text_sensor:
     icon: "mdi:timer-sand"
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog2);
+      auto sprinkler = id(esprinkler_prog2);
 
       int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
       int days = seconds / (24 * 3600);
@@ -1792,7 +1791,7 @@ text_sensor:
     icon: "mdi:timer-sand"
     lambda: |-
 
-      auto sprinkler = id(${id_prefix}_prog3);
+      auto sprinkler = id(esprinkler_prog3);
 
       int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
       int days = seconds / (24 * 3600);
@@ -1848,21 +1847,21 @@ button:
     id: prog1_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: ${id_prefix}_prog1  # Start the sprinkler cycle
+      - sprinkler.start_full_cycle: esprinkler_prog1  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 1"
     id: prog1_pause_sprinkler_button
     icon: "mdi:pause"
     on_press:
-      - sprinkler.pause: ${id_prefix}_prog1  # Pause the sprinkler cycle
+      - sprinkler.pause: esprinkler_prog1  # Pause the sprinkler cycle
 
   - platform: template
     name: "Stop Program 1"
     id: prog1_stop_sprinkler_button
     icon: "mdi:stop"
     on_press:
-      - sprinkler.shutdown: ${id_prefix}_prog1  # Stop the sprinkler cycle
+      - sprinkler.shutdown: esprinkler_prog1  # Stop the sprinkler cycle
 
   # Program 2
   - platform: template
@@ -1870,21 +1869,21 @@ button:
     id: prog2_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: ${id_prefix}_prog2  # Start the sprinkler cycle
+      - sprinkler.start_full_cycle: esprinkler_prog2  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 2"
     id: prog2_pause_sprinkler_button
     icon: "mdi:pause"
     on_press:
-      - sprinkler.pause: ${id_prefix}_prog2  # Pause the sprinkler cycle
+      - sprinkler.pause: esprinkler_prog2  # Pause the sprinkler cycle
 
   - platform: template
     name: "Stop Program 2"
     id: prog2_stop_sprinkler_button
     icon: "mdi:stop"
     on_press:
-      - sprinkler.shutdown: ${id_prefix}_prog2  # Stop the sprinkler cycle
+      - sprinkler.shutdown: esprinkler_prog2  # Stop the sprinkler cycle
 
   # Program 3
   - platform: template
@@ -1892,21 +1891,21 @@ button:
     id: prog3_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: ${id_prefix}_prog3  # Start the sprinkler cycle
+      - sprinkler.start_full_cycle: esprinkler_prog3  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 3"
     id: prog3_pause_sprinkler_button
     icon: "mdi:pause"
     on_press:
-      - sprinkler.pause: ${id_prefix}_prog3  # Pause the sprinkler cycle
+      - sprinkler.pause: esprinkler_prog3  # Pause the sprinkler cycle
 
   - platform: template
     name: "Stop Program 3"
     id: prog3_stop_sprinkler_button
     icon: "mdi:stop"
     on_press:
-      - sprinkler.shutdown: ${id_prefix}_prog3  # Stop the sprinkler cycle
+      - sprinkler.shutdown: esprinkler_prog3  # Stop the sprinkler cycle
 
 ###################################
 # Select component 
@@ -2290,13 +2289,13 @@ script:
           condition:
             lambda: |-
               // Check if no valve is active.
-              return !id(${id_prefix}_prog1).active_valve().has_value();
+              return !id(esprinkler_prog1).active_valve().has_value();
           then:
             - logger.log:
                 tag: "script"
                 format: "No active cycle detected, starting full cycle."
                 level: INFO
-            - sprinkler.start_full_cycle: ${id_prefix}_prog1
+            - sprinkler.start_full_cycle: esprinkler_prog1
             - script.execute: update_status_led
           else:
             - logger.log:
@@ -2542,13 +2541,13 @@ script:
       - if:
           condition:
             lambda: |-
-              return !id(${id_prefix}_prog2).active_valve().has_value();
+              return !id(esprinkler_prog2).active_valve().has_value();
           then:
             - logger.log:
                 tag: "script"
                 format: "No active cycle detected, starting full cycle."
                 level: INFO
-            - sprinkler.start_full_cycle: ${id_prefix}_prog2
+            - sprinkler.start_full_cycle: esprinkler_prog2
             - script.execute: update_status_led
           else:
             - logger.log:
@@ -2794,13 +2793,13 @@ script:
       - if:
           condition:
             lambda: |-
-              return !id(${id_prefix}_prog3).active_valve().has_value();
+              return !id(esprinkler_prog3).active_valve().has_value();
           then:
             - logger.log:
                 tag: "script"
                 format: "No active cycle detected, starting full cycle."
                 level: INFO
-            - sprinkler.start_full_cycle: ${id_prefix}_prog3
+            - sprinkler.start_full_cycle: esprinkler_prog3
             - script.execute: update_status_led
           else:
             - logger.log:
