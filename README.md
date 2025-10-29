@@ -1,5 +1,7 @@
 # ESPrinkler Retic Controller
 
+Please note, this repo is very much still a work in progress! All info in here is not up to date yet
+
 ## Table of Contents
 
 - [Overview](#overview)
