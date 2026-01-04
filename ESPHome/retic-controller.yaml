@@ -199,8 +199,14 @@ sprinkler:
   ###############
 
   - id: esprinkler_prog1
-    main_switch: "Program 1 Start/Stop"
-    auto_advance_switch: "Program 1 Auto Advance Switch"
+    main_switch:
+      name: "Program 1 Start/Stop"
+      restore_mode: ALWAYS_OFF
+      entity_category: config
+    auto_advance_switch:
+      name: "Program 1 Auto Advance Switch"
+      restore_mode: ALWAYS_ON
+      entity_category: config      
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
@@ -219,6 +225,7 @@ sprinkler:
           name: "Program 1 Zone 1 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 1 Enable"
           disabled_by_default: false
@@ -243,6 +250,7 @@ sprinkler:
           name: "Program 1 Zone 2 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 2 Enable"
           disabled_by_default: false
@@ -267,6 +275,7 @@ sprinkler:
           name: "Program 1 Zone 3 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 3 Enable"
           disabled_by_default: false
@@ -291,6 +300,7 @@ sprinkler:
           name: "Program 1 Zone 4 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 4 Enable"
           disabled_by_default: false
@@ -315,6 +325,7 @@ sprinkler:
           name: "Program 1 Zone 5 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 5 Enable"
           disabled_by_default: false
@@ -339,6 +350,7 @@ sprinkler:
           name: "Program 1 Zone 6 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 6 Enable"
           disabled_by_default: false
@@ -363,6 +375,7 @@ sprinkler:
           name: "Program 1 Zone 7 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 7 Enable"
           disabled_by_default: false
@@ -387,6 +400,7 @@ sprinkler:
           name: "Program 1 Zone 8 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 1 Zone 8 Enable"
           disabled_by_default: false
@@ -411,8 +425,14 @@ sprinkler:
   ###############
 
   - id: esprinkler_prog2
-    main_switch: "Program 2 Start/Stop"
-    auto_advance_switch: "Program 2 Auto Advance Switch"
+    main_switch:
+      name: "Program 2 Start/Stop"
+      restore_mode: ALWAYS_OFF
+      entity_category: config
+    auto_advance_switch:
+      name: "Program 2 Auto Advance Switch"
+      restore_mode: ALWAYS_ON
+      entity_category: config
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
@@ -431,6 +451,7 @@ sprinkler:
           name: "Program 2 Zone 1 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 1 Enable"
           disabled_by_default: false
@@ -455,6 +476,7 @@ sprinkler:
           name: "Program 2 Zone 2 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 2 Enable"
           disabled_by_default: false
@@ -479,6 +501,7 @@ sprinkler:
           name: "Program 2 Zone 3 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 3 Enable"
           disabled_by_default: false
@@ -503,6 +526,7 @@ sprinkler:
           name: "Program 2 Zone 4 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 4 Enable"
           disabled_by_default: false
@@ -527,6 +551,7 @@ sprinkler:
           name: "Program 2 Zone 5 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 5 Enable"
           disabled_by_default: false
@@ -551,6 +576,7 @@ sprinkler:
           name: "Program 2 Zone 6 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 6 Enable"
           disabled_by_default: false
@@ -575,6 +601,7 @@ sprinkler:
           name: "Program 2 Zone 7 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 7 Enable"
           disabled_by_default: false
@@ -599,6 +626,7 @@ sprinkler:
           name: "Program 2 Zone 8 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 2 Zone 8 Enable"
           disabled_by_default: false
@@ -624,8 +652,14 @@ sprinkler:
   ###############
 
   - id: esprinkler_prog3
-    main_switch: "Program 3 Start/Stop"
-    auto_advance_switch: "Program 3 Auto Advance Switch"
+    main_switch:
+      name: "Program 3 Start/Stop"
+      restore_mode: ALWAYS_OFF
+      entity_category: config
+    auto_advance_switch:
+      name: "Program 3 Auto Advance Switch"
+      restore_mode: ALWAYS_OFF
+      entity_category: config
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
@@ -644,6 +678,7 @@ sprinkler:
           name: "Program 3 Zone 1 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 1 Enable"
           disabled_by_default: false
@@ -668,6 +703,7 @@ sprinkler:
           name: "Program 3 Zone 2 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 2 Enable"
           disabled_by_default: false
@@ -692,6 +728,7 @@ sprinkler:
           name: "Program 3 Zone 3 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 3 Enable"
           disabled_by_default: false
@@ -716,6 +753,7 @@ sprinkler:
           name: "Program 3 Zone 4 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 4 Enable"
           disabled_by_default: false
@@ -740,6 +778,7 @@ sprinkler:
           name: "Program 3 Zone 5 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 5 Enable"
           disabled_by_default: false
@@ -764,6 +803,7 @@ sprinkler:
           name: "Program 3 Zone 6 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 6 Enable"
           disabled_by_default: false
@@ -788,6 +828,7 @@ sprinkler:
           name: "Program 3 Zone 7 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 7 Enable"
           disabled_by_default: false
@@ -812,6 +853,7 @@ sprinkler:
           name: "Program 3 Zone 8 Switch"
           disabled_by_default: false
           restore_mode: RESTORE_DEFAULT_OFF
+          entity_category: config
         enable_switch:
           name: "Program 3 Zone 8 Enable"
           disabled_by_default: false
