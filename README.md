@@ -60,22 +60,6 @@ Pin 3 is the common pin for your retic solenoids, pins 4 through to 12 are for c
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<username>/ESPrinkler-Retic-Controller.git
-   cd ESPrinkler-Retic-Controller
-   ```
-2. **Install ESPHome**
-   ```bash
-   pip install esphome
-   ```
-3. **Configure your secrets**
-   - Copy `secrets.example.yaml` to `secrets.yaml` and fill in Wi-Fi credentials and other sensitive data.
-4. **Build and upload**
-   ```bash
-   esphome run retic-controller.yaml
-   ```
-
 ## Configuration
 
 ### ESPHome Configuration
