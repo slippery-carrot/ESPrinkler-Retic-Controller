@@ -1902,7 +1902,7 @@ button:
     id: prog1_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: esprinkler_prog1  # Start the sprinkler cycle
+      - sprinkler.resume_or_start_full_cycle: esprinkler_prog1  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 1"
@@ -1924,7 +1924,7 @@ button:
     id: prog2_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: esprinkler_prog2  # Start the sprinkler cycle
+      - sprinkler.resume_or_start_full_cycle: esprinkler_prog2  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 2"
@@ -1946,7 +1946,7 @@ button:
     id: prog3_start_sprinkler_button
     icon: "mdi:play"
     on_press:
-      - sprinkler.start_full_cycle: esprinkler_prog3  # Start the sprinkler cycle
+      - sprinkler.resume_or_start_full_cycle: esprinkler_prog3  # Start the sprinkler cycle
 
   - platform: template
     name: "Pause Program 3"
