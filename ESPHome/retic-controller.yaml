@@ -14,7 +14,7 @@
 
 
 ###################################
-# Substitutions used 
+# Substitutions 
 ###################################
 substitutions:
 
@@ -64,12 +64,6 @@ substitutions:
   # False if your relay board is active high (VCC trigger)
   relay_inversion: 'False'
 
-
-##########################################
-###### DO NOT CHANGE THE BELOW CODE ######
-##########################################
-
-
   # Version info
   esprinkler_sw_version: "V1.1.0"
 
@@ -79,6 +73,24 @@ substitutions:
   name_of_project: esprinkler                   # Name of the project
   namespace_of_project: ${project_author}.${name_of_device}
   friendly_name: "ESPrinkler Retic Controller"  # Friendly name
+
+###################################
+# Global variables
+###################################
+globals:
+  # Program 1 "skip-next-day" target date (YYYY-MM-DD). 0 means unset.
+  - id: prog1_skip_year
+    type: int
+    restore_value: yes
+    initial_value: '0'
+  - id: prog1_skip_month
+    type: int
+    restore_value: yes
+    initial_value: '0'
+  - id: prog1_skip_day
+    type: int
+    restore_value: yes
+    initial_value: '0'
 
 
 ###################################
@@ -146,6 +158,7 @@ wifi:
   ap:
     ssid: $friendly_name
     password: $ap_password
+        
 
 ###################################
 # The captive portal component in ESPHome is a fallback mechanism for when connecting to the configured WiFi fails.
@@ -1977,30 +1990,37 @@ script:
   - id: update_wifi_led
     then:
       - logger.log:
-          tag: "led"
+          tag: "WIFI"
           format: "WIFI LED script triggered"
           level: INFO
 
       # If wifi is connected, flash every second
       - if:
           condition:
-            lambda: 'return (WiFi.status() == WL_CONNECTED);'
+            wifi.connected:
           then:
-            - if:
-                condition:
-                  lambda: 'return (id(ha_time).now().second % 30) == 0;'
-                then:
-                  - output.turn_on:
-                      id: wifi_led_out
-                  - delay: 1s
-                  - output.turn_off:
-                      id: wifi_led_out
+
+            - logger.log:
+                tag: "WIFI"
+                format: "WIFI is connected!"
+                level: INFO
+
+            - output.turn_on:
+                id: wifi_led_out
+            - delay: 1s
+            - output.turn_off:
+                id: wifi_led_out
 
           # If wifi is not connected, flash the LED regularly
           else:
             - repeat:
                 count: 3
                 then:
+                  - logger.log:
+                      tag: "WIFI"
+                      format: "WIFI is dicconnected!"
+                      level: INFO
+
                   - output.turn_on:
                       id: wifi_led_out
                   - delay: 200ms
@@ -2023,7 +2043,7 @@ script:
     then:
       - lambda: |-
           // This lambda calculates the next scheduled watering day and time.
-          // It iterates over the next 7 days, checking if watering is enabled for that day (using your day switches),
+          // It iterates over the next 7 days, checking if watering is enabled for that day (using the day switches),
           // and then examines each enabled scheduled time.
           // For today (i = 0), only scheduled times that haven't yet passed are considered.
           // It returns a string like "Saturday at 04:30" for the next upcoming watering event.
