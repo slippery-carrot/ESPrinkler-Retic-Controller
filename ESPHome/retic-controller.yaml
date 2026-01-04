@@ -202,7 +202,6 @@ sprinkler:
     main_switch:
       name: "Program 1 Start/Stop"
       restore_mode: ALWAYS_OFF
-      entity_category: config
     auto_advance_switch:
       name: "Program 1 Auto Advance Switch"
       restore_mode: ALWAYS_ON
@@ -428,7 +427,6 @@ sprinkler:
     main_switch:
       name: "Program 2 Start/Stop"
       restore_mode: ALWAYS_OFF
-      entity_category: config
     auto_advance_switch:
       name: "Program 2 Auto Advance Switch"
       restore_mode: ALWAYS_ON
@@ -655,7 +653,6 @@ sprinkler:
     main_switch:
       name: "Program 3 Start/Stop"
       restore_mode: ALWAYS_OFF
-      entity_category: config
     auto_advance_switch:
       name: "Program 3 Auto Advance Switch"
       restore_mode: ALWAYS_OFF
