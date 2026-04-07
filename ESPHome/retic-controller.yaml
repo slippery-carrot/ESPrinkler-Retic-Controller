@@ -25,13 +25,13 @@ substitutions:
   flash_save_interval: 1min # Set how often variables are saved to flash
   
   # Keys and passwords
-  api_key: "f6sITcuUXnhzZVGWQRA7+E5PJFqi68o6uh7ljf+FT7Q=" # API key
-  ota_password: "password"  # Over-the-air password
-  ap_password: "password"   # Wi-fi AP password
+  api_key: !secret esprinkler_api_key # API key
+  ota_password: !secret esprinkler_ota_password  # Over-the-air password
+  ap_password: !secret esprinkler_ap_password   # Wi-fi AP password
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_password
-  web_server_username: admin
-  web_server_password: admin
+  web_server_username: !secret esprinkler_ws_username
+  web_server_password: !secret esprinkler_ws_password
 
 
   # Status LEDs GPIO assignments
