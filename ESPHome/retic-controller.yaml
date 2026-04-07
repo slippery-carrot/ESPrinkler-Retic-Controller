@@ -39,7 +39,7 @@ substitutions:
   wifi_led_gpio: GPIO14
 
   # Sprinkler Component variables
-  duration_entity_mode: SLIDER     # Changes the integration input mode, recommend BOX or SLIDER 
+  duration_entity_mode: SLIDER  # Changes the integration input mode, recommend BOX or SLIDER 
   valve_overlap_setting: 3s     # Set the overlap between two valves, helps reduce banging
   pump_start_delay_setting: 3s  # Set the delay from when a zone valve opens, and the main valve opens
   pump_stop_delay_setting: 3s   # Set the delay from when the pump is turned off to when the last valve closes to reduce pressure in the line
@@ -205,7 +205,8 @@ sprinkler:
     auto_advance_switch:
       name: "Program 1 Auto Advance Switch"
       restore_mode: ALWAYS_ON
-      entity_category: config      
+      entity_category: config
+      internal: True # Do not expose entity to the frontend     
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
@@ -439,6 +440,7 @@ sprinkler:
       name: "Program 2 Auto Advance Switch"
       restore_mode: ALWAYS_ON
       entity_category: config
+      internal: True # Do not expose entity to the frontend
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
@@ -673,6 +675,7 @@ sprinkler:
       name: "Program 3 Auto Advance Switch"
       restore_mode: ALWAYS_OFF
       entity_category: config
+      internal: True # Do not expose entity to the frontend
     valve_overlap: $valve_overlap_setting
     pump_start_pump_delay: $pump_start_delay_setting
     pump_stop_valve_delay: $pump_stop_delay_setting
