@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3c6b8bc3-d793-478e-a69e-22171e9bcb1b")
 	(paper "A4")
 	(title_block
@@ -327,11 +327,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "03d104c2-b3b9-43f2-8dd0-3f6a8e52da43")
 		(property "Sheetname" "Power & IO"
 			(at 44.45 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,6 +343,8 @@
 		)
 		(property "Sheetfile" "Power IO.kicad_sch"
 			(at 44.45 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,11 +483,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "052ed708-5486-46d3-a3dd-20a636eb3278")
 		(property "Sheetname" "Control Outputs"
 			(at 125.73 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,6 +499,8 @@
 		)
 		(property "Sheetfile" "Control Outputs.kicad_sch"
 			(at 125.73 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,11 +709,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "d67bcfb8-08ed-4cad-86f9-861082825312")
 		(property "Sheetname" "ESP32"
 			(at 209.55 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,6 +725,8 @@
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
 			(at 209.55 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
