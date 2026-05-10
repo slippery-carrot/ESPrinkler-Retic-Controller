@@ -7,7 +7,9 @@
 	(title_block
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
-		(rev "1.1")
+		(rev "2.0")
+		(comment 1 "Designed by: Slippery-Carrot")
+		(comment 3 "github.com/slippery-carrot/ESPrinkler-Retic-Controller")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -488,23 +490,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+				(at 0.762 0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -6035,7 +6039,7 @@
 		(dnp no)
 		(uuid "125837cd-508a-47ea-a9c5-421cac201599")
 		(property "Reference" "D15"
-			(at 193.04 72.9614 0)
+			(at 196.342 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6045,9 +6049,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 193.04 75.5014 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 196.342 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6103,6 +6106,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 196.85 85.344 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10810,7 +10814,7 @@
 		(dnp no)
 		(uuid "4edc2554-df4f-41aa-8500-e7d728814002")
 		(property "Reference" "D16"
-			(at 193.04 108.5214 0)
+			(at 196.088 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10820,9 +10824,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 193.04 111.0614 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 196.088 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10878,6 +10881,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 196.85 121.158 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12593,7 +12597,7 @@
 		(dnp no)
 		(uuid "6e71879b-c737-40e0-9901-018a14e6c087")
 		(property "Reference" "D6"
-			(at 53.34 108.5214 0)
+			(at 56.896 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12603,9 +12607,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 53.34 111.0614 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 56.896 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12661,6 +12664,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 57.15 121.412 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13585,7 +13589,7 @@
 		(dnp no)
 		(uuid "7607caa7-8d8a-4673-a4a9-ef2c23424b1a")
 		(property "Reference" "D21"
-			(at 182.245 139.065 0)
+			(at 173.99 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13595,7 +13599,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 173.99 139.065 0)
+			(at 177.8 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13759,7 +13763,7 @@
 		(dnp no)
 		(uuid "76a30abd-d21a-4693-b24d-6c827515370e")
 		(property "Reference" "D20"
-			(at 181.61 104.775 0)
+			(at 173.482 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13769,7 +13773,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 173.99 104.775 0)
+			(at 177.8 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13933,7 +13937,7 @@
 		(dnp no)
 		(uuid "779b0af5-cff6-4ad7-8e55-9c78f425b20e")
 		(property "Reference" "D11"
-			(at 41.91 104.775 0)
+			(at 34.544 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13943,7 +13947,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 34.29 104.775 0)
+			(at 38.354 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14270,7 +14274,7 @@
 		(dnp no)
 		(uuid "79673494-4196-4b68-af9f-9bd6030ac5e8")
 		(property "Reference" "D19"
-			(at 181.61 69.215 0)
+			(at 173.736 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14280,7 +14284,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 173.99 69.215 0)
+			(at 177.8 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14851,7 +14855,7 @@
 		(dnp no)
 		(uuid "8043276c-85dd-4daa-84cb-25903925a98e")
 		(property "Reference" "D5"
-			(at 53.34 72.9614 0)
+			(at 56.896 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14861,9 +14865,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 53.34 75.5014 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 56.896 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14919,6 +14922,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 57.15 85.852 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17284,7 +17288,7 @@
 		(dnp no)
 		(uuid "a3c4b21c-7a3d-4afe-8f9a-d2b8f994d9a3")
 		(property "Reference" "D18"
-			(at 182.88 32.385 0)
+			(at 175.26 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17294,7 +17298,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 175.26 32.385 0)
+			(at 179.324 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19165,7 +19169,7 @@
 		(dnp no)
 		(uuid "bcd5c522-07ad-48b8-b0b8-8c69914e60d1")
 		(property "Reference" "D12"
-			(at 42.545 139.065 0)
+			(at 33.782 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19175,7 +19179,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 34.29 139.065 0)
+			(at 38.354 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19417,7 +19421,7 @@
 		(dnp no)
 		(uuid "c064110a-7c86-49b0-a374-7c8df8d217bb")
 		(property "Reference" "D13"
-			(at 42.545 175.895 0)
+			(at 33.782 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19427,7 +19431,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 34.29 175.895 0)
+			(at 38.1 180.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20261,7 +20265,7 @@
 		(dnp no)
 		(uuid "cb31fb10-9c44-4bf6-9681-2cbe8e5aa8c5")
 		(property "Reference" "D4"
-			(at 53.34 36.1314 0)
+			(at 56.642 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20271,9 +20275,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 53.34 38.6714 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 56.642 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20329,6 +20332,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 57.15 48.768 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20430,7 +20434,7 @@
 		(dnp no)
 		(uuid "cd811dc7-80a0-441b-9fda-01af6f5de492")
 		(property "Reference" "D7"
-			(at 53.34 142.8114 0)
+			(at 56.642 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20440,9 +20444,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 53.34 145.3514 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 56.642 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20498,6 +20501,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 57.15 155.448 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21948,7 +21952,7 @@
 		(dnp no)
 		(uuid "db77d700-3431-493e-85a6-ad275063276d")
 		(property "Reference" "D9"
-			(at 41.91 31.75 0)
+			(at 34.798 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21958,7 +21962,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 35.56 31.75 0)
+			(at 38.1 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22458,7 +22462,7 @@
 		(dnp no)
 		(uuid "ddc5244f-be72-4adc-8c9c-bf5e3349b5ce")
 		(property "Reference" "D8"
-			(at 53.34 179.6414 0)
+			(at 56.388 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22468,9 +22472,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 53.34 182.1814 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 56.388 173.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22526,6 +22529,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 57.15 192.532 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22943,7 +22947,7 @@
 		(dnp no)
 		(uuid "e2e56b94-97c0-473c-885b-7808dd815677")
 		(property "Reference" "D10"
-			(at 42.545 69.215 0)
+			(at 34.29 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22953,7 +22957,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 34.29 69.215 0)
+			(at 37.846 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23118,7 +23122,7 @@
 		(dnp no)
 		(uuid "e8acc4db-abea-4a3b-a27c-5d262d1b61ea")
 		(property "Reference" "D17"
-			(at 193.04 142.8114 0)
+			(at 196.088 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23128,9 +23132,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 193.04 145.3514 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 196.088 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23186,6 +23189,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 196.85 155.702 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24022,7 +24026,7 @@
 		(dnp no)
 		(uuid "f9f07d46-6e30-4622-846b-25a9b55b7551")
 		(property "Reference" "D14"
-			(at 194.31 36.1314 0)
+			(at 197.612 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24032,9 +24036,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Generic_Triac_A1A2G"
-			(at 194.31 38.6714 0)
-			(hide yes)
+		(property "Value" "BTB16-600BWRG"
+			(at 197.612 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24090,6 +24093,7 @@
 		)
 		(property "Manufacturer P/N" "BTB16-600BWRG"
 			(at 198.12 48.768 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

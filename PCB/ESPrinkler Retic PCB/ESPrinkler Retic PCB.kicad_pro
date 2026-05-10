@@ -248,7 +248,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.1"
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -707,7 +707,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://SCH_Template_IMPULSIVE_MINDS.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "./",
     "reuse_designators": true,
     "space_save_all_events": true,
