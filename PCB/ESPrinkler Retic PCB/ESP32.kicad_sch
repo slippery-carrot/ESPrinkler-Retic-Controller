@@ -1441,7 +1441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38c737c0-c88b-40b4-b8e5-22b69d5c6aff")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 183.515 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1641,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1659,7 +1659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97aa3126-bebc-4350-8ba5-9a6d875f0c10")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 104.14 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "ESPrinkler Retic PCB"
 				(path "/3c6b8bc3-d793-478e-a69e-22171e9bcb1b/d67bcfb8-08ed-4cad-86f9-861082825312"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)

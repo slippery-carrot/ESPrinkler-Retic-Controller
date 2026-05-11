@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|169672000|130639000|559c0967-dd5b-40a3-9ba5-23bf993e58a7|6b74f15e-d793-4c05-b4f2-bb6d0196dd78",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "courtyards_overlap|192532000|130639000|6b74f15e-d793-4c05-b4f2-bb6d0196dd78|caba5208-40f8-43c2-bbcb-d4ca4c935004",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "courtyards_overlap|215392000|130639000|caba5208-40f8-43c2-bbcb-d4ca4c935004|d903eff3-1fd7-4564-b27b-968be3e723ad",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "lib_footprint_mismatch|158193000|137160000|559c0967-dd5b-40a3-9ba5-23bf993e58a7|00000000-0000-0000-0000-000000000000",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "lib_footprint_mismatch|181053000|137160000|6b74f15e-d793-4c05-b4f2-bb6d0196dd78|00000000-0000-0000-0000-000000000000",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "lib_footprint_mismatch|203913000|137160000|caba5208-40f8-43c2-bbcb-d4ca4c935004|00000000-0000-0000-0000-000000000000",
+          "4x 3-pin connectors phyically joined"
+        ],
+        [
+          "lib_footprint_mismatch|226773000|137160000|d903eff3-1fd7-4564-b27b-968be3e723ad|00000000-0000-0000-0000-000000000000",
+          "4x 3-pin connectors phyically joined"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -726,7 +755,7 @@
         "uuid": "3c6b8bc3-d793-478e-a69e-22171e9bcb1b"
       }
     ],
-    "used_designators": "D22",
+    "used_designators": "D22,J1C1,J1,J1A1,J1B1,J1D1",
     "variants": []
   },
   "sheets": [
