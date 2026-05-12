@@ -943,11 +943,33 @@
 		)
 		(uuid "3192ff42-2ecc-4126-ac70-b84473b8cd17")
 	)
+	(text_box "ESP32 Header"
+		(exclude_from_sim no)
+		(at 97.79 53.34 0)
+		(size 96.52 72.39)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "87e58667-e785-4be3-b441-d0753959ba2d")
+	)
 	(junction
 		(at 154.94 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80e5f78f-ab3c-4d73-95af-713f33450c0b")
+		(uuid "b8fb97f4-b202-410c-a343-20236e15e13d")
 	)
 	(no_connect
 		(at 180.34 102.87)
@@ -1053,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 121.92 87.63)
+			(xy 109.22 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 121.92 90.17)
+			(xy 109.22 90.17) (xy 116.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 116.84 110.49)
+			(xy 116.84 95.25) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1299,7 @@
 	)
 	(hierarchical_label "Status LED CTRL"
 		(shape output)
-		(at 121.92 87.63 0)
+		(at 116.84 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1299,7 +1321,7 @@
 	)
 	(hierarchical_label "WIFI LED CTRL"
 		(shape output)
-		(at 121.92 90.17 0)
+		(at 116.84 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +1965,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 110.49 0)
+		(at 116.84 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1954,7 +1976,7 @@
 		(fields_autoplaced yes)
 		(uuid "f759321f-1793-4c39-a295-27881ab3f976")
 		(property "Reference" "#PWR048"
-			(at 116.84 116.84 0)
+			(at 116.84 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +1987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 115.57 0)
+			(at 116.84 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1975,7 +1997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,7 +2019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 110.49 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
