@@ -54,8 +54,8 @@ Key hardware characteristics:
   - Wi-Fi status  
   - System status  
 
-👉 For full specifications, wiring diagrams, and pinouts, see:  
-**👉 Hardware Wiki**
+For full specifications, wiring diagrams, and pinouts, see:  
+**[Hardware Specifications Wiki](../../wiki/Hardware-Specifications)**
 
 ---
 
@@ -66,7 +66,7 @@ To build and use ESPrinkler, you’ll need:
 - ESP32 Dev Board (ESP32-DevKitC compatible)  
 - ESPrinkler PCB (assembled or DIY)  
 - 24VAC transformer (~30VA recommended)  
-- Fuse (approx. 2A recommended)  
+- Fuse (M205 1A Quick Blow)  
 - Suitable enclosure  
 - Wiring/connectors for your installation  
 - Home Assistant with ESPHome installed  
