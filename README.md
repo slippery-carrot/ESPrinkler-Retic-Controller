@@ -85,16 +85,17 @@ https://esphome.io/guides/getting_started_hassio/
 ### 2. Prepare Firmware
 
 - Copy the provided `secrets.yaml` values into your ESPHome setup  
-- Import the `retic-controller.yaml` file into ESPHome  
-- Update substitutions (Wi-Fi, API key, device name, etc.)  
+- Import the `retic-controller.yaml` file into ESPHome (Add new device -> Import from file) 
+- Update the substitutions (Wi-Fi, API key, device name, etc.)  
 
 ---
 
 ### 3. Flash the Device
 
-- Add the device in ESPHome  
-- Install firmware via USB or over-the-air  
-- Once flashed, the device will appear in Home Assistant  
+- Click the 3 dots under the new configuration
+- Click "install" and follow your preferred method to flash your ESP32
+- I recommend choosing "manual download" and then navigate to [ESPHome Web](https://web.esphome.io/) to flash your device using the binary file
+- Once flashed, the device will appear in Home Assistant
 
 ---
 
@@ -106,8 +107,7 @@ https://esphome.io/guides/getting_started_hassio/
 - Optional: connect status LEDs  
 
 ⚠️ **Warning:** This involves working with mains/low-voltage AC systems. Follow all relevant electrical safety standards and regulations.
-
-👉 See the **Hardware Wiki** for full wiring details and pinouts.
+👉 See the **[Hardware Specifications Wiki](../../wiki/Hardware-Specifications)** for full wiring details and pinouts.
 
 ---
 
@@ -118,9 +118,11 @@ Once the device is online:
 - Enable one or more programs  
 - Set watering days  
 - Configure start times  
-- Enable zones and durations  
+- Enable zones and durations
+- An example [dashboard page .yaml file](https://github.com/slippery-carrot/ESPrinkler-Retic-Controller/blob/main/ESPHome/ESPrinkler_Dashboard_Example.yaml) has been provided as an example layout in Home Assistant
 
-👉 See the **Home Assistant Entities Wiki** for a full breakdown of all controls, sensors, and configuration options.
+⚠️ **NOTE:** The example dashboard yaml uses [Mushroom Cards](https://github.com/piitaya/lovelace-mushroom), so make sure to install that if you want it to function.
+👉 See the **[Home Assistant Entities Wiki](../../wiki/Home-Assistant-Entities)** for a full breakdown of all controls, sensors, and configuration options.
 
 ---
 
@@ -149,13 +151,13 @@ ESPrinkler exposes a full set of:
 - **Diagnostics** (Wi-Fi signal, uptime, firmware, etc.)  
 
 👉 Full details here:  
-**👉 Home Assistant Entities Wiki**
+**[Home Assistant Entities Wiki](../../wiki/Home-Assistant-Entities)**
 
 ---
 
 ## 🧩 Project Structure
 
-- Firmware: ESPHome YAML configuration and secrets example  
+- Firmware: ESPHome YAML configuration and secrets example, including example dashboard layout  
 - Hardware: Custom PCB design in KiCad and production files
 - Documentation:
   - README (this file)  
@@ -168,7 +170,7 @@ ESPrinkler exposes a full set of:
 
 - Programs **can overlap** if configured incorrectly—this is not automatically prevented  
 - Default start times may be active—always verify configuration  
-- Ensure transformer capacity matches your number of valves  
+- Ensure the transformer you choose is correctly sized for your solenoid load
 - Always use appropriate fuse protection  
 
 ---
