@@ -1,0 +1,1798 @@
+type: sections
+max_columns: 1
+icon: mdi:sprinkler-variant
+path: esprinkler-configuration
+title: ESPrinkler Configuration
+sections:
+  - type: grid
+    cards:
+      - type: heading
+        icon: mdi:sprinkler-variant
+        heading: Retic Overview
+        heading_style: title
+        badges: []
+        visibility:
+          - condition: or
+            conditions:
+              - condition: state
+                entity: switch.esprinkler_retic_controller_enable_program_1
+                state: "on"
+              - condition: state
+                entity: switch.esprinkler_retic_controller_enable_program_2
+                state: "on"
+              - condition: state
+                entity: switch.esprinkler_retic_controller_enable_program_3
+                state: "on"
+      - type: conditional
+        conditions:
+          - condition: state
+            entity: switch.esprinkler_retic_controller_enable_program_1
+            state: "on"
+        card:
+          type: entities
+          entities:
+            - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+              icon: mdi:information-outline
+              name: Program 1 State
+            - entity: >-
+                sensor.esprinkler_retic_controller_program_1_next_watering_schedule
+              name: Program 1 Next Schedule
+              icon: mdi:information-outline
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_1_total_watering_duration
+                name: Program 1 Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_1_current_zone_remaining_time
+                name: Current Zone Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: sensor.esprinkler_retic_controller_currently_running_zone
+                name: Current Active Zone
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state: Idle
+              row:
+                entity: button.esprinkler_retic_controller_start_program_1
+                name: Start Program 1
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_pause_program_1
+                name: Pause Program 1
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_1_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_stop_program_1
+                name: Stop Program 1
+      - type: conditional
+        conditions:
+          - condition: state
+            entity: switch.esprinkler_retic_controller_enable_program_2
+            state: "on"
+        card:
+          type: entities
+          entities:
+            - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+              icon: mdi:information-outline
+              name: Program 2 State
+            - entity: >-
+                sensor.esprinkler_retic_controller_program_2_next_watering_schedule
+              name: Program 2 Next Schedule
+              icon: mdi:information-outline
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_2_total_watering_duration
+                name: Program 2 Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_2_current_zone_remaining_time
+                name: Current Zone Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: sensor.esprinkler_retic_controller_currently_running_zone
+                name: Current Active Zone
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state: Idle
+              row:
+                entity: button.esprinkler_retic_controller_start_program_2
+                name: Start Program 2
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_pause_program_2
+                name: Pause Program 2
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_2_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_stop_program_2
+                name: Stop Program 2
+      - type: conditional
+        conditions:
+          - condition: state
+            entity: switch.esprinkler_retic_controller_enable_program_3
+            state: "on"
+        card:
+          type: entities
+          entities:
+            - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+              icon: mdi:information-outline
+              name: Program 3 State
+            - entity: >-
+                sensor.esprinkler_retic_controller_program_3_next_watering_schedule
+              name: Program 3 Next Schedule
+              icon: mdi:information-outline
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_3_total_watering_duration
+                name: Program 3 Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: >-
+                  sensor.esprinkler_retic_controller_program_3_current_zone_remaining_time
+                name: Current Zone Time Remaining
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: sensor.esprinkler_retic_controller_currently_running_zone
+                name: Current Active Zone
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state: Idle
+              row:
+                entity: button.esprinkler_retic_controller_start_program_3
+                name: Start Program 3
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_pause_program_3
+                name: Pause Program 3
+            - type: conditional
+              conditions:
+                - entity: sensor.esprinkler_retic_controller_program_3_sprinkler_state
+                  state_not: Idle
+              row:
+                entity: button.esprinkler_retic_controller_stop_program_3
+                name: Stop Program 3
+  - type: grid
+    cards:
+      - type: heading
+        icon: mdi:hammer
+        heading: Program Configurator
+        heading_style: title
+      - features:
+          - type: select-options
+        type: custom:mushroom-template-card
+        features_position: bottom
+        entity: input_select.esprinkler_program_list
+        grid_options:
+          columns: 36
+          rows: 2
+        primary: Programs
+        vertical: true
+        multiline_secondary: false
+  - type: grid
+    cards:
+      - type: heading
+        heading: Program 1 Configuration
+        heading_style: subtitle
+        icon: mdi:cog
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        primary: Program 1
+        secondary: >-
+          {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_enable_program_1','on')
+          else 'Disabled'}}
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_enable_program_1
+        color: >-
+          {{'light-blue' if
+          is_state('switch.esprinkler_retic_controller_enable_program_1','on')
+          else 'grey'}}
+        icon: >-
+          {{'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_enable_program_1','on')
+          else 'mdi:toggle-switch-off'}}
+      - type: heading
+        icon: mdi:calendar
+        heading: Toggle Days
+        heading_style: subtitle
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_monday
+        grid_options:
+          rows: 1
+          columns: 4
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_monday',
+          'on') else 'grey' }}
+        primary: Mon
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_tuesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_tuesday',
+          'on') else 'grey' }}
+        primary: Tues
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_wednesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_wednesday',
+          'on') else 'grey' }}
+        primary: Wed
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_thursday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_thursday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Thurs
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_friday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_friday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Fri
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_saturday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_saturday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sat
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_1_water_sunday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_water_sunday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sunday
+      - type: heading
+        icon: mdi:clock-time-five-outline
+        heading: Set Times
+        heading_style: subtitle
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_1
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_1',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            vertical: true
+            multiline_secondary: false
+            primary: Time 1
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_1_schedule_start_time_1
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_2
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_2',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 2
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_1_schedule_start_time_2
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_3
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_3',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 3
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_1_schedule_start_time_3
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_4
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_1_enable_schedule_start_time_4',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 4
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_1_schedule_start_time_4
+            name: "Set Time:"
+      - type: heading
+        icon: mdi:sprinkler
+        heading: Active Zones
+        heading_style: subtitle
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_1_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_1_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_1_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_1_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 1 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_1_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_1_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_1_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_2_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_2_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_2_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_2_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 2 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_2_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_2_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_2_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_3_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_3_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_3_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_3_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 3 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_3_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_3_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_3_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_4_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_4_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_4_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_4_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 4 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_4_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_4_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_4_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_5_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_5_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_5_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_5_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 5 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_5_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_5_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_5_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_6_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_6_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_6_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_6_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 6 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_6_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_6_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_6_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_7_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_7_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_7_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_7_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 7 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_7_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_7_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_7_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_1_zone_8_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_8_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_1_zone_8_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_8_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 8 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_1_zone_8_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_8_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_1_zone_8_enable
+      - type: heading
+        icon: mdi:cog-outline
+        heading: Sprinkler Settings
+        heading_style: subtitle
+      - type: custom:mushroom-number-card
+        entity: number.esprinkler_retic_controller_program_1_repeat_cycles
+        layout: horizontal
+        name: Repeat Cycles
+        display_mode: buttons
+    visibility:
+      - condition: state
+        entity: input_select.esprinkler_program_list
+        state: Program 1
+  - type: grid
+    cards:
+      - type: heading
+        heading: Program 2 Configuration
+        heading_style: subtitle
+        icon: mdi:cog
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        primary: Program 2
+        secondary: >-
+          {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_enable_program_2','on')
+          else 'Disabled'}}
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_enable_program_2
+        color: >-
+          {{'light-blue' if
+          is_state('switch.esprinkler_retic_controller_enable_program_2','on')
+          else 'grey'}}
+        icon: >-
+          {{'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_enable_program_2','on')
+          else 'mdi:toggle-switch-off'}}
+      - type: heading
+        icon: mdi:calendar
+        heading: Toggle Days
+        heading_style: subtitle
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_monday
+        grid_options:
+          rows: 1
+          columns: 4
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_monday',
+          'on') else 'grey' }}
+        primary: Mon
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_tuesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_tuesday',
+          'on') else 'grey' }}
+        primary: Tues
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_wednesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_wednesday',
+          'on') else 'grey' }}
+        primary: Wed
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_thursday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_thursday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Thurs
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_friday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_friday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Fri
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_saturday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_saturday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sat
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_2_water_sunday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_water_sunday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sunday
+      - type: heading
+        icon: mdi:clock-time-five-outline
+        heading: Set Times
+        heading_style: subtitle
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_1
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_1',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            vertical: true
+            multiline_secondary: false
+            primary: Time 1
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_2_schedule_start_time_1
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_2
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_2',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 2
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_2_schedule_start_time_2
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_3
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_3',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 3
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_2_schedule_start_time_3
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_4
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_2_enable_schedule_start_time_4',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 4
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_2_schedule_start_time_4
+            name: "Set Time:"
+      - type: heading
+        icon: mdi:sprinkler
+        heading: Active Zones
+        heading_style: subtitle
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_1_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_1_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_1_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_1_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 1 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_1_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_1_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_1_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_2_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_2_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_2_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_2_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 2 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_2_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_2_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_2_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_3_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_3_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_3_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_3_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 3 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_3_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_3_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_3_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_4_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_4_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_4_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_4_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 4 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_4_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_4_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_4_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_5_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_5_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_5_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_5_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 5 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_5_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_5_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_5_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_6_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_6_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_6_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_6_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 6 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_6_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_6_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_6_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_7_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_7_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_7_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_7_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 7 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_7_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_7_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_7_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_2_zone_8_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_8_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_2_zone_8_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_8_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 8 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_2_zone_8_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_8_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_2_zone_8_enable
+      - type: heading
+        icon: mdi:cog-outline
+        heading: Sprinkler Settings
+        heading_style: subtitle
+      - type: custom:mushroom-number-card
+        entity: number.esprinkler_retic_controller_program_2_repeat_cycles
+        layout: horizontal
+        name: Repeat Cycles
+        display_mode: buttons
+    visibility:
+      - condition: state
+        entity: input_select.esprinkler_program_list
+        state: Program 2
+  - type: grid
+    cards:
+      - type: heading
+        heading: Program 3 Configuration
+        heading_style: subtitle
+        icon: mdi:cog
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        primary: Program 3
+        secondary: >-
+          {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_enable_program_3','on')
+          else 'Disabled'}}
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_enable_program_3
+        color: >-
+          {{'light-blue' if
+          is_state('switch.esprinkler_retic_controller_enable_program_3','on')
+          else 'grey'}}
+        icon: >-
+          {{'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_enable_program_3','on')
+          else 'mdi:toggle-switch-off'}}
+      - type: heading
+        icon: mdi:calendar
+        heading: Toggle Days
+        heading_style: subtitle
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_monday
+        grid_options:
+          rows: 1
+          columns: 4
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_monday',
+          'on') else 'grey' }}
+        primary: Mon
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_tuesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_tuesday',
+          'on') else 'grey' }}
+        primary: Tues
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_wednesday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_wednesday',
+          'on') else 'grey' }}
+        primary: Wed
+        tap_action:
+          action: none
+        multiline_secondary: false
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_thursday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_thursday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Thurs
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_friday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_friday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Fri
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_saturday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_saturday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sat
+      - features:
+          - type: toggle
+        type: custom:mushroom-template-card
+        features_position: inline
+        entity: switch.esprinkler_retic_controller_program_3_water_sunday
+        grid_options:
+          columns: 4
+          rows: 1
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_water_sunday',
+          'on') else 'grey' }}
+        tap_action:
+          action: none
+        multiline_secondary: false
+        primary: Sunday
+      - type: heading
+        icon: mdi:clock-time-five-outline
+        heading: Set Times
+        heading_style: subtitle
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_1
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_1',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            vertical: true
+            multiline_secondary: false
+            primary: Time 1
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_3_schedule_start_time_1
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_2
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_2',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 2
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_3_schedule_start_time_2
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_3
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_3',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 3
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_3_schedule_start_time_3
+            name: "Set Time:"
+      - type: horizontal-stack
+        cards:
+          - features:
+              - type: toggle
+            type: custom:mushroom-template-card
+            features_position: bottom
+            entity: >-
+              switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_4
+            grid_options:
+              columns: 3
+              rows: 2
+            color: >-
+              {{ 'light-blue' if
+              is_state('switch.esprinkler_retic_controller_program_3_enable_schedule_start_time_4',
+              'on') else 'grey' }}
+            tap_action:
+              action: none
+            multiline_secondary: false
+            primary: Time 4
+            vertical: true
+          - type: entity
+            entity: time.esprinkler_retic_controller_program_3_schedule_start_time_4
+            name: "Set Time:"
+      - type: heading
+        icon: mdi:sprinkler
+        heading: Active Zones
+        heading_style: subtitle
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_1_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_1_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_1_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_1_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 1 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_1_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_1_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_1_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_2_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_2_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_2_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_2_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 2 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_2_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_2_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_2_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_3_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_3_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_3_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_3_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 3 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_3_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_3_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_3_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_4_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_4_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_4_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_4_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 4 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_4_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_4_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_4_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_5_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_5_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_5_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_5_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 5 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_5_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_5_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_5_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_6_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_6_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_6_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_6_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 6 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_6_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_6_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_6_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_7_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_7_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_7_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_7_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 7 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_7_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_7_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_7_enable
+      - features:
+          - style: slider
+            type: numeric-input
+        type: custom:mushroom-template-card
+        secondary: >-
+          {{states('number.esprinkler_retic_controller_program_3_zone_8_duration')
+          | int }} minute(s)
+        icon: >-
+          {{ 'mdi:toggle-switch' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_8_enable',
+          'on') else 'mdi:toggle-switch-off' }}
+        features_position: inline
+        entity: number.esprinkler_retic_controller_program_3_zone_8_duration
+        color: >-
+          {{ 'light-blue' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_8_enable',
+          'on') else 'grey' }}
+        primary: >-
+          Zone 8 {{'Enabled' if
+          is_state('switch.esprinkler_retic_controller_program_3_zone_8_enable',
+          'on') else 'Disabled' }}
+        grid_options:
+          columns: 12
+          rows: 1
+        tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_8_enable
+        icon_tap_action:
+          action: perform-action
+          perform_action: switch.toggle
+          target:
+            entity_id: switch.esprinkler_retic_controller_program_3_zone_8_enable
+      - type: heading
+        icon: mdi:cog-outline
+        heading: Sprinkler Settings
+        heading_style: subtitle
+      - type: custom:mushroom-number-card
+        entity: number.esprinkler_retic_controller_program_3_repeat_cycles
+        layout: horizontal
+        name: Repeat Cycles
+        display_mode: buttons
+    visibility:
+      - condition: state
+        entity: input_select.esprinkler_program_list
+        state: Program 3
+cards: []
+subview: true
+badges: []
+theme: minimalist-mobile-tapbar
