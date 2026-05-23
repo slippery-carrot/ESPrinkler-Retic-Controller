@@ -8,7 +8,7 @@
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
 		(rev "2.0")
-		(comment 1 "Designed by: Slippery-Carrot")
+		(comment 1 "Designed by: Alex Lauderdale")
 		(comment 3 "github.com/slippery-carrot/ESPrinkler-Retic-Controller")
 	)
 	(lib_symbols
@@ -5992,46 +5992,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 119.38 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 119.38 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 119.38 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 119.38 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "34461d3b-4f54-46ce-9b9c-1dda9e8eb831")
 		)
@@ -6311,46 +6271,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 231.14 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 231.14 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 231.14 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 231.14 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b94a11de-5727-4d0f-9f0c-a468bf649315")
 		)
@@ -6467,46 +6387,6 @@
 		(property "Supplier P/N" "C8678"
 			(at 219.71 34.29 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 219.71 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 219.71 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 219.71 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 219.71 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6784,46 +6664,6 @@
 		(property "Manufacturer P/N" "MB10S-50MIL "
 			(at 99.06 50.8 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 99.06 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 99.06 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 99.06 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 99.06 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7323,46 +7163,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 267.97 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 267.97 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 267.97 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 267.97 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "017b4a6d-bbde-4545-a9d8-32957c399508")
 		)
@@ -7563,46 +7363,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 53.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 53.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 53.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 53.34 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f443dfa7-4041-4f2c-a185-2dfbfc7dc2e4")
 		)
@@ -7795,46 +7555,6 @@
 		(property "Supplier P/N" "C17379"
 			(at 267.97 50.8 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 267.97 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 267.97 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 267.97 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 267.97 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8082,46 +7802,6 @@
 		(property "Supplier P/N" "N/A"
 			(at 87.63 181.61 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 87.63 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 87.63 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 87.63 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 87.63 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8406,46 +8086,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 104.14 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 104.14 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 104.14 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 104.14 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c37ba20a-3e61-48ad-a71f-c8a496db5ff6")
 		)
@@ -8561,46 +8201,6 @@
 		(property "Supplier P/N" "C842712"
 			(at 39.37 49.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 39.37 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 39.37 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 39.37 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 39.37 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9374,46 +8974,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 39.37 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 39.37 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 39.37 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 39.37 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "e32e8642-459f-4dd6-a2cc-fe85f9273131")
 		)
@@ -9827,46 +9387,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 96.52 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 96.52 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 96.52 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 96.52 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "01e007e0-f9b2-4b7b-a2bc-82bbfd45cf52")
 		)
@@ -10073,46 +9593,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 92.71 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 92.71 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 92.71 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 92.71 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9e91a1bf-1aa9-4284-9591-5c0e55895c06")
 		)
@@ -10236,46 +9716,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 77.47 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 77.47 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 77.47 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 77.47 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "06e35b3e-0c5d-4a6c-8812-2c99c47ee121")
 		)
@@ -10390,46 +9830,6 @@
 		(property "Supplier P/N" "C3034542"
 			(at 20.32 106.68 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 20.32 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 20.32 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 20.32 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 20.32 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10562,46 +9962,6 @@
 		(property "Supplier P/N" "N/A"
 			(at 120.65 130.81 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 120.65 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 120.65 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 120.65 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 120.65 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10887,46 +10247,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 63.5 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 63.5 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 63.5 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 63.5 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e9688880-de0c-4bcd-a826-c2ce813423f5")
 		)
@@ -11074,6 +10394,50 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 33.0Vr, SMA(DO-214AC)"
 			(at 132.08 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse "
+			(at 132.08 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" "SMAJ33A"
+			(at 132.08 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 132.08 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier P/N" "C223988"
+			(at 132.08 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,46 +10724,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 110.49 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 110.49 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 110.49 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 110.49 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5941dfce-1300-4735-bfe3-2467a68faead")
 		)
@@ -11603,46 +10927,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 72.39 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 72.39 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 72.39 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 72.39 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "63c968d4-8756-4909-bbaa-a9487f9820e2")
 		)
@@ -11758,46 +11042,6 @@
 		(property "Manufacturer P/N" "LKMC0901E181MF"
 			(at 246.38 49.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 246.38 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 246.38 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 246.38 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 246.38 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12006,46 +11250,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 93.98 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 93.98 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 93.98 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 93.98 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "77bd51b2-f74d-41fe-9ecc-bf95180c9fa4")
 		)
@@ -12161,46 +11365,6 @@
 		(property "Supplier P/N" "C17414"
 			(at 46.99 140.97 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 46.99 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 46.99 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 46.99 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 46.99 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12335,46 +11499,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 184.15 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 184.15 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 184.15 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 184.15 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "14474b26-e614-4931-b896-f2910a73c01b")
 		)
@@ -12493,46 +11617,6 @@
 		(property "Supplier P/N" "N/A"
 			(at 82.55 181.61 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 82.55 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 82.55 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 82.55 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 82.55 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12733,46 +11817,6 @@
 		(property "Manufacturer P/N" "RLVR240-025"
 			(at 55.88 49.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 55.88 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 55.88 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 55.88 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 55.88 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13498,46 +12542,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 36.83 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 36.83 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 36.83 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 36.83 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e175cff2-ebb7-4897-a1bb-89b2f331d27f")
 		)
@@ -13656,46 +12660,6 @@
 		(property "Supplier P/N" "C13585"
 			(at 172.72 49.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 172.72 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 172.72 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 172.72 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 172.72 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -8,7 +8,7 @@
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
 		(rev "2.0")
-		(comment 1 "Designed by: Slippery-Carrot")
+		(comment 1 "Designed by: Alex Lauderdale")
 		(comment 3 "github.com/slippery-carrot/ESPrinkler-Retic-Controller")
 	)
 	(lib_symbols
@@ -1563,46 +1563,6 @@
 				)
 			)
 		)
-		(property "Alternate Manufacturer" ""
-			(at 185.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 185.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 185.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 185.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
 			(uuid "6b0ed91b-4b89-4c57-94fb-0ef4dc1d8ede")
 		)
@@ -1771,46 +1731,6 @@
 		(property "Supplier P/N" "C2932678"
 			(at 104.14 85.09 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer" ""
-			(at 104.14 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Manufacturer P/N" ""
-			(at 104.14 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier" ""
-			(at 104.14 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternate Supplier P/N" ""
-			(at 104.14 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -50631,7 +50631,7 @@
 		)
 	)
 	(gr_text "USB"
-		(at 192.278 78.486 270)
+		(at 192.278 78.994 270)
 		(layer "F.SilkS")
 		(uuid "7fe03c8a-b93c-4660-aad4-4befcc2a2391")
 		(effects
@@ -50852,7 +50852,7 @@
 		)
 	)
 	(gr_text "Module"
-		(at 241.809591 78.544153 270)
+		(at 241.808 77.724 270)
 		(layer "F.SilkS")
 		(uuid "affedec9-a141-46fe-9416-b09283e8ae4b")
 		(effects
@@ -51152,6 +51152,31 @@
 			)
 			(justify left mirror)
 		)
+	)
+	(gr_text "github.com/slippery-carrot/ESPrinkler-Retic-Controller"
+		(at 241.173 90.043 0)
+		(layer "B.SilkS")
+		(uuid "1084b6c3-93bf-4076-860e-6f6df5bb85b7")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(barcode
+		(at 235.8085 83.693 0)
+		(layer "B.SilkS")
+		(size 10.475 10.475)
+		(text "https://github.com/slippery-carrot/ESPrinkler-Retic-Controller")
+		(text_height 1)
+		(type qr)
+		(ecc_level L)
+		(hide yes)
+		(knockout no)
+		(uuid "51840a94-0d00-430a-80e7-36fba622e44e")
 	)
 	(dimension
 		(type orthogonal)

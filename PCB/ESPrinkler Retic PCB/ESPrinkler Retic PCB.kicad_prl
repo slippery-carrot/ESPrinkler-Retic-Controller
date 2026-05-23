@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 7,
+    "active_layer_preset": "Default",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.8399999737739563
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      130,
-      118,
+      83,
+      75,
       98,
       79,
       85,
       99,
       87,
       83,
-      73,
-      73
+      46,
+      46
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

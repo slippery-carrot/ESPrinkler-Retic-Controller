@@ -8,7 +8,7 @@
 		(title "ESPrinkler Retic Controller")
 		(date "2025-06-01")
 		(rev "2.0")
-		(comment 1 "Designed by: Slippery-Carrot")
+		(comment 1 "Designed by: Alex Lauderdale")
 		(comment 3 "github.com/slippery-carrot/ESPrinkler-Retic-Controller")
 	)
 	(lib_symbols
