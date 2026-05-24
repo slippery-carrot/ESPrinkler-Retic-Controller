@@ -43,9 +43,10 @@ The controller is built around an **ESP32 (ESP32-DevKitC compatible)** and a cus
 
 Key hardware characteristics:
 
-- 24VAC irrigation system compatibility  
+- Compatible with 24VAC reticulation systems
 - Solid-state solenoid switching  
-- Isolated AC/DC sections for safety  
+- Isolated AC/DC sections
+- Fused solenoid power output
 - Terminal block wiring for:
   - Power input  
   - Pump/master valve  
