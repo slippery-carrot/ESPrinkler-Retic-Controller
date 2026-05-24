@@ -142,7 +142,7 @@ Optional settings:
 
 ---
 
-## 📊 Home Assistant Integration
+## 🏠 Home Assistant Integration
 
 ESPrinkler exposes a full set of:
 
@@ -178,7 +178,7 @@ ESPrinkler exposes a full set of:
 
 ## 🔗 Documentation
 
-- 📘 **Hardware Wiki** – Pinouts, wiring, electrical specs  
-- 📗 **Home Assistant Wiki** – Entities, controls, automation  
+- 📘 **[Hardware Specifications Wiki](../../wiki/Hardware-Specifications)** – Pinouts, wiring, electrical specs  
+- 📗 **[Home Assistant Entities Wiki](../../wiki/Home-Assistant-Entities)** – Entities, controls, automation  
 
 ---
