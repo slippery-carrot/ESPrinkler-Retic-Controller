@@ -1508,7 +1508,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS 5mm TH"
 			(at 185.42 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1684,7 +1684,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 4POS 5mm TH"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)

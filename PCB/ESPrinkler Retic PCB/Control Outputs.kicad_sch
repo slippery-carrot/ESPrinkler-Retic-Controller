@@ -5839,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 110.49 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6042,7 +6042,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 196.85 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6168,7 +6168,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 220.98 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6368,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 45.72 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6568,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 250.19 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7172,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 203.2 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7526,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 80.01 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +7788,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 80.01 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8127,7 +8127,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 45.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8251,7 +8251,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 67.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8374,7 +8374,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 80.01 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8500,7 +8500,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9119,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 237.49 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9323,7 +9323,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 207.01 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9897,7 +9897,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10026,7 +10026,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 236.22 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +10229,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 110.49 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10631,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10755,7 +10755,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 207.01 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10878,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 251.46 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11001,7 +11001,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 110.49 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11360,7 +11360,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 57.15 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11489,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 63.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11612,7 +11612,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 110.49 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11735,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11858,7 +11858,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 104.14 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11984,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 236.22 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12110,7 +12110,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 177.8 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12244,7 +12244,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 177.8 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12378,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 38.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12512,7 +12512,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 110.49 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12635,7 +12635,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +12769,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 219.71 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12895,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 204.47 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13098,7 +13098,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 57.15 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13224,7 +13224,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 185.42 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13347,7 +13347,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 250.19 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13473,7 +13473,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 96.52 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13722,7 +13722,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1kΩ ±1% 125mW 0805"
 			(at 250.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13845,7 +13845,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14123,7 +14123,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 104.14 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14400,7 +14400,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 45.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14526,7 +14526,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14926,7 +14926,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 243.84 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15049,7 +15049,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 179.07 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15184,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15307,7 +15307,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 45.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15430,7 +15430,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15630,7 +15630,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 104.14 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15753,7 +15753,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 80.01 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15879,7 +15879,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 96.52 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16160,7 +16160,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 208.28 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16284,7 +16284,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 67.31 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16407,7 +16407,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 186.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -16530,7 +16530,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 38.1 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16742,7 +16742,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 38.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16876,7 +16876,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 243.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17000,7 +17000,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17388,7 +17388,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17517,7 +17517,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 57.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17646,7 +17646,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17775,7 +17775,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18024,7 +18024,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18148,7 +18148,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18272,7 +18272,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 22Ω ±1% 125mW 0805"
 			(at 67.31 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18673,7 +18673,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18810,7 +18810,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 96.52 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18939,7 +18939,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 203.2 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -19065,7 +19065,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 57.15 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19268,7 +19268,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 243.84 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19468,7 +19468,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED WATER CLEAR 0603 SMD"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19605,7 +19605,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19731,7 +19731,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10kΩ ±1% 125mW 0805"
 			(at 245.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -19857,7 +19857,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -19980,7 +19980,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -20106,7 +20106,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 203.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20309,7 +20309,7 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+		(property "Description" "TRIAC 600V 16A TO-220AB"
 			(at 198.12 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -20435,7 +20435,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.2kΩ ±1% 125mW 0805"
 			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20715,7 +20715,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET N-CH 30V SOT-23-3L"
 			(at 96.52 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20983,7 +20983,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 120Ω ±1% 125mW 0805"
 			(at 63.5 186.69 0)
 			(hide yes)
 			(show_name no)

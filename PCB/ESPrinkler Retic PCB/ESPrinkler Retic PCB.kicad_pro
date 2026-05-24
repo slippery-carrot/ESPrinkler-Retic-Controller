@@ -727,6 +727,12 @@
         },
         {
           "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -747,12 +753,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
           "show": false
         },
         {
@@ -818,7 +818,7 @@
         "uuid": "3c6b8bc3-d793-478e-a69e-22171e9bcb1b"
       }
     ],
-    "used_designators": "H1-5",
+    "used_designators": "H1-5,C1-5,J1-7,R1-61,#FLG1-6,L1,D1-22,#PWR1-66,F1-2,Q1-11,TP1-16,U1-10",
     "variants": []
   },
   "sheets": [
