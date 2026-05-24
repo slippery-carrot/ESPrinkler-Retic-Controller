@@ -653,7 +653,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Production/",
+      "plot": "../Production Files/",
       "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
