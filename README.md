@@ -2,7 +2,7 @@
 
 An open-source, ESP32-based smart irrigation controller built with **ESPHome** and designed for seamless integration with **Home Assistant**.
 
-ESPrinkler gives you full local control over your irrigation system—no cloud services, no subscriptions, and no reliance on external servers. All schedules are stored directly on the device, ensuring your system continues to run even if Home Assistant or network connectivity is unavailable.
+ESPrinkler gives you full local control over your irrigation system—no cloud services, no subscriptions, and no reliance on external servers. All schedules are stored directly on the device, ensuring your system continues to run even if Home Assistant or network connectivity becomes unavailable.
 
 ---
 
