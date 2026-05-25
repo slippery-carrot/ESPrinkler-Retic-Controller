@@ -172,9 +172,12 @@ ESPrinkler exposes a full set of:
 - Programs **can overlap** if configured incorrectly—this is not automatically prevented  
 - Default start times may be active—always verify configuration  
 - Ensure the transformer you choose is correctly sized for your solenoid load
-- Always use appropriate fuse protection  
+- Always use appropriate fuse protection
 
 ---
+
+## 🪰 Limitations, Issues, and Bugs
+ - ESPrinkler requires connection to home assistant at least once in order to set its internal clock. Without this, it has no reference to the current time and date
 
 ## 🔗 Documentation
 
