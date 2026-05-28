@@ -99,7 +99,7 @@ globals:
 esp32:
   board: esp32dev
   framework:
-    type: esp-idf # Need to migrate to esp-idf 
+    type: esp-idf
     version: recommended
 
 ###################################
