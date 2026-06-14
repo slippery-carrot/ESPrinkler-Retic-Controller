@@ -7424,6 +7424,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/Lib/3D Models/ESP32-WROOM-32D-Assembly.STEP"
+			(offset
+				(xyz 12.75 -22.9 10.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
