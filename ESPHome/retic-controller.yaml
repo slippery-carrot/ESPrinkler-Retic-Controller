@@ -8,7 +8,7 @@
 #                - Adjustable sprinkler schedules for up to 3 separate programs
 # Author:        Alexander Lauderdale
 # GitHub:        https://github.com/slippery-carrot/ESPrinkler-Retic-Controller
-# Version:       2.0.0
+# Version:       2.1.0
 # Date:          2026-05-26
 # ================================================================
 
@@ -108,17 +108,28 @@ esp32:
 esphome:
   name: $name_of_device
   friendly_name: $friendly_name
-  project: 
+  project:
     name: $namespace_of_project
     version: $esprinkler_sw_version
 
   # Runs when device boots
-  on_boot: 
+  on_boot:
     priority: -100
     then:
-      ###
-      # Code to run on boot goes here
-      ###
+      # Apply the restored indicator LED brightness after components initialise.
+      - output.set_max_power:
+          id: wifi_led_out
+          max_power: !lambda |-
+            return id(indicator_led_brightness).state / 100.0f;
+
+      - output.set_max_power:
+          id: status_led_out
+          max_power: !lambda |-
+            return id(indicator_led_brightness).state / 100.0f;
+
+      # Refresh both indicators immediately using their existing status logic.
+      - script.execute: update_status_led
+      - script.execute: update_wifi_led
 
 ###################################
 # ESP Preferences
@@ -178,16 +189,19 @@ web_server:
 # Output component
 ###################################
 output:
-  - platform: gpio
-    pin: $wifi_led_gpio        
+  # Wi-Fi status LED - PWM controlled
+  - platform: ledc
+    pin: $wifi_led_gpio
     id: wifi_led_out
+    frequency: 1220Hz
     inverted: false
 
-  - platform: gpio
-    pin: $status_led_gpio       
+  # Irrigation status LED - PWM controlled
+  - platform: ledc
+    pin: $status_led_gpio
     id: status_led_out
+    frequency: 1220Hz
     inverted: false
-
 
 #########################################
 # Sprinkler components – Three Programs
@@ -1618,6 +1632,39 @@ datetime:
 # Numbers component
 ###################################
 number:
+  # Controls the brightness of both indicator LEDs.
+  # 0% disables the LEDs while retaining their normal status logic.
+  - platform: template
+    name: "Indicator LED Brightness"
+    id: indicator_led_brightness
+    icon: "mdi:brightness-6"
+    unit_of_measurement: "%"
+    mode: slider
+    min_value: 0
+    max_value: 100
+    step: 5
+    initial_value: 25
+    restore_value: true
+    optimistic: true
+    entity_category: config
+
+    # set_action only runs when the value is changed by Home Assistant.
+    # Boot restoration is handled separately in esphome.on_boot above.
+    set_action:
+      - output.set_max_power:
+          id: wifi_led_out
+          max_power: !lambda |-
+            return x / 100.0f;
+
+      - output.set_max_power:
+          id: status_led_out
+          max_power: !lambda |-
+            return x / 100.0f;
+
+      # set_max_power changes the scaling value but does not rewrite an output
+      # which is already on, so refresh the existing status scripts immediately.
+      - script.execute: update_status_led
+      - script.execute: update_wifi_led
 
 ###################################
 # Sensor component
