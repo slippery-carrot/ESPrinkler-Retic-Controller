@@ -92,6 +92,13 @@ globals:
     restore_value: yes
     initial_value: '0'
 
+  # Milestone 1: RAM-only guard against two start requests in the same minute.
+  # Never write the minute-by-minute scheduler state to flash.
+  - id: prog1_last_scheduled_start_minute
+    type: int64_t
+    restore_value: no
+    initial_value: '-1'
+
 
 ###################################
 # Board setup
@@ -1525,6 +1532,60 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Milestone 1: the native trigger is authoritative for Program 1 / Start Time 1.
+    # The legacy minute matcher handles only Program 1 Start Times 2-4.
+    time_id: ha_time
+    on_time:
+      then:
+        - lambda: |-
+            const auto now = id(ha_time).now();
+            if (!now.is_valid()) {
+              ESP_LOGW("scheduler_pilot", "P1 start time 1: ignored trigger without valid clock");
+              return;
+            }
+
+            const auto scheduled = id(prog1_start_time_1).state_as_esptime();
+
+            // Reject a deferred trigger caused by a clock adjustment. This
+            // pilot must only report an actual match with the current time.
+            if (now.hour != scheduled.hour ||
+                now.minute != scheduled.minute ||
+                now.second != scheduled.second) {
+              ESP_LOGW("scheduler_pilot", "P1 start time 1: ignored stale time match");
+              return;
+            }
+
+            // ESPHome weekdays are Sunday=1 through Saturday=7.
+            bool day_enabled = false;
+            switch (now.day_of_week) {
+              case 1: day_enabled = id(prog1_water_sunday).state; break;
+              case 2: day_enabled = id(prog1_water_monday).state; break;
+              case 3: day_enabled = id(prog1_water_tuesday).state; break;
+              case 4: day_enabled = id(prog1_water_wednesday).state; break;
+              case 5: day_enabled = id(prog1_water_thursday).state; break;
+              case 6: day_enabled = id(prog1_water_friday).state; break;
+              case 7: day_enabled = id(prog1_water_saturday).state; break;
+              default: break;
+            }
+
+            const bool program_enabled = id(prog1_enable).state;
+            const bool start_time_enabled = id(prog1_enable_start_time_1).state;
+            const bool would_start = program_enabled && start_time_enabled && day_enabled;
+
+            ESP_LOGI("scheduler_pilot",
+                     "P1 start time 1 at %02d:%02d:%02d: program=%s, slot=%s, weekday=%s -> %s",
+                     now.hour, now.minute, now.second,
+                     program_enabled ? "on" : "off",
+                     start_time_enabled ? "on" : "off",
+                     day_enabled ? "on" : "off",
+                     would_start ? "ELIGIBLE" : "BLOCKED");
+
+            // Do not start watering when any eligibility check fails.
+            // The shared program-start script independently enforces safety checks.
+            if (would_start) {
+              id(prog1_run_sprinkler_cycle).execute();
+            }
+
   - platform: template
     id: prog1_start_time_2
     type: time
@@ -2335,24 +2396,10 @@ script:
           auto now_time = id(ha_time).now();
           
           // Retrieve the scheduled times from the datetime components.
-          auto scheduled_time_1 = id(prog1_start_time_1).state_as_esptime();
+          // Start Time 1 is handled exclusively by its datetime.on_time trigger.
           auto scheduled_time_2 = id(prog1_start_time_2).state_as_esptime();
           auto scheduled_time_3 = id(prog1_start_time_3).state_as_esptime();
           auto scheduled_time_4 = id(prog1_start_time_4).state_as_esptime();
-          
-          // ----- Check scheduled time 1 -----
-          if (id(prog1_enable_start_time_1).state) {
-            ESP_LOGI("script", "Scheduled start time 1 is enabled");
-            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 1 is disabled");
-          }
           
           // ----- Check scheduled time 2 -----
           if (id(prog1_enable_start_time_2).state) {
@@ -2413,8 +2460,36 @@ script:
       - if:
           condition:
             lambda: |-
-              // Check if no valve is active.
-              return !id(esprinkler_prog1).active_valve().has_value();
+              // Prevent stale/duplicate scheduling requests and unintended
+              // simultaneous operation of controllers sharing physical outputs.
+              const auto now = id(ha_time).now();
+              if (!now.is_valid()) {
+                ESP_LOGW("scheduler", "P1 skipped: clock is not valid");
+                return false;
+              }
+              const int64_t minute = static_cast<int64_t>(now.timestamp) / 60;
+              if (id(prog1_last_scheduled_start_minute) == minute) {
+                ESP_LOGI("scheduler", "P1 skipped: already started in this minute");
+                return false;
+              }
+
+              using esphome::sprinkler::SprinklerState;
+              if (id(esprinkler_prog1).controller_state() != SprinklerState::IDLE ||
+                  id(esprinkler_prog2).controller_state() != SprinklerState::IDLE ||
+                  id(esprinkler_prog3).controller_state() != SprinklerState::IDLE) {
+                ESP_LOGW("scheduler", "P1 skipped: another controller is active");
+                return false;
+              }
+              // start_full_cycle would enable all zones if none are selected.
+              if (id(esprinkler_prog1).total_cycle_time_enabled_valves() == 0) {
+                ESP_LOGW("scheduler", "P1 skipped: no zones are enabled");
+                return false;
+              }
+
+              // Set before start_full_cycle so concurrent slot triggers cannot
+              // request a second cycle within the same minute.
+              id(prog1_last_scheduled_start_minute) = minute;
+              return true;
           then:
             - logger.log:
                 tag: "script"
@@ -2666,7 +2741,18 @@ script:
       - if:
           condition:
             lambda: |-
-              return !id(esprinkler_prog2).active_valve().has_value();
+              // Temporary scheduled-program interlock. Stacking is a later milestone.
+              using esphome::sprinkler::SprinklerState;
+              const bool idle =
+                  id(esprinkler_prog1).controller_state() == SprinklerState::IDLE &&
+                  id(esprinkler_prog2).controller_state() == SprinklerState::IDLE &&
+                  id(esprinkler_prog3).controller_state() == SprinklerState::IDLE;
+              const bool has_enabled_zones =
+                  id(esprinkler_prog2).total_cycle_time_enabled_valves() > 0;
+              if (!idle || !has_enabled_zones) {
+                ESP_LOGW("scheduler", "P2 skipped: another controller is active or no zones enabled");
+              }
+              return id(ha_time).now().is_valid() && idle && has_enabled_zones;
           then:
             - logger.log:
                 tag: "script"
@@ -2918,7 +3004,18 @@ script:
       - if:
           condition:
             lambda: |-
-              return !id(esprinkler_prog3).active_valve().has_value();
+              // Temporary scheduled-program interlock. Stacking is a later milestone.
+              using esphome::sprinkler::SprinklerState;
+              const bool idle =
+                  id(esprinkler_prog1).controller_state() == SprinklerState::IDLE &&
+                  id(esprinkler_prog2).controller_state() == SprinklerState::IDLE &&
+                  id(esprinkler_prog3).controller_state() == SprinklerState::IDLE;
+              const bool has_enabled_zones =
+                  id(esprinkler_prog3).total_cycle_time_enabled_valves() > 0;
+              if (!idle || !has_enabled_zones) {
+                ESP_LOGW("scheduler", "P3 skipped: another controller is active or no zones enabled");
+              }
+              return id(ha_time).now().is_valid() && idle && has_enabled_zones;
           then:
             - logger.log:
                 tag: "script"
