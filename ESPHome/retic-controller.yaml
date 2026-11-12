@@ -2200,12 +2200,14 @@ script:
       slot: int
     then:
       - lambda: |-
+          // Use the controller's locally held time.
           const auto now = id(ha_time).now();
           if (!now.is_valid()) {
             ESP_LOGW("scheduler", "P%d slot %d skipped: invalid clock", program, slot);
             return;
           }
 
+          // Assume disabled until the selected schedule is checked.
           bool program_enabled = false;
           bool slot_enabled = false;
           bool day_enabled = false;
@@ -2213,9 +2215,12 @@ script:
           int scheduled_minute = -1;
           int scheduled_second = -1;
 
+          // Select the program's watering settings.
           switch (program) {
+              // Program 1: check its settings.
               case 1:
                 program_enabled = id(prog1_enable).state;
+                // Check whether today is an enabled watering day.
                 switch (now.day_of_week) {
                   case 1: day_enabled = id(prog1_water_sunday).state; break;
                   case 2: day_enabled = id(prog1_water_monday).state; break;
@@ -2226,9 +2231,12 @@ script:
                   case 7: day_enabled = id(prog1_water_saturday).state; break;
                   default: break;
                 }
+                // Get the selected start slot's enabled state and time.
                 switch (slot) {
                   case 1: {
                     slot_enabled = id(prog1_enable_start_time_1).state;
+                    // Read its locally stored time.
+                    // Copy time fields for the common match check.
                     const auto scheduled = id(prog1_start_time_1).state_as_esptime();
                     scheduled_hour = scheduled.hour;
                     scheduled_minute = scheduled.minute;
@@ -2262,6 +2270,7 @@ script:
                   default: return;
                 }
                 break;
+              // Program 2: use Program 2 settings.
               case 2:
                 program_enabled = id(prog2_enable).state;
                 switch (now.day_of_week) {
@@ -2310,6 +2319,7 @@ script:
                   default: return;
                 }
                 break;
+              // Program 3: use Program 3 settings.
               case 3:
                 program_enabled = id(prog3_enable).state;
                 switch (now.day_of_week) {
