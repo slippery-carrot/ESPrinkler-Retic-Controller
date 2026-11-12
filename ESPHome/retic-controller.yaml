@@ -1588,8 +1588,6 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
-  # Program 2
-  
     # Native local-time trigger. The shared evaluator checks weekdays and enables.
     time_id: ha_time
     on_time:
@@ -1599,6 +1597,8 @@ datetime:
             program: 1
             slot: 4
 
+  # Program 2
+  
   - platform: template
     id: prog2_start_time_1
     type: time
@@ -1662,8 +1662,6 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
-  # Program 3
-  
     # Native local-time trigger. The shared evaluator checks weekdays and enables.
     time_id: ha_time
     on_time:
@@ -1673,6 +1671,8 @@ datetime:
             program: 2
             slot: 4
 
+  # Program 3
+  
   - platform: template
     id: prog3_start_time_1
     type: time
@@ -1736,12 +1736,6 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
-###################################
-# Numbers component
-###################################
-number:
-  # Controls the brightness of both indicator LEDs.
-  # 0% disables the LEDs while retaining their normal status logic.
     # Native local-time trigger. The shared evaluator checks weekdays and enables.
     time_id: ha_time
     on_time:
@@ -1751,6 +1745,12 @@ number:
             program: 3
             slot: 4
 
+###################################
+# Numbers component
+###################################
+number:
+  # Controls the brightness of both indicator LEDs.
+  # 0% disables the LEDs while retaining their normal status logic.
   - platform: template
     name: "Indicator LED Brightness"
     id: indicator_led_brightness
