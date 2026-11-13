@@ -99,6 +99,17 @@ globals:
     restore_value: no
     initial_value: '-1'
 
+  # Apply the same RAM-only duplicate-start guard to all three programs.
+  - id: prog2_last_scheduled_start_minute
+    type: int64_t
+    restore_value: no
+    initial_value: '-1'
+
+  - id: prog3_last_scheduled_start_minute
+    type: int64_t
+    restore_value: no
+    initial_value: '-1'
+
 
 ###################################
 # Board setup
@@ -930,7 +941,7 @@ switch:
   - platform: gpio
     id: esprinkler_pump_sw
     pin: $pump_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -938,7 +949,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw1
     pin: $zone_1_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -946,7 +957,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw2
     pin: $zone_2_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -954,7 +965,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw3
     pin: $zone_3_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -962,7 +973,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw4
     pin: $zone_4_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -970,7 +981,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw5
     pin: $zone_5_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -978,7 +989,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw6
     pin: $zone_6_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -986,7 +997,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw7
     pin: $zone_7_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -994,7 +1005,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw8
     pin: $zone_8_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -1489,17 +1500,8 @@ time:
         minutes: "*"
         then:
 
-          # Here is where the scripts for the programs are executed
-
-          # Program 1
-          - script.execute: prog1_check_enabled
-
-          # Program 2
-          - script.execute: prog2_check_enabled
-
-          # Program 3
-          - script.execute: prog3_check_enabled
-          
+          # Native datetime.on_time handles all 12 program start slots.
+          # This minute trigger now updates only the informational schedule sensors.
           # Update Next Watering Schedule sensor
 
           # Program 1
@@ -1532,59 +1534,14 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
-    # Milestone 1: the native trigger is authoritative for Program 1 / Start Time 1.
-    # The legacy minute matcher handles only Program 1 Start Times 2-4.
+    # Native local-time trigger. Home Assistant only edits this stored time.
     time_id: ha_time
     on_time:
       then:
-        - lambda: |-
-            const auto now = id(ha_time).now();
-            if (!now.is_valid()) {
-              ESP_LOGW("scheduler_pilot", "P1 start time 1: ignored trigger without valid clock");
-              return;
-            }
-
-            const auto scheduled = id(prog1_start_time_1).state_as_esptime();
-
-            // Reject a deferred trigger caused by a clock adjustment. This
-            // pilot must only report an actual match with the current time.
-            if (now.hour != scheduled.hour ||
-                now.minute != scheduled.minute ||
-                now.second != scheduled.second) {
-              ESP_LOGW("scheduler_pilot", "P1 start time 1: ignored stale time match");
-              return;
-            }
-
-            // ESPHome weekdays are Sunday=1 through Saturday=7.
-            bool day_enabled = false;
-            switch (now.day_of_week) {
-              case 1: day_enabled = id(prog1_water_sunday).state; break;
-              case 2: day_enabled = id(prog1_water_monday).state; break;
-              case 3: day_enabled = id(prog1_water_tuesday).state; break;
-              case 4: day_enabled = id(prog1_water_wednesday).state; break;
-              case 5: day_enabled = id(prog1_water_thursday).state; break;
-              case 6: day_enabled = id(prog1_water_friday).state; break;
-              case 7: day_enabled = id(prog1_water_saturday).state; break;
-              default: break;
-            }
-
-            const bool program_enabled = id(prog1_enable).state;
-            const bool start_time_enabled = id(prog1_enable_start_time_1).state;
-            const bool would_start = program_enabled && start_time_enabled && day_enabled;
-
-            ESP_LOGI("scheduler_pilot",
-                     "P1 start time 1 at %02d:%02d:%02d: program=%s, slot=%s, weekday=%s -> %s",
-                     now.hour, now.minute, now.second,
-                     program_enabled ? "on" : "off",
-                     start_time_enabled ? "on" : "off",
-                     day_enabled ? "on" : "off",
-                     would_start ? "ELIGIBLE" : "BLOCKED");
-
-            // Do not start watering when any eligibility check fails.
-            // The shared program-start script independently enforces safety checks.
-            if (would_start) {
-              id(prog1_run_sprinkler_cycle).execute();
-            }
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 1
+            slot: 1
 
   - platform: template
     id: prog1_start_time_2
@@ -1595,6 +1552,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 1
+            slot: 2
+
   - platform: template
     id: prog1_start_time_3
     type: time
@@ -1604,6 +1570,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 1
+            slot: 3
+
   - platform: template
     id: prog1_start_time_4
     type: time
@@ -1612,6 +1587,15 @@ datetime:
     restore_value: true
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
+
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 1
+            slot: 4
 
   # Program 2
   
@@ -1624,6 +1608,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 2
+            slot: 1
+
   - platform: template
     id: prog2_start_time_2
     type: time
@@ -1632,6 +1625,15 @@ datetime:
     restore_value: true
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
+
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 2
+            slot: 2
 
   - platform: template
     id: prog2_start_time_3
@@ -1642,6 +1644,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 2
+            slot: 3
+
   - platform: template
     id: prog2_start_time_4
     type: time
@@ -1650,6 +1661,15 @@ datetime:
     restore_value: true
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
+
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 2
+            slot: 4
 
   # Program 3
   
@@ -1662,6 +1682,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 3
+            slot: 1
+
   - platform: template
     id: prog3_start_time_2
     type: time
@@ -1670,6 +1699,15 @@ datetime:
     restore_value: true
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
+
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 3
+            slot: 2
 
   - platform: template
     id: prog3_start_time_3
@@ -1680,6 +1718,15 @@ datetime:
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
 
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 3
+            slot: 3
+
   - platform: template
     id: prog3_start_time_4
     type: time
@@ -1688,6 +1735,15 @@ datetime:
     restore_value: true
     initial_value: "00:00"
     entity_category: config # Force entity to be in the config category
+
+    # Native local-time trigger. The shared evaluator checks weekdays and enables.
+    time_id: ha_time
+    on_time:
+      then:
+        - script.execute:
+            id: scheduler_evaluate_start
+            program: 3
+            slot: 4
 
 ###################################
 # Numbers component
@@ -2129,6 +2185,223 @@ interval:
 
 script:
 
+  #######################
+  # Native scheduler (Milestone 2)
+  #######################
+  # All 12 HA-configurable time inputs call this same routine. Validation is
+  # local on the ESP32; no HA service call is needed when a schedule fires.
+  # Concurrent triggers are serialized by immediate/synchronous checks in
+  # each program's existing run script. No stacking or queueing here.
+  - id: scheduler_evaluate_start
+    mode: parallel
+    max_runs: 12
+    parameters:
+      program: int
+      slot: int
+    then:
+      - lambda: |-
+          // Use the controller's locally held time.
+          const auto now = id(ha_time).now();
+          if (!now.is_valid()) {
+            ESP_LOGW("scheduler", "P%d slot %d skipped: invalid clock", program, slot);
+            return;
+          }
+
+          // Assume disabled until the selected schedule is checked.
+          bool program_enabled = false;
+          bool slot_enabled = false;
+          bool day_enabled = false;
+          int scheduled_hour = -1;
+          int scheduled_minute = -1;
+          int scheduled_second = -1;
+
+          // Select the program's watering settings.
+          switch (program) {
+              // Program 1: check its settings.
+              case 1:
+                program_enabled = id(prog1_enable).state;
+                // Check whether today is an enabled watering day.
+                switch (now.day_of_week) {
+                  case 1: day_enabled = id(prog1_water_sunday).state; break;
+                  case 2: day_enabled = id(prog1_water_monday).state; break;
+                  case 3: day_enabled = id(prog1_water_tuesday).state; break;
+                  case 4: day_enabled = id(prog1_water_wednesday).state; break;
+                  case 5: day_enabled = id(prog1_water_thursday).state; break;
+                  case 6: day_enabled = id(prog1_water_friday).state; break;
+                  case 7: day_enabled = id(prog1_water_saturday).state; break;
+                  default: break;
+                }
+                // Get the selected start slot's enabled state and time.
+                switch (slot) {
+                  case 1: {
+                    slot_enabled = id(prog1_enable_start_time_1).state;
+                    // Read its locally stored time.
+                    // Copy time fields for the common match check.
+                    const auto scheduled = id(prog1_start_time_1).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 2: {
+                    slot_enabled = id(prog1_enable_start_time_2).state;
+                    const auto scheduled = id(prog1_start_time_2).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 3: {
+                    slot_enabled = id(prog1_enable_start_time_3).state;
+                    const auto scheduled = id(prog1_start_time_3).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 4: {
+                    slot_enabled = id(prog1_enable_start_time_4).state;
+                    const auto scheduled = id(prog1_start_time_4).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  default: return;
+                }
+                break;
+              // Program 2: use Program 2 settings.
+              case 2:
+                program_enabled = id(prog2_enable).state;
+                switch (now.day_of_week) {
+                  case 1: day_enabled = id(prog2_water_sunday).state; break;
+                  case 2: day_enabled = id(prog2_water_monday).state; break;
+                  case 3: day_enabled = id(prog2_water_tuesday).state; break;
+                  case 4: day_enabled = id(prog2_water_wednesday).state; break;
+                  case 5: day_enabled = id(prog2_water_thursday).state; break;
+                  case 6: day_enabled = id(prog2_water_friday).state; break;
+                  case 7: day_enabled = id(prog2_water_saturday).state; break;
+                  default: break;
+                }
+                switch (slot) {
+                  case 1: {
+                    slot_enabled = id(prog2_enable_start_time_1).state;
+                    const auto scheduled = id(prog2_start_time_1).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 2: {
+                    slot_enabled = id(prog2_enable_start_time_2).state;
+                    const auto scheduled = id(prog2_start_time_2).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 3: {
+                    slot_enabled = id(prog2_enable_start_time_3).state;
+                    const auto scheduled = id(prog2_start_time_3).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 4: {
+                    slot_enabled = id(prog2_enable_start_time_4).state;
+                    const auto scheduled = id(prog2_start_time_4).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  default: return;
+                }
+                break;
+              // Program 3: use Program 3 settings.
+              case 3:
+                program_enabled = id(prog3_enable).state;
+                switch (now.day_of_week) {
+                  case 1: day_enabled = id(prog3_water_sunday).state; break;
+                  case 2: day_enabled = id(prog3_water_monday).state; break;
+                  case 3: day_enabled = id(prog3_water_tuesday).state; break;
+                  case 4: day_enabled = id(prog3_water_wednesday).state; break;
+                  case 5: day_enabled = id(prog3_water_thursday).state; break;
+                  case 6: day_enabled = id(prog3_water_friday).state; break;
+                  case 7: day_enabled = id(prog3_water_saturday).state; break;
+                  default: break;
+                }
+                switch (slot) {
+                  case 1: {
+                    slot_enabled = id(prog3_enable_start_time_1).state;
+                    const auto scheduled = id(prog3_start_time_1).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 2: {
+                    slot_enabled = id(prog3_enable_start_time_2).state;
+                    const auto scheduled = id(prog3_start_time_2).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 3: {
+                    slot_enabled = id(prog3_enable_start_time_3).state;
+                    const auto scheduled = id(prog3_start_time_3).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  case 4: {
+                    slot_enabled = id(prog3_enable_start_time_4).state;
+                    const auto scheduled = id(prog3_start_time_4).state_as_esptime();
+                    scheduled_hour = scheduled.hour;
+                    scheduled_minute = scheduled.minute;
+                    scheduled_second = scheduled.second;
+                    break;
+                  }
+                  default: return;
+                }
+                break;
+            default:
+              ESP_LOGW("scheduler", "Invalid program %d", program);
+              return;
+          }
+
+          // Reject an outdated callback after a clock adjustment, or a time
+          // value edited after the callback was scheduled.
+          if (now.hour != scheduled_hour ||
+              now.minute != scheduled_minute ||
+              now.second != scheduled_second) {
+            ESP_LOGW("scheduler", "P%d slot %d skipped: stale time match", program, slot);
+            return;
+          }
+
+          if (!program_enabled || !slot_enabled || !day_enabled) {
+            ESP_LOGI("scheduler",
+                     "P%d slot %d blocked: program=%s, slot=%s, weekday=%s",
+                     program, slot,
+                     program_enabled ? "on" : "off",
+                     slot_enabled ? "on" : "off",
+                     day_enabled ? "on" : "off");
+            return;
+          }
+
+          ESP_LOGI("scheduler", "P%d slot %d: schedule match, requesting start", program, slot);
+          if (program == 1) {
+            id(prog1_run_sprinkler_cycle).execute();
+          } else if (program == 2) {
+            id(prog2_run_sprinkler_cycle).execute();
+          } else {
+            id(prog3_run_sprinkler_cycle).execute();
+          }
+
+
   # Turns on the status LED if there is a program runnings
   - id: update_status_led
     then:
@@ -2305,151 +2578,6 @@ script:
 
 
   # Check if program 1 is enabled
-  - id: prog1_check_enabled
-    then:
-      - if:
-          condition:
-            - switch.is_on: prog1_enable  
-          then:
-            - logger.log:
-                tag: "script"
-                format: "Program 1 is enabled, checking schedule..."
-                level: INFO
-            - script.execute: prog1_check_scheduled_day
-          else:
-            - logger.log:
-                tag: "script"
-                format: "Program 1 is not enabled."
-                level: INFO
-
-
-  # Check scheduled watering day switches
-  - id: prog1_check_scheduled_day
-    then:
-      - lambda: |-
-          // First things first, check if the program is even activated.
-          if(id(prog1_enable).state){
-            ESP_LOGI("script", "Program 1 is active, checking program:");
-          }
-          else{
-            ESP_LOGI("script", "Program 1 is not active.");
-          }
-          
-          // Get the current time from the time component.
-          auto now_time = id(ha_time).now();
-          
-          // Convert now_time to a struct tm to get the weekday information.
-          struct tm t;
-          t.tm_year = now_time.year - 1900;
-          t.tm_mon  = now_time.month - 1;
-          t.tm_mday = now_time.day_of_month;
-          t.tm_hour = now_time.hour;
-          t.tm_min  = now_time.minute;
-          t.tm_sec  = now_time.second;
-          t.tm_isdst = -1;
-          mktime(&t);  // Populates t.tm_wday (0 = Sunday, 1 = Monday, etc.)
-          
-          // Boolean flag to indicate a match.
-          bool day_match = false;
-          
-          // Check each day-of-week against the corresponding watering switch.
-          if (t.tm_wday == 1 && id(prog1_water_monday).state) {
-            ESP_LOGI("script", "It's Monday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 2 && id(prog1_water_tuesday).state) {
-            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 3 && id(prog1_water_wednesday).state) {
-            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 4 && id(prog1_water_thursday).state) {
-            ESP_LOGI("script", "It's Thursday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 5 && id(prog1_water_friday).state) {
-            ESP_LOGI("script", "It's Friday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 6 && id(prog1_water_saturday).state) {
-            ESP_LOGI("script", "It's Saturday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 0 && id(prog1_water_sunday).state) {
-            ESP_LOGI("script", "It's Sunday and watering is enabled.");
-            day_match = true;
-          } else {
-            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
-          }
-          
-          // If the current day is enabled for watering, execute the scheduled time check.
-          if (day_match) {
-            ESP_LOGI("script", "Execute script to check scheduled time");
-            id(prog1_check_scheduled_time).execute();
-          }
-
-
-  # Checks the scheduled times
-  - id: prog1_check_scheduled_time
-    then:
-      - lambda: |-
-          // Declare a flag that indicates if any schedule matches.
-          bool time_match = false;
-          
-          // Get the current time from the time component.
-          auto now_time = id(ha_time).now();
-          
-          // Retrieve the scheduled times from the datetime components.
-          // Start Time 1 is handled exclusively by its datetime.on_time trigger.
-          auto scheduled_time_2 = id(prog1_start_time_2).state_as_esptime();
-          auto scheduled_time_3 = id(prog1_start_time_3).state_as_esptime();
-          auto scheduled_time_4 = id(prog1_start_time_4).state_as_esptime();
-          
-          // ----- Check scheduled time 2 -----
-          if (id(prog1_enable_start_time_2).state) {
-            ESP_LOGI("script", "Scheduled start time 2 is enabled");
-            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 2 is disabled");
-          }
-          
-          // ----- Check scheduled time 3 -----
-          if (id(prog1_enable_start_time_3).state) {
-            ESP_LOGI("script", "Scheduled start time 3 is enabled");
-            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 3 is disabled");
-          }
-          
-          // ----- Check scheduled time 4 -----
-          if (id(prog1_enable_start_time_4).state) {
-            ESP_LOGI("script", "Scheduled start time 4 is enabled");
-            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 4 is disabled");
-          }
-          
-          // ----- Execute the sprinkler cycle script if any match is found -----
-          if (time_match) {
-            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
-            id(prog1_run_sprinkler_cycle).execute();
-          }
-
-
   # Attempt to run program cycle 1
   - id: prog1_run_sprinkler_cycle
     then:
@@ -2598,139 +2726,6 @@ script:
 
 
   # Check if program 2 is enabled
-  - id: prog2_check_enabled
-    then:
-      - if:
-          condition:
-            - switch.is_on: prog2_enable  
-          then:
-            - logger.log:
-                tag: "script"
-                format: "Program 2 is enabled, checking schedule..."
-                level: INFO
-            - script.execute: prog2_check_scheduled_day
-          else:
-            - logger.log:
-                tag: "script"
-                format: "Program 2 is not enabled."
-                level: INFO
-
-
-  # Check scheduled watering day switches for Program 2
-  - id: prog2_check_scheduled_day
-    then:
-      - lambda: |-
-          if(id(prog2_enable).state){
-            ESP_LOGI("script", "Program 2 is active, checking program:");
-          }
-          else{
-            ESP_LOGI("script", "Program 2 is not active.");
-          }
-          auto now_time = id(ha_time).now();
-          struct tm t;
-          t.tm_year = now_time.year - 1900;
-          t.tm_mon  = now_time.month - 1;
-          t.tm_mday = now_time.day_of_month;
-          t.tm_hour = now_time.hour;
-          t.tm_min  = now_time.minute;
-          t.tm_sec  = now_time.second;
-          t.tm_isdst = -1;
-          mktime(&t);
-          bool day_match = false;
-          if (t.tm_wday == 1 && id(prog2_water_monday).state) {
-            ESP_LOGI("script", "It's Monday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 2 && id(prog2_water_tuesday).state) {
-            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 3 && id(prog2_water_wednesday).state) {
-            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 4 && id(prog2_water_thursday).state) {
-            ESP_LOGI("script", "It's Thursday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 5 && id(prog2_water_friday).state) {
-            ESP_LOGI("script", "It's Friday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 6 && id(prog2_water_saturday).state) {
-            ESP_LOGI("script", "It's Saturday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 0 && id(prog2_water_sunday).state) {
-            ESP_LOGI("script", "It's Sunday and watering is enabled.");
-            day_match = true;
-          } else {
-            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
-          }
-          if (day_match) {
-            ESP_LOGI("script", "Execute script to check scheduled time");
-            id(prog2_check_scheduled_time).execute();
-          }
-
-
-  # Checks the scheduled times for Program 2
-  - id: prog2_check_scheduled_time
-    then:
-      - lambda: |-
-          bool time_match = false;
-          auto now_time = id(ha_time).now();
-          auto scheduled_time_1 = id(prog2_start_time_1).state_as_esptime();
-          auto scheduled_time_2 = id(prog2_start_time_2).state_as_esptime();
-          auto scheduled_time_3 = id(prog2_start_time_3).state_as_esptime();
-          auto scheduled_time_4 = id(prog2_start_time_4).state_as_esptime();
-          if (id(prog2_enable_start_time_1).state) {
-            ESP_LOGI("script", "Scheduled start time 1 is enabled");
-            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 1 is disabled");
-          }
-          if (id(prog2_enable_start_time_2).state) {
-            ESP_LOGI("script", "Scheduled start time 2 is enabled");
-            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 2 is disabled");
-          }
-          if (id(prog2_enable_start_time_3).state) {
-            ESP_LOGI("script", "Scheduled start time 3 is enabled");
-            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 3 is disabled");
-          }
-          if (id(prog2_enable_start_time_4).state) {
-            ESP_LOGI("script", "Scheduled start time 4 is enabled");
-            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 4 is disabled");
-          }
-          if (time_match) {
-            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
-            id(prog2_run_sprinkler_cycle).execute();
-          }
-
-
   # Attempt to run program cycle 2
   - id: prog2_run_sprinkler_cycle
     then:
@@ -2741,6 +2736,18 @@ script:
       - if:
           condition:
             lambda: |-
+              // Reject invalid time and repeated start requests in the same minute.
+              const auto now = id(ha_time).now();
+              if (!now.is_valid()) {
+                ESP_LOGW("scheduler", "P2 skipped: clock is not valid");
+                return false;
+              }
+              const int64_t minute = static_cast<int64_t>(now.timestamp) / 60;
+              if (id(prog2_last_scheduled_start_minute) == minute) {
+                ESP_LOGI("scheduler", "P2 skipped: already started this minute");
+                return false;
+              }
+
               // Temporary scheduled-program interlock. Stacking is a later milestone.
               using esphome::sprinkler::SprinklerState;
               const bool idle =
@@ -2752,7 +2759,9 @@ script:
               if (!idle || !has_enabled_zones) {
                 ESP_LOGW("scheduler", "P2 skipped: another controller is active or no zones enabled");
               }
-              return id(ha_time).now().is_valid() && idle && has_enabled_zones;
+              if (!idle || !has_enabled_zones) return false;
+              id(prog2_last_scheduled_start_minute) = minute;
+              return true;
           then:
             - logger.log:
                 tag: "script"
@@ -2861,139 +2870,6 @@ script:
 
 
   # Check if program 3 is enabled
-  - id: prog3_check_enabled
-    then:
-      - if:
-          condition:
-            - switch.is_on: prog3_enable  
-          then:
-            - logger.log:
-                tag: "script"
-                format: "Program 3 is enabled, checking schedule..."
-                level: INFO
-            - script.execute: prog3_check_scheduled_day
-          else:
-            - logger.log:
-                tag: "script"
-                format: "Program 3 is not enabled."
-                level: INFO
-
-
-  # Check scheduled watering day switches for Program 3
-  - id: prog3_check_scheduled_day
-    then:
-      - lambda: |-
-          if(id(prog3_enable).state){
-            ESP_LOGI("script", "Program 3 is active, checking program:");
-          }
-          else{
-            ESP_LOGI("script", "Program 3 is not active.");
-          }
-          auto now_time = id(ha_time).now();
-          struct tm t;
-          t.tm_year = now_time.year - 1900;
-          t.tm_mon  = now_time.month - 1;
-          t.tm_mday = now_time.day_of_month;
-          t.tm_hour = now_time.hour;
-          t.tm_min  = now_time.minute;
-          t.tm_sec  = now_time.second;
-          t.tm_isdst = -1;
-          mktime(&t);
-          bool day_match = false;
-          if (t.tm_wday == 1 && id(prog3_water_monday).state) {
-            ESP_LOGI("script", "It's Monday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 2 && id(prog3_water_tuesday).state) {
-            ESP_LOGI("script", "It's Tuesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 3 && id(prog3_water_wednesday).state) {
-            ESP_LOGI("script", "It's Wednesday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 4 && id(prog3_water_thursday).state) {
-            ESP_LOGI("script", "It's Thursday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 5 && id(prog3_water_friday).state) {
-            ESP_LOGI("script", "It's Friday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 6 && id(prog3_water_saturday).state) {
-            ESP_LOGI("script", "It's Saturday and watering is enabled.");
-            day_match = true;
-          } else if (t.tm_wday == 0 && id(prog3_water_sunday).state) {
-            ESP_LOGI("script", "It's Sunday and watering is enabled.");
-            day_match = true;
-          } else {
-            ESP_LOGI("script", "Watering is not enabled for today, or cycle is already completed.");
-          }
-          if (day_match) {
-            ESP_LOGI("script", "Execute script to check scheduled time");
-            id(prog3_check_scheduled_time).execute();
-          }
-
-
-  # Checks the scheduled times for Program 3
-  - id: prog3_check_scheduled_time
-    then:
-      - lambda: |-
-          bool time_match = false;
-          auto now_time = id(ha_time).now();
-          auto scheduled_time_1 = id(prog3_start_time_1).state_as_esptime();
-          auto scheduled_time_2 = id(prog3_start_time_2).state_as_esptime();
-          auto scheduled_time_3 = id(prog3_start_time_3).state_as_esptime();
-          auto scheduled_time_4 = id(prog3_start_time_4).state_as_esptime();
-          if (id(prog3_enable_start_time_1).state) {
-            ESP_LOGI("script", "Scheduled start time 1 is enabled");
-            if (now_time.hour == scheduled_time_1.hour && now_time.minute == scheduled_time_1.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 1", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 1 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_1.hour, scheduled_time_1.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 1 is disabled");
-          }
-          if (id(prog3_enable_start_time_2).state) {
-            ESP_LOGI("script", "Scheduled start time 2 is enabled");
-            if (now_time.hour == scheduled_time_2.hour && now_time.minute == scheduled_time_2.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 2", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 2 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_2.hour, scheduled_time_2.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 2 is disabled");
-          }
-          if (id(prog3_enable_start_time_3).state) {
-            ESP_LOGI("script", "Scheduled start time 3 is enabled");
-            if (now_time.hour == scheduled_time_3.hour && now_time.minute == scheduled_time_3.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 3", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 3 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_3.hour, scheduled_time_3.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 3 is disabled");
-          }
-          if (id(prog3_enable_start_time_4).state) {
-            ESP_LOGI("script", "Scheduled start time 4 is enabled");
-            if (now_time.hour == scheduled_time_4.hour && now_time.minute == scheduled_time_4.minute) {
-              ESP_LOGI("script", "Current time (%02d:%02d) matches scheduled time 4", now_time.hour, now_time.minute);
-              time_match = true;
-            } else {
-              ESP_LOGI("script", "Current time (%02d:%02d) does NOT match scheduled time 4 (%02d:%02d)",
-                       now_time.hour, now_time.minute, scheduled_time_4.hour, scheduled_time_4.minute);
-            }
-          } else {
-            ESP_LOGI("script", "Scheduled start time 4 is disabled");
-          }
-          if (time_match) {
-            ESP_LOGI("script", "At least one scheduled time matches the current time (%02d:%02d). Execute run sprinkler cycle script.", now_time.hour, now_time.minute);
-            id(prog3_run_sprinkler_cycle).execute();
-          }
-
-
   # Attempt to run program cycle 3
   - id: prog3_run_sprinkler_cycle
     then:
@@ -3004,6 +2880,18 @@ script:
       - if:
           condition:
             lambda: |-
+              // Reject invalid time and repeated start requests in the same minute.
+              const auto now = id(ha_time).now();
+              if (!now.is_valid()) {
+                ESP_LOGW("scheduler", "P3 skipped: clock is not valid");
+                return false;
+              }
+              const int64_t minute = static_cast<int64_t>(now.timestamp) / 60;
+              if (id(prog3_last_scheduled_start_minute) == minute) {
+                ESP_LOGI("scheduler", "P3 skipped: already started this minute");
+                return false;
+              }
+
               // Temporary scheduled-program interlock. Stacking is a later milestone.
               using esphome::sprinkler::SprinklerState;
               const bool idle =
@@ -3015,7 +2903,9 @@ script:
               if (!idle || !has_enabled_zones) {
                 ESP_LOGW("scheduler", "P3 skipped: another controller is active or no zones enabled");
               }
-              return id(ha_time).now().is_valid() && idle && has_enabled_zones;
+              if (!idle || !has_enabled_zones) return false;
+              id(prog3_last_scheduled_start_minute) = minute;
+              return true;
           then:
             - logger.log:
                 tag: "script"
