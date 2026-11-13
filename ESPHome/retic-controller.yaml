@@ -2337,7 +2337,7 @@ script:
           }
 
           // Home Assistant displays UTC timestamps in its configured timezone.
-          const auto utc = esphome::ESPTime::from_epoch_utc(next_start);
+          auto utc = esphome::ESPTime::from_epoch_utc(next_start);
           publish(utc.strftime("%Y-%m-%dT%H:%M:%SZ"));
 
 
