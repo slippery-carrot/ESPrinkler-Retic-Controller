@@ -1494,6 +1494,13 @@ time:
   - platform: homeassistant
     id: ha_time
 
+    # Refresh the next-watering values after the clock synchronises.
+    on_time_sync:
+      then:
+        - script.execute: prog1_update_next_watering_schedule
+        - script.execute: prog2_update_next_watering_schedule
+        - script.execute: prog3_update_next_watering_schedule
+
     # Trigger every minute
     on_time: 
       - seconds: 0
@@ -2050,18 +2057,24 @@ text_sensor:
   - platform: template
     name: "Program 1 Next Watering Schedule"
     id: prog1_next_watering_schedule
+    device_class: timestamp
+    icon: "mdi:calendar-clock"
     update_interval: never
 
   # Program 2
   - platform: template
     name: "Program 2 Next Watering Schedule"
     id: prog2_next_watering_schedule
+    device_class: timestamp
+    icon: "mdi:calendar-clock"
     update_interval: never
 
   # Program 3
   - platform: template
     name: "Program 3 Next Watering Schedule"
     id: prog3_next_watering_schedule
+    device_class: timestamp
+    icon: "mdi:calendar-clock"
     update_interval: never
 
 
@@ -2184,6 +2197,149 @@ interval:
 ###################################
 
 script:
+
+  #######################
+  # Next watering timestamps (Milestone 3)
+  #######################
+  # Calculate the next eligible start locally and publish UTC ISO 8601 to HA.
+  - id: calculate_next_watering_timestamp
+    mode: parallel
+    max_runs: 12
+    parameters:
+      program: int
+    then:
+      - lambda: |-
+          // A blank timestamp is an unknown value in Home Assistant.
+          const auto publish = [&](const std::string &value) {
+            switch (program) {
+              case 1: id(prog1_next_watering_schedule).publish_state(value); break;
+              case 2: id(prog2_next_watering_schedule).publish_state(value); break;
+              case 3: id(prog3_next_watering_schedule).publish_state(value); break;
+              default: break;
+            }
+          };
+
+          const auto now = id(ha_time).now();
+          if (!now.is_valid()) {
+            publish("");
+            return;
+          }
+
+          bool program_enabled = false;
+          bool weekdays[7] = {};  // Sunday = 0 through Saturday = 6
+          bool slot_enabled[4] = {};
+          int hours[4] = {};
+          int minutes[4] = {};
+          int seconds[4] = {};
+
+          auto load_slot = [&](int index, bool enabled, const esphome::ESPTime &time) {
+            slot_enabled[index] = enabled;
+            hours[index] = time.hour;
+            minutes[index] = time.minute;
+            seconds[index] = time.second;
+          };
+
+          // Select the program's weekday switches and four configured times.
+          switch (program) {
+              case 1:
+                program_enabled = id(prog1_enable).state;
+                weekdays[0] = id(prog1_water_sunday).state;
+                weekdays[1] = id(prog1_water_monday).state;
+                weekdays[2] = id(prog1_water_tuesday).state;
+                weekdays[3] = id(prog1_water_wednesday).state;
+                weekdays[4] = id(prog1_water_thursday).state;
+                weekdays[5] = id(prog1_water_friday).state;
+                weekdays[6] = id(prog1_water_saturday).state;
+                load_slot(0, id(prog1_enable_start_time_1).state,
+                          id(prog1_start_time_1).state_as_esptime());
+                load_slot(1, id(prog1_enable_start_time_2).state,
+                          id(prog1_start_time_2).state_as_esptime());
+                load_slot(2, id(prog1_enable_start_time_3).state,
+                          id(prog1_start_time_3).state_as_esptime());
+                load_slot(3, id(prog1_enable_start_time_4).state,
+                          id(prog1_start_time_4).state_as_esptime());
+                break;
+              case 2:
+                program_enabled = id(prog2_enable).state;
+                weekdays[0] = id(prog2_water_sunday).state;
+                weekdays[1] = id(prog2_water_monday).state;
+                weekdays[2] = id(prog2_water_tuesday).state;
+                weekdays[3] = id(prog2_water_wednesday).state;
+                weekdays[4] = id(prog2_water_thursday).state;
+                weekdays[5] = id(prog2_water_friday).state;
+                weekdays[6] = id(prog2_water_saturday).state;
+                load_slot(0, id(prog2_enable_start_time_1).state,
+                          id(prog2_start_time_1).state_as_esptime());
+                load_slot(1, id(prog2_enable_start_time_2).state,
+                          id(prog2_start_time_2).state_as_esptime());
+                load_slot(2, id(prog2_enable_start_time_3).state,
+                          id(prog2_start_time_3).state_as_esptime());
+                load_slot(3, id(prog2_enable_start_time_4).state,
+                          id(prog2_start_time_4).state_as_esptime());
+                break;
+              case 3:
+                program_enabled = id(prog3_enable).state;
+                weekdays[0] = id(prog3_water_sunday).state;
+                weekdays[1] = id(prog3_water_monday).state;
+                weekdays[2] = id(prog3_water_tuesday).state;
+                weekdays[3] = id(prog3_water_wednesday).state;
+                weekdays[4] = id(prog3_water_thursday).state;
+                weekdays[5] = id(prog3_water_friday).state;
+                weekdays[6] = id(prog3_water_saturday).state;
+                load_slot(0, id(prog3_enable_start_time_1).state,
+                          id(prog3_start_time_1).state_as_esptime());
+                load_slot(1, id(prog3_enable_start_time_2).state,
+                          id(prog3_start_time_2).state_as_esptime());
+                load_slot(2, id(prog3_enable_start_time_3).state,
+                          id(prog3_start_time_3).state_as_esptime());
+                load_slot(3, id(prog3_enable_start_time_4).state,
+                          id(prog3_start_time_4).state_as_esptime());
+                break;
+              default:
+                return;
+          }
+
+          if (!program_enabled) {
+            publish("");
+            return;
+          }
+
+          // Include next week so an already-passed time today is still found.
+          time_t next_start = 0;
+          for (int day = 0; day <= 7; day++) {
+            const int weekday = (now.day_of_week - 1 + day) % 7;
+            if (!weekdays[weekday]) continue;
+
+            for (int slot = 0; slot < 4; slot++) {
+              if (!slot_enabled[slot]) continue;
+
+              struct tm t = {};
+              t.tm_year = now.year - 1900;
+              t.tm_mon = now.month - 1;
+              t.tm_mday = now.day_of_month + day;
+              t.tm_hour = hours[slot];
+              t.tm_min = minutes[slot];
+              t.tm_sec = seconds[slot];
+              t.tm_isdst = -1;
+
+              const time_t epoch = mktime(&t);
+              // mktime converts the local calendar time into an absolute time.
+              // A DST-skipped hour cannot be scheduled as that local time.
+              if (t.tm_hour != hours[slot] || t.tm_min != minutes[slot]) continue;
+              if (epoch <= now.timestamp) continue;
+              if (next_start == 0 || epoch < next_start) next_start = epoch;
+            }
+          }
+
+          if (next_start == 0) {
+            publish("");
+            return;
+          }
+
+          // Home Assistant displays UTC timestamps in its configured timezone.
+          const auto utc = esphome::ESPTime::from_epoch_utc(next_start);
+          publish(utc.strftime("%Y-%m-%dT%H:%M:%SZ"));
+
 
   #######################
   # Native scheduler (Milestone 2)
@@ -2477,104 +2633,12 @@ script:
   # Program 1
   ###############
 
-  # Update next scheduled cycle sensor
+  # Refresh the Program 1 next-watering timestamp after schedule changes.
   - id: prog1_update_next_watering_schedule
     then:
-      - lambda: |-
-          // This lambda calculates the next scheduled watering day and time.
-          // It iterates over the next 7 days, checking if watering is enabled for that day (using the day switches),
-          // and then examines each enabled scheduled time.
-          // For today (i = 0), only scheduled times that haven't yet passed are considered.
-          // It returns a string like "Saturday at 04:30" for the next upcoming watering event.
-
-          // Calculate the next watering event over the next 7 days.
-          auto now = id(ha_time).now();
-          int now_minutes = now.hour * 60 + now.minute;
-          
-          // Convert current time to a struct tm for the weekday.
-          struct tm t;
-          t.tm_year = now.year - 1900;
-          t.tm_mon  = now.month - 1;
-          t.tm_mday = now.day_of_month;
-          t.tm_hour = now.hour;
-          t.tm_min  = now.minute;
-          t.tm_sec  = now.second;
-          t.tm_isdst = -1;
-          mktime(&t);
-          int current_wday = t.tm_wday;
-          
-          // Variables to keep track of the best candidate event.
-          int best_diff = 100000; // large initial value
-          int best_candidate_day = -1;
-          int best_candidate_sched = -1;
-          bool found = false;
-          
-          // Helper lambda to check a candidate scheduled time for a given day offset.
-          auto check_sched = [&](int day_offset, int scheduled_minutes) {
-              // For today, only consider scheduled times that haven't passed.
-              if(day_offset == 0 && scheduled_minutes < now_minutes)
-                  return;
-              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
-              if(diff < best_diff) {
-                  best_diff = diff;
-                  best_candidate_sched = scheduled_minutes;
-                  best_candidate_day = (current_wday + day_offset) % 7;
-                  found = true;
-              }
-          };
-          
-          // Iterate over the next 7 days.
-          for (int i = 0; i < 7; i++) {
-              int day_index = (current_wday + i) % 7;
-              bool day_enabled = false;
-              
-              if(day_index == 0) { day_enabled = id(prog1_water_sunday).state; }
-              else if(day_index == 1) { day_enabled = id(prog1_water_monday).state; }
-              else if(day_index == 2) { day_enabled = id(prog1_water_tuesday).state; }
-              else if(day_index == 3) { day_enabled = id(prog1_water_wednesday).state; }
-              else if(day_index == 4) { day_enabled = id(prog1_water_thursday).state; }
-              else if(day_index == 5) { day_enabled = id(prog1_water_friday).state; }
-              else if(day_index == 6) { day_enabled = id(prog1_water_saturday).state; }
-              
-              if(!day_enabled)
-                  continue;  // Skip days when watering is not enabled.
-              
-              // For each enabled scheduled time, calculate its candidate time.
-              if (id(prog1_enable_start_time_1).state) {
-                  auto t = id(prog1_start_time_1).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog1_enable_start_time_2).state) {
-                  auto t = id(prog1_start_time_2).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog1_enable_start_time_3).state) {
-                  auto t = id(prog1_start_time_3).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog1_enable_start_time_4).state) {
-                  auto t = id(prog1_start_time_4).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-          }
-          
-          if (!found) {
-              id(prog1_next_watering_schedule).publish_state("None");
-              return;
-          }
-          
-          // Array mapping weekday indexes to names.
-          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-          
-          int hh = best_candidate_sched / 60;
-          int mm = best_candidate_sched % 60;
-          char buf[32];
-          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
-          id(prog1_next_watering_schedule).publish_state(std::string(buf));
+      - script.execute:
+          id: calculate_next_watering_timestamp
+          program: 1
 
 
   # Check if program 1 is enabled
@@ -2635,94 +2699,12 @@ script:
   # Program 2
   ###############
 
-  # Update next scheduled cycle sensor
+  # Refresh the Program 2 next-watering timestamp after schedule changes.
   - id: prog2_update_next_watering_schedule
     then:
-      - lambda: |-
-          // This lambda calculates the next scheduled watering day and time for Program 2.
-          auto now = id(ha_time).now();
-          int now_minutes = now.hour * 60 + now.minute;
-          
-          // Convert current time to a struct tm for the weekday.
-          struct tm t;
-          t.tm_year = now.year - 1900;
-          t.tm_mon  = now.month - 1;
-          t.tm_mday = now.day_of_month;
-          t.tm_hour = now.hour;
-          t.tm_min  = now.minute;
-          t.tm_sec  = now.second;
-          t.tm_isdst = -1;
-          mktime(&t);
-          int current_wday = t.tm_wday;
-          
-          // Variables to keep track of the best candidate event.
-          int best_diff = 100000;
-          int best_candidate_day = -1;
-          int best_candidate_sched = -1;
-          bool found = false;
-          
-          // Helper lambda to check a candidate scheduled time for a given day offset.
-          auto check_sched = [&](int day_offset, int scheduled_minutes) {
-              if(day_offset == 0 && scheduled_minutes < now_minutes)
-                  return;
-              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
-              if(diff < best_diff) {
-                  best_diff = diff;
-                  best_candidate_sched = scheduled_minutes;
-                  best_candidate_day = (current_wday + day_offset) % 7;
-                  found = true;
-              }
-          };
-          
-          // Iterate over the next 7 days.
-          for (int i = 0; i < 7; i++) {
-              int day_index = (current_wday + i) % 7;
-              bool day_enabled = false;
-              
-              if(day_index == 0) { day_enabled = id(prog2_water_sunday).state; }
-              else if(day_index == 1) { day_enabled = id(prog2_water_monday).state; }
-              else if(day_index == 2) { day_enabled = id(prog2_water_tuesday).state; }
-              else if(day_index == 3) { day_enabled = id(prog2_water_wednesday).state; }
-              else if(day_index == 4) { day_enabled = id(prog2_water_thursday).state; }
-              else if(day_index == 5) { day_enabled = id(prog2_water_friday).state; }
-              else if(day_index == 6) { day_enabled = id(prog2_water_saturday).state; }
-              
-              if(!day_enabled)
-                  continue;
-              
-              if (id(prog2_enable_start_time_1).state) {
-                  auto t = id(prog2_start_time_1).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog2_enable_start_time_2).state) {
-                  auto t = id(prog2_start_time_2).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog2_enable_start_time_3).state) {
-                  auto t = id(prog2_start_time_3).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog2_enable_start_time_4).state) {
-                  auto t = id(prog2_start_time_4).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-          }
-          
-          if (!found) {
-              id(prog2_next_watering_schedule).publish_state("None");
-              return;
-          }
-          
-          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-          int hh = best_candidate_sched / 60;
-          int mm = best_candidate_sched % 60;
-          char buf[32];
-          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
-          id(prog2_next_watering_schedule).publish_state(std::string(buf));
+      - script.execute:
+          id: calculate_next_watering_timestamp
+          program: 2
 
 
   # Check if program 2 is enabled
@@ -2779,94 +2761,12 @@ script:
   # Program 3
   ###############
 
-  # Update next scheduled cycle sensor
+  # Refresh the Program 3 next-watering timestamp after schedule changes.
   - id: prog3_update_next_watering_schedule
     then:
-      - lambda: |-
-          // This lambda calculates the next scheduled watering day and time for Program 3.
-          auto now = id(ha_time).now();
-          int now_minutes = now.hour * 60 + now.minute;
-          
-          // Convert current time to a struct tm for the weekday.
-          struct tm t;
-          t.tm_year = now.year - 1900;
-          t.tm_mon  = now.month - 1;
-          t.tm_mday = now.day_of_month;
-          t.tm_hour = now.hour;
-          t.tm_min  = now.minute;
-          t.tm_sec  = now.second;
-          t.tm_isdst = -1;
-          mktime(&t);
-          int current_wday = t.tm_wday;
-          
-          // Variables to keep track of the best candidate event.
-          int best_diff = 100000;
-          int best_candidate_day = -1;
-          int best_candidate_sched = -1;
-          bool found = false;
-          
-          // Helper lambda to check a candidate scheduled time for a given day offset.
-          auto check_sched = [&](int day_offset, int scheduled_minutes) {
-              if(day_offset == 0 && scheduled_minutes < now_minutes)
-                  return;
-              int diff = day_offset * 1440 + scheduled_minutes - now_minutes;
-              if(diff < best_diff) {
-                  best_diff = diff;
-                  best_candidate_sched = scheduled_minutes;
-                  best_candidate_day = (current_wday + day_offset) % 7;
-                  found = true;
-              }
-          };
-          
-          // Iterate over the next 7 days.
-          for (int i = 0; i < 7; i++) {
-              int day_index = (current_wday + i) % 7;
-              bool day_enabled = false;
-              
-              if(day_index == 0) { day_enabled = id(prog3_water_sunday).state; }
-              else if(day_index == 1) { day_enabled = id(prog3_water_monday).state; }
-              else if(day_index == 2) { day_enabled = id(prog3_water_tuesday).state; }
-              else if(day_index == 3) { day_enabled = id(prog3_water_wednesday).state; }
-              else if(day_index == 4) { day_enabled = id(prog3_water_thursday).state; }
-              else if(day_index == 5) { day_enabled = id(prog3_water_friday).state; }
-              else if(day_index == 6) { day_enabled = id(prog3_water_saturday).state; }
-              
-              if(!day_enabled)
-                  continue;
-              
-              if (id(prog3_enable_start_time_1).state) {
-                  auto t = id(prog3_start_time_1).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog3_enable_start_time_2).state) {
-                  auto t = id(prog3_start_time_2).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog3_enable_start_time_3).state) {
-                  auto t = id(prog3_start_time_3).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-              if (id(prog3_enable_start_time_4).state) {
-                  auto t = id(prog3_start_time_4).state_as_esptime();
-                  int sched_minutes = t.hour * 60 + t.minute;
-                  check_sched(i, sched_minutes);
-              }
-          }
-          
-          if (!found) {
-              id(prog3_next_watering_schedule).publish_state("None");
-              return;
-          }
-          
-          const char* day_names[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-          int hh = best_candidate_sched / 60;
-          int mm = best_candidate_sched % 60;
-          char buf[32];
-          sprintf(buf, "%s at %02d:%02d", day_names[best_candidate_day], hh, mm);
-          id(prog3_next_watering_schedule).publish_state(std::string(buf));
+      - script.execute:
+          id: calculate_next_watering_timestamp
+          program: 3
 
 
   # Check if program 3 is enabled
