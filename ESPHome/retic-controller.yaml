@@ -941,7 +941,7 @@ switch:
   - platform: gpio
     id: esprinkler_pump_sw
     pin: $pump_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -949,7 +949,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw1
     pin: $zone_1_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -957,7 +957,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw2
     pin: $zone_2_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -965,7 +965,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw3
     pin: $zone_3_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -973,7 +973,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw4
     pin: $zone_4_gpio
-    restore_mode: RESTORE_DEFAULT_OFF 
+    restore_mode: ALWAYS_OFF 
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -981,7 +981,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw5
     pin: $zone_5_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
   
@@ -989,7 +989,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw6
     pin: $zone_6_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -997,7 +997,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw7
     pin: $zone_7_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
@@ -1005,7 +1005,7 @@ switch:
   - platform: gpio
     id: esprinkler_valve_sw8
     pin: $zone_8_gpio
-    restore_mode: RESTORE_DEFAULT_OFF
+    restore_mode: ALWAYS_OFF
     inverted: $relay_inversion
     internal: True # Do not expose entity to the frontend
 
