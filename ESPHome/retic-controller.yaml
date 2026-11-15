@@ -2306,28 +2306,33 @@ script:
 
           // Include next week so an already-passed time today is still found.
           time_t next_start = 0;
+          auto calendar_day = now;
           for (int day = 0; day <= 7; day++) {
-            const int weekday = (now.day_of_week - 1 + day) % 7;
+            if (day > 0) calendar_day.increment_day();
+            const int weekday = calendar_day.day_of_week - 1;
             if (!weekdays[weekday]) continue;
 
             for (int slot = 0; slot < 4; slot++) {
               if (!slot_enabled[slot]) continue;
 
-              struct tm t = {};
-              t.tm_year = now.year - 1900;
-              t.tm_mon = now.month - 1;
-              t.tm_mday = now.day_of_month + day;
-              t.tm_hour = hours[slot];
-              t.tm_min = minutes[slot];
-              t.tm_sec = seconds[slot];
-              t.tm_isdst = -1;
+              // Build the selected local date and time (not UTC).
+              auto candidate = calendar_day;
+              candidate.hour = hours[slot];
+              candidate.minute = minutes[slot];
+              candidate.second = seconds[slot];
+              candidate.recalc_timestamp_local();
 
-              const time_t epoch = mktime(&t);
-              // mktime converts the local calendar time into an absolute time.
-              // A DST-skipped hour cannot be scheduled as that local time.
-              if (t.tm_hour != hours[slot] || t.tm_min != minutes[slot]) continue;
-              if (epoch <= now.timestamp) continue;
-              if (next_start == 0 || epoch < next_start) next_start = epoch;
+              if (candidate.timestamp == -1 || candidate.timestamp <= now.timestamp) continue;
+
+              // Skip a nonexistent local time during a daylight-saving jump.
+              const auto local = esphome::ESPTime::from_epoch_local(candidate.timestamp);
+              if (local.year != candidate.year || local.month != candidate.month ||
+                  local.day_of_month != candidate.day_of_month ||
+                  local.hour != candidate.hour || local.minute != candidate.minute ||
+                  local.second != candidate.second) continue;
+
+              if (next_start == 0 || candidate.timestamp < next_start)
+                next_start = candidate.timestamp;
             }
           }
 
