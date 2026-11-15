@@ -1815,65 +1815,134 @@ sensor:
     name: Uptime
     entity_category: "diagnostic"
 
-  # Calculates and exposes the total watering duration a of current cycle
+  # Duration sensors use seconds so Home Assistant can interpret them natively.
+  # Total duration is the configured enabled-zone cycle including repeats.
 
-  # Program 1 
+  # Program 1
   - platform: template
     name: "Program 1 Total Watering Duration"
     id: prog1_total_watering_duration
     icon: "mdi:timer-outline"
-    unit_of_measurement: "min"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
     update_interval: $sensor_update_frequency
     lambda: |-
       auto sprinkler = id(esprinkler_prog1);
+      // One enabled-zone pass, multiplied by the repeat count + initial pass.
+      return static_cast<float>(sprinkler->total_cycle_time_enabled_valves()) *
+             (1.0f + sprinkler->repeat().value_or(0));
 
-      if (sprinkler->time_remaining_current_operation().has_value()) {
+  - platform: template
+    name: "Program 1 Watering Time Remaining"
+    id: prog1_program_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // Includes the current zone, later zones and remaining repeats.
+      return static_cast<float>(id(esprinkler_prog1).time_remaining_current_operation().value_or(0));
 
-        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
-
-        return val;
-      } else {
-        return 0; // No active cycle
-      }
+  - platform: template
+    name: "Program 1 Current Zone Remaining Time"
+    id: prog1_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // The current zone's countdown, or zero while no valve is active.
+      return static_cast<float>(id(esprinkler_prog1).time_remaining_active_valve().value_or(0));
 
   # Program 2
   - platform: template
     name: "Program 2 Total Watering Duration"
     id: prog2_total_watering_duration
     icon: "mdi:timer-outline"
-    unit_of_measurement: "min"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
     update_interval: $sensor_update_frequency
     lambda: |-
       auto sprinkler = id(esprinkler_prog2);
+      // One enabled-zone pass, multiplied by the repeat count + initial pass.
+      return static_cast<float>(sprinkler->total_cycle_time_enabled_valves()) *
+             (1.0f + sprinkler->repeat().value_or(0));
 
-      if (sprinkler->time_remaining_current_operation().has_value()) {
+  - platform: template
+    name: "Program 2 Watering Time Remaining"
+    id: prog2_program_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // Includes the current zone, later zones and remaining repeats.
+      return static_cast<float>(id(esprinkler_prog2).time_remaining_current_operation().value_or(0));
 
-        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
-
-        return val;
-      } else {
-        return 0; // No active cycle
-      }
+  - platform: template
+    name: "Program 2 Current Zone Remaining Time"
+    id: prog2_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // The current zone's countdown, or zero while no valve is active.
+      return static_cast<float>(id(esprinkler_prog2).time_remaining_active_valve().value_or(0));
 
   # Program 3
   - platform: template
     name: "Program 3 Total Watering Duration"
     id: prog3_total_watering_duration
     icon: "mdi:timer-outline"
-    unit_of_measurement: "min"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
     update_interval: $sensor_update_frequency
     lambda: |-
       auto sprinkler = id(esprinkler_prog3);
+      // One enabled-zone pass, multiplied by the repeat count + initial pass.
+      return static_cast<float>(sprinkler->total_cycle_time_enabled_valves()) *
+             (1.0f + sprinkler->repeat().value_or(0));
 
-      if (sprinkler->time_remaining_current_operation().has_value()) {
+  - platform: template
+    name: "Program 3 Watering Time Remaining"
+    id: prog3_program_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // Includes the current zone, later zones and remaining repeats.
+      return static_cast<float>(id(esprinkler_prog3).time_remaining_current_operation().value_or(0));
 
-        float val = sprinkler->time_remaining_current_operation().value() / 60.0; // Convert seconds to minutes;
-
-        return val;
-      } else {
-        return 0; // No active cycle
-      }
-
+  - platform: template
+    name: "Program 3 Current Zone Remaining Time"
+    id: prog3_time_remaining
+    icon: "mdi:timer-sand"
+    device_class: duration
+    state_class: measurement
+    unit_of_measurement: "s"
+    accuracy_decimals: 0
+    update_interval: $sensor_update_frequency
+    lambda: |-
+      // The current zone's countdown, or zero while no valve is active.
+      return static_cast<float>(id(esprinkler_prog3).time_remaining_active_valve().value_or(0));
 
   # Expose the currently running zone as a number (0 = None)
   - platform: template
@@ -1980,77 +2049,6 @@ text_sensor:
           return {"Unknown"};
       }
   
-  # Expose Time Remaining for each program as a sensor.
-
-  # Program 1
-  - platform: template
-    name: "Program 1 Current Zone Remaining Time"
-    id: prog1_time_remaining
-    update_interval: $sensor_update_frequency
-    icon: "mdi:timer-sand"
-    lambda: |-
-
-      auto sprinkler = id(esprinkler_prog1);
-
-      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
-      int days = seconds / (24 * 3600);
-      seconds = seconds % (24 * 3600);
-      int hours = seconds / 3600;
-      seconds = seconds % 3600;
-      int minutes = seconds /  60;
-      seconds = seconds % 60;
-        return 
-          (days ? std::to_string(days) + "d " : "") +
-          (hours ? std::to_string(hours) + "h " : "") +
-          (minutes ? std::to_string(minutes) + "m " : "") +
-          std::to_string(seconds) + "s";
-
-  # Program 2
-  - platform: template
-    name: "Program 2 Current Zone Remaining Time"
-    id: prog2_time_remaining
-    update_interval: $sensor_update_frequency
-    icon: "mdi:timer-sand"
-    lambda: |-
-
-      auto sprinkler = id(esprinkler_prog2);
-
-      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
-      int days = seconds / (24 * 3600);
-      seconds = seconds % (24 * 3600);
-      int hours = seconds / 3600;
-      seconds = seconds % 3600;
-      int minutes = seconds /  60;
-      seconds = seconds % 60;
-        return 
-          (days ? std::to_string(days) + "d " : "") +
-          (hours ? std::to_string(hours) + "h " : "") +
-          (minutes ? std::to_string(minutes) + "m " : "") +
-          std::to_string(seconds) + "s";
-
-  # Program 3
-  - platform: template
-    name: "Program 3 Current Zone Remaining Time"
-    id: prog3_time_remaining
-    update_interval: $sensor_update_frequency
-    icon: "mdi:timer-sand"
-    lambda: |-
-
-      auto sprinkler = id(esprinkler_prog3);
-
-      int seconds = round(sprinkler->time_remaining_active_valve().value_or(0));
-      int days = seconds / (24 * 3600);
-      seconds = seconds % (24 * 3600);
-      int hours = seconds / 3600;
-      seconds = seconds % 3600;
-      int minutes = seconds /  60;
-      seconds = seconds % 60;
-        return 
-          (days ? std::to_string(days) + "d " : "") +
-          (hours ? std::to_string(hours) + "h " : "") +
-          (minutes ? std::to_string(minutes) + "m " : "") +
-          std::to_string(seconds) + "s";
-
   # Expose the next water schedule for each program as a sensor, this ones complicated (see scripts for updating this sensor)
 
   # Program 1
